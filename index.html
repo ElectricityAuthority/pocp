@@ -122,6 +122,11 @@ aside {
                       type="button"
                       value="Today"
                       onclick="brushToday()"/></td>
+           <td><div id="Two weeks">
+			   <input name="updateButton"
+                      type="button"
+                      value="Two weeks"
+                      onclick="brushTwoWeeks()"/></td>
            <td><div id="TotalNZ">
 			   <input name="updateButton"
                       type="button"
@@ -816,6 +821,16 @@ function brushToday() {
 	var dayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 	var dayEnd = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 1);
 	brush.extent([dayStart, dayEnd]);
+	context.select(".x.brush")
+      .call(brush);
+    brushed();
+}
+
+function brushTwoWeeks() {
+	var today = new Date();
+	var periodStart = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
+	var periodEnd = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 8);
+	brush.extent([periodStart, periodEnd]);
 	context.select(".x.brush")
       .call(brush);
     brushed();
