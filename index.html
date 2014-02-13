@@ -909,10 +909,11 @@ function updateSelection() {
 		//};
 	//}
 	
+	
 	//Setup scales 
-  x.domain([startDate, endDate]);
+  x.domain(brush.empty() ? [startDate, endDate] : brush.extent());
   y.domain([0, d3.max(timeSeries, function(d) { return d.price; } )]);
-  x2.domain(x.domain());
+  x2.domain([startDate, endDate]);
   y2.domain(y.domain());
   
   
