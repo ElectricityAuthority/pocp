@@ -106,7 +106,7 @@ aside {
   <div id="line-chart" class="chart">
     <div class="title">POCP generation outage data</div>
     <div class="notes"> <p>Notes: </p>
-    <ol> 
+    <ol class="notes_list"> 
     <li>best viewed with Chrome or Firefox;</li>
     <li>selected outage list currently by Start datetime only;</li>
     <li>maximum of 100 outages listed at anyone time;</li>
@@ -376,7 +376,6 @@ function constantIrregularTimeSeries(d) {
 			dayStart.setDate(dayStart.getDate() + 1);
 			dayEnd.setDate(dayEnd.getDate() + 1);
 		}
-		debugger;
 		return ts;
 	}
 	else
@@ -395,11 +394,18 @@ function addIrregularTimeSeries(ts1, ts2) {
 	var n2 = ts2.length;
 	var i1 = 0, i2 = 0;
 	while (i1 < n1 || i2 < n2) {
-		if (i1 === n1)
+		if (i1 === n1) {
 			ts3.push(ts2[i2++]);
-		else if (i2 === n2)
+			continue;
+		}
+		else if (i2 === n2) {
 			ts3.push(ts1[i1++]);
-		else if (ts1[i1].date < ts2[i2].date) {
+			continue;
+		}
+		if (ts1[i1].date == null || ts2[i2].date == null) {
+			debugger;
+		}	
+		if (ts1[i1].date < ts2[i2].date) {
 			var newTs1 = ts1[i1++];
 			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
 			ts3.push({ date: newTs1.date, price: currPrice });
@@ -489,6 +495,8 @@ var MAX_DATE = new Date(8640000000000000);
 
 var MIN_DATE_TS = { date: MIN_DATE, price: 0 };
 var MAX_DATE_TS = { date: MAX_DATE, price: 0 };
+var parseDate = d3.time.format("%Y-%m-%d %H:%M:%S").parse;
+var parseShortDate = d3.time.format("%d/%m/%Y").parse;
 
 
 var outages; // global variables to store crossfilters and various dimenisions
@@ -502,6 +510,7 @@ var outageTimeSeries;
 var timeSeriesArray;
 var startDate;
 var endDate;
+var updateTime;
 
 
 var selectedOutages;
@@ -517,8 +526,6 @@ var margin = {top: 10, right: 10, bottom: 100, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
     height2 = 500 - margin2.top - margin2.bottom;
-
-var parseDate = d3.time.format("%b %Y").parse;
 
 var x = d3.time.scale().range([0, width]),
     x2 = d3.time.scale().range([0, width]),
@@ -569,10 +576,16 @@ var context = svg.append("g")
     .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
 
 //Load in the pocp time series data, and the outage listing data
-var pocp, remaining = 1;
+var pocp, remaining = 2;
   d3.csv("pocp_data_year.csv", function(error, csv) {
     pocp = csv;
     if (!--remaining) doSomething(); //when remaining = 0 this becomes true, and we then run doSomething,
+  });
+  d3.json("metadata.json", function(error, metadata) {
+	startDate = parseShortDate(metadata.startTime);
+	endDate = parseShortDate(metadata.endTime);
+	updateTime = parseDate(metadata.updateTime);
+	if (!--remaining) doSomething(); //when remaining = 0 this becomes true, and we then run doSomething,
   });
 
 
@@ -583,7 +596,6 @@ function doSomething() {
       .key(function(d) { return d3.time.day(d.Start); });
 
     // Various formatters. 
-    var parseDate = d3.time.format("%Y-%m-%d %H:%M:%S").parse;
     var formatNumber = d3.format(",d");
     var formatChange = d3.format("+,d");
     var formatDateday = d3.time.format("%Y-%m-%d");
@@ -610,8 +622,8 @@ function doSomething() {
     //d.price = +d['North_Total'];
     //});
 
-    startDate = new Date(2013, 08-1, 15);
-    endDate = new Date(2014, 08-1, 15+1);
+    //startDate = new Date(2013, 08-1, 15);
+    //endDate = new Date(2014, 08-1, 15+1);
 
     pocp.forEach(function(d, i) {
     d.index = i;
@@ -721,7 +733,6 @@ function brushed() {
       .key(function(d) { return d3.time.day(d.Start); });
 
     // Various formatters. 
-    var parseDate = d3.time.format("%Y-%m-%d %H:%M:%S").parse;
     var formatNumber = d3.format(",d");
     var formatChange = d3.format("+,d");
     var formatDateday = d3.time.format("%Y-%m-%d");
