@@ -112,7 +112,7 @@ aside {
     <li>maximum of 100 outages listed at anyone time;</li>
     <li>POCP data is horribly inconsistant (various time-dependent logic has been applied to get the data in this form - there may be issues);</li>
     <li>Coming soon to a browser near you, selectors for company/island and generation type...</li>
-    <li>Automatic updates *should* occur daily at 1am/7am/1pm and 7pm.</li>
+    <li>Automatic updates *should* occur daily at 1am/7am/1pm and 7pm;</li>
     </ol></div>
     <!--Add buttons for each generation type in the POCP database-->
     <table border="0">
@@ -437,6 +437,10 @@ function addIrregularTimeSeries(ts1, ts2) {
 			console.log("This should never happen");
 			debugger;
 		}
+		if (ts3.length >= 2 && ts3[ts3.length-1].date <= ts3[ts3.length-2].date) {
+			console.log("This should never happen. Dates should be strictly increasing");
+			debugger;
+		}
 	}
 	return ts3;
 }
@@ -590,7 +594,6 @@ var pocp, remaining = 2;
 
 
 function doSomething() {
-	
 	 // A nest operator, for grouping the pocp list.
      var nestByDate = d3.nest()
       .key(function(d) { return d3.time.day(d.Start); });
@@ -601,6 +604,9 @@ function doSomething() {
     var formatDateday = d3.time.format("%Y-%m-%d");
     var formatDatetime = d3.time.format("%H:%M:%S");  
     var formatDate = d3.time.format("%Y-%m-%d %H:%M:%S");
+    
+    d3.select("ol.notes_list").append("li")
+			.text("Data last updated at " + formatDate(updateTime));
     
 	//// A little coercion, since both CSVs are untyped.
     //data.forEach(function(d) {
