@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+.title {
+    font-family: "Yanone Kaffeesatz";
+    text-rendering: optimizeLegibility;
+    font-size: 42px;
+    margin-top: .3em;
+    margin-bottom: 0; 
+}
+.notes {
+    font-family: "Yanone Kaffeesatz";
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    margin-top: .3em;
+    margin-bottom: 0; 
+	
+}
+svg {
+  font: 10px sans-serif;
+}
+
+path {
+  fill: lightgrey;
+  stroke: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+#pocp-list {
+  min-height: 1024px;
+}
+
+#pocp-list .date,
+#pocp-list .day {
+  margin-bottom: .4em;
+}
+
+#pocp-list .day {
+	font-family: "Yanone Kaffeesatz";
+    text-rendering: optimizeLegibility;
+}
+
+#pocp-list .outage {
+  line-height: 1.5em;
+  background: #eee;
+  width: 840px;
+  margin-bottom: 1px;
+}
+
+
+#pocp-list .outage div {
+  display: inline-block;
+  width: 100px;
+}
+
+#pocp-list div.loss,
+#pocp-list div.id {
+  width: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#pocp-list div.End {
+  color: #999;
+  width: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#pocp-list div.Outage {
+  width: 200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+
+#pocp-list .early {
+  color: green;
+}
+
+aside {
+  position: absolute;
+  left: 840px;
+  font-size: smaller;
+  width: 220px;
+  font-family: "Yanone Kaffeesatz";
+  text-rendering: optimizeLegibility;
+}
+
+
+
+</style>
+<body>
+
+	
+<div id="charts">
+  <div id="line-chart" class="chart">
+    <div class="title">POCP transmission outage data</div>
+    <div class="notes"> <p>Notes: </p>
+    <ol class="notes_list"> 
+    <li>best viewed with Chrome or Firefox;</li>
+    <li>selected outage list currently by Start datetime only;</li>
+    <li>maximum of 100 outages listed at anyone time;</li>
+    <li>POCP data is horribly inconsistant (various time-dependent logic has been applied to get the data in this form - there may be issues);</li>
+    <li>Coming soon to a browser near you, selectors for company/island and generation type...</li>
+    <li>Automatic updates *should* occur daily at 1am/7am/1pm and 7pm.</li>
+    </ol></div>
+    <!--Add buttons for each generation type in the POCP database-->
+    <table border="0">
+        <tr>
+           <td><div id="Today">
+			   <input name="updateButton"
+                      type="button"
+                      value="Today"
+                      onclick="brushToday()"/></td>
+           <td><div id="Two weeks">
+			   <input name="updateButton"
+                      type="button"
+                      value="Two weeks"
+                      onclick="brushTwoWeeks()"/></td>
+           <td><div id="TotalNZ">
+			   <input name="updateButton"
+                      type="button"
+                      value="Total NZ"
+                      onclick="checkBothIslands();updateSelection()"/></td>
+           <td><div id="TotalNI">
+			   <input name="updateButton"
+                      type="button"
+                      value="Total NI"
+                      onclick="checkIsland('NI');updateSelection()"/></td>
+           <td><div id="TotalSI">
+			   <input name="updateButton"
+                      type="button"
+                      value="Total SI"
+                      onclick="checkIsland('SI');updateSelection()"/></td>
+
+    
+    <table id=checkboxTable>
+	<tr>
+		
+	<td>
+    <form id="island">
+      <input type="checkbox" checked id="NI">North Island<br>
+      <input type="checkbox" checked id="SI">South Island 
+    </form>
+    </td>
+    
+    </tr>
+    </table>
+    
+    
+  </div>
+</div>
+<aside id="totals"><span id="active">-</span> of <span id="total_outages">-</span> outages selected.</aside>
+
+<div id="lists">
+  <div id="pocp-list" class="list"></div>
+</div>
+
+<!--Now for the fun stuff, d3/Javascript code -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="crossfilter.v1.js"></script>
+<script>
+
+
+function round1dp(num) {
+	return Math.round(10 * num) / 10;
+}
+
+function constantIrregularTimeSeries(d) {
+	if (d.Start.getTime() === d.End.getTime())
+		return [];
+	if (d.Type === "daily") {
+		var dayStart = new Date(d.Start);
+		var dayEnd = new Date(d.Start.getFullYear(), d.Start.getMonth(), d.Start.getDate(),
+							  d.End.getHours(), d.End.getMinutes(), d.End.getSeconds());
+		if (dayStart.getTime() === dayEnd.getTime())
+			return [];
+		if (dayEnd < dayStart)
+			dayEnd.setDate(dayEnd.getDate() + 1);
+		if (dayEnd < dayStart)
+			debugger;
+		var ts = [];
+		while (dayStart < d.End) {
+			if (ts.length > 0 && dayStart <= ts[ts.length-1].date) {
+				console.log("Dates should be strictly increasing");
+				debugger;
+			}
+			ts.push(
+				{ date: new Date(dayStart), price: 1 },
+				{ date: new Date(dayEnd), price: 0 }
+			);
+			dayStart.setDate(dayStart.getDate() + 1);
+			dayEnd.setDate(dayEnd.getDate() + 1);
+		}
+		return ts;
+	}
+	else
+		return [
+			{ date: d.Start, price: 1 },
+			{ date: d.End, price: 0 }
+		];
+}
+
+function addIrregularTimeSeries(ts1, ts2) {
+	var ts3 = [];
+	var prevTs1 = 0;
+	var prevTs2 = 0;
+	var currPrice = 0;
+	var n1 = ts1.length;
+	var n2 = ts2.length;
+	var i1 = 0, i2 = 0;
+	while (i1 < n1 || i2 < n2) {
+		if (i1 === n1) {
+			ts3.push(ts2[i2++]);
+			continue;
+		}
+		else if (i2 === n2) {
+			ts3.push(ts1[i1++]);
+			continue;
+		}
+		if (ts1[i1].date == null || ts2[i2].date == null) {
+			debugger;
+		}	
+		if (ts1[i1].date < ts2[i2].date) {
+			var newTs1 = ts1[i1++];
+			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+			ts3.push({ date: newTs1.date, price: currPrice });
+			prevTs1 = newTs1.price;
+		}
+		else if (ts2[i2].date < ts1[i1].date) {
+			var newTs2 = ts2[i2++];
+			currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
+			ts3.push({ date: newTs2.date, price: currPrice });
+			prevTs2 = newTs2.price;
+		}
+		else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
+			// dates equal
+			var newTs1 = ts1[i1++];
+			var newTs2 = ts2[i2++];
+			var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
+			if (priceIncrease !== 0) {
+				currPrice = round1dp(currPrice + priceIncrease);
+				if (currPrice < 0) {
+					console.log("Negative price shouldn't be possible");
+					debugger
+				}
+				ts3.push({ date: newTs1.date, price: currPrice });
+			}
+			prevTs1 = newTs1.price;
+			prevTs2 = newTs2.price;
+		}
+		else {
+			console.log("This should never happen");
+			debugger;
+		}
+		if (ts3.length >= 2 && ts3[ts3.length-1].date <= ts3[ts3.length-2].date) {
+			console.log("This should never happen. Dates should be strictly increasing");
+			debugger;
+		}
+	}
+	return ts3;
+}
+
+function subtractIrregularTimeSeries(ts1, ts2) {
+	var ts3 = [];
+	var prevTs1 = 0;
+	var prevTs2 = 0;
+	var currPrice = 0;
+	var n1 = ts1.length;
+	var n2 = ts2.length;
+	var i1 = 0, i2 = 0;
+	while (i1 < n1 || i2 < n2) {
+		if (i1 === n1)
+			ts3.push(ts2[i2++]);
+		else if (i2 === n2)
+			ts3.push(ts1[i1++]);
+		else if (ts1[i1].date < ts2[i2].date) {
+			var newTs1 = ts1[i1++];
+			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+			ts3.push({ date: newTs1.date, price: currPrice });
+			prevTs1 = newTs1.price;
+		}
+		else if (ts2[i2].date < ts1[i1].date) {
+			var newTs2 = ts2[i2++];
+			currPrice = round1dp(currPrice - (newTs2.price - prevTs2));
+			ts3.push({ date: newTs2.date, price: currPrice });
+			prevTs2 = newTs2.price;
+		}
+		else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
+			// dates equal
+			var newTs1 = ts1[i1++];
+			var newTs2 = ts2[i2++];
+			var priceIncrease = round1dp((newTs1.price - prevTs1) - (newTs2.price - prevTs2));
+			if (priceIncrease !== 0) {
+				currPrice = round1dp(currPrice + priceIncrease);
+				if (currPrice < 0) {
+					console.log("Negative price shouldn't be possible");
+					debugger
+				}
+				ts3.push({ date: newTs1.date, price: currPrice });
+			}
+			prevTs1 = newTs1.price;
+			prevTs2 = newTs2.price;
+		}
+		else {
+			console.log("This should never happen");
+			debugger;
+		}
+	}
+	return ts3;
+}
+
+var MIN_DATE = new Date(-8640000000000000);
+var MAX_DATE = new Date(8640000000000000);
+
+var MIN_DATE_TS = { date: MIN_DATE, price: 0 };
+var MAX_DATE_TS = { date: MAX_DATE, price: 0 };
+var parseDate = d3.time.format("%Y-%m-%d %H:%M:%S").parse;
+var parseShortDate = d3.time.format("%d/%m/%Y").parse;
+
+var outages; // global variables to store crossfilters and various dimenisions
+
+//var outagesByIsland;
+var outagesByStart;
+
+var outageTimeSeries;
+var timeSeriesArray;
+var startDate;
+var endDate;
+
+
+var selectedOutages;
+var selectedOutagesByStart;
+var selectedOutagesByEnd;
+
+
+
+var margin = {top: 10, right: 10, bottom: 100, left: 40},
+    margin2 = {top: 430, right: 10, bottom: 20, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom,
+    height2 = 500 - margin2.top - margin2.bottom;
+
+var x = d3.time.scale().range([0, width]),
+    x2 = d3.time.scale().range([0, width]),
+    y = d3.scale.linear().range([height, 0]),
+    y2 = d3.scale.linear().range([height2, 0]);
+
+var xAxis = d3.svg.axis().scale(x).orient("bottom"),
+    xAxis2 = d3.svg.axis().scale(x2).orient("bottom"),
+    yAxis = d3.svg.axis().scale(y).orient("left");
+
+var brush = d3.svg.brush()
+    .x(x2)
+    .on("brush", brushed);
+var area = d3.svg.area()
+    .interpolate("step-after")
+    .x(function(d) { return x(d.date); })
+    .y0(height)
+    .y1(function(d) { return y(d.price); });
+
+var area2 = d3.svg.area()
+    .interpolate("step-after")
+    .x(function(d) { return x2(d.date); })
+    .y0(height2)
+    .y1(function(d) { return y2(d.price); });
+
+var svg = d3.select("#line-chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
+
+var svgDefs = svg.append("defs");
+
+svgDefs.append("clipPath")
+    .attr("id", "clip")
+  .append("rect")
+    .attr("width", width)
+    .attr("height", height);
+    
+svgDefs.append("clipPath")
+    .attr("id", "clip2")
+  .append("rect")
+    .attr("width", width)
+    .attr("height", height2);
+
+var focus = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var context = svg.append("g")
+    .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+
+//Load in the pocp time series data, and the outage listing data
+var pocp, remaining = 2;
+  d3.csv("pocp_transmission_data_year.csv", function(error, csv) {
+    pocp = csv;
+    if (!--remaining) doSomething(); //when remaining = 0 this becomes true, and we then run doSomething,
+  });
+  d3.json("metadata.json", function(error, metadata) {
+	startDate = parseShortDate(metadata.startTime);
+	endDate = parseShortDate(metadata.endTime);
+	updateTime = parseDate(metadata.updateTime);
+	if (!--remaining) doSomething(); //when remaining = 0 this becomes true, and we then run doSomething,
+  });
+
+
+function doSomething() {
+	
+	 // A nest operator, for grouping the pocp list.
+     var nestByDate = d3.nest()
+      .key(function(d) { return d3.time.day(d.Start); });
+
+    // Various formatters. 
+    var formatNumber = d3.format(",d");
+    var formatChange = d3.format("+,d");
+    var formatDateday = d3.time.format("%Y-%m-%d");
+    var formatDatetime = d3.time.format("%H:%M:%S");  
+    var formatDate = d3.time.format("%Y-%m-%d %H:%M:%S");
+    
+    d3.select("ol.notes_list").append("li")
+			.text("Data last updated at " + formatDate(updateTime));
+    
+	//// A little coercion, since both CSVs are untyped.
+    //data.forEach(function(d) {
+    //d.date = parseDate(d.datetime);
+    //d['North_Contact_Energy'] = +d['North_Contact_Energy'];
+    ////d.price = +d['North_Contact_Energy'];
+    //d['North_Genesis'] = +d['North_Genesis'];
+    //d['North_Meridian'] = +d['North_Meridian'];
+    //d['North_Mighty_River'] = +d['North_Mighty_River'];
+    //d['North_Trustpower'] = +d['North_Trustpower'];
+    //d['South_Contact_Energy'] = +d['South_Contact_Energy'];
+    //d['South_Genesis'] = +d['South_Genesis'];
+    //d['South_Meridian'] = +d['South_Meridian'];
+    ////d.price = +d['South_Meridian'];
+
+    //d['South_Trustpower'] = +d['South_Trustpower'];
+    //d['North_Total'] = +d['North_Total'];
+    //d['South_Total'] = +d['South_Total'];
+    //d.price = +d['North_Total'];
+    //});
+
+    //startDate = new Date(2013, 08-1, 15);
+    //endDate = new Date(2014, 08-1, 15+1);
+
+    pocp.forEach(function(d, i) {
+    d.index = i;
+    d.Start = parseDate(d.Start);
+    d.End = parseDate(d.End);
+    d.id = d.id;
+    d['Last Modified'] = parseDate(d['Last Modified']);
+    d['Outage Block'] = d['Outage Block'];
+    d.Owner = d.Owner;
+    d.type = d.type;
+    });
+    
+    
+    outages = crossfilter(pocp);
+    //outagesByIsland = outages.dimension(function(d) { return d.Island; });
+    outagesByStart = outages.dimension(function(d) { return d.Start; });
+    outageTimeSeries = outages.groupAll().reduce(
+		function(prev, curr) {
+			return addIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+		},
+		function(prev, curr) {
+			return subtractIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+		},
+		function() {
+			return [];
+		}
+	);
+    
+    //debugger;
+    
+    
+    focus.append("path")
+      .attr("clip-path", "url(#clip)");
+
+  focus.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")");
+
+  focus.append("g")
+      .attr("class", "y axis");
+
+
+  context.append("path")
+	.attr("clip-path", "url(#clip2)");
+
+  context.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height2 + ")");
+
+  context.append("g")
+      .attr("class", "x brush");
+	
+	
+	updateSelection();
+  
+    $("#checkboxTable").on("click", ":checkbox", updateSelection);
+
+      
+};
+
+
+//In this function we can return the brush elements, in this case brush.extent()[0] is the zoomed start.
+//We now want to use this with the POCP csv data to list the outages for this duration
+//What is the best method to achieve this?
+function brushed() {
+  x.domain(brush.empty() ? x2.domain() : brush.extent());
+  focus.select("path").attr("d", area);
+  focus.select(".x.axis").call(xAxis);
+  var start = brush.extent()[0]
+  var end = brush.extent()[1]
+  //filter pocp list data
+  // Create the crossfilter for the relevant dimensions and groups.
+    var n = selectedOutages.groupAll().reduceCount().value();
+    var all = selectedOutages.groupAll();
+    
+   //var top_owner_loss=Owners.top(1)
+    //Attempt to filter current outages with crossfilter filter
+    //var outage_by_start = outage.dimension(function(d){return d.Start});
+    //var outage_by_end = outage.dimension(function(d){return d.End});
+    //outage_by_start.filter([-Infinity, now])
+    //outage_by_end.filter([now,Infinity])
+    //console.log("There is a total of " + n + " generation outages")
+    //Filter out the current outages from the data set
+    
+    //filter dimension to get outages occuring now
+    selectedOutagesByStart.filter([-Infinity, end]);
+    selectedOutagesByEnd.filter([start,Infinity]);
+    var current_outages = selectedOutagesByStart.top(Infinity); //sorted by ['Start']
+    //console.log(current_outages)
+    //console.log(sf)
+    //console.log("Of which " + outage.groupAll().reduceCount().value() + " are within selected date span")
+    //console.log("The current largest outage is " + Loss.top(4)[0]['Outage Block'] + " = " + Loss.top(4)[0]['MW Loss'] + "MW")
+
+   //********************************************************************//
+   
+    var nestByDate = d3.nest()
+      .key(function(d) { return d3.time.day(d.Start); });
+
+    // Various formatters. 
+    var formatNumber = d3.format(",d");
+    var formatChange = d3.format("+,d");
+    var formatDateday = d3.time.format("%Y-%m-%d");
+    var formatDatetime = d3.time.format("%H:%M:%S");  
+    var formatDate = d3.time.format("%Y-%m-%d %H:%M:%S");
+
+  //Try and add a list of outages     
+  // Render the initial lists.
+  var list = d3.selectAll(".list")
+      .data([pocpList]);
+  
+  // Render the total.
+  d3.selectAll("#total_outages")
+      .text(formatNumber(outages.size()));
+
+  var outage = crossfilter(current_outages),
+  all = outage.groupAll(),
+  Startdate = outage.dimension(function(d) { return d3.time.day(d.Start); });
+
+  
+  renderAll();
+
+  // Renders the specified chart or list.
+  function render(method) {
+    d3.select(this).call(method);
+  }
+
+  // Whenever the brush moves, re-rendering everything.
+  function renderAll() {
+    //chart.each(render);
+    list.each(render);
+    d3.select("#active").text(formatNumber(all.value()));
+  }
+  function pocpList(div) {
+    var outagesByDate = nestByDate.entries(Startdate.top(100));
+
+    div.each(function() {
+      var Startdate = d3.select(this).selectAll(".date")
+          .data(outagesByDate, function(d) { return d.key; });
+
+      Startdate.enter().append("div")
+          .attr("class", "date")
+        .append("div")
+          .attr("class", "day")
+          .text(function(d) { return formatDateday(d.values[0].Start); });
+
+      Startdate.exit().remove();
+
+      var outage = Startdate.order().selectAll(".outage")
+          .data(function(d) {
+            // Sort values for each group, since they aren't guaranteed to be in order within each group.
+            return d.values.sort(function(a, b) { return b.Start - a.Start; });
+          }, function(d) { return d.index; });
+
+      var outageEnter = outage.enter().append("div")
+          .attr("class", "outage");
+
+      outageEnter.append("div")
+          .attr("class", "Start")
+          .text(function(d) { return formatDatetime(d.Start); });
+
+      outageEnter.append("div")
+          .attr("class", "End")
+          .text(function(d) { return formatDate(d.End); });
+
+      outageEnter.append("div")
+          .attr("class", "Outage")
+          .text(function(d) { return d['Outage Block']; });
+
+      outageEnter.append("div")
+          .attr("class", "Owner")
+          .text(function(d) { return d.Owner; });
+
+
+      outageEnter.append("div")
+          .attr("class", "ID")
+          .text(function(d) { return d.id; });
+
+
+      outage.exit().remove();
+
+      outage.order();
+    });
+  }
+
+  //********************************************************************//
+ 
+
+}
+
+function brushToday() {
+	var today = new Date();
+	var dayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+	var dayEnd = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 1);
+	brush.extent([dayStart, dayEnd]);
+	context.select(".x.brush")
+      .call(brush);
+    brushed();
+}
+
+function brushTwoWeeks() {
+	var today = new Date();
+	var periodStart = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
+	var periodEnd = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 8);
+	brush.extent([periodStart, periodEnd]);
+	context.select(".x.brush")
+      .call(brush);
+    brushed();
+}
+
+//function checkBothIslands() {
+	//$("#island > input:checkbox").prop("checked", true);
+//}
+
+//function checkIsland(island) {
+	//var islands = $("#island > input:checkbox");
+	//islands.prop("checked", false);
+	//islands.filter("#" + island).prop("checked", true);
+//}
+
+function addHalfHour(date) {
+	return new Date(date.getTime() + 1000*60*30);
+}
+
+function updateSelection() {
+	console.log("Update selection");
+	
+	//var islands = $("#island > input:checkbox");
+	//var ni = islands.filter("#NI").is(":checked");
+	//var si = islands.filter("#SI").is(":checked");
+	//outagesByIsland.filterFunction(function(i) {
+		//return ni && i === "NI" ||
+		       //si && i === "SI";
+	//});
+	
+	var timeSeries = outageTimeSeries.value().slice(0);
+	
+	//debugger;
+	
+	if (timeSeries.length === 0 || timeSeries[0].date > startDate)
+		timeSeries.unshift({ date: startDate, price: 0 });
+	if (timeSeries[timeSeries.length-1].date < endDate)
+		timeSeries.push({ date: endDate, price: 0 });
+	
+	//timeSeriesArray = new Array(timeSeries.values.length);
+	//for (var i = 0, date = timeSeries.startTime; i < timeSeries.values.length; i++, date = addHalfHour(date)) {
+		//timeSeriesArray[i] = {
+			//date: date,
+			//price: timeSeries.values[i]
+		//};
+	//}
+	
+	//debugger;
+	
+	//Setup scales 
+  x.domain(brush.empty() ? [startDate, endDate] : brush.extent());
+  y.domain([0, d3.max(timeSeries, function(d) { return d.price; } )]);
+  x2.domain([startDate, endDate]);
+  y2.domain(y.domain());
+  
+  
+  focus.select("path")
+      .datum(timeSeries)
+      .attr("d", area);
+      
+  focus.select(".x.axis")
+      .call(xAxis);
+
+  focus.select(".y.axis")
+      .call(yAxis);
+      
+
+  context.select("path")
+      .datum(timeSeries)
+      .attr("d", area2);
+
+  context.select(".x.axis")
+      .call(xAxis2);
+
+  context.select(".x.brush")
+      .call(brush)
+    .selectAll("rect")
+      .attr("y", -6)
+      .attr("height", height2 + 7);
+      
+      
+    selectedOutages = crossfilter(outagesByStart.top(Infinity));
+        
+    //selectedOutagesByOwner = selectedOutages.dimension(function(d) { return d.Owner; });
+    //selectedOutagesByLoss = selectedOutages.dimension(function(d) { return d['MW Loss']; });
+    selectedOutagesByStart = selectedOutages.dimension(function(d) { return d.Start; });
+    selectedOutagesByEnd = selectedOutages.dimension(function(d) { return d.End; });
+      
+	brushed();
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
