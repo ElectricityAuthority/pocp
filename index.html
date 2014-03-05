@@ -127,6 +127,11 @@ aside {
                       type="button"
                       value="Two weeks"
                       onclick="brushTwoWeeks()"/></td>
+           <td><div id="UnselectAll">
+			   <input name="updateButton"
+                      type="button"
+                      value="Unselect All"
+                      onclick="uncheckBothIslands();uncheckAllGenTypes();uncheckAllOwners();updateSelection()"/></td>
            <td><div id="TotalNZ">
 			   <input name="updateButton"
                       type="button"
@@ -857,6 +862,10 @@ function checkBothIslands() {
 	$("#island > input:checkbox").prop("checked", true);
 }
 
+function uncheckBothIslands() {
+	$("#island > input:checkbox").prop("checked", false);
+}
+
 function checkIsland(island) {
 	var islands = $("#island > input:checkbox");
 	islands.prop("checked", false);
@@ -867,6 +876,10 @@ function checkAllGenTypes() {
 	$("#gen_type > input:checkbox").prop("checked", true);
 }
 
+function uncheckAllGenTypes() {
+	$("#gen_type > input:checkbox").prop("checked", false);
+}
+
 function checkGenType(type) {
 	var genTypes = $("#gen_type > input:checkbox");
 	genTypes.prop("checked", false);
@@ -875,6 +888,10 @@ function checkGenType(type) {
 
 function checkAllOwners() {
 	$("#owner > input:checkbox").prop("checked", true);
+}
+
+function uncheckAllOwners() {
+	$("#owner > input:checkbox").prop("checked", false);
 }
 
 function checkOwner(owner) {
