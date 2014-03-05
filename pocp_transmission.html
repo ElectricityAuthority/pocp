@@ -26,6 +26,11 @@ path {
   stroke: black;
 }
 
+line {
+	fill: none;
+	stroke: red;
+}
+
 .axis path,
 .axis line {
   fill: none;
@@ -493,7 +498,12 @@ function doSomething() {
     focus.append("path")
       .attr("clip-path", "url(#clip)");
 
-  focus.append("g")
+    focus.append("line")
+      .attr("clip-path", "url(#clip)")
+      .attr("y1", 0)
+      .attr("y2", height);
+
+    focus.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")");
 
@@ -503,6 +513,11 @@ function doSomething() {
 
   context.append("path")
 	.attr("clip-path", "url(#clip2)");
+
+  context.append("line")
+	.attr("clip-path", "url(#clip2)")
+	.attr("y1", 0)
+    .attr("y2", height2);
 
   context.append("g")
       .attr("class", "x axis")
@@ -527,6 +542,13 @@ function brushed() {
   x.domain(brush.empty() ? x2.domain() : brush.extent());
   focus.select("path").attr("d", area);
   focus.select(".x.axis").call(xAxis);
+  
+  var currentTime = new Date();
+  focus.select("line")
+	  .datum(currentTime)
+      .attr("x1", x)
+      .attr("x2", x);
+  
   var start = brush.extent()[0]
   var end = brush.extent()[1]
   //filter pocp list data
@@ -719,10 +741,17 @@ function updateSelection() {
   y2.domain(y.domain());
   
   
+  var currentTime = new Date();
+  
   focus.select("path")
       .datum(timeSeries)
       .attr("d", area);
-      
+
+  focus.select("line")
+  	  .datum(currentTime)
+      .attr("x1", x)
+      .attr("x2", x);
+  
   focus.select(".x.axis")
       .call(xAxis);
 
@@ -733,6 +762,11 @@ function updateSelection() {
   context.select("path")
       .datum(timeSeries)
       .attr("d", area2);
+  
+  context.select("line")
+      .datum(currentTime)
+      .attr("x1", x2)
+      .attr("x2", x2);
 
   context.select(".x.axis")
       .call(xAxis2);
