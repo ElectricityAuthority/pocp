@@ -24,7 +24,7 @@ parser.add_argument('--pocp_user', action="store",dest='pocp_user',default='davi
 parser.add_argument('--pocp_pass', action="store",dest='pocp_pass')
 parser.add_argument('--dw_user', action="store",dest='dw_user',default='linux_user')
 parser.add_argument('--dw_pass', action="store",dest='dw_pass')
-parser.add_argument('--pocp_path', action="store",dest='pocp_path',default='/home/millerj/workspace/pocp/')
+parser.add_argument('--pocp_path', action="store",dest='pocp_path',default='/home/dave/python/pocp/')
 
 IPy_notebook = False
 if IPy_notebook == False:
