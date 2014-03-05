@@ -14,7 +14,7 @@ git checkout master
 git pull
 
 # Run the python script
-/usr/bin/python pocp.py --pocp_pass="bx6p5ds3w0nHF" --dw_pass="linux" >> pocp.log 2>&1
+/usr/bin/python pocp.py --pocp_pass="$1" --dw_pass="$2" >> pocp.log 2>&1
 
 # Commit the changes and push to github
 DATE=$(date +'%Y-%m-%d %H:%M:%S')
