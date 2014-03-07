@@ -1183,15 +1183,14 @@ function updateSelection() {
     	debugger;
     	break;
     }
-    
-	timeSeriesList.shift();
-	
 	
 	//Setup scales 
   x.domain(brush.empty() ? [startDate, endDate] : brush.extent());
   y.domain([0, d3.max(timeSeriesList[timeSeriesList.length-1].array, function(d) { return d.price; } )]);
   x2.domain([startDate, endDate]);
   y2.domain(y.domain());
+  
+  timeSeriesList.shift();
   
   var currentTime = new Date();
   
