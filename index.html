@@ -21,14 +21,59 @@ svg {
   font: 10px sans-serif;
 }
 
-path {
-  fill: lightgrey;
+.time_series {
   stroke: black;
+  fill: rgb(201,201,201);
+}
+
+.Genesis {
+  fill: rgb(255,102,0);
+}
+
+.Meridian {
+  fill: rgb(21,68,103);
+}
+
+.Mighty.River {
+  fill: rgb(253,184,19);
+}
+
+.Contact.Energy {
+  fill: rgb(226,0,39);
+}
+
+.Trustpower {
+  fill: rgb(36,98,159);
+}
+
+.Hydro {
+  fill: rgb(112,201,242);
+}
+
+.Thermal {
+  fill: rgb(255,123,0);
+}
+
+.Geothermal {
+  fill: rgb(210,99,26);
+}
+
+.Wind {
+  fill: rgb(97,188,58);
+}
+
+.NI {
+  fill: rgb(237,23,69);
+}
+
+.SI {
+  fill: rgb(112,201,242);
 }
 
 line {
 	fill: none;
-	stroke: red;
+	stroke: rgb(255,87,245);
+	stroke-width: 2;
 }
 
 .axis path,
@@ -245,6 +290,16 @@ aside {
     
     <table id=checkboxTable>
 	<tr>
+	
+	<td>
+	Colour by:
+    <form id="colour_scheme">
+      <input type="radio" name="colour_scheme" value="island">Island<br>
+      <input type="radio" name="colour_scheme" value="gen_type">Generation type<br>
+      <input type="radio" name="colour_scheme" value="owner">Owner<br>
+      <input type="radio" name="colour_scheme" value="none" checked>None
+    </form>
+    </td>
 		
 	<td>
     <form id="island">
@@ -290,82 +345,6 @@ aside {
 <script src="crossfilter.v1.js"></script>
 <script>
 
-
-// TimeSeries objects store half-hourly time series data
-function TimeSeries(n, startTime, valfun) {
-    this.startTime = startTime;
-    try {
-    	this.values = new Uint16Array(n);
-    }
-    catch(err) {
-    	console.log("Error: " + err + ". n = " + n);
-    	debugger;
-    }
-    while (n--) {
-        this.values[n] = valfun(n);
-    }
-}
-
-TimeSeries.prototype = {
-    
-    // returns new TimeSeries by adding other to this TimeSeries
-    add: function(other) {
-		if (!this.values.length) return other;
-		if (!other.values.length) return this;
-        var startTime = new Date(Math.min(this.startTime, other.startTime));
-        var thisOffset = (this.startTime - startTime) / (1000 * 60 * 30);
-        var otherOffset = (other.startTime - startTime) / (1000 * 60 * 30);
-        
-        var n = Math.max(thisOffset + this.values.length, otherOffset + other.values.length);
-        var this1 = this;
-        return new TimeSeries(n, startTime, function(i) {
-            return (this1.values[i-thisOffset] || 0) + (other.values[i-otherOffset] || 0)
-        });
-    },
-    
-    // returns new TimeSeries by subtracting other to this TimeSeries
-    subtract: function(other) {
-        var startTime = new Date(Math.min(this.startTime, other.startTime));
-        var thisOffset = (this.startTime - startTime) / (1000 * 60 * 30);
-        var otherOffset = (other.startTime - startTime) / (1000 * 60 * 30);
-        
-        var n = Math.max(thisOffset + this.values.length, otherOffset + other.values.length);
-        var this1 = this;
-        return new TimeSeries(n, startTime, function(i) {
-            return (this1.values[i-thisOffset] || 0) - (other.values[i-otherOffset] || 0)
-        });
-    }
-}
-    
-function roundDateBack(date) {
-	date.setSeconds(0);
-	date.setMinutes(date.getMinutes() >= 30 ? 30 : 0);
-	return date;
-}
-
-function roundDateForward(date) {
-	date.setSeconds(date.getSeconds() ? 60 : 0);
-	var minutes = date.getMinutes();
-	if (!minutes) return date;
-	date.setMinutes(date.getMinutes() <= 30 ? 30 : 60);
-	return date;
-}
-
-// returns new constant TimeSeries over the given date range at the given value
-TimeSeries.constant = function(startTime, endTime, value) {
-	startTime = roundDateBack(startTime);
-	endTime = roundDateForward(endTime);
-    var n = (endTime - startTime) / (1000 * 60 * 30);
-    if (n < 0) {
-		debugger;
-	}
-    return new TimeSeries(n, startTime, function(i) {return value;});
-}
-
-var emptyTimeSeries = new TimeSeries(0);
-
-
-
 function round1dp(num) {
 	return Math.round(10 * num) / 10;
 }
@@ -380,9 +359,16 @@ function constantIrregularTimeSeries(d) {
 		var ts = [];
 		while (dayStart < d.End) {
 			ts.push(
-				{ date: dayStart, price: d['MW Loss'] },
-				{ date: dayEnd, price: 0 }
+				{ date: new Date(dayStart), price: d['MW Loss'] },
+				{ date: new Date(dayEnd), price: 0 }
 			);
+			
+			if (ts[ts.length-1].date <= ts[ts.length-2].date ||
+					ts.length >= 3 && ts[ts.length-2].date <= ts[ts.length-3].date) {
+				console.log("This should never happen. Dates should be strictly increasing");
+				debugger;
+			}
+			
 			dayStart.setDate(dayStart.getDate() + 1);
 			dayEnd.setDate(dayEnd.getDate() + 1);
 		}
@@ -500,7 +486,139 @@ function subtractIrregularTimeSeries(ts1, ts2) {
 			console.log("This should never happen");
 			debugger;
 		}
+		if (ts3.length >= 2 && ts3[ts3.length-1].date <= ts3[ts3.length-2].date) {
+			console.log("This should never happen. Dates should be strictly increasing");
+			debugger;
+		}
 	}
+	return ts3;
+}
+
+function addIrregularTimeSeriesWithBase(ts1, ts2) {
+	var ts3 = [];
+	var prevTs1 = 0;
+	var prevTs2 = 0;
+	var currPrice = 0;
+	var n1 = ts1.length;
+	var n2 = ts2.length;
+	var i1 = 0, i2 = 0;
+	while (i1 < n1 || i2 < n2) {
+		if (i1 === n1) {
+			var newTs2 = ts2[i2++];
+			ts3.push({ date: newTs2.date, price: newTs2.price, price0: 0 });
+			continue;
+		}
+		else if (i2 === n2) {
+			var newTs1 = ts1[i1++];
+			ts3.push({ date: newTs1.date, price: newTs1.price, price0: newTs1.price });
+			continue;
+		}
+		if (ts1[i1].date == null || ts2[i2].date == null) {
+			debugger;
+		}	
+		if (ts1[i1].date < ts2[i2].date) {
+			var newTs1 = ts1[i1++];
+			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+			ts3.push({ date: newTs1.date, price: currPrice, price0: newTs1.price });
+			prevTs1 = newTs1.price;
+		}
+		else if (ts2[i2].date < ts1[i1].date) {
+			var newTs2 = ts2[i2++];
+			currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
+			ts3.push({ date: newTs2.date, price: currPrice, price0: prevTs1 });
+			prevTs2 = newTs2.price;
+		}
+		else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
+			// dates equal
+			var newTs1 = ts1[i1++];
+			var newTs2 = ts2[i2++];
+			var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
+			currPrice = round1dp(currPrice + priceIncrease);
+			if (currPrice < 0) {
+				console.log("Negative price shouldn't be possible");
+				debugger
+			}
+			ts3.push({ date: newTs1.date, price: currPrice, price0: newTs1.price });
+			prevTs1 = newTs1.price;
+			prevTs2 = newTs2.price;
+		}
+		else {
+			console.log("This should never happen");
+			debugger;
+		}
+		if (ts3.length >= 2 && ts3[ts3.length-1].date <= ts3[ts3.length-2].date) {
+			console.log("This should never happen. Dates should be strictly increasing");
+			debugger;
+		}
+	}
+	return ts3;
+}
+
+function addIrregularTimeSeriesAndInterpolate(ts1, ts2) {
+	var ts3 = [];
+	var prevTs1 = 0;
+	var prevTs2 = 0;
+	var currPrice = 0;
+	var n1 = ts1.length;
+	var n2 = ts2.length;
+	var i1 = 0, i2 = 0;
+	while (i1 < n1 || i2 < n2) {
+		if (i1 === n1) {
+			ts1.push({ date: ts2[i2].date, price: 0 }); i1++; n1++;
+			ts3.push(ts2[i2++]);
+			continue;
+		}
+		else if (i2 === n2) {
+			ts2.push({ date: ts1[i1].date, price: 0 }); i2++; n2++;
+			ts3.push(ts1[i1++]);
+			continue;
+		}
+		if (ts1[i1].date == null || ts2[i2].date == null) {
+			debugger;
+		}	
+		if (ts1[i1].date < ts2[i2].date) {
+			var newTs1 = ts1[i1++];
+			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+			ts2.splice(i2++, 0, { date: newTs1.date, price: prevTs2 }); n2++;
+			ts3.push({ date: newTs1.date, price: currPrice });
+			prevTs1 = newTs1.price;
+		}
+		else if (ts2[i2].date < ts1[i1].date) {
+			var newTs2 = ts2[i2++];
+			currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
+			ts1.splice(i1++, 0, { date: newTs2.date, price: prevTs1 }); n1++;
+			ts3.push({ date: newTs2.date, price: currPrice });
+			prevTs2 = newTs2.price;
+		}
+		else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
+			// dates equal
+			var newTs1 = ts1[i1++];
+			var newTs2 = ts2[i2++];
+			var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
+			currPrice = round1dp(currPrice + priceIncrease);
+			if (currPrice < 0) {
+				console.log("Negative price shouldn't be possible");
+				debugger
+			}
+			ts3.push({ date: newTs1.date, price: currPrice });
+			prevTs1 = newTs1.price;
+			prevTs2 = newTs2.price;
+		}
+		else {
+			console.log("This should never happen");
+			debugger;
+		}
+		if (ts3.length >= 2 && ts3[ts3.length-1].date <= ts3[ts3.length-2].date) {
+			console.log("This should never happen. Dates should be strictly increasing");
+			debugger;
+		}
+	}
+	
+	if (!(ts1.length === ts2.length && ts2.length === ts3.length)) {
+		console.log("This shouldn't happen. All three time series should be the same length");
+		debugger;
+	}
+	
 	return ts3;
 }
 
@@ -520,8 +638,11 @@ var outagesByGenType;
 var outagesByOwner;
 var outagesByLoss;
 
+var outagesGroupByIsland;
+var outagesGroupByGenType;
+var outagesGroupByOwner;
+
 var outageTimeSeries;
-var timeSeriesArray;
 var startDate;
 var endDate;
 var updateTime;
@@ -532,6 +653,10 @@ var selectedOutagesByOwner
 var selectedOutagesByLoss;
 var selectedOutagesByStart;
 var selectedOutagesByEnd;
+
+var islandStackOrder = ["SI", "NI"];
+var genTypeStackOrder = ["Wind", "Geothermal", "Thermal", "Hydro"];
+var ownerStackOrder = ["Trustpower", "Contact Energy", "Mighty River", "Meridian", "Genesis"];
 
 
 
@@ -556,13 +681,13 @@ var brush = d3.svg.brush()
 var area = d3.svg.area()
     .interpolate("step-after")
     .x(function(d) { return x(d.date); })
-    .y0(height)
+    .y0(function(d) { return y(d.price0); })
     .y1(function(d) { return y(d.price); });
 
 var area2 = d3.svg.area()
     .interpolate("step-after")
     .x(function(d) { return x2(d.date); })
-    .y0(height2)
+    .y0(function(d) { return y2(d.price0); })
     .y1(function(d) { return y2(d.price); });
 
 var svg = d3.select("#line-chart").append("svg")
@@ -677,10 +802,45 @@ function doSomething() {
 		}
 	);
     
+    outagesGroupByIsland = outagesByIsland.group().reduce(
+    	function(prev, curr) {
+    		return addIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+    	},
+    	function(prev, curr) {
+    		return subtractIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+    	},
+    	function() {
+    		return [];
+    	}
+    );
+    outagesGroupByGenType = outagesByGenType.group().reduce(
+       	function(prev, curr) {
+       		return addIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+       	},
+       	function(prev, curr) {
+       		return subtractIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+       	},
+       	function() {
+       		return [];
+       	}
+    );
+    outagesGroupByOwner = outagesByOwner.group().reduce(
+       	function(prev, curr) {
+       		return addIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+       	},
+       	function(prev, curr) {
+       		return subtractIrregularTimeSeries(prev, constantIrregularTimeSeries(curr));
+       	},
+       	function() {
+       		return [];
+       	}
+    );
+    
     //debugger;
     
     
-    focus.append("path")
+    focus.append("g")
+      .attr("class", "time_series")
       .attr("clip-path", "url(#clip)");
     
     focus.append("line")
@@ -696,7 +856,8 @@ function doSomething() {
       .attr("class", "y axis");
 
 
-  context.append("path")
+  context.append("g")
+    .attr("class", "time_series")
 	.attr("clip-path", "url(#clip2)");
   
   context.append("line")
@@ -715,7 +876,7 @@ function doSomething() {
 	updateSelection();
   
     $("#checkboxTable").on("click", ":checkbox", updateSelection);
-
+    $("#checkboxTable").on("click", ":radio", updateSelection);
       
 };
 
@@ -725,7 +886,8 @@ function doSomething() {
 //What is the best method to achieve this?
 function brushed() {
   x.domain(brush.empty() ? x2.domain() : brush.extent());
-  focus.select("path").attr("d", area);
+  focus.select(".time_series").selectAll("path")
+      .attr("d", function(d) { return area(d.array); });
   focus.select(".x.axis").call(xAxis);
   
   var currentTime = new Date();
@@ -930,47 +1092,40 @@ function updateSelection() {
 	console.log("Update selection");
 	
 	var islands = $("#island > input:checkbox");
-	var ni = islands.filter("#NI").is(":checked");
-	var si = islands.filter("#SI").is(":checked");
+	var checkedIslands = {};
+	checkedIslands["NI"] = islands.filter("#NI").is(":checked");
+	checkedIslands["SI"] = islands.filter("#SI").is(":checked");
 	outagesByIsland.filterFunction(function(i) {
-		return ni && i === "NI" ||
-		       si && i === "SI";
+		return checkedIslands[i];
 	});
 	
 	var genTypes = $("#gen_type > input:checkbox");
-	var hydro = genTypes.filter("#hydro").is(":checked");
-	var thermal = genTypes.filter("#thermal").is(":checked");
-	var geothermal = genTypes.filter("#geothermal").is(":checked");
-	var wind = genTypes.filter("#wind").is(":checked");
+	var checkedGenTypes = {};
+	checkedGenTypes["Hydro"] = genTypes.filter("#hydro").is(":checked");
+	checkedGenTypes["Thermal"] = genTypes.filter("#thermal").is(":checked");
+	checkedGenTypes["Geothermal"] = genTypes.filter("#geothermal").is(":checked");
+	checkedGenTypes["Wind"] = genTypes.filter("#wind").is(":checked");
 	outagesByGenType.filterFunction(function(g) {
-		return hydro && g === "Hydro" ||
-		       thermal && g === "Thermal" ||
-		       geothermal && g === "Geothermal" ||
-		       wind && g === "Wind";
+		return checkedGenTypes[g];
 	});
 	
 	var owners = $("#owner > input:checkbox");
-	var genesis = owners.filter("#genesis").is(":checked");
-	var meridian = owners.filter("#meridian").is(":checked");
-	var mrp = owners.filter("#mrp").is(":checked");
-	var contact = owners.filter("#contact").is(":checked");
-	var trustpower = owners.filter("#trustpower").is(":checked");
+	var checkedOwners = {};
+	checkedOwners["Genesis"] = owners.filter("#genesis").is(":checked");
+	checkedOwners["Meridian"] = owners.filter("#meridian").is(":checked");
+	checkedOwners["Mighty River"] = owners.filter("#mrp").is(":checked");
+	checkedOwners["Contact Energy"] = owners.filter("#contact").is(":checked");
+	checkedOwners["Trustpower"] = owners.filter("#trustpower").is(":checked");
 	outagesByOwner.filterFunction(function(o) {
-		return genesis && o === "Genesis" ||
-		       meridian && o === "Meridian" ||
-		       mrp && o === "Mighty River" ||
-		       contact && o === "Contact Energy" ||
-		       trustpower && o === "Trustpower";
+		return checkedOwners[o];
 	});
-	
-	var timeSeries = outageTimeSeries.value().slice(0);
 	
 	//debugger;
 	
-	if (timeSeries.length === 0 || timeSeries[0].date > startDate)
-		timeSeries.unshift({ date: startDate, price: 0 });
-	if (timeSeries[timeSeries.length-1].date < endDate)
-		timeSeries.push({ date: endDate, price: 0 });
+// 	if (timeSeries.length === 0 || timeSeries[0].date > startDate)
+// 		timeSeries.unshift({ date: startDate, price: 0 });
+// 	if (timeSeries[timeSeries.length-1].date < endDate)
+// 		timeSeries.push({ date: endDate, price: 0 });
 	
 	//timeSeriesArray = new Array(timeSeries.values.length);
 	//for (var i = 0, date = timeSeries.startTime; i < timeSeries.values.length; i++, date = addHalfHour(date)) {
@@ -980,18 +1135,73 @@ function updateSelection() {
 		//};
 	//}
 	
+	var timeSeriesList = [{ array: [] }];
+	
+	var colourScheme = $("#colour_scheme > input[name=colour_scheme]:checked").val();
+	
+    switch (colourScheme) {
+    case "island":
+    	var byIsland = outagesGroupByIsland.all();
+    	for (var i = 0; i < islandStackOrder.length; i++) {
+    		var island = islandStackOrder[i];
+    		if (checkedIslands[island]) {
+    			var timeSeries = keyToValue(island, byIsland).slice(0);
+    			var stackedTimeSeries = addIrregularTimeSeriesWithBase(timeSeriesList[timeSeriesList.length-1].array, timeSeries);
+    			timeSeriesList.push({ array: stackedTimeSeries, label: island });
+    		}
+    	}
+    	break;
+    case "gen_type":
+    	var byGenType = outagesGroupByGenType.all();
+    	for (var i = 0; i < genTypeStackOrder.length; i++) {
+    		var genType = genTypeStackOrder[i];
+    		if (checkedGenTypes[genType]) {
+    			var timeSeries = keyToValue(genType, byGenType).slice(0);
+    			var stackedTimeSeries = addIrregularTimeSeriesWithBase(timeSeriesList[timeSeriesList.length-1].array, timeSeries);
+    			timeSeriesList.push({ array: stackedTimeSeries, label: genType });
+    		}
+    	}
+    	break;
+    case "owner":
+    	var byOwner = outagesGroupByOwner.all();
+    	for (var i = 0; i < ownerStackOrder.length; i++) {
+    		var owner = ownerStackOrder[i];
+    		if (checkedOwners[owner]) {
+    			var timeSeries = keyToValue(owner, byOwner).slice(0);
+    			var stackedTimeSeries = addIrregularTimeSeriesWithBase(timeSeriesList[timeSeriesList.length-1].array, timeSeries);
+    			timeSeriesList.push({ array: stackedTimeSeries, label: owner });
+    		}
+    	}
+    	break;
+    case "none":
+    	var timeSeries = outageTimeSeries.value().slice(0);
+    	var stackedTimeSeries = addIrregularTimeSeriesWithBase(timeSeriesList[timeSeriesList.length-1].array, timeSeries);
+		timeSeriesList.push({ array: stackedTimeSeries, label: "none" });
+    	break;
+    default:
+    	console.log("Should always match one of these strings");
+    	debugger;
+    	break;
+    }
+    
+	timeSeriesList.shift();
+	
 	
 	//Setup scales 
   x.domain(brush.empty() ? [startDate, endDate] : brush.extent());
-  y.domain([0, d3.max(timeSeries, function(d) { return d.price; } )]);
+  y.domain([0, d3.max(timeSeriesList[timeSeriesList.length-1].array, function(d) { return d.price; } )]);
   x2.domain([startDate, endDate]);
   y2.domain(y.domain());
   
   var currentTime = new Date();
   
-  focus.select("path")
-      .datum(timeSeries)
-      .attr("d", area);
+  var selection = focus.select(".time_series").selectAll("path")
+		  .data(timeSeriesList, function(d) { return d.label; });
+  selection.enter().append("path")
+      .attr("class", function(d) { return d.label; });
+  selection
+      .attr("d", function(d) { return area(d.array); });
+  selection.exit().remove();
   
   focus.select("line")
   	  .datum(currentTime)
@@ -1005,9 +1215,13 @@ function updateSelection() {
       .call(yAxis);
       
 
-  context.select("path")
-      .datum(timeSeries)
-      .attr("d", area2);
+  selection = context.select(".time_series").selectAll("path")
+      .data(timeSeriesList, function(d) { return d.label; });
+  selection.enter().append("path")
+      .attr("class", function(d) { return d.label; });
+  selection
+      .attr("d", function(d) { return area2(d.array); });
+  selection.exit().remove();
   
   context.select("line")
 	  .datum(currentTime)
@@ -1032,6 +1246,16 @@ function updateSelection() {
     selectedOutagesByEnd = selectedOutages.dimension(function(d) { return d.End; });
       
 	brushed();
+}
+
+function keyToValue(key, array) {
+	for (var i = 0; i < array.length; i++) {
+		var pair = array[i];
+		if (pair.key === key)
+			return pair.value;
+	}
+	console.log("Key not found");
+	debugger;
 }
 
 
