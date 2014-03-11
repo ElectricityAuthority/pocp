@@ -21,52 +21,96 @@ svg {
   font: 10px sans-serif;
 }
 
+.highlight_checkbox_label label[for="genesis"] {
+  background: rgb(255,179,128);
+}
+
+.highlight_checkbox_label label[for="meridian"] {
+  background: rgb(138,162,179);
+}
+
+.highlight_checkbox_label label[for="mrp"] {
+  background: rgb(254,220,137);
+}
+
+.highlight_checkbox_label label[for="contact"] {
+  background: rgb(241,128,147);
+}
+
+.highlight_checkbox_label label[for="trustpower"] {
+  background: rgb(146,177,207);
+}
+
+.highlight_checkbox_label label[for="hydro"] {
+  background: rgb(183,227,248);
+}
+
+.highlight_checkbox_label label[for="thermal"] {
+  background: rgb(255,188,128);
+}
+
+.highlight_checkbox_label label[for="geothermal"] {
+  background: rgb(227,176,140);
+}
+
+.highlight_checkbox_label label[for="wind"] {
+  background: rgb(175,221,156);
+}
+
+.highlight_checkbox_label label[for="NI"] {
+  background: rgb(246,139,162);
+}
+
+.highlight_checkbox_label label[for="SI"] {
+  background: rgb(183,227,248);
+}
+
 .time_series {
   stroke: black;
   fill: rgb(201,201,201);
 }
 
-.Genesis {
+.time_series .Genesis {
   fill: rgb(255,102,0);
 }
 
-.Meridian {
+.time_series .Meridian {
   fill: rgb(21,68,103);
 }
 
-.Mighty.River {
+.time_series .Mighty_River {
   fill: rgb(253,184,19);
 }
 
-.Contact.Energy {
+.time_series .Contact_Energy {
   fill: rgb(226,0,39);
 }
 
-.Trustpower {
+.time_series .Trustpower {
   fill: rgb(36,98,159);
 }
 
-.Hydro {
+.time_series .Hydro {
   fill: rgb(112,201,242);
 }
 
-.Thermal {
+.time_series .Thermal {
   fill: rgb(255,123,0);
 }
 
-.Geothermal {
+.time_series .Geothermal {
   fill: rgb(210,99,26);
 }
 
-.Wind {
+.time_series .Wind {
   fill: rgb(97,188,58);
 }
 
-.NI {
+.time_series .NI {
   fill: rgb(237,23,69);
 }
 
-.SI {
+.time_series .SI {
   fill: rgb(112,201,242);
 }
 
@@ -110,6 +154,49 @@ line {
   margin-bottom: 1px;
 }
 
+#pocp-list .Genesis {
+  background: rgb(255,179,128);
+}
+
+#pocp-list .Meridian {
+  background: rgb(138,162,179);
+}
+
+#pocp-list .Mighty_River {
+  background: rgb(254,220,137);
+}
+
+#pocp-list .Contact_Energy {
+  background: rgb(241,128,147);
+}
+
+#pocp-list .Trustpower {
+  background: rgb(146,177,207);
+}
+
+#pocp-list .Hydro {
+  background: rgb(183,227,248);
+}
+
+#pocp-list .Thermal {
+  background: rgb(255,188,128);
+}
+
+#pocp-list .Geothermal {
+  background: rgb(227,176,140);
+}
+
+#pocp-list .Wind {
+  background: rgb(175,221,156);
+}
+
+#pocp-list .NI {
+  background: rgb(246,139,162);
+}
+
+#pocp-list .SI {
+  background: rgb(183,227,248);
+}
 
 #pocp-list .outage div {
   display: inline-block;
@@ -181,52 +268,52 @@ aside {
 			   <input name="updateButton"
                       type="button"
                       value="Unselect All"
-                      onclick="uncheckBothIslands();uncheckAllGenTypes();uncheckAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('none');uncheckBothIslands();uncheckAllGenTypes();uncheckAllOwners();updateSelection()"/></td>
            <td><div id="TotalNZ">
 			   <input name="updateButton"
                       type="button"
                       value="Total NZ"
-                      onclick="checkBothIslands();checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('island');checkBothIslands();checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
            <td><div id="TotalNI">
 			   <input name="updateButton"
                       type="button"
                       value="Total NI"
-                      onclick="checkIsland('NI');checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('NI');checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
            <td><div id="TotalSI">
 			   <input name="updateButton"
                       type="button"
                       value="Total SI"
-                      onclick="checkIsland('SI');checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('SI');checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
             <td><div id="HydroNI">
 			   <input name="updateButton"
                       type="button"
                       value="Hydro (NI)"
-                      onclick="checkIsland('NI');checkGenType('hydro');checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('hydro');checkAllOwners();updateSelection()"/></td>
             <td><div id="HydroSI">
 			   <input name="updateButton"
                       type="button"
                       value="Hydro (SI)"
-                      onclick="checkIsland('SI');checkGenType('hydro');checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('SI');checkGenType('hydro');checkAllOwners();updateSelection()"/></td>
             <td><div id="ThermalNI">
 			   <input name="updateButton"
                       type="button"
                       value="Thermal (NI)"
-                      onclick="checkIsland('NI');checkGenType('thermal');checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('thermal');checkAllOwners();updateSelection()"/></td>
             <td><div id="geothermalNI">
 			   <input name="updateButton"
                       type="button"
                       value="Geothermal (NI)"
-                      onclick="checkIsland('NI');checkGenType('geothermal');checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('geothermal');checkAllOwners();updateSelection()"/></td>
             <td><div id="windNI">
 			   <input name="updateButton"
                       type="button"
                       value="Wind (NI)"
-                      onclick="checkIsland('NI');checkGenType('wind');checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('wind');checkAllOwners();updateSelection()"/></td>
             <td><div id="windSI">
 			   <input name="updateButton"
                       type="button"
                       value="Wind (SI)"
-                      onclick="checkIsland('SI');checkGenType('wind');checkAllOwners();updateSelection()"/></td>
+                      onclick="checkColourScheme('owner');checkIsland('SI');checkGenType('wind');checkAllOwners();updateSelection()"/></td>
  
         </tr>
     </table>
@@ -238,52 +325,52 @@ aside {
 			   <input name="updateButton"
                       type="button"
                       value="Genesis (NI)"
-                      onclick="checkIsland('NI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/></td>
             <td><div id="GenesisSI">
 			   <input name="updateButton"
                       type="button"
                       value="Genesis (SI)"
-                      onclick="checkIsland('SI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/></td>
             <td><div id="MeridianNI">
 			   <input name="updateButton"
                       type="button"
                       value="Meridian (NI)"
-                      onclick="checkIsland('NI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/></td>
             <td><div id="MeridianSI">
 			   <input name="updateButton"
                       type="button"
                       value="Meridian (SI)"
-                      onclick="checkIsland('SI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/></td>
             <td><div id="MRPNI">
 			   <input name="updateButton"
                       type="button"
                       value="MRP (NI)"
-                      onclick="checkIsland('NI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/></td>
             <td><div id="MRPSI">
 			   <input name="updateButton"
                       type="button"
                       value="MRP (SI)"
-                      onclick="checkIsland('SI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/></td>
             <td><div id="ContactNI">
 			   <input name="updateButton"
                       type="button"
                       value="Contact (NI)"
-                      onclick="checkIsland('NI');checkAllGenTypes();checkOwner('contact');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('contact');updateSelection()"/></td>
             <td><div id="ContactSI">
 			   <input name="updateButton"
                       type="button"
                       value="Contact (SI)"
-                      onclick="checkIsland('SI');checkAllGenTypes();checkOwner('contact');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('contact');updateSelection()"/></td>
             <td><div id="TrustpowerNI">
 			   <input name="updateButton"
                       type="button"
                       value="Trustpower (NI)"
-                      onclick="checkIsland('NI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/></td>
             <td><div id="TrustpowerSI">
 			   <input name="updateButton"
                       type="button"
                       value="Trustpower (SI)"
-                      onclick="checkIsland('SI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/></td>
+                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/></td>
 
         </tr>
     </table>
@@ -294,36 +381,51 @@ aside {
 	<td>
 	Colour by:
     <form id="colour_scheme">
-      <input type="radio" name="colour_scheme" value="island">Island<br>
-      <input type="radio" name="colour_scheme" value="gen_type">Generation type<br>
-      <input type="radio" name="colour_scheme" value="owner">Owner<br>
-      <input type="radio" name="colour_scheme" value="none" checked>None
+      <input type="radio" name="colour_scheme" value="island" id="island_radio" checked>
+      <label for="island_radio">Island</label><br>
+      <input type="radio" name="colour_scheme" value="gen_type" id="gen_type_radio">
+      <label for="gen_type_radio">Generation type</label><br>
+      <input type="radio" name="colour_scheme" value="owner" id="owner_radio">
+      <label for="owner_radio">Owner</label><br>
+      <input type="radio" name="colour_scheme" value="none" id="none_radio">
+      <label for="none_radio">None</label>
     </form>
     </td>
 		
 	<td>
     <form id="island">
-      <input type="checkbox" checked id="NI">North Island<br>
-      <input type="checkbox" checked id="SI">South Island 
+      <input type="checkbox" checked id="NI">
+      <label for="NI">North Island</label><br>
+      <input type="checkbox" checked id="SI">
+      <label for="SI">South Island</label>
     </form>
     </td>
     
     <td>
     <form id="gen_type">
-      <input type="checkbox" checked id="hydro">Hydroelectric<br>
-      <input type="checkbox" checked id="thermal">Thermal<br>
-      <input type="checkbox" checked id="geothermal">Geothermal<br>
-      <input type="checkbox" checked id="wind">Wind
+      <input type="checkbox" checked id="hydro">
+      <label for="hydro">Hydroelectric</label><br>
+      <input type="checkbox" checked id="thermal">
+      <label for="thermal">Thermal</label><br>
+      <input type="checkbox" checked id="geothermal">
+      <label for="geothermal">Geothermal</label><br>
+      <input type="checkbox" checked id="wind">
+      <label for="wind">Wind</label>
     </form>
     </td>
     
     <td>
     <form id="owner">
-      <input type="checkbox" checked id="genesis">Genesis Energy<br>
-      <input type="checkbox" checked id="meridian">Meridian Energy<br>
-      <input type="checkbox" checked id="mrp">Mighty River Power<br>
-      <input type="checkbox" checked id="contact">Contact Energy<br>
-      <input type="checkbox" checked id="trustpower">Trustpower
+      <input type="checkbox" checked id="genesis">
+      <label for="genesis">Genesis Energy</label><br>
+      <input type="checkbox" checked id="meridian">
+      <label for="meridian">Meridian Energy</label><br>
+      <input type="checkbox" checked id="mrp">
+      <label for="mrp">Mighty River Power</label><br>
+      <input type="checkbox" checked id="contact">
+      <label for="contact">Contact Energy</label><br>
+      <input type="checkbox" checked id="trustpower">
+      <label for="trustpower">Trustpower</label>
     </form>
     </td>
     
@@ -344,6 +446,9 @@ aside {
 <script src="http://d3js.org/d3.v3.js"></script>
 <script src="crossfilter.v1.js"></script>
 <script>
+
+if (!window.console) window.console = {};
+if (!window.console.log) window.console.log = function () { };
 
 function round1dp(num) {
 	return Math.round(10 * num) / 10;
@@ -654,6 +759,8 @@ var selectedOutagesByLoss;
 var selectedOutagesByStart;
 var selectedOutagesByEnd;
 
+var colourScheme = "none";
+
 var islandStackOrder = ["SI", "NI"];
 var genTypeStackOrder = ["Wind", "Geothermal", "Thermal", "Hydro"];
 var ownerStackOrder = ["Trustpower", "Contact Energy", "Mighty River", "Meridian", "Genesis"];
@@ -921,6 +1028,9 @@ function brushed() {
     //console.log(sf)
     //console.log("Of which " + outage.groupAll().reduceCount().value() + " are within selected date span")
     //console.log("The current largest outage is " + Loss.top(4)[0]['Outage Block'] + " = " + Loss.top(4)[0]['MW Loss'] + "MW")
+    
+    if (brush.empty())
+    	current_outages = [];
 
    //********************************************************************//
    
@@ -1009,6 +1119,26 @@ function brushed() {
       outageEnter.append("div")
           .attr("class", "ID")
           .text(function(d) { return d.id; });
+      
+      
+      outage.attr("class", function(d) {
+    	  var label;
+    	  switch (colourScheme) {
+    	  case "none":
+    		  return "outage";
+    		  break;
+    	  case "island":
+    		  label = d["Island"];
+    		  break;
+    	  case "gen_type":
+    		  label = d["Generation type"];
+    		  break;
+    	  case "owner":
+    		  label = d["Owner"].replace(" ", "_");
+    		  break;
+    	  }
+    	  return "outage " + label;
+      });
 
 
       outage.exit().remove();
@@ -1084,6 +1214,17 @@ function checkOwner(owner) {
 	owners.filter("#" + owner).prop("checked", true);
 }
 
+function checkColourScheme(scheme) {
+	$("#colour_scheme > input[name=colour_scheme][value='" + scheme + "']").prop("checked", true);
+	
+	if (scheme !== colourScheme) {
+		d3.select("#" + colourScheme).attr("class", null);
+		d3.select("#" + scheme).attr("class", "highlight_checkbox_label");
+	}
+	
+	colourScheme = scheme;
+}
+
 function addHalfHour(date) {
 	return new Date(date.getTime() + 1000*60*30);
 }
@@ -1137,7 +1278,13 @@ function updateSelection() {
 	
 	var timeSeriesList = [{ array: [] }];
 	
-	var colourScheme = $("#colour_scheme > input[name=colour_scheme]:checked").val();
+	var oldColourScheme = colourScheme;
+	colourScheme = $("#colour_scheme > input[name=colour_scheme]:checked").val();
+	
+	if (colourScheme !== oldColourScheme) {
+		d3.select("#" + oldColourScheme).attr("class", null);
+		d3.select("#" + colourScheme).attr("class", "highlight_checkbox_label");
+	}
 	
     switch (colourScheme) {
     case "island":
@@ -1169,7 +1316,7 @@ function updateSelection() {
     		if (checkedOwners[owner]) {
     			var timeSeries = keyToValue(owner, byOwner).slice(0);
     			var stackedTimeSeries = addIrregularTimeSeriesWithBase(timeSeriesList[timeSeriesList.length-1].array, timeSeries);
-    			timeSeriesList.push({ array: stackedTimeSeries, label: owner });
+    			timeSeriesList.push({ array: stackedTimeSeries, label: owner.replace(" ", "_") });
     		}
     	}
     	break;
