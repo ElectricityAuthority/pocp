@@ -8,9 +8,9 @@ import numpy as np
 import EAtools as ea
 import json
 
-###############################################################################
-#Setup command line option and argument parsing
-###############################################################################
+########################################################################
+# Setup command line option and argument parsing
+########################################################################
 
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument('--pocp_host', action="store", dest='pocp_host',
@@ -19,7 +19,7 @@ parser.add_argument('--pocp_user', action="store", dest='pocp_user',
                     default='david.hume')
 parser.add_argument('--pocp_pass', action="store", dest='pocp_pass')
 parser.add_argument('--dw_user', action="store", dest='dw_user',
-                    default='ECOM\humed')
+                    default=r'ECOM\humed')
 parser.add_argument('--dw_pass', action="store", dest='dw_pass')
 parser.add_argument('--pocp_path', action="store", dest='pocp_path',
                     default='/home/dave/python/pocp/')
@@ -30,7 +30,8 @@ if IPy_notebook:
     ea.set_options()
 
     class cmd_line():
-        def __init__(self, pocp_host, pocp_user, pocp_pass, dw_user, dw_pass, pocp_path):
+        def __init__(self, pocp_host, pocp_user, pocp_pass,
+                     dw_user, dw_pass, pocp_path):
             self.pocp_host = pocp_host
             self.pocp_user = pocp_user
             self.pocp_pass = pocp_pass
@@ -40,9 +41,10 @@ if IPy_notebook:
 else:
     cmd_line = parser.parse_args()
 
-###############################################################################
-#  Download the the last year of POCP database, append to historical data->csv
-###############################################################################
+########################################################################
+# Download the the last year of POCP database, append to historical
+# data->csv
+########################################################################
 
 
 class POCP(object):
@@ -53,25 +55,29 @@ class POCP(object):
         self.end_time = end_time
         self.update_time = None
         self.currDL = None
-        self.con = ea.DW_connect(DSN='DWMarketData_test',
-                                 user=self.cmd_line.dw_user,
-                                 passwd=self.cmd_line.dw_pass)
-        self.addImaps = {'ANC': 'NI', 'KAG': 'NI', 'KTW': 'NI', 'NAP': 'NI',
-                         'PRI': 'NI', 'TAA': 'NI', 'TAP': 'NI', 'TUK': 'NI',
-                         'WHL': 'SI', 'WWD': 'NI', 'THI': 'NI', 'n/a': np.nan}
-        self.addGmaps = {'ABY': 'Hydro', 'ANC': 'Thermal', 'BLN': 'Hydro',
-                         'BPE': 'Wind', 'BRB': 'Thermal', 'CST': 'Hydro',
-                         'DOB': 'Hydro', 'HAM': 'Thermal', 'HKK': 'Hydro',
-                         'HUI': 'Hydro', 'HWB': 'Wind', 'KAG': 'Geothermal',
-                         'KOE': 'Geothermal', 'KTW': 'Hydro', 'KUM': 'Hydro',
-                         'LTN': 'Wind', 'NSY': 'Hydro', 'PRI': 'Hydro',
-                         'TAA': 'Geothermal', 'TAP': 'Wind', 'TGA': 'Hydro',
-                         'TUK': 'Wind', 'RDF': 'Hydro', 'WHL': 'Wind',
-                         'THI': 'Geothermal', 'n/a': np.nan}
+        self.con = ea.DW_connect(
+            DSN='DWMarketData_test', user=self.cmd_line.dw_user,
+            passwd=self.cmd_line.dw_pass
+        )
+        self.addImaps = {
+            'ANC': 'NI', 'KAG': 'NI', 'KTW': 'NI', 'NAP': 'NI', 'PRI': 'NI',
+            'TAA': 'NI', 'TAP': 'NI', 'TUK': 'NI', 'WHL': 'SI', 'WWD': 'NI',
+            'THI': 'NI', 'n/a': np.nan
+        }
+        self.addGmaps = {
+            'ABY': 'Hydro', 'ANC': 'Thermal', 'BLN': 'Hydro', 'BPE': 'Wind',
+            'BRB': 'Thermal', 'CST': 'Hydro', 'DOB': 'Hydro', 'HAM': 'Thermal',
+            'HKK': 'Hydro', 'HUI': 'Hydro', 'HWB': 'Wind', 'KAG': 'Geothermal',
+            'KOE': 'Geothermal', 'KTW': 'Hydro', 'KUM': 'Hydro', 'LTN': 'Wind',
+            'NSY': 'Hydro', 'PRI': 'Hydro', 'TAA': 'Geothermal', 'TAP': 'Wind',
+            'TGA': 'Hydro', 'TUK': 'Wind', 'RDF': 'Hydro', 'WHL': 'Wind',
+            'THI': 'Geothermal', 'n/a': np.nan
+        }
 
     #mappings
     def generation_type_map(self):
-        gens = sql.read_frame("Select * from com.MAP_Generating_plant", self.con)
+        gens = sql.read_frame(
+            "Select * from com.MAP_Generating_plant", self.con)
         gens = gens[gens['Connection_Type'] == 'G']
         GT = gens.set_index('POC').Generation_Type.reset_index()
         GT['POC'] = GT.POC.map(lambda x: x[0: 3])
@@ -81,10 +87,12 @@ class POCP(object):
         self.GT = dict(self.GT.items() + self.addGmaps.items())
 
     def island_map(self):
-        island = sql.read_frame("Select * from com.MAP_PNode_to_POC_and_island", self.con)
+        island = sql.read_frame(
+            "Select * from com.MAP_PNode_to_POC_and_island", self.con)
         island_map = island.set_index('POC').Island
         island_map.index = island_map.index.map(lambda x: x[0: 3])
-        self.island_map = island_map.reset_index().drop_duplicates().set_index('index').Island.to_dict()
+        self.island_map = (island_map.reset_index().drop_duplicates()
+                           .set_index('index').Island.to_dict())
         self.island_map = dict(self.island_map.items() + self.addImaps.items())
 
     def mappings(self, df):
@@ -115,16 +123,24 @@ class POCP(object):
     def download_pocp(self):  # Note: redspider limit<10000 rows
         def POCP_date_parser(datestr):
             d = datestr.replace('/', ' ').replace(':', ' ').split(' ')
-            return datetime(int('20' + d[2]), int(d[1]), int(d[0]), int(d[3]), int(d[4]))
+            return datetime(int('20' + d[2]), int(d[1]), int(d[0]),
+                            int(d[3]), int(d[4]))
 
-        print 'Getting POCP between ' + self.start_time + ' and ' + self.end_time
+        print ('Getting POCP between ' + self.start_time + ' and ' +
+               self.end_time)
 
         bufferIO = StringIO()
 
         br = mechanize.Browser(factory=mechanize.RobustFactory())
         br.set_proxies({"http": "172.29.52.38: 8081"})
-        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)  # Follows refresh 0 but not hangs on refresh > 0
-        br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv: 1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
+        # Follows refresh 0 but not hangs on refresh > 0
+        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),
+                              max_time=1)
+        br.addheaders = [(
+            'User-agent',
+            'Mozilla/5.0 (X11; U; Linux i686; en-US; rv: 1.9.0.1) ' +
+            'Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1'
+        )]
         br.open(cmd_line.pocp_host)
         br.select_form(nr=0)
         br.submit()  # click I agree
@@ -133,23 +149,27 @@ class POCP(object):
         br['password'] = cmd_line.pocp_pass
         br.submit()  # submit user name and password.
         br.select_form(nr=0)  # select form
-        br['sview'] = ['excel']  # select "excel" although this is in fact a tab delimited table
+        # select "excel" although this is in fact a tab delimited table
+        br['sview'] = ['excel']
         br['start'] = self.start_time  # set start and end times from above
         br['end'] = self.end_time
-        br['planning_status_id[]'] = ['1', '2', '3']  # ['1', '2', '3']
+        br['planning_status_id[]'] = ['1', '2', '3']
         response = br.submit()  # submit the search/download for all POCP data
         bufferIO = StringIO()
         bufferIO.write(unicode(response.read()))
         bufferIO.seek(0)
-        self.currDL = pd.read_csv(bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
-                                  date_parser=POCP_date_parser, sep='\t', index_col=0)
+        self.currDL = pd.read_csv(
+            bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
+            date_parser=POCP_date_parser, sep='\t', index_col=0)
 
     def append_pocp(self, pocp):
-        P_all = pd.read_csv(self.cmd_line.pocp_path + 'pocp_all.csv', index_col=0)
+        P_all = pd.read_csv(self.cmd_line.pocp_path + 'pocp_all.csv',
+                            index_col=0)
         self.P = pd.concat([P_all, self.currDL])  # add latest download
         self.P['End'] = self.P.End.map(lambda x: p.dt_convert(x))  # datetimes
         self.P['Start'] = self.P.Start.map(lambda x: p.dt_convert(x))
-        self.P['Last Modified'] = self.P['Last Modified'].map(lambda x: p.dt_convert(x))
+        self.P['Last Modified'] = (
+            self.P['Last Modified'].map(lambda x: p.dt_convert(x)))
         self.P = self.P.drop_duplicates()  # drop duplicates
         self.P.to_csv(self.cmd_line.pocp_path + 'pocp_all.csv')  # save updated
         return self.P
@@ -160,9 +180,12 @@ class POCP(object):
         def POCP_get():
             def get(tdc):
                 X = self.P[self.P.Category == tdc]
-                # all outages between start and end including those that have been cancelled
-                Xbool = ((X['Start'] <= datetime.strptime(p.end_time, '%d/%m/%Y'))
-                         & (X['End'] >= datetime.strptime(p.start_time, '%d/%m/%Y')))
+                # all outages between start and end including those that
+                # have been cancelled
+                Xbool = (
+                    (X['Start'] <= datetime.strptime(p.end_time, '%d/%m/%Y')) &
+                    (X['End'] >= datetime.strptime(p.start_time, '%d/%m/%Y'))
+                )
                 X = X[Xbool]
                 X['Duration'] = X.End - X.Start
                 if tdc == 'Transmission':
@@ -171,8 +194,11 @@ class POCP(object):
                     del X['MV remaining']
                 if tdc == 'Generation':
                     del X['Nature']
-                    X['NP_MWh'] = X['Duration'].map(
-                        lambda x: x / np.timedelta64(1, 's') / 3600) * X['MW Loss']
+                    X['NP_MWh'] = (
+                        X['Duration']
+                        .map(lambda x: x / np.timedelta64(1, 's') / 3600) *
+                        X['MW Loss']
+                    )
                     X = X.sort(columns=['NP_MWh'], ascending=False)
                 del X['Category']
                 return X
@@ -181,38 +207,55 @@ class POCP(object):
             D = get('Direct Connection')
             if outage_history:
                 if not T.empty:
-                    T = T.reset_index().set_index(['id', 'Last Modified'],
-                                                  drop=False).sortlevel(0)
+                    T = (T.reset_index()
+                         .set_index(['id', 'Last Modified'], drop=False)
+                         .sortlevel(0))
                 if not G.empty:
-                    G = G.reset_index().set_index(['id', 'Last Modified'],
-                                                  drop=False).sort(columns='MW Loss', ascending=False).sortlevel(0)
+                    G = (G.reset_index()
+                         .set_index(['id', 'Last Modified'], drop=False)
+                         .sort(columns='MW Loss', ascending=False)
+                         .sortlevel(0))
                 if not D.empty:
-                    D = D.reset_index().set_index(['id', 'Last Modified'],
-                                                  drop=False).sortlevel(0)
-            else:  # this is what you should see in the current pocp database that is now version controlled.
+                    D = (D.reset_index()
+                         .set_index(['id', 'Last Modified'], drop=False)
+                         .sortlevel(0))
+            else:
+                # This is what you should see in the current pocp
+                # database that is now version controlled.
                 if not T.empty:
-                    #groupby id, return most recent time for that id group
+                    # Group by id, return most recent time for that id
+                    # group.
                     IXT = T.reset_index().groupby('id')['Last Modified'].max()
-                    T = T.reset_index().set_index(['id', 'Last Modified'],
-                                                  drop=False).ix[zip(IXT.to_dict().keys(), IXT.to_dict().values()), :]
+                    T = (T.reset_index()
+                         .set_index(['id', 'Last Modified'], drop=False)
+                         .ix[zip(IXT.to_dict().keys(), IXT.to_dict().values()),
+                             :])
                 if not G.empty:
                     IXG = G.reset_index().groupby('id')['Last Modified'].max()
-                    G = G.reset_index().set_index(['id', 'Last Modified'],
-                                                  drop=False).ix[zip(IXG.to_dict().keys(), IXG.to_dict().values()), :]  # select rows
+                    G = (G.reset_index()
+                         .set_index(['id', 'Last Modified'], drop=False)
+                         .ix[zip(IXG.to_dict().keys(), IXG.to_dict().values()),
+                             :])  # select rows
                     G = G.sort(columns='MW Loss', ascending=False)
                 if not D.empty:
                     IXD = D.reset_index().groupby('id')['Last Modified'].max()
-                    D = D.reset_index().set_index(['id', 'Last Modified']).ix[zip(IXD.to_dict().keys(), IXD.to_dict().values()), :]
+                    D = (D.reset_index().set_index(['id', 'Last Modified'])
+                         .ix[zip(IXD.to_dict().keys(), IXD.to_dict().values()),
+                             :])
             return T, G, D
 
         def add_caned_after_start(df):
-            caned = df[df['Planning Status'] == 'Cancelled']  # cancelled entrys
-            caned = caned[caned.index.map(
-                          lambda x: x[1]) > caned.Start.tolist()]  # if cancelled after Start time then keep
-            confirmed = df[df['Planning Status'] == 'Confirmed']  # confirmed, and
-            tentative = df[df['Planning Status'] == 'Tentative']  # tentative
-            df = confirmed.append(caned)  # append confirmed outages with those that have been cancelled after the outage window ended
-            df = df.append(tentative).sort()  # also append all tentative outages, then sort.
+            # cancelled entries
+            caned = df[df['Planning Status'] == 'Cancelled']
+            caned = caned[  # if cancelled after Start time then keep
+                caned.index.map(lambda x: x[1]) > caned.Start.tolist()]
+            confirmed = df[df['Planning Status'] == 'Confirmed']
+            tentative = df[df['Planning Status'] == 'Tentative']
+            # Append confirmed outages with those that have been
+            # cancelled after the outage window ended.
+            df = confirmed.append(caned)
+            # Also append all tentative outages, then sort.
+            df = df.append(tentative).sort()
             df['GIP/GXPs'] = df['GIP/GXPs'].map(lambda x: x[0: 3])
             df['GIP/GXPs'][df['GIP/GXPs'] == '#N/'] = 'NAP'
             df = df.rename(columns={'GIP/GXPs': 'GIP'})
@@ -224,7 +267,8 @@ class POCP(object):
                                'Planning Status']]
             else:
                 df = df.ix[:, ['Start', 'End', 'Outage Block', 'GIP', 'Owner',
-                               'Nature', 'Type', 'Duration', 'Planning Status']]
+                               'Nature', 'Type', 'Duration', 'Planning Status']
+                           ]
 
             df = df.fillna(0)
             return df
@@ -234,7 +278,8 @@ class POCP(object):
         self.T = add_caned_after_start(T)
 
     def today(self, df):
-        current_bool = (df['Start'] <= datetime.today()) & (df['End'] >= (datetime.today()))
+        current_bool = ((df['Start'] <= datetime.today()) &
+                        (df['End'] >= datetime.today()))
         df = df[current_bool]
         df = df[df['Planning Status'] == 'Confirmed']
         df = df.drop_duplicates()
@@ -242,7 +287,8 @@ class POCP(object):
         return df
 
     def now(self, df):
-        current_bool = (df['Start'] <= datetime.now()) & (df['End'] >= (datetime.now()))
+        current_bool = ((df['Start'] <= datetime.now()) &
+                        (df['End'] >= datetime.now()))
         df = df[current_bool]
         df = df[df['Planning Status'] == 'Confirmed']
         df = df.drop_duplicates()
@@ -252,7 +298,8 @@ class POCP(object):
     def save_metadata(self):
         with open(cmd_line.pocp_path + 'metadata.json', 'w') as outfile:
             json.dump({'updateTime': str(p.update_time.replace(microsecond=0)),
-                       'startTime': p.start_time, 'endTime': p.end_time}, outfile)
+                       'startTime': p.start_time, 'endTime': p.end_time},
+                      outfile)
 
     def save_generation_data(self):
         p.G.to_csv(cmd_line.pocp_path + 'pocp_data_year.csv')
@@ -264,7 +311,8 @@ class POCP(object):
         outage_history = False
         self.set_date_range()  # set the start and end times
         self.download_pocp()  # download POCP over the data range
-        self.append_pocp(self.currDL)  # append current download to the historic POCP data and save.
+        # Append current download to the historic POCP data and save.
+        self.append_pocp(self.currDL)
         self.POCP_logic(outage_history=outage_history)
         self.G = self.mappings(self.G)
         self.Tn = self.now(self.T)
