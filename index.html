@@ -239,139 +239,179 @@ aside {
 
 
 <div id="charts">
-  <div id="line-chart" class="chart">
+<div id="line-chart" class="chart">
     <div class="title">POCP generation outage data</div>
     <div class="notes"> <p>Notes: </p>
     <ol class="notes_list"> 
-    <li>best viewed with Chrome or Firefox;</li>
-    <li>selected outage list currently by Start datetime only;</li>
-    <li>maximum of 100 outages listed at anyone time;</li>
-    <li>POCP data is horribly inconsistant (various time-dependent logic has been applied to get the data in this form - there may be issues);</li>
-    <li>Coming soon to a browser near you, selectors for company/island and generation type...</li>
-    <li>Automatic updates *should* occur daily at 1am/7am/1pm and 7pm;</li>
-    </ol></div>
+        <li>best viewed with Chrome or Firefox;</li>
+        <li>selected outage list currently by Start datetime only;</li>
+        <li>maximum of 100 outages listed at anyone time;</li>
+        <li>POCP data is horribly inconsistant (various time-dependent logic has been applied to get the data in this form - there may be issues);</li>
+        <li>Coming soon to a browser near you, selectors for company/island and generation type...</li>
+        <li>Automatic updates *should* occur daily at 1am/7am/1pm and 7pm;</li>
+    </ol>
+    </div>
+    
+    <!--Add buttons for selecting different time periods-->
+    <table border="0">
+    <tr>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="None"
+               onclick="removeBrush()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Current Minute"
+               onclick="brushMinute()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Today"
+               onclick="brushToday()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Two weeks"
+               onclick="brushTwoWeeks()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Whole year"
+               onclick="brushYear()"/>
+        </td>
+    </tr>
+    </table>
+    
     <!--Add buttons for each generation type in the POCP database-->
     <table border="0">
-        <tr>
-           <td><div id="Today">
-               <input name="updateButton"
-                      type="button"
-                      value="Today"
-                      onclick="brushToday()"/></td>
-           <td><div id="Two weeks">
-               <input name="updateButton"
-                      type="button"
-                      value="Two weeks"
-                      onclick="brushTwoWeeks()"/></td>
-           <td><div id="UnselectAll">
-               <input name="updateButton"
-                      type="button"
-                      value="Unselect All"
-                      onclick="checkColourScheme('none');uncheckBothIslands();uncheckAllGenTypes();uncheckAllOwners();updateSelection()"/></td>
-           <td><div id="TotalNZ">
-               <input name="updateButton"
-                      type="button"
-                      value="Total NZ"
-                      onclick="checkColourScheme('island');checkBothIslands();checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
-           <td><div id="TotalNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Total NI"
-                      onclick="checkColourScheme('owner');checkIsland('NI');checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
-           <td><div id="TotalSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Total SI"
-                      onclick="checkColourScheme('owner');checkIsland('SI');checkAllGenTypes();checkAllOwners();updateSelection()"/></td>
-            <td><div id="HydroNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Hydro (NI)"
-                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('hydro');checkAllOwners();updateSelection()"/></td>
-            <td><div id="HydroSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Hydro (SI)"
-                      onclick="checkColourScheme('owner');checkIsland('SI');checkGenType('hydro');checkAllOwners();updateSelection()"/></td>
-            <td><div id="ThermalNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Thermal (NI)"
-                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('thermal');checkAllOwners();updateSelection()"/></td>
-            <td><div id="geothermalNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Geothermal (NI)"
-                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('geothermal');checkAllOwners();updateSelection()"/></td>
-            <td><div id="windNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Wind (NI)"
-                      onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('wind');checkAllOwners();updateSelection()"/></td>
-            <td><div id="windSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Wind (SI)"
-                      onclick="checkColourScheme('owner');checkIsland('SI');checkGenType('wind');checkAllOwners();updateSelection()"/></td>
- 
-        </tr>
+    <tr>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Unselect All"
+               onclick="checkColourScheme('none');uncheckBothIslands();uncheckAllGenTypes();uncheckAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Total NZ"
+               onclick="checkColourScheme('island');checkBothIslands();checkAllGenTypes();checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Total NI"
+               onclick="checkColourScheme('owner');checkIsland('NI');checkAllGenTypes();checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Total SI"
+               onclick="checkColourScheme('owner');checkIsland('SI');checkAllGenTypes();checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Hydro (NI)"
+               onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('hydro');checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Hydro (SI)"
+               onclick="checkColourScheme('owner');checkIsland('SI');checkGenType('hydro');checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Thermal (NI)"
+               onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('thermal');checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Geothermal (NI)"
+               onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('geothermal');checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Wind (NI)"
+               onclick="checkColourScheme('owner');checkIsland('NI');checkGenType('wind');checkAllOwners();updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Wind (SI)"
+               onclick="checkColourScheme('owner');checkIsland('SI');checkGenType('wind');checkAllOwners();updateSelection()"/>
+        </td>
+    </tr>
     </table>
     
     <!--Add buttons for each participant in the POCP database-->
     <table border="0">
-        <tr>
-            <td><div id="GenesisNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Genesis (NI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/></td>
-            <td><div id="GenesisSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Genesis (SI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/></td>
-            <td><div id="MeridianNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Meridian (NI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/></td>
-            <td><div id="MeridianSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Meridian (SI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/></td>
-            <td><div id="MRPNI">
-               <input name="updateButton"
-                      type="button"
-                      value="MRP (NI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/></td>
-            <td><div id="MRPSI">
-               <input name="updateButton"
-                      type="button"
-                      value="MRP (SI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/></td>
-            <td><div id="ContactNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Contact (NI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('contact');updateSelection()"/></td>
-            <td><div id="ContactSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Contact (SI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('contact');updateSelection()"/></td>
-            <td><div id="TrustpowerNI">
-               <input name="updateButton"
-                      type="button"
-                      value="Trustpower (NI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/></td>
-            <td><div id="TrustpowerSI">
-               <input name="updateButton"
-                      type="button"
-                      value="Trustpower (SI)"
-                      onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/></td>
-
-        </tr>
+    <tr>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Genesis (NI)"
+               onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Genesis (SI)"
+               onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('genesis');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Meridian (NI)"
+               onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Meridian (SI)"
+               onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('meridian');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="MRP (NI)"
+               onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('mrp');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Contact (NI)"
+               onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('contact');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Contact (SI)"
+               onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('contact');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Trustpower (NI)"
+               onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
+               value="Trustpower (SI)"
+               onclick="checkColourScheme('gen_type');checkIsland('SI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/>
+        </td>
+    </tr>
     </table>
     
     <table id=checkboxTable>
@@ -1132,6 +1172,23 @@ function brushed() {
 
 }
 
+function removeBrush() {
+    brush.clear();
+    context.select(".x.brush")
+        .call(brush);
+    brushed();
+}
+
+function brushMinute() {
+    var now = new Date();
+    var minuteStart = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes());
+    var minuteEnd = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes() + 1);
+    brush.extent([minuteStart, minuteEnd]);
+    context.select(".x.brush")
+        .call(brush);
+    brushed();
+}
+
 function brushToday() {
     var today = new Date();
     var dayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
@@ -1147,6 +1204,13 @@ function brushTwoWeeks() {
     var periodStart = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
     var periodEnd = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 8);
     brush.extent([periodStart, periodEnd]);
+    context.select(".x.brush")
+        .call(brush);
+    brushed();
+}
+
+function brushYear() {
+    brush.extent([startDate, endDate]);
     context.select(".x.brush")
         .call(brush);
     brushed();
