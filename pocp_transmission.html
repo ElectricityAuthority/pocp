@@ -184,6 +184,14 @@ aside {
 <script src="crossfilter.v1.js"></script>
 <script>
 
+// Need to create a dummy console object so that console.log doesn't cause errors in IE
+if (!window.console) {
+    window.console = {};
+}
+if (!window.console.log) {
+    window.console.log = function () {};
+}
+
 function round1dp(num) {
 	return Math.round(10 * num) / 10;
 }
