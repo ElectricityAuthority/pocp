@@ -182,6 +182,7 @@ aside {
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script src="crossfilter.v1.js"></script>
+<script src="irregular_time_series.js"></script>
 <script>
 
 // Need to create a dummy console object so that console.log doesn't cause errors in IE
@@ -192,153 +193,6 @@ if (!window.console.log) {
     window.console.log = function () {};
 }
 
-function round1dp(num) {
-	return Math.round(10 * num) / 10;
-}
-
-function constantIrregularTimeSeries(d) {
-	if (d.Start.getTime() === d.End.getTime())
-		return [];
-	if (d.Type === "daily") {
-		var dayStart = new Date(d.Start);
-		var dayEnd = new Date(d.Start.getFullYear(), d.Start.getMonth(), d.Start.getDate(),
-							  d.End.getHours(), d.End.getMinutes(), d.End.getSeconds());
-		if (dayStart.getTime() === dayEnd.getTime())
-			return [];
-		if (dayEnd < dayStart)
-			dayEnd.setDate(dayEnd.getDate() + 1);
-		if (dayEnd < dayStart)
-			debugger;
-		var ts = [];
-		while (dayStart < d.End) {
-			if (ts.length > 0 && dayStart <= ts[ts.length-1].date) {
-				console.log("Dates should be strictly increasing");
-				debugger;
-			}
-			ts.push(
-				{ date: new Date(dayStart), price: 1 },
-				{ date: new Date(dayEnd), price: 0 }
-			);
-			dayStart.setDate(dayStart.getDate() + 1);
-			dayEnd.setDate(dayEnd.getDate() + 1);
-		}
-		return ts;
-	}
-	else
-		return [
-			{ date: d.Start, price: 1 },
-			{ date: d.End, price: 0 }
-		];
-}
-
-function addIrregularTimeSeries(ts1, ts2) {
-	var ts3 = [];
-	var prevTs1 = 0;
-	var prevTs2 = 0;
-	var currPrice = 0;
-	var n1 = ts1.length;
-	var n2 = ts2.length;
-	var i1 = 0, i2 = 0;
-	while (i1 < n1 || i2 < n2) {
-		if (i1 === n1) {
-			ts3.push(ts2[i2++]);
-			continue;
-		}
-		else if (i2 === n2) {
-			ts3.push(ts1[i1++]);
-			continue;
-		}
-		if (ts1[i1].date == null || ts2[i2].date == null) {
-			debugger;
-		}	
-		if (ts1[i1].date < ts2[i2].date) {
-			var newTs1 = ts1[i1++];
-			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
-			ts3.push({ date: newTs1.date, price: currPrice });
-			prevTs1 = newTs1.price;
-		}
-		else if (ts2[i2].date < ts1[i1].date) {
-			var newTs2 = ts2[i2++];
-			currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
-			ts3.push({ date: newTs2.date, price: currPrice });
-			prevTs2 = newTs2.price;
-		}
-		else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
-			// dates equal
-			var newTs1 = ts1[i1++];
-			var newTs2 = ts2[i2++];
-			var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
-			if (priceIncrease !== 0) {
-				currPrice = round1dp(currPrice + priceIncrease);
-				if (currPrice < 0) {
-					console.log("Negative price shouldn't be possible");
-					debugger
-				}
-				ts3.push({ date: newTs1.date, price: currPrice });
-			}
-			prevTs1 = newTs1.price;
-			prevTs2 = newTs2.price;
-		}
-		else {
-			console.log("This should never happen");
-			debugger;
-		}
-		if (ts3.length >= 2 && ts3[ts3.length-1].date <= ts3[ts3.length-2].date) {
-			console.log("This should never happen. Dates should be strictly increasing");
-			debugger;
-		}
-	}
-	return ts3;
-}
-
-function subtractIrregularTimeSeries(ts1, ts2) {
-	var ts3 = [];
-	var prevTs1 = 0;
-	var prevTs2 = 0;
-	var currPrice = 0;
-	var n1 = ts1.length;
-	var n2 = ts2.length;
-	var i1 = 0, i2 = 0;
-	while (i1 < n1 || i2 < n2) {
-		if (i1 === n1)
-			ts3.push(ts2[i2++]);
-		else if (i2 === n2)
-			ts3.push(ts1[i1++]);
-		else if (ts1[i1].date < ts2[i2].date) {
-			var newTs1 = ts1[i1++];
-			currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
-			ts3.push({ date: newTs1.date, price: currPrice });
-			prevTs1 = newTs1.price;
-		}
-		else if (ts2[i2].date < ts1[i1].date) {
-			var newTs2 = ts2[i2++];
-			currPrice = round1dp(currPrice - (newTs2.price - prevTs2));
-			ts3.push({ date: newTs2.date, price: currPrice });
-			prevTs2 = newTs2.price;
-		}
-		else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
-			// dates equal
-			var newTs1 = ts1[i1++];
-			var newTs2 = ts2[i2++];
-			var priceIncrease = round1dp((newTs1.price - prevTs1) - (newTs2.price - prevTs2));
-			if (priceIncrease !== 0) {
-				currPrice = round1dp(currPrice + priceIncrease);
-				if (currPrice < 0) {
-					console.log("Negative price shouldn't be possible");
-					debugger
-				}
-				ts3.push({ date: newTs1.date, price: currPrice });
-			}
-			prevTs1 = newTs1.price;
-			prevTs2 = newTs2.price;
-		}
-		else {
-			console.log("This should never happen");
-			debugger;
-		}
-	}
-	return ts3;
-}
 
 var MIN_DATE = new Date(-8640000000000000);
 var MAX_DATE = new Date(8640000000000000);
@@ -473,14 +327,15 @@ function doSomething() {
     //endDate = new Date(2014, 08-1, 15+1);
 
     pocp.forEach(function(d, i) {
-    d.index = i;
-    d.Start = parseDate(d.Start);
-    d.End = parseDate(d.End);
-    d.id = d.id;
-    d['Last Modified'] = parseDate(d['Last Modified']);
-    d['Outage Block'] = d['Outage Block'];
-    d.Owner = d.Owner;
-    d.type = d.type;
+        d.index = i;
+        d.Start = parseDate(d.Start);
+        d.End = parseDate(d.End);
+        d.Value = 1;
+        d.id = d.id;
+        d['Last Modified'] = parseDate(d['Last Modified']);
+        d['Outage Block'] = d['Outage Block'];
+        d.Owner = d.Owner;
+        d.type = d.type;
     });
     
     
