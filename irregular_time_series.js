@@ -6,8 +6,8 @@ if (!window.console.log) {
     window.console.log = function () {};
 }
 
-function round1dp(num) {
-    return Math.round(10 * num) / 10;
+function round3dp(num) {
+    return Math.round(1000 * num) / 1000;
 }
 
 function constantIrregularTimeSeries(d) {
@@ -36,6 +36,10 @@ function constantIrregularTimeSeries(d) {
         }
         return ts;
     } else {
+        if (d.End.getTime() <= d.Start.getTime()) {
+            console.log("This should never happen. Dates should be strictly increasing");
+            debugger;
+        }
         return [
             { date: d.Start, price: d.Value },
             { date: d.End, price: 0 }
@@ -60,24 +64,24 @@ function addIrregularTimeSeries(ts1, ts2) {
             debugger;
         } else if (ts1[i1].date < ts2[i2].date) {
             var newTs1 = ts1[i1++];
-            currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+            currPrice = round3dp(currPrice + (newTs1.price - prevTs1));
             ts3.push({ date: newTs1.date, price: currPrice });
             prevTs1 = newTs1.price;
         } else if (ts2[i2].date < ts1[i1].date) {
             var newTs2 = ts2[i2++];
-            currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
+            currPrice = round3dp(currPrice + (newTs2.price - prevTs2));
             ts3.push({ date: newTs2.date, price: currPrice });
             prevTs2 = newTs2.price;
         } else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
             // dates equal
             var newTs1 = ts1[i1++];
             var newTs2 = ts2[i2++];
-            var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
+            var priceIncrease = round3dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
             if (priceIncrease !== 0) {
-                currPrice = round1dp(currPrice + priceIncrease);
+                currPrice = round3dp(currPrice + priceIncrease);
                 if (currPrice < 0) {
                     console.log("Negative price shouldn't be possible");
-                    debugger
+                    debugger;
                 }
                 ts3.push({ date: newTs1.date, price: currPrice });
             }
@@ -112,24 +116,24 @@ function subtractIrregularTimeSeries(ts1, ts2) {
             debugger;
         } else if (ts1[i1].date < ts2[i2].date) {
             var newTs1 = ts1[i1++];
-            currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+            currPrice = round3dp(currPrice + (newTs1.price - prevTs1));
             ts3.push({ date: newTs1.date, price: currPrice });
             prevTs1 = newTs1.price;
         } else if (ts2[i2].date < ts1[i1].date) {
             var newTs2 = ts2[i2++];
-            currPrice = round1dp(currPrice - (newTs2.price - prevTs2));
+            currPrice = round3dp(currPrice - (newTs2.price - prevTs2));
             ts3.push({ date: newTs2.date, price: currPrice });
             prevTs2 = newTs2.price;
         } else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
             // dates equal
             var newTs1 = ts1[i1++];
             var newTs2 = ts2[i2++];
-            var priceIncrease = round1dp((newTs1.price - prevTs1) - (newTs2.price - prevTs2));
+            var priceIncrease = round3dp((newTs1.price - prevTs1) - (newTs2.price - prevTs2));
             if (priceIncrease !== 0) {
-                currPrice = round1dp(currPrice + priceIncrease);
+                currPrice = round3dp(currPrice + priceIncrease);
                 if (currPrice < 0) {
                     console.log("Negative price shouldn't be possible");
-                    debugger
+                    debugger;
                 }
                 ts3.push({ date: newTs1.date, price: currPrice });
             }
@@ -166,23 +170,23 @@ function addIrregularTimeSeriesWithBase(ts1, ts2) {
             debugger;
         } else if (ts1[i1].date < ts2[i2].date) {
             var newTs1 = ts1[i1++];
-            currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+            currPrice = round3dp(currPrice + (newTs1.price - prevTs1));
             ts3.push({ date: newTs1.date, price: currPrice, price0: newTs1.price });
             prevTs1 = newTs1.price;
         } else if (ts2[i2].date < ts1[i1].date) {
             var newTs2 = ts2[i2++];
-            currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
+            currPrice = round3dp(currPrice + (newTs2.price - prevTs2));
             ts3.push({ date: newTs2.date, price: currPrice, price0: prevTs1 });
             prevTs2 = newTs2.price;
         } else if (ts1[i1].date.getTime() === ts2[i2].date.getTime()) {
             // dates equal
             var newTs1 = ts1[i1++];
             var newTs2 = ts2[i2++];
-            var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
-            currPrice = round1dp(currPrice + priceIncrease);
+            var priceIncrease = round3dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
+            currPrice = round3dp(currPrice + priceIncrease);
             if (currPrice < 0) {
                 console.log("Negative price shouldn't be possible");
-                debugger
+                debugger;
             }
             ts3.push({ date: newTs1.date, price: currPrice, price0: newTs1.price });
             prevTs1 = newTs1.price;
@@ -218,13 +222,13 @@ function addIrregularTimeSeriesAndInterpolate(ts1, ts2) {
             debugger;
         } else if (ts1[i1].date < ts2[i2].date) {
             var newTs1 = ts1[i1++];
-            currPrice = round1dp(currPrice + (newTs1.price - prevTs1));
+            currPrice = round3dp(currPrice + (newTs1.price - prevTs1));
             ts2.splice(i2++, 0, { date: newTs1.date, price: prevTs2 }); n2++;
             ts3.push({ date: newTs1.date, price: currPrice });
             prevTs1 = newTs1.price;
         } else if (ts2[i2].date < ts1[i1].date) {
             var newTs2 = ts2[i2++];
-            currPrice = round1dp(currPrice + (newTs2.price - prevTs2));
+            currPrice = round3dp(currPrice + (newTs2.price - prevTs2));
             ts1.splice(i1++, 0, { date: newTs2.date, price: prevTs1 }); n1++;
             ts3.push({ date: newTs2.date, price: currPrice });
             prevTs2 = newTs2.price;
@@ -232,8 +236,8 @@ function addIrregularTimeSeriesAndInterpolate(ts1, ts2) {
             // dates equal
             var newTs1 = ts1[i1++];
             var newTs2 = ts2[i2++];
-            var priceIncrease = round1dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
-            currPrice = round1dp(currPrice + priceIncrease);
+            var priceIncrease = round3dp((newTs1.price - prevTs1) + (newTs2.price - prevTs2));
+            currPrice = round3dp(currPrice + priceIncrease);
             if (currPrice < 0) {
                 console.log("Negative price shouldn't be possible");
                 debugger
