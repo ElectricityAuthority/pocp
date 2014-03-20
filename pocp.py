@@ -302,10 +302,10 @@ class POCP(object):
                       outfile)
 
     def save_generation_data(self):
-        p.G.to_csv(cmd_line.pocp_path + 'pocp_data_year.csv')
+        p.G.to_csv(cmd_line.pocp_path + 'pocp_data_year.json')
 
     def save_transmission_data(self):
-        p.T.to_csv(cmd_line.pocp_path + 'pocp_transmission_data_year.csv')
+        p.T.to_csv(cmd_line.pocp_path + 'pocp_transmission_data_year.json')
 
     def main(self):
         outage_history = False
