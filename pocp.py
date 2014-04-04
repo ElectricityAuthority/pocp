@@ -2,10 +2,8 @@ import pandas as pd
 import mechanize
 from datetime import datetime, timedelta
 from io import StringIO
-import pandas.io.sql as sql
 import argparse
 import numpy as np
-import EAtools as ea
 import json
 
 ########################################################################
@@ -35,8 +33,6 @@ if IPy_notebook:
             self.pocp_host = pocp_host
             self.pocp_user = pocp_user
             self.pocp_pass = pocp_pass
-            self.dw_user = dw_user
-            self.dw_pass = dw_pass
             self.pocp_path = pocp_path
 else:
     cmd_line = parser.parse_args()
@@ -55,50 +51,20 @@ class POCP(object):
         self.end_time = end_time
         self.update_time = None
         self.currDL = None
-        self.con = ea.DW_connect(
-            DSN='DWMarketData_test', user=self.cmd_line.dw_user,
-            passwd=self.cmd_line.dw_pass
-        )
-        self.addImaps = {
-            'ANC': 'NI', 'KAG': 'NI', 'KTW': 'NI', 'NAP': 'NI', 'PRI': 'NI',
-            'TAA': 'NI', 'TAP': 'NI', 'TUK': 'NI', 'WHL': 'SI', 'WWD': 'NI',
-            'THI': 'NI', 'n/a': np.nan
-        }
-        self.addGmaps = {
-            'ABY': 'Hydro', 'ANC': 'Thermal', 'BLN': 'Hydro', 'BPE': 'Wind',
-            'BRB': 'Thermal', 'CST': 'Hydro', 'DOB': 'Hydro', 'HAM': 'Thermal',
-            'HKK': 'Hydro', 'HUI': 'Hydro', 'HWB': 'Wind', 'KAG': 'Geothermal',
-            'KOE': 'Geothermal', 'KTW': 'Hydro', 'KUM': 'Hydro', 'LTN': 'Wind',
-            'NSY': 'Hydro', 'PRI': 'Hydro', 'TAA': 'Geothermal', 'TAP': 'Wind',
-            'TGA': 'Hydro', 'TUK': 'Wind', 'RDF': 'Hydro', 'WHL': 'Wind',
-            'THI': 'Geothermal', 'n/a': np.nan
-        }
 
     #mappings
     def generation_type_map(self):
-        gens = sql.read_frame(
-            "Select * from com.MAP_Generating_plant", self.con)
-        gens = gens[gens['Connection_Type'] == 'G']
-        GT = gens.set_index('POC').Generation_Type.reset_index()
-        GT['POC'] = GT.POC.map(lambda x: x[0: 3])
-        GT = GT.drop_duplicates().set_index('POC').Generation_Type
-        GT.ix['KAW'] = 'Geothermal'
-        self.GT = GT.to_dict()
-        self.GT = dict(self.GT.items() + self.addGmaps.items())
+        with open(self.cmd_line.pocp_path + 'GT_map.json') as infile:
+            self.GT_map = dict(json.load(infile))
 
     def island_map(self):
-        island = sql.read_frame(
-            "Select * from com.MAP_PNode_to_POC_and_island", self.con)
-        island_map = island.set_index('POC').Island
-        island_map.index = island_map.index.map(lambda x: x[0: 3])
-        self.island_map = (island_map.reset_index().drop_duplicates()
-                           .set_index('index').Island.to_dict())
-        self.island_map = dict(self.island_map.items() + self.addImaps.items())
+        with open(self.cmd_line.pocp_path + 'island_map.json') as infile:
+            self.island_map = dict(json.load(infile))
 
     def mappings(self, df):
         self.island_map()
         self.generation_type_map()
-        df['Generation type'] = df.GIP.map(lambda x: self.GT[x])
+        df['Generation type'] = df.GIP.map(lambda x: self.GT_map[x])
         df['Island'] = df.GIP.map(lambda x: self.island_map[x])
         return df
 
@@ -141,12 +107,12 @@ class POCP(object):
             'Mozilla/5.0 (X11; U; Linux i686; en-US; rv: 1.9.0.1) ' +
             'Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1'
         )]
-        br.open(cmd_line.pocp_host)
+        br.open(self.cmd_line.pocp_host)
         br.select_form(nr=0)
         br.submit()  # click I agree
         br.select_form(nr=0)  # login
-        br['email'] = cmd_line.pocp_user
-        br['password'] = cmd_line.pocp_pass
+        br['email'] = self.cmd_line.pocp_user
+        br['password'] = self.cmd_line.pocp_pass
         br.submit()  # submit user name and password.
         br.select_form(nr=0)  # select form
         # select "excel" although this is in fact a tab delimited table
@@ -296,16 +262,16 @@ class POCP(object):
         return df
 
     def save_metadata(self):
-        with open(cmd_line.pocp_path + 'metadata.json', 'w') as outfile:
+        with open(self.cmd_line.pocp_path + 'metadata.json', 'w') as outfile:
             json.dump({'updateTime': str(p.update_time.replace(microsecond=0)),
                        'startTime': p.start_time, 'endTime': p.end_time},
                       outfile)
 
     def save_generation_data(self):
-        p.G.to_csv(cmd_line.pocp_path + 'pocp_data_year.json')
+        p.G.to_csv(self.cmd_line.pocp_path + 'pocp_data_year.json')
 
     def save_transmission_data(self):
-        p.T.to_csv(cmd_line.pocp_path + 'pocp_transmission_data_year.json')
+        p.T.to_csv(self.cmd_line.pocp_path + 'pocp_transmission_data_year.json')
 
     def main(self):
         outage_history = False
@@ -325,3 +291,4 @@ class POCP(object):
 
 p = POCP(cmd_line)  # the POCP instance
 p.main()
+
