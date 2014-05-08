@@ -1,10 +1,11 @@
-Current draft tools for downloading, monitoring and viewing POCP outage data
+Tools for downloading, monitoring and viewing POCP outage data
 
-In development. 
+Generation outage viewer at:
+http://electricityauthority.github.io/pocp/
 
-pocp.py contains the original (ad-hoc) python script used to download and stash POCP data.
-This is currently in the process of being updated and "classified" in the pocp_tester.ipynb notebook file.  
+Transmission outage viewer at: 
+http://electricityauthority.github.io/pocp/pocp_transmission.html
 
-The POCP has recently been made public and these tools may also work on the public site - not tested.
+pocp.py - a python script used to download and stash POCP data.
 
-D J Hume, 5th November 2013
+D J Hume & J Miller 8 May 2014
