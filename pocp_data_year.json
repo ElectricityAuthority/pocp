@@ -1,6 +1,6 @@
 id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,Planning Status,Generation type,Island
 1988,2014-03-31 11:52:00,2014-04-30 07:00:00,2014-06-27 17:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,"58 days, 10:30:00",Confirmed,Hydro,SI
-1990,2014-05-28 13:42:00,2014-10-06 07:00:00,2014-10-24 17:00:00,40.0,ROX_7,ROX,Contact Energy,0.0,continuous,"18 days, 10:00:00",Tentative,Hydro,SI
+1990,2014-06-10 17:10:00,2014-11-03 07:00:00,2014-10-21 17:00:00,40.0,ROX_7,ROX,Contact Energy,0.0,continuous,"-12 days, 14:00:00",Tentative,Hydro,SI
 2286,2014-03-03 08:27:00,2014-01-28 07:00:00,2014-03-05 06:01:00,350.0,TCC_1,SFD,Contact Energy,0.0,continuous,"35 days, 23:01:00",Confirmed,Thermal,NI
 2355,2014-01-23 16:23:00,2014-01-21 04:00:00,2014-01-21 22:00:00,51.0,PPI_1,PPI,Contact Energy,0.0,continuous,18:00:00,Cancelled,Geothermal,NI
 2356,2014-06-09 15:23:00,2014-04-13 08:00:00,2014-06-06 13:00:00,40.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,"54 days, 05:00:00",Cancelled,Geothermal,NI
@@ -12,7 +12,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 2430,2014-04-08 12:12:00,2014-04-07 07:00:00,2014-04-07 17:00:00,35.0,CYD_1,CYD,Contact Energy,0.0,daily,10:00:00,Cancelled,Wind,SI
 2431,2014-02-04 15:53:00,2014-01-29 07:00:00,2014-01-29 17:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,daily,10:30:00,Cancelled,Wind,SI
 2439,2014-04-07 16:49:00,2014-03-31 07:00:00,2014-04-03 17:00:00,35.0,CYD_4,CYD,Contact Energy,0.0,daily,"3 days, 10:00:00",Cancelled,Wind,SI
-2445,2014-05-28 13:42:00,2014-07-15 07:00:00,2014-07-16 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,"1 days, 10:30:00",Tentative,Hydro,SI
+2445,2014-06-10 17:10:00,2014-07-09 07:00:00,2014-07-10 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,"1 days, 10:30:00",Tentative,Hydro,SI
 2450,2014-05-13 09:58:00,2014-05-12 07:00:00,2014-05-12 17:30:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,10:30:00,Cancelled,Hydro,SI
 2455,2014-03-03 08:27:00,2014-02-03 07:00:00,2014-02-28 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,"25 days, 10:30:00",Cancelled,Hydro,SI
 2458,2014-05-28 13:42:00,2014-08-14 07:00:00,2014-08-14 17:00:00,40.0,ROX_6,ROX,Contact Energy,0.0,continuous,10:00:00,Tentative,Hydro,SI
@@ -22,7 +22,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 2470,2014-05-21 08:06:00,2014-05-20 07:00:00,2014-05-20 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,10:30:00,Cancelled,Hydro,SI
 2474,2014-05-22 08:56:00,2014-06-12 07:00:00,2014-06-12 17:30:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,10:30:00,Tentative,Hydro,SI
 2475,2014-05-28 13:42:00,2014-05-27 07:00:00,2014-05-27 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,10:30:00,Cancelled,Hydro,SI
-2488,2014-05-28 13:42:00,2014-09-15 07:00:00,2014-10-03 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,"18 days, 10:30:00",Tentative,Hydro,SI
+2488,2014-06-10 17:10:00,2014-07-14 07:00:00,2014-07-31 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,"17 days, 10:30:00",Tentative,Hydro,SI
 2538,2013-12-14 14:50:00,2013-11-04 23:59:00,2013-12-12 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,"37 days, 17:01:00",Cancelled,Thermal,NI
 2621,2014-02-26 11:49:00,2014-02-01 00:01:00,2014-02-23 23:59:00,0.0,MAU_Stn,n/a,Contact Energy,0.0,continuous,"22 days, 23:58:00",Cancelled,,
 2636,2013-12-09 07:51:00,2014-06-06 07:00:00,2014-06-23 18:00:00,42.0,TRC_Stn,HAM,Contact Energy,0.0,continuous,"17 days, 11:00:00",Confirmed,Thermal,NI
@@ -69,7 +69,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 2981,2014-05-06 19:33:00,2014-05-05 03:30:00,2014-05-05 22:00:00,25.0,WRK_Stn,WRK,Contact Energy,0.0,daily,18:30:00,Cancelled,Hydro,NI
 2982,2014-05-16 17:46:00,2014-05-15 03:30:00,2014-05-15 22:00:00,15.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,18:30:00,Cancelled,Hydro,NI
 2983,2014-06-04 13:43:00,2014-06-17 07:00:00,2014-06-17 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,10:30:00,Tentative,Wind,SI
-2987,2014-05-28 13:42:00,2014-07-07 07:00:00,2014-08-15 17:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,"39 days, 10:30:00",Tentative,Wind,SI
+2987,2014-06-10 17:10:00,2014-09-22 07:00:00,2014-10-31 17:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,"39 days, 10:30:00",Tentative,Wind,SI
 2988,2014-05-21 14:55:00,2014-08-25 07:00:00,2014-09-12 17:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,"18 days, 10:30:00",Confirmed,Wind,SI
 2989,2014-03-31 11:53:00,2014-03-25 07:00:00,2014-03-27 17:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,"2 days, 10:30:00",Cancelled,Hydro,SI
 2990,2014-03-24 16:11:00,2014-03-20 08:00:00,2014-03-21 16:00:00,2.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,"1 days, 08:00:00",Cancelled,Geothermal,NI
@@ -1079,7 +1079,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 7294,2014-05-22 08:56:00,2014-05-21 10:00:00,2014-05-21 14:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,04:30:00,Cancelled,Thermal,NI
 7301,2014-05-29 14:04:00,2014-05-28 01:00:00,2014-05-28 06:30:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,05:30:00,Cancelled,Thermal,NI
 7303,2014-06-09 15:23:00,2014-06-04 02:00:00,2014-06-04 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,14:00:00,Cancelled,Thermal,NI
-7304,2014-05-28 13:42:00,2014-06-11 02:00:00,2014-06-11 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,14:00:00,Tentative,Thermal,NI
+7304,2014-06-10 17:10:00,2014-06-11 02:00:00,2014-06-11 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,14:00:00,Confirmed,Thermal,NI
 7305,2014-06-09 15:23:00,2014-06-12 09:30:00,2014-06-12 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,06:30:00,Confirmed,Thermal,NI
 7312,2014-06-09 15:23:00,2014-06-10 13:00:00,2014-06-10 15:00:00,25.0,THI_1,THI,Contact Energy,0.0,continuous,02:00:00,Confirmed,Geothermal,NI
 TRUS8680KUM,2013-12-12 05:04:00,2013-11-01 13:00:00,2013-12-13 16:30:00,10.0,KUM_STN,KUM,Trustpower,0.0,continuous,"42 days, 03:30:00",Cancelled,Hydro,SI
