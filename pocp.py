@@ -6,6 +6,9 @@ from io import StringIO
 import argparse
 import numpy as np
 import json
+import re, os
+import logging
+import logging.handlers
 
 ########################################################################
 # Setup command line option and argument parsing
@@ -13,9 +16,9 @@ import json
 
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument('--pocp_host', action="store", dest='pocp_host',
-                    default='http://pocp.redspider.co.nz/')
+                    default='https://pocp.redspider.co.nz/auth/login')
 parser.add_argument('--pocp_user', action="store", dest='pocp_user',
-                    default='david.hume')
+                    default='david.hume@ea.govt.nz')
 parser.add_argument('--pocp_pass', action="store", dest='pocp_pass')
 parser.add_argument('--dw_user', action="store", dest='dw_user',
                     default=r'ECOM\humed')
@@ -37,6 +40,25 @@ if IPy_notebook:
             self.pocp_path = pocp_path
 else:
     cmd_line = parser.parse_args()
+
+pocp_path = '/home/dave/python/pocp/'
+os.chdir(pocp_path)
+
+#Setup logging
+formatter = logging.Formatter('|%(asctime)-6s|%(message)s|', '%Y-%m-%d %H:%M')
+consoleLogger = logging.StreamHandler()
+consoleLogger.setLevel(logging.INFO)
+consoleLogger.setFormatter(formatter)
+logging.getLogger('').addHandler(consoleLogger)
+
+fileLogger = logging.handlers.RotatingFileHandler(
+    filename=pocp_path + 'pocp.log', maxBytes=1024 * 1024, backupCount=9)
+fileLogger.setLevel(logging.ERROR)
+fileLogger.setFormatter(formatter)
+logging.getLogger('').addHandler(fileLogger)
+
+logger = logging.getLogger('POCP')
+logger.setLevel(logging.INFO)
 
 ########################################################################
 # Download the the last year of POCP database, append to historical
@@ -63,6 +85,7 @@ class POCP(object):
             self.island_map = dict(json.load(infile))
 
     def mappings(self, df):
+        logger('Applying generation type and island mappings')
         self.island_map()
         self.generation_type_map()
         df['Generation type'] = df.GIP.map(lambda x: self.GT_map[x])
@@ -86,50 +109,44 @@ class POCP(object):
         if self.end_time is None:
             self.endt = (self.update_time + timedelta(0.5 * 365))  # ~6 mon->
             self.end_time = self.endt.strftime('%d/%m/%Y')
+    def pocp_login(self):
 
-    def download_pocp(self):  # Note: redspider limit<10000 rows
-        def POCP_date_parser(datestr):
-            d = datestr.replace('/', ' ').replace(':', ' ').split(' ')
-            return datetime(int('20' + d[2]), int(d[1]), int(d[0]),
-                            int(d[3]), int(d[4]))
+        info_test = "Login to POCP site"
+        logger.info(info_text)
+        self.br = mechanize.Browser(factory=mechanize.RobustFactory())
+        logger("Attempting to open " + self.cmd_line.pocp_host)
+        self.br.open(self.cmd_line.pocp_host)
+        self.br.select_form(nr=0)
+        self.br['email'] = self.cmd_line.pocp_user
+        self.br['password'] = self.cmd_line.pocp_pass
+        self.br.submit()  # submit user name and password.
+        logger("Logged in!")
 
-        print ('Getting POCP between ' + self.start_time + ' and ' +
-               self.end_time)
 
+    def download_pocp(self, legacy=True):  # Note: redspider limit<10000 rows
+
+        logger('Getting POCP between ' + self.start_time + ' and ' + self.end_time)
+        self.br.select_form(nr=0)  # select form
+        self.br['start'] = self.start_time  # set start and end times from above
+        self.br['end'] = self.end_time
+        self.br.submit()  # submit the search/download for all POCP data
+        if legacy:
+            csv = self.br.click_link(text_regex=re.compile("Legacy"))
+        else:
+            csv = self.br.click_link(text_regex=re.compile("Download"))
+        self.br.open(csv)
         bufferIO = StringIO()
-
-        br = mechanize.Browser(factory=mechanize.RobustFactory())
-        br.set_proxies({"http": "172.29.52.38: 8081"})
-        # Follows refresh 0 but not hangs on refresh > 0
-        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),
-                              max_time=1)
-        br.addheaders = [(
-            'User-agent',
-            'Mozilla/5.0 (X11; U; Linux i686; en-US; rv: 1.9.0.1) ' +
-            'Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1'
-        )]
-        br.open(self.cmd_line.pocp_host)
-        br.select_form(nr=0)
-        br.submit()  # click I agree
-        br.select_form(nr=0)  # login
-        br['email'] = self.cmd_line.pocp_user
-        br['password'] = self.cmd_line.pocp_pass
-        br.submit()  # submit user name and password.
-        br.select_form(nr=0)  # select form
-        # select "excel" although this is in fact a tab delimited table
-        br['sview'] = ['excel']
-        br['start'] = self.start_time  # set start and end times from above
-        br['end'] = self.end_time
-        br['planning_status_id[]'] = ['1', '2', '3']
-        response = br.submit()  # submit the search/download for all POCP data
-        bufferIO = StringIO()
-        bufferIO.write(unicode(response.read()))
+        bufferIO.write(unicode(self.br.response().read()))
         bufferIO.seek(0)
-        self.currDL = pd.read_csv(
-            bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
-            date_parser=POCP_date_parser, sep='\t', index_col=0)
+        if legacy:
+            self.currDL = pd.read_csv(bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
+                          sep='\t', index_col=0)
+        else:
+            self.currDL = pd.read_csv(bufferIO, index_col=0, parse_dates=['Start', 'End', 'Last Modified'])
+
 
     def append_pocp(self, pocp):
+        logger('Reading latest POCP data, and appending to pocp_all.csv')
         P_all = pd.read_csv(self.cmd_line.pocp_path + 'pocp_all.csv',
                             index_col=0)
         self.P = pd.concat([P_all, self.currDL])  # add latest download
@@ -141,11 +158,13 @@ class POCP(object):
         self.P.to_csv(self.cmd_line.pocp_path + 'pocp_all.csv')  # save updated
         return self.P
 
+
     def POCP_logic(self, outage_history=False):
         '''Main POCP grabber, with addition complex logic to try and get what
            we want, with a few assumptions thrown in for good measure...'''
         def POCP_get():
             def get(tdc):
+                logger('Applying logic and returning all %s outages' % tdc)
                 X = self.P[self.P.Category == tdc]
                 # all outages between start and end including those that
                 # have been cancelled
@@ -263,32 +282,41 @@ class POCP(object):
         return df
 
     def save_metadata(self):
+        logger('Dumping pocp meta data to metadata.json')
         with open(self.cmd_line.pocp_path + 'metadata.json', 'w') as outfile:
             json.dump({'updateTime': str(p.update_time.replace(microsecond=0)),
                        'startTime': p.start_time, 'endTime': p.end_time},
                       outfile)
 
     def save_generation_data(self):
+        logger('Dumping pocp generation data to pocp_data_year.json')
         p.G.to_csv(self.cmd_line.pocp_path + 'pocp_data_year.json')
 
     def save_transmission_data(self):
+        logger('Dumping pocp transmission data to pocp_transmission_data_year.json')
         p.T.to_csv(self.cmd_line.pocp_path + 'pocp_transmission_data_year.json')
 
     def main(self):
         outage_history = False
         self.set_date_range()  # set the start and end times
+        self.pocp_login()
         self.download_pocp()  # download POCP over the data range
         # Append current download to the historic POCP data and save.
         self.append_pocp(self.currDL)
         self.POCP_logic(outage_history=outage_history)
         self.G = self.mappings(self.G)
+        logger('Filtering current transmission outages')
         self.Tn = self.now(self.T)
+        logger('Filtering current generation  outages')
         self.Gn = self.now(self.G)
+        logger('Filtering todays transmission outages')
         self.Tt = self.today(self.T)
+        logger('Filtering todays generation outages')
         self.Gt = self.today(self.G)
         self.save_metadata()
         self.save_generation_data()
         self.save_transmission_data()
+        logger("pocp.py done!")
 
 p = POCP(cmd_line)  # the POCP instance
 p.main()
