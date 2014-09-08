@@ -111,8 +111,7 @@ class POCP(object):
             self.end_time = self.endt.strftime('%d/%m/%Y')
     def pocp_login(self):
 
-        info_test = "Login to POCP site"
-        logger.info(info_text)
+        logger.info("Login to POCP site")
         self.br = mechanize.Browser(factory=mechanize.RobustFactory())
         logger("Attempting to open " + self.cmd_line.pocp_host)
         self.br.open(self.cmd_line.pocp_host)
