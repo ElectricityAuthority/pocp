@@ -113,7 +113,8 @@ class POCP(object):
 
         logger.info("Login to POCP site")
         self.br = mechanize.Browser(factory=mechanize.RobustFactory())
-        logger("Attempting to open " + self.cmd_line.pocp_host)
+        info_text = "Attempting to open " + self.cmd_line.pocp_host
+        logger(info_text)
         self.br.open(self.cmd_line.pocp_host)
         self.br.select_form(nr=0)
         self.br['email'] = self.cmd_line.pocp_user
