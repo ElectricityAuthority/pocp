@@ -95,7 +95,6 @@ class POCP(object):
                 return row
             else:
                 return row
-
         df = df.apply(lambda x: GIPer(x), axis=1)
         df['Generation type'] = df.GIP.map(lambda x: self.GT_map[x])
         df['Island'] = df.GIP.map(lambda x: self.island_map[x])
@@ -118,6 +117,7 @@ class POCP(object):
         if self.end_time is None:
             self.endt = (self.update_time + timedelta(0.5 * 365))  # ~6 mon->
             self.end_time = self.endt.strftime('%d/%m/%Y')
+
     def pocp_login(self):
 
         logger.info("Login to POCP site")
@@ -166,7 +166,6 @@ class POCP(object):
         self.P = self.P.drop_duplicates()  # drop duplicates
         self.P.to_csv(self.cmd_line.pocp_path + 'pocp_all.csv')  # save updated
         return self.P
-
 
     def POCP_logic(self, outage_history=False):
         '''Main POCP grabber, with addition complex logic to try and get what
