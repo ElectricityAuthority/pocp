@@ -88,7 +88,15 @@ class POCP(object):
         logger.info('Applying generation type and island mappings')
         self.island_map()
         self.generation_type_map()
-        print df.ix[df.GIP=='nan']
+        def GIPer(row):
+            """Get GIP from outage block when not in GIP/GXP column"""
+            if row['GIP']== 'nan':
+                row['GIP'] = row['Outage Block'][:3]
+                return row
+            else:
+                return row
+
+        df = df.apply(lambda x: GIPer(x), axis=1)
         df['Generation type'] = df.GIP.map(lambda x: self.GT_map[x])
         df['Island'] = df.GIP.map(lambda x: self.island_map[x])
         return df
@@ -179,15 +187,7 @@ class POCP(object):
                     del X['MV remaining']
                 if tdc == 'Generation':
                     del X['Nature']
-                    def GIPer(row):
-                        """Get GIP from outage block when not in GIP/GXP column"""
-                        if row['GIP/GXPs']== 'nan':
-                            row['GIP/GXPs'] = row['Outage Block'][:3]
-                            return row
-                        else:
-                            return row
 
-                    X = X.apply(lambda x: GIPer(x), axis=1)
                 del X['Category']
                 return X
             T = get('Transmission')
