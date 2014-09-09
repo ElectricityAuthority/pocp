@@ -178,6 +178,15 @@ class POCP(object):
                     del X['MV remaining']
                 if tdc == 'Generation':
                     del X['Nature']
+                    def GIPer(row):
+                        """Get GIP from outage block when not in GIP/GXP column"""
+                        if row['GIP']== 'nan':
+                            row['GIP'] = row['Outage Block'][:3]
+                            return row
+                        else:
+                            return row
+
+                    X = X.apply(lambda x: GIPer(x), axis=1)
                 #    X['NP_MWh'] = (
                 #        X['Duration']
                 #        .map(lambda x: x / np.timedelta64(1, 's') / 3600) *
