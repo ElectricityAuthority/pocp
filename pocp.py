@@ -180,8 +180,8 @@ class POCP(object):
                     del X['Nature']
                     def GIPer(row):
                         """Get GIP from outage block when not in GIP/GXP column"""
-                        if row['GIP']== 'nan':
-                            row['GIP'] = row['Outage Block'][:3]
+                        if row['GIP/GXPs']== 'nan':
+                            row['GIP/GXPs'] = row['Outage Block'][:3]
                             return row
                         else:
                             return row
