@@ -88,6 +88,7 @@ class POCP(object):
         logger.info('Applying generation type and island mappings')
         self.island_map()
         self.generation_type_map()
+        print df.ix[df.GIP=='nan']
         df['Generation type'] = df.GIP.map(lambda x: self.GT_map[x])
         df['Island'] = df.GIP.map(lambda x: self.island_map[x])
         return df
@@ -187,12 +188,6 @@ class POCP(object):
                             return row
 
                     X = X.apply(lambda x: GIPer(x), axis=1)
-                #    X['NP_MWh'] = (
-                #        X['Duration']
-                #        .map(lambda x: x / np.timedelta64(1, 's') / 3600) *
-                #        X['MW Loss']
-                #   )
-                #    X = X.sort(columns=['NP_MWh'], ascending=False)
                 del X['Category']
                 return X
             T = get('Transmission')
@@ -216,29 +211,12 @@ class POCP(object):
                 # This is what you should see in the current pocp
                 # database that is now version controlled.
                 if not T.empty:
-                    # Group by id, return most recent time for that id
-                    # group.
-                    #IXT = T.reset_index().groupby('id')['Last Modified'].max()
-                    #T = (T.reset_index()
-                    #     .set_index(['id', 'Last Modified'], drop=False)
-                    #     .ix[zip(IXT.to_dict().keys(), IXT.to_dict().values()),
-                    #         :])
                     T = T.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
                          .groupby(level=0).last().set_index('Last Modified', append=True)
                 if not G.empty:
-                    #IXG = G.reset_index().groupby('id')['Last Modified'].max()
-                    #G = (G.reset_index()
-                    #    .set_index(['id', 'Last Modified'], drop=False)
-                    #     .ix[zip(IXG.to_dict().keys(), IXG.to_dict().values()),
-                    #         :])  # select rows
-                    #G = G.sort(columns='MW Loss', ascending=False)
                     G = G.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
                          .groupby(level=0).last().set_index('Last Modified', append=True)
                 if not D.empty:
-                    #IXD = D.reset_index().groupby('id')['Last Modified'].max()
-                    #D = (D.reset_index().set_index(['id', 'Last Modified'])
-                    #     .ix[zip(IXD.to_dict().keys(), IXD.to_dict().values()),
-                    #         :])
                     D = D.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
                          .groupby(level=0).last().set_index('Last Modified', append=True)
             return T, G, D
