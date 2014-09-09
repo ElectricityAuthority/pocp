@@ -85,7 +85,7 @@ class POCP(object):
             self.island_map = dict(json.load(infile))
 
     def mappings(self, df):
-        logger('Applying generation type and island mappings')
+        logger.info('Applying generation type and island mappings')
         self.island_map()
         self.generation_type_map()
         df['Generation type'] = df.GIP.map(lambda x: self.GT_map[x])
@@ -114,18 +114,18 @@ class POCP(object):
         logger.info("Login to POCP site")
         self.br = mechanize.Browser(factory=mechanize.RobustFactory())
         info_text = "Attempting to open " + self.cmd_line.pocp_host
-        logger(info_text)
+        logger.info(info_text)
         self.br.open(self.cmd_line.pocp_host)
         self.br.select_form(nr=0)
         self.br['email'] = self.cmd_line.pocp_user
         self.br['password'] = self.cmd_line.pocp_pass
         self.br.submit()  # submit user name and password.
-        logger("Logged in!")
+        logger.info("Logged in!")
 
 
     def download_pocp(self, legacy=True):  # Note: redspider limit<10000 rows
 
-        logger('Getting POCP between ' + self.start_time + ' and ' + self.end_time)
+        logger.info('Getting POCP between ' + self.start_time + ' and ' + self.end_time)
         self.br.select_form(nr=0)  # select form
         self.br['start'] = self.start_time  # set start and end times from above
         self.br['end'] = self.end_time
@@ -146,7 +146,7 @@ class POCP(object):
 
 
     def append_pocp(self, pocp):
-        logger('Reading latest POCP data, and appending to pocp_all.csv')
+        logger.info('Reading latest POCP data, and appending to pocp_all.csv')
         P_all = pd.read_csv(self.cmd_line.pocp_path + 'pocp_all.csv',
                             index_col=0)
         self.P = pd.concat([P_all, self.currDL])  # add latest download
@@ -164,28 +164,26 @@ class POCP(object):
            we want, with a few assumptions thrown in for good measure...'''
         def POCP_get():
             def get(tdc):
-                logger('Applying logic and returning all %s outages' % tdc)
+                logger.info('Applying logic and returning all %s outages' % tdc)
                 X = self.P[self.P.Category == tdc]
                 # all outages between start and end including those that
                 # have been cancelled
-                Xbool = (
-                    (X['Start'] <= datetime.strptime(p.end_time, '%d/%m/%Y')) &
-                    (X['End'] >= datetime.strptime(p.start_time, '%d/%m/%Y'))
-                )
+                Xbool = ((X['Start'] <= datetime.strptime(p.end_time, '%d/%m/%Y')) &
+                         (X['End'] >= datetime.strptime(p.start_time, '%d/%m/%Y')))
                 X = X[Xbool]
-                X['Duration'] = X.End - X.Start
+                #X['Duration'] = X.End - X.Start
                 if tdc == 'Transmission':
                     del X['MW remaining']
                     del X['MW Loss']
                     del X['MV remaining']
                 if tdc == 'Generation':
                     del X['Nature']
-                    X['NP_MWh'] = (
-                        X['Duration']
-                        .map(lambda x: x / np.timedelta64(1, 's') / 3600) *
-                        X['MW Loss']
-                    )
-                    X = X.sort(columns=['NP_MWh'], ascending=False)
+                #    X['NP_MWh'] = (
+                #        X['Duration']
+                #        .map(lambda x: x / np.timedelta64(1, 's') / 3600) *
+                #        X['MW Loss']
+                #   )
+                #    X = X.sort(columns=['NP_MWh'], ascending=False)
                 del X['Category']
                 return X
             T = get('Transmission')
@@ -211,23 +209,29 @@ class POCP(object):
                 if not T.empty:
                     # Group by id, return most recent time for that id
                     # group.
-                    IXT = T.reset_index().groupby('id')['Last Modified'].max()
-                    T = (T.reset_index()
-                         .set_index(['id', 'Last Modified'], drop=False)
-                         .ix[zip(IXT.to_dict().keys(), IXT.to_dict().values()),
-                             :])
+                    #IXT = T.reset_index().groupby('id')['Last Modified'].max()
+                    #T = (T.reset_index()
+                    #     .set_index(['id', 'Last Modified'], drop=False)
+                    #     .ix[zip(IXT.to_dict().keys(), IXT.to_dict().values()),
+                    #         :])
+                    T = T.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
+                         .groupby(level=0).last().set_index('Last Modified', append=True)
                 if not G.empty:
-                    IXG = G.reset_index().groupby('id')['Last Modified'].max()
-                    G = (G.reset_index()
-                         .set_index(['id', 'Last Modified'], drop=False)
-                         .ix[zip(IXG.to_dict().keys(), IXG.to_dict().values()),
-                             :])  # select rows
-                    G = G.sort(columns='MW Loss', ascending=False)
+                    #IXG = G.reset_index().groupby('id')['Last Modified'].max()
+                    #G = (G.reset_index()
+                    #    .set_index(['id', 'Last Modified'], drop=False)
+                    #     .ix[zip(IXG.to_dict().keys(), IXG.to_dict().values()),
+                    #         :])  # select rows
+                    #G = G.sort(columns='MW Loss', ascending=False)
+                    G = G.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
+                         .groupby(level=0).last().set_index('Last Modified', append=True)
                 if not D.empty:
-                    IXD = D.reset_index().groupby('id')['Last Modified'].max()
-                    D = (D.reset_index().set_index(['id', 'Last Modified'])
-                         .ix[zip(IXD.to_dict().keys(), IXD.to_dict().values()),
-                             :])
+                    #IXD = D.reset_index().groupby('id')['Last Modified'].max()
+                    #D = (D.reset_index().set_index(['id', 'Last Modified'])
+                    #     .ix[zip(IXD.to_dict().keys(), IXD.to_dict().values()),
+                    #         :])
+                    D = D.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
+                         .groupby(level=0).last().set_index('Last Modified', append=True)
             return T, G, D
 
         def add_caned_after_start(df):
@@ -242,8 +246,9 @@ class POCP(object):
             df = confirmed.append(caned)
             # Also append all tentative outages, then sort.
             df = df.append(tentative).sort()
-            df['GIP/GXPs'] = df['GIP/GXPs'].map(lambda x: x[0: 3])
-            df['GIP/GXPs'][df['GIP/GXPs'] == '#N/'] = 'NAP'
+            df['GIP/GXPs'] = df['GIP/GXPs'].map(lambda x: str(x)[0: 3])
+            #df['GIP/GXPs'][df['GIP/GXPs'] == '#N/'] = 'NAP'
+            df.replace(to_replace='#N/', value='NAP', inplace=True)
             df = df.rename(columns={'GIP/GXPs': 'GIP'})
 
             if 'MW Loss' in df.columns:
@@ -282,18 +287,18 @@ class POCP(object):
         return df
 
     def save_metadata(self):
-        logger('Dumping pocp meta data to metadata.json')
+        logger.info('Dumping pocp meta data to metadata.json')
         with open(self.cmd_line.pocp_path + 'metadata.json', 'w') as outfile:
             json.dump({'updateTime': str(p.update_time.replace(microsecond=0)),
                        'startTime': p.start_time, 'endTime': p.end_time},
                       outfile)
 
     def save_generation_data(self):
-        logger('Dumping pocp generation data to pocp_data_year.json')
+        logger.info('Dumping pocp generation data to pocp_data_year.json')
         p.G.to_csv(self.cmd_line.pocp_path + 'pocp_data_year.json')
 
     def save_transmission_data(self):
-        logger('Dumping pocp transmission data to pocp_transmission_data_year.json')
+        logger.info('Dumping pocp transmission data to pocp_transmission_data_year.json')
         p.T.to_csv(self.cmd_line.pocp_path + 'pocp_transmission_data_year.json')
 
     def main(self):
@@ -305,18 +310,18 @@ class POCP(object):
         self.append_pocp(self.currDL)
         self.POCP_logic(outage_history=outage_history)
         self.G = self.mappings(self.G)
-        logger('Filtering current transmission outages')
+        logger.info('Filtering current transmission outages')
         self.Tn = self.now(self.T)
-        logger('Filtering current generation  outages')
+        logger.info('Filtering current generation  outages')
         self.Gn = self.now(self.G)
-        logger('Filtering todays transmission outages')
+        logger.info('Filtering todays transmission outages')
         self.Tt = self.today(self.T)
-        logger('Filtering todays generation outages')
+        logger.info('Filtering todays generation outages')
         self.Gt = self.today(self.G)
         self.save_metadata()
         self.save_generation_data()
         self.save_transmission_data()
-        logger("pocp.py done!")
+        logger.info("pocp.py done!")
 
 p = POCP(cmd_line)  # the POCP instance
 p.main()
