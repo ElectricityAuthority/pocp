@@ -325,7 +325,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 52063,2014-05-06 23:37:00,2013-11-28 13:00:00,2014-05-05 14:00:00,35.0,SWN_3,SWN,Mighty River,0.0,continuous,0.0,Cancelled,Thermal,NI
 52078,2013-07-18 15:10:00,2013-05-30 10:00:00,2014-04-30 23:59:00,48.0,HLY6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 52150,2014-05-01 23:36:00,2014-04-07 08:00:00,2014-04-30 13:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Cancelled,Hydro,NI
-52228,2014-04-03 23:36:00,2014-04-07 07:00:00,2014-04-24 19:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52229,2014-08-26 12:19:00,2014-05-13 07:30:00,2015-06-30 17:00:00,35.2,MTI_7,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52264,2014-05-02 11:36:00,2014-04-01 00:00:00,2014-05-01 00:00:00,9.4,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Cancelled,Geothermal,NI
 52265,2014-06-02 11:35:00,2014-05-01 00:00:00,2014-06-01 00:00:00,9.4,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Cancelled,Geothermal,NI
@@ -706,6 +705,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 53451,2014-10-23 07:40:00,2014-11-07 09:00:00,2014-11-07 11:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 53452,2014-10-23 07:40:00,2014-11-07 11:00:00,2014-11-07 13:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 53453,2014-10-23 07:40:00,2014-11-07 13:00:00,2014-11-07 14:30:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53454,2014-10-24 07:40:00,2014-10-28 10:00:00,2014-11-03 18:00:00,20.5,NTM_2,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53764,2014-08-22 01:56:00,2014-05-12 07:00:00,2014-09-05 18:00:00,55.0,AVI3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 53812,2013-12-17 15:51:00,2014-09-06 09:00:00,2014-09-06 15:00:00,44.0,PRI_STN,PRI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 53813,2013-12-17 15:51:00,2014-11-08 09:00:00,2014-11-08 15:00:00,44.0,PRI_STN,PRI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -715,7 +715,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 53824,2013-12-17 15:51:00,2014-11-30 09:00:00,2014-11-30 15:00:00,10.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54098,2014-10-23 13:58:00,2014-11-01 06:00:00,2015-02-10 23:59:00,18.0,KTW_6,KTW,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54099,2014-10-23 13:58:00,2014-11-01 06:00:00,2015-02-01 23:59:00,18.0,KTW_7,KTW,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-54127,2014-05-01 14:00:00,2014-04-24 11:00:00,2014-04-24 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Cancelled,Hydro,SI
+54127,2014-02-28 13:44:00,2014-04-26 11:00:00,2014-04-26 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 54129,2014-05-17 13:47:00,2014-05-10 11:00:00,2014-05-10 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Cancelled,Hydro,SI
 54130,2014-05-26 13:10:00,2014-05-19 11:00:00,2014-05-19 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Cancelled,Hydro,SI
 54131,2014-02-28 13:44:00,2014-05-24 11:00:00,2014-05-24 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1342,7 +1342,6 @@ TRUS9807BWK,2014-05-09 00:05:00,2014-05-08 12:30:00,2014-05-08 16:00:00,7.0,BWK_
 TRUS9808HWB,2014-05-22 00:04:00,2014-05-21 12:30:00,2014-05-21 16:00:00,10.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Cancelled,Wind,SI
 TRUS9815BPE,2014-05-14 00:05:00,2014-05-13 09:30:00,2014-05-13 15:00:00,68.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Cancelled,Wind,NI
 TRUS9836TWC,2014-07-08 00:02:00,2014-04-16 12:00:00,2014-07-14 12:00:00,3.0,TWC_STN,TWC,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
-TRUS9838COB,2014-04-25 00:05:00,2014-04-24 08:00:00,2014-04-24 15:00:00,10.0,COB_STN,COB,Trustpower,0.0,continuous,0.0,Cancelled,Hydro,SI
 TRUS9840BPE,2014-05-04 00:05:00,2014-05-03 09:30:00,2014-05-03 15:00:00,7.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Cancelled,Wind,NI
 TRUS9842HWA,2014-04-28 00:05:00,2014-04-26 10:00:00,2014-04-26 15:00:00,28.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Cancelled,Hydro,NI
 TRUS9844TWC,2014-05-13 00:05:00,2014-04-24 12:00:00,2014-05-12 12:00:00,3.0,TWC_STN,TWC,Trustpower,0.0,continuous,0.0,Cancelled,Wind,NI
