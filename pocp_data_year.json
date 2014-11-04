@@ -24,13 +24,13 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 11504,2014-09-29 14:02:00,2014-09-30 02:30:00,2014-09-30 15:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 11505,2014-09-29 14:02:00,2014-09-29 02:30:00,2014-09-29 14:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 11506,2014-10-30 16:05:00,2014-11-03 09:00:00,2014-11-04 12:30:00,120.0,CYD_Stn,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
-11507,2014-10-30 16:05:00,2014-11-05 07:00:00,2014-11-07 17:30:00,0.0,ROX_Stn,ROX,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
+11507,2014-11-04 17:32:00,2014-11-04 09:00:00,2014-11-07 17:30:00,0.0,ROX_Stn,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 13524,2014-10-22 11:13:00,2014-10-29 07:30:00,2014-10-29 18:00:00,40.0,ROX_4,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 13533,2014-10-10 14:11:00,2014-11-03 08:00:00,2014-11-11 10:00:00,6.0,WRK_16,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 13534,2014-10-10 14:11:00,2014-11-14 10:00:00,2014-11-15 08:00:00,60.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 13542,2014-10-14 17:02:00,2014-10-24 07:30:00,2014-10-24 17:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 13544,2014-10-15 15:40:00,2014-10-22 10:30:00,2014-10-22 16:00:00,40.0,ROX_7,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-14545,2014-10-28 17:19:00,2014-11-04 13:00:00,2014-11-07 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+14545,2014-11-04 17:32:00,2014-11-04 10:00:00,2014-11-07 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 14546,2014-10-29 18:31:00,2014-11-10 07:00:00,2014-11-13 17:30:00,108.0,CYD_4,CYD,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
 1988,2014-06-30 15:09:00,2014-04-30 07:00:00,2014-06-28 17:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,0.0,Cancelled,Hydro,SI
 1990,2014-08-18 10:43:00,2014-07-14 07:00:00,2014-08-11 17:00:00,40.0,ROX_7,ROX,Contact Energy,0.0,continuous,0.0,Cancelled,Hydro,SI
@@ -62,8 +62,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 3012,2014-05-21 14:55:00,2014-10-09 07:00:00,2014-10-09 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 3013,2014-05-21 14:55:00,2014-11-03 07:00:00,2014-11-03 17:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 3014,2014-05-21 14:55:00,2014-11-04 07:00:00,2014-11-04 17:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
-3015,2014-10-30 16:05:00,2014-11-05 07:00:00,2014-11-05 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
-3016,2014-10-10 14:11:00,2014-11-13 07:00:00,2014-11-13 17:30:00,108.0,CYD_4,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3015,2014-11-04 17:32:00,2014-11-05 07:00:00,2014-11-05 17:30:00,0.0,CYD_3,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3016,2014-11-04 17:32:00,2014-11-13 07:00:00,2014-11-13 17:30:00,0.0,CYD_4,CYD,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
 3017,2014-05-21 14:55:00,2014-11-10 07:00:00,2014-11-10 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 3018,2014-05-21 14:55:00,2014-11-12 07:00:00,2014-11-12 17:30:00,40.0,ROX_3,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 3019,2014-10-28 17:19:00,2014-10-29 07:00:00,2014-10-29 18:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
