@@ -122,6 +122,7 @@ class POCP(object):
 
         logger.info("Login to POCP site")
         self.br = mechanize.Browser(factory=mechanize.RobustFactory())
+        self.br.set_handle_robots(False)
         info_text = "Attempting to open " + self.cmd_line.pocp_host
         logger.info(info_text)
         self.br.open(self.cmd_line.pocp_host)
