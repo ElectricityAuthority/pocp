@@ -113,7 +113,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 3123,2014-05-22 08:56:00,2015-02-10 08:00:00,2015-02-12 16:00:00,2.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 3124,2014-05-21 08:06:00,2015-02-03 07:00:00,2015-02-05 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 3125,2014-05-21 08:06:00,2015-02-10 07:00:00,2015-02-12 18:00:00,5.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-39560,2014-08-26 12:19:00,2015-02-09 07:00:00,2015-02-24 19:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+39560,2015-01-21 21:41:00,2015-02-09 07:00:00,2015-02-27 17:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 39568,2014-12-02 11:40:00,2014-10-13 07:00:00,2014-12-09 07:00:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39571,2014-12-05 15:18:00,2015-01-15 08:00:00,2015-01-15 16:00:00,35.2,MTI_2,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39619,2015-01-19 11:41:00,2015-01-19 07:00:00,2015-02-23 19:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -249,6 +249,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 48140,2014-08-19 11:33:00,2014-08-18 08:00:00,2014-08-18 10:30:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Cancelled,Hydro,NI
 48144,2014-08-19 23:33:00,2014-08-18 13:00:00,2014-08-18 15:30:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Cancelled,Hydro,NI
 48423,2014-06-17 11:35:00,2014-12-22 14:00:00,2014-12-22 16:30:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+48608,2014-11-27 09:45:00,2015-02-18 10:00:00,2015-02-18 16:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 48842,2014-01-17 11:37:00,2014-11-17 00:00:00,2014-11-23 16:00:00,50.0,SWN_5,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 48843,2014-08-26 12:19:00,2015-02-16 00:00:00,2015-02-21 18:00:00,45.0,SWN_2,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 48844,2014-05-22 11:36:00,2015-02-16 00:00:00,2015-02-21 18:00:00,20.0,SWN_3,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -290,7 +291,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 51930,2014-07-23 23:34:00,2014-07-23 10:00:00,2014-07-23 16:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Cancelled,Hydro,NI
 51931,2014-12-16 11:41:00,2014-11-28 13:00:00,2014-12-16 19:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52030,2013-11-26 11:36:00,2014-08-04 07:00:00,2014-08-07 19:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-52031,2014-10-21 13:44:00,2015-02-16 07:00:00,2015-02-23 19:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52031,2015-01-21 21:41:00,2015-02-09 07:00:00,2015-02-16 19:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52043,2014-08-26 12:19:00,2014-09-10 08:00:00,2014-09-11 17:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52046,2014-08-08 09:03:00,2014-08-18 07:00:00,2014-08-21 19:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52229,2014-12-02 11:40:00,2014-05-13 07:30:00,2015-09-30 17:00:00,35.2,MTI_7,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -639,6 +640,9 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 53770,2015-01-19 11:41:00,2015-01-23 13:00:00,2015-01-28 12:00:00,20.5,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53771,2015-01-20 07:40:00,2015-01-21 13:00:00,2015-01-21 14:00:00,27.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53772,2015-01-21 11:41:00,2015-01-22 09:00:00,2015-01-22 12:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53774,2015-01-21 21:41:00,2015-01-28 06:00:00,2015-01-28 18:00:00,20.5,NTM_1,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53775,2015-01-21 21:41:00,2015-01-29 06:00:00,2015-01-29 18:00:00,20.5,NTM_2,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53776,2015-01-21 21:41:00,2015-01-30 06:00:00,2015-01-30 18:00:00,20.5,NTM_4,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53812,2013-12-17 15:51:00,2014-09-06 09:00:00,2014-09-06 15:00:00,44.0,PRI_STN,PRI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 53813,2013-12-17 15:51:00,2014-11-08 09:00:00,2014-11-08 15:00:00,44.0,PRI_STN,PRI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 53814,2013-12-17 15:51:00,2014-09-07 09:00:00,2014-09-07 15:00:00,10.0,PRI_STN,PRI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -669,7 +673,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 54960,2014-11-12 10:42:00,2014-11-12 07:00:00,2014-11-12 16:00:00,21.0,PRI_4,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54961,2014-11-26 14:59:00,2014-11-26 07:00:00,2014-11-26 16:00:00,21.0,PRI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54962,2015-01-21 14:36:00,2015-02-11 07:00:00,2015-02-11 16:00:00,21.0,PRI_4,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-54963,2014-07-11 14:36:00,2015-02-18 07:00:00,2015-02-18 16:00:00,21.0,PRI5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54963,2015-01-21 14:36:00,2015-02-18 07:00:00,2015-02-18 16:00:00,21.0,PRI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54964,2014-12-20 10:19:00,2015-01-14 06:30:00,2015-01-15 17:30:00,18.0,PRI_5,PRI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54972,2014-08-05 14:26:00,2014-07-29 09:00:00,2014-07-29 16:00:00,60.0,TKU3,TKU,Genesis,0.0,continuous,0.0,Cancelled,Hydro,NI
 54973,2014-08-19 14:04:00,2014-08-12 09:00:00,2014-08-12 16:00:00,60.0,TKU1,TKU,Genesis,0.0,continuous,0.0,Cancelled,Hydro,NI
@@ -1196,7 +1200,7 @@ TRUS10559HWA,2015-01-15 00:05:00,2015-01-21 07:00:00,2015-01-21 15:00:00,30.0,HW
 TRUS10560COL,2015-01-15 00:05:00,2015-01-22 09:00:00,2015-01-22 14:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS10561COL,2015-01-15 00:05:00,2015-01-27 08:00:00,2015-01-27 12:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS10562COL,2015-01-15 00:05:00,2015-01-27 12:30:00,2015-01-27 16:30:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
-TRUS10563BWK,2015-01-15 00:05:00,2015-01-21 08:30:00,2015-01-21 16:00:00,24.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10563BWK,2015-01-22 00:05:00,2015-01-21 08:30:00,2015-01-22 16:00:00,24.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS10565BWK,2015-01-15 00:05:00,2015-01-19 07:00:00,2015-01-24 16:30:00,15.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS10566BWK,2015-01-15 00:05:00,2015-01-28 07:30:00,2015-01-28 16:30:00,65.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS10567ABY,2015-01-15 00:05:00,2015-01-19 07:00:00,2015-01-20 17:00:00,7.0,ABY_STN,ABY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
