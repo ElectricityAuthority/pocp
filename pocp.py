@@ -20,9 +20,6 @@ parser.add_argument('--pocp_host', action="store", dest='pocp_host',
 parser.add_argument('--pocp_user', action="store", dest='pocp_user',
                     default='david.hume@ea.govt.nz')
 parser.add_argument('--pocp_pass', action="store", dest='pocp_pass')
-parser.add_argument('--dw_user', action="store", dest='dw_user',
-                    default=r'ECOM\humed')
-parser.add_argument('--dw_pass', action="store", dest='dw_pass')
 parser.add_argument('--pocp_path', action="store", dest='pocp_path',
                     default='/home/dave/python/pocp/')
 
@@ -33,7 +30,7 @@ if IPy_notebook:
 
     class cmd_line():
         def __init__(self, pocp_host, pocp_user, pocp_pass,
-                     dw_user, dw_pass, pocp_path):
+                     pocp_path):
             self.pocp_host = pocp_host
             self.pocp_user = pocp_user
             self.pocp_pass = pocp_pass
