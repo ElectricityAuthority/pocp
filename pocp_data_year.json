@@ -97,12 +97,12 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 21967,2015-06-04 11:07:00,2015-06-04 12:30:00,2015-06-04 13:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 21968,2015-06-04 13:20:00,2015-06-05 05:00:00,2015-06-05 06:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 21969,2015-06-04 17:07:00,2015-06-08 12:00:00,2015-06-08 14:00:00,10.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+21970,2015-06-05 10:26:00,2015-06-04 10:00:00,2015-06-12 18:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 2488,2014-12-02 16:24:00,2014-12-11 07:00:00,2014-12-11 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 2964,2014-12-19 13:15:00,2014-10-17 20:00:00,2014-12-19 00:00:00,365.0,OTC_Stn,OTC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 2991,2015-05-19 07:55:00,2015-05-22 10:30:00,2015-06-26 18:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 2994,2015-01-05 15:58:00,2015-02-10 06:00:00,2015-02-14 17:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 3017,2015-02-23 17:35:00,2015-02-25 07:00:00,2015-02-25 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
-3021,2014-05-21 14:55:00,2014-12-04 07:00:00,2014-12-04 17:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 3023,2014-05-21 14:55:00,2015-02-02 07:00:00,2015-02-27 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 3024,2015-03-11 23:32:00,2015-03-11 15:00:00,2015-03-13 17:30:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 3025,2015-05-14 04:39:00,2015-03-18 07:00:00,2015-06-05 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -256,7 +256,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 50982,2015-04-11 16:35:00,2014-12-19 00:00:00,2015-04-20 22:00:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 51687,2014-07-03 01:58:00,2014-12-01 07:00:00,2015-02-23 21:00:00,55.0,AVI1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 51688,2015-04-25 02:00:00,2015-06-02 08:00:00,2015-08-10 06:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-51778,2014-08-26 12:19:00,2014-12-04 08:00:00,2014-12-04 16:00:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 51863,2015-03-17 21:41:00,2015-03-26 09:00:00,2015-03-26 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 51884,2014-08-26 12:19:00,2014-12-11 10:00:00,2014-12-11 16:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 51925,2015-02-26 21:42:00,2015-02-27 07:30:00,2015-02-27 17:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -281,7 +280,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 52410,2015-03-05 21:42:00,2015-02-26 07:30:00,2015-03-23 17:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52411,2014-08-26 12:19:00,2014-12-10 09:00:00,2014-12-10 15:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52423,2014-11-25 11:40:00,2014-12-17 08:00:00,2014-12-17 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-52424,2014-11-19 11:40:00,2014-11-19 11:00:00,2014-12-04 17:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52424,2014-03-05 23:36:00,2014-12-05 09:00:00,2014-12-05 15:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52513,2015-03-17 12:17:00,2015-03-20 08:00:00,2015-03-20 16:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52514,2014-09-19 08:11:00,2015-03-04 09:00:00,2015-03-04 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52538,2015-03-24 11:41:00,2015-03-09 08:30:00,2015-03-27 19:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -308,7 +307,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 53164,2014-09-22 22:37:00,2015-04-01 10:30:00,2015-04-01 11:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 53166,2014-09-22 22:37:00,2015-05-01 09:30:00,2015-05-01 10:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 53167,2015-04-20 12:20:00,2015-05-18 08:00:00,2015-05-22 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-53175,2014-09-25 11:42:00,2014-12-01 06:30:00,2014-12-04 14:00:00,4.5,RKA_12,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53176,2014-12-05 07:40:00,2014-12-08 05:30:00,2014-12-11 12:00:00,4.5,RKA_11,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53177,2014-12-17 12:55:00,2015-01-12 06:00:00,2015-01-16 18:00:00,4.5,RKA_1,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53178,2014-12-17 12:55:00,2015-01-12 06:00:00,2015-01-16 18:00:00,4.5,RKA_11,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -355,7 +353,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 53597,2014-12-02 11:40:00,2014-12-14 07:00:00,2014-12-14 19:00:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 53598,2014-12-10 11:41:00,2014-12-13 07:00:00,2014-12-13 19:00:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 53599,2014-12-02 11:40:00,2014-12-11 07:00:00,2014-12-11 19:00:00,35.2,MTI_2,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-53600,2014-12-04 07:40:00,2014-12-04 10:00:00,2014-12-04 13:00:00,7.5,MOK_32,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53602,2014-12-05 07:40:00,2014-12-08 05:30:00,2014-12-08 17:30:00,4.5,RKA_1,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53603,2014-12-05 07:40:00,2014-12-08 05:30:00,2014-12-08 17:30:00,6.0,RKA_21,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 53604,2014-12-05 07:40:00,2014-12-09 07:00:00,2014-12-09 18:00:00,8.0,NTM_STN,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -606,7 +603,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 54902,2015-01-22 13:12:00,2015-03-26 07:00:00,2015-03-26 16:30:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 54903,2015-01-22 13:12:00,2015-03-24 07:00:00,2015-03-24 16:30:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 54904,2014-10-23 13:58:00,2014-12-05 07:00:00,2014-12-05 16:00:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-54905,2014-12-02 14:24:00,2014-12-04 07:00:00,2014-12-04 16:00:00,72.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 54917,2014-12-19 13:15:00,2015-01-13 09:00:00,2015-01-13 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54918,2014-10-23 13:58:00,2015-01-13 09:00:00,2015-01-13 16:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54919,2014-08-25 19:17:00,2015-01-27 09:00:00,2015-01-27 16:00:00,2.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -636,7 +632,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 54990,2014-10-23 13:58:00,2015-05-05 09:00:00,2015-05-05 16:00:00,60.0,TKU_3,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54991,2015-06-04 14:03:00,2015-06-05 08:00:00,2015-06-05 17:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54992,2014-10-23 13:58:00,2015-06-23 09:00:00,2015-06-23 16:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-55008,2014-11-27 15:09:00,2014-12-03 07:00:00,2014-12-04 22:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 55009,2014-10-23 13:58:00,2014-12-10 07:00:00,2014-12-10 16:00:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 55010,2014-10-23 13:58:00,2014-12-17 07:00:00,2014-12-17 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 55011,2014-10-23 13:58:00,2015-03-01 07:30:00,2015-03-01 17:30:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -789,8 +784,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 59118,2014-11-28 12:10:00,2014-12-07 07:00:00,2014-12-07 17:00:00,55.0,AVI1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59119,2014-12-15 11:36:00,2014-11-28 11:50:00,2014-12-15 20:00:00,121.5,MAN7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59120,2015-05-15 02:00:00,2015-06-09 06:00:00,2015-07-13 20:00:00,121.5,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-59125,2014-12-03 02:00:00,2014-12-03 22:30:00,2014-12-04 01:30:00,121.5,MAN1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-59126,2014-12-03 02:00:00,2014-12-04 01:30:00,2014-12-04 04:30:00,121.5,MAN3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59148,2015-01-24 02:00:00,2015-01-27 06:00:00,2015-01-29 18:00:00,90.0,BEN3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59149,2015-01-24 02:00:00,2015-02-02 07:00:00,2015-02-02 18:00:00,90.0,BEN4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59174,2014-12-17 02:00:00,2014-12-15 08:00:00,2014-12-17 14:00:00,53.0,OHC12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
