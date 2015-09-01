@@ -80,6 +80,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 22069,2015-08-17 13:37:00,2015-08-20 02:00:00,2015-08-20 16:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 22071,2015-08-12 14:54:00,2015-08-14 09:00:00,2015-08-14 10:00:00,90.0,OTC_Stn,OTC,Contact Energy,0.0,daily,0.0,Confirmed,Thermal,NI
 22075,2015-08-25 16:00:00,2015-08-25 15:30:00,2015-08-25 17:30:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+23092,2015-09-01 15:25:00,2015-09-07 09:00:00,2015-09-11 16:00:00,5.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+23101,2015-09-01 15:25:00,2015-09-04 10:00:00,2015-09-04 12:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 2446,2015-06-29 11:23:00,2015-07-13 07:00:00,2015-08-28 17:30:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 2991,2015-05-19 07:55:00,2015-05-22 10:30:00,2015-06-26 18:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 3024,2015-03-11 23:32:00,2015-03-11 15:00:00,2015-03-13 17:30:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -110,7 +112,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 3147,2015-07-10 14:00:00,2015-08-20 08:00:00,2015-08-21 08:00:00,10.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 3148,2015-06-09 15:41:00,2015-07-27 04:00:00,2015-07-27 21:00:00,20.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 3152,2015-06-19 13:34:00,2015-06-19 08:00:00,2015-06-25 18:00:00,11.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-3153,2015-08-30 07:39:00,2015-09-08 08:00:00,2015-09-09 14:00:00,24.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
+3153,2015-09-01 15:25:00,2015-09-08 08:00:00,2015-09-09 16:00:00,24.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
 39560,2015-02-20 11:41:00,2015-02-09 07:00:00,2015-03-06 17:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 39627,2015-08-07 07:42:00,2015-05-11 07:00:00,2015-08-07 11:30:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39634,2015-08-26 18:46:00,2015-09-02 08:00:00,2015-09-28 19:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -573,9 +575,9 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 55128,2015-08-27 18:44:00,2015-08-28 11:30:00,2015-08-28 15:30:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 55129,2015-08-27 18:44:00,2015-09-18 08:00:00,2015-09-25 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55130,2015-08-28 18:46:00,2015-08-31 11:00:00,2015-08-31 15:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55131,2015-08-29 18:46:00,2015-08-29 12:19:00,2015-09-01 16:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55131,2015-09-01 18:41:00,2015-08-29 12:19:00,2015-09-02 17:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55132,2015-08-31 11:41:00,2015-09-02 13:00:00,2015-09-02 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-55133,2015-08-31 18:41:00,2015-09-01 11:00:00,2015-09-01 16:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55133,2015-09-01 18:41:00,2015-09-01 11:00:00,2015-09-01 14:30:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55134,2015-08-31 18:41:00,2015-09-17 13:00:00,2015-09-17 14:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 55258,2015-05-06 15:16:00,2015-05-02 23:59:00,2015-05-08 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 55435,2015-05-07 02:00:00,2015-06-29 06:00:00,2015-07-03 18:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -668,6 +670,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58400,2015-06-19 14:17:00,2015-07-21 09:00:00,2015-07-21 16:00:00,70.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 58478,2015-06-29 17:13:00,2015-07-01 00:00:00,2018-12-31 00:00:00,250.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 58559,2015-07-07 13:29:00,2015-07-07 07:30:00,2015-07-07 16:00:00,46.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58598,2015-09-01 14:06:00,2015-09-07 00:00:00,2015-10-31 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 58618,2015-07-10 12:08:00,2015-07-22 08:00:00,2015-07-22 18:00:00,50.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 58638,2015-07-14 12:04:00,2015-07-14 23:59:00,2015-07-24 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 58678,2015-07-17 14:38:00,2015-07-19 19:00:00,2015-07-31 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
