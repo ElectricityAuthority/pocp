@@ -218,7 +218,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 50625,2015-04-13 21:41:00,2015-04-07 08:00:00,2015-04-15 17:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 50898,2014-10-23 13:58:00,2015-06-01 00:00:00,2018-12-31 00:00:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 50982,2015-04-11 16:35:00,2014-12-19 00:00:00,2015-04-20 22:00:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
-51687,2015-05-16 02:00:00,2015-08-24 07:00:00,2015-10-26 21:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+51687,2015-09-15 02:00:00,2015-08-24 07:00:00,2015-11-02 06:30:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 51688,2015-04-25 02:00:00,2015-06-02 08:00:00,2015-08-10 06:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 51859,2015-06-11 21:44:00,2015-08-04 13:00:00,2015-08-04 16:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 51863,2015-03-17 21:41:00,2015-03-26 09:00:00,2015-03-26 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -811,11 +811,11 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 60035,2015-09-04 02:00:00,2015-09-06 08:00:00,2015-09-06 13:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60037,2015-09-10 02:00:00,2015-09-10 07:00:00,2015-09-10 17:00:00,11.6,TAP_5,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 60038,2015-09-14 02:00:00,2015-09-14 07:00:00,2015-09-14 17:00:00,14.9,TAP_2,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-60039,2015-09-14 02:00:00,2015-09-18 07:00:00,2015-09-18 17:00:00,6.6,TAP_6,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-60040,2015-09-14 02:00:00,2015-09-17 12:00:00,2015-09-17 17:00:00,8.3,TAP_8,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-60041,2015-09-14 02:00:00,2015-09-17 07:00:00,2015-09-17 12:00:00,8.3,TAP_4,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-60042,2015-09-14 02:00:00,2015-09-16 07:00:00,2015-09-16 17:00:00,18.2,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-60043,2015-09-14 02:00:00,2015-09-15 07:00:00,2015-09-15 17:00:00,11.6,TAP_3,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60039,2015-09-15 02:00:00,2015-09-18 07:00:00,2015-09-18 17:00:00,6.6,TAP_6,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60040,2015-09-15 02:00:00,2015-09-17 12:00:00,2015-09-17 17:00:00,8.3,TAP_8,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60041,2015-09-15 02:00:00,2015-09-17 07:00:00,2015-09-17 12:00:00,8.3,TAP_4,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60042,2015-09-15 02:00:00,2015-09-16 07:00:00,2015-09-16 17:00:00,18.2,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60043,2015-09-15 02:00:00,2015-09-15 07:00:00,2015-09-15 17:00:00,11.6,TAP_3,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 60044,2015-09-11 02:00:00,2015-09-11 07:00:00,2015-09-11 17:00:00,11.6,TAP_7,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 60046,2015-09-11 02:00:00,2015-09-16 08:00:00,2015-09-16 16:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60052,2015-09-08 02:00:00,2015-09-06 23:00:00,2015-09-08 23:59:00,142.6,WWD,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
@@ -823,6 +823,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 60060,2015-09-09 02:00:00,2015-09-08 11:00:00,2015-09-09 23:30:00,98.0,WWDB,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 60063,2015-09-10 02:00:00,2015-09-10 11:00:00,2015-09-10 13:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60064,2015-09-10 02:00:00,2015-09-10 11:00:00,2015-09-10 13:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60083,2015-09-15 02:00:00,2015-09-21 09:00:00,2015-09-21 15:30:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 ANIG220150309,2014-11-24 14:15:00,2015-03-09 08:00:00,2015-03-27 16:00:00,12.5,ANI_2,ANI,Nova Energy,0.0,continuous,0.0,Tentative,Hydro,NI
 NOVA_HWA_150817,2015-08-12 15:02:00,2015-08-17 00:00:00,2015-08-21 23:30:00,10.0,HWA_2,HWA,Nova Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 NOVA_HWA_150831,2015-08-12 15:04:00,2015-08-31 00:00:00,2015-09-04 23:30:00,10.0,HWA_1,HWA,Nova Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
