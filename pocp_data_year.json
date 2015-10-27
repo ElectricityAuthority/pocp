@@ -1,120 +1,1150 @@
 id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,Planning Status,Generation type,Island
-16552,2015-10-14 18:43:00,2014-11-11 12:01:00,2015-11-13 17:30:00,120.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-22009,2015-10-27 14:30:00,2015-11-09 02:00:00,2015-11-15 18:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-23085,2015-10-22 10:21:00,2015-10-01 00:01:00,2015-10-31 23:59:00,365.0,OTC_Stn,OTC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-23100,2015-10-19 14:55:00,2015-11-05 08:00:00,2015-12-03 16:00:00,80.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-24143,2015-10-19 14:55:00,2015-11-16 21:00:00,2015-11-25 16:00:00,22.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
-24145,2015-10-27 14:30:00,2015-11-16 08:00:00,2015-11-23 16:00:00,6.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
-24152,2015-10-19 14:55:00,2015-11-16 07:00:00,2015-11-16 21:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-24153,2015-10-27 14:30:00,2015-10-30 02:00:00,2015-10-30 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
-3035,2015-09-03 10:02:00,2015-11-23 07:00:00,2015-11-27 17:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+11401,2015-02-13 12:00:00,2015-04-30 02:00:00,2015-04-30 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+11402,2015-02-13 12:00:00,2015-05-28 02:00:00,2015-05-28 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+11403,2014-10-29 18:31:00,2015-06-25 02:00:00,2015-06-25 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+11404,2015-07-14 11:00:00,2015-07-16 05:00:00,2015-07-16 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,daily,0.0,Confirmed,Thermal,NI
+11413,2015-02-13 12:00:00,2015-04-29 02:00:00,2015-04-29 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+11414,2015-02-13 12:00:00,2015-05-27 02:00:00,2015-05-27 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+11415,2014-10-29 18:31:00,2015-06-24 02:00:00,2015-06-24 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+11416,2015-07-28 16:46:00,2015-07-29 02:00:00,2015-07-29 16:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,daily,0.0,Confirmed,Thermal,NI
+16552,2015-09-05 09:57:00,2014-11-11 12:01:00,2015-11-05 10:30:00,120.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+17690,2015-04-17 11:13:00,2015-03-20 20:00:00,2015-04-18 12:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+17717,2015-08-30 07:39:00,2015-08-22 22:00:00,2015-08-31 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+17732,2015-04-20 11:15:00,2015-04-08 07:00:00,2015-04-21 17:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+17733,2015-04-21 16:50:00,2015-04-29 07:00:00,2015-04-29 17:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+17734,2015-05-05 18:30:00,2015-05-06 09:00:00,2015-05-06 10:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+17779,2015-05-05 18:21:00,2015-05-03 21:00:00,2015-05-07 16:00:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+18790,2015-07-01 16:33:00,2015-09-21 08:00:00,2015-09-30 08:00:00,85.0,THI_Stn,THI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
+18792,2015-08-17 13:37:00,2015-08-19 04:00:00,2015-08-19 18:00:00,20.0,WRK_13,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+18796,2015-07-14 11:00:00,2015-07-06 08:00:00,2015-07-15 12:00:00,20.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+18798,2015-06-09 15:41:00,2015-09-19 04:00:00,2015-09-19 22:00:00,14.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+18802,2015-05-26 14:44:00,2015-05-18 08:00:00,2015-06-08 16:00:00,51.0,PPI_1,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+18836,2015-03-27 15:36:00,2015-05-08 18:00:00,2015-05-10 18:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+19873,2015-04-21 16:46:00,2015-04-21 08:00:00,2015-04-21 08:01:00,100.0,SFD_21,SFD,Contact Energy,0.0,daily,0.0,Tentative,Thermal,NI
+19889,2015-04-14 16:34:00,2015-04-28 08:00:00,2015-04-30 15:30:00,12.0,TAA_1,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+19890,2015-05-12 15:39:00,2015-05-11 08:00:00,2015-05-13 15:30:00,12.0,TAA_2,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+19893,2015-06-12 18:08:00,2015-06-15 07:00:00,2015-06-19 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+19900,2015-06-19 13:34:00,2015-06-06 23:00:00,2015-06-19 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+19903,2015-06-04 17:07:00,2015-06-06 02:00:00,2015-06-07 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+19904,2015-04-23 17:10:00,2015-04-24 23:00:00,2015-04-25 01:30:00,200.0,SFD_Stn,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+19912,2015-05-05 18:30:00,2015-05-06 13:00:00,2015-05-06 14:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+19913,2015-05-05 18:30:00,2015-05-07 09:00:00,2015-05-07 10:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+19921,2015-05-29 18:33:00,2015-06-10 07:30:00,2015-06-11 16:00:00,20.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+19926,2015-05-12 15:39:00,2015-05-16 02:00:00,2015-05-16 16:30:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+19927,2015-05-12 15:39:00,2015-05-13 05:00:00,2015-05-13 16:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+19938,2015-05-20 14:36:00,2015-05-21 10:30:00,2015-05-21 14:00:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+20942,2015-05-19 11:44:00,2015-05-20 07:00:00,2015-05-20 18:00:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+20945,2015-05-26 16:58:00,2015-06-09 08:00:00,2015-06-09 16:00:00,15.0,PPI_1,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+21947,2015-05-21 10:32:00,2015-05-21 11:00:00,2015-05-21 12:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+21948,2015-05-29 14:26:00,2015-06-02 04:30:00,2015-06-02 21:00:00,29.0,WRK_11,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+21949,2015-05-26 14:44:00,2015-05-28 10:30:00,2015-05-28 14:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+21950,2015-05-29 14:26:00,2015-06-03 10:30:00,2015-06-03 14:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+21951,2015-06-04 08:40:00,2015-06-05 08:00:00,2015-06-05 16:00:00,40.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+21953,2015-05-26 16:29:00,2015-06-02 07:00:00,2015-06-02 14:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+21954,2015-06-08 15:48:00,2015-06-09 10:00:00,2015-06-09 17:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+21958,2015-06-12 18:08:00,2015-06-16 09:00:00,2015-06-16 16:00:00,40.0,THI_1,THI,Contact Energy,0.0,daily,0.0,Confirmed,Geothermal,NI
+21959,2015-06-12 18:08:00,2015-06-17 09:00:00,2015-06-17 16:00:00,40.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+21960,2015-06-15 12:54:00,2015-06-18 09:00:00,2015-06-18 16:00:00,40.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+21962,2015-05-29 18:33:00,2015-05-30 10:00:00,2015-05-30 13:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,daily,0.0,Confirmed,Thermal,NI
+21967,2015-06-04 11:07:00,2015-06-04 12:30:00,2015-06-04 13:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+21968,2015-06-04 13:20:00,2015-06-05 05:00:00,2015-06-05 06:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+21969,2015-06-04 17:07:00,2015-06-08 12:00:00,2015-06-08 14:00:00,10.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+21970,2015-06-09 18:39:00,2015-06-04 10:00:00,2015-06-09 17:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+21975,2015-06-11 15:36:00,2015-07-01 07:00:00,2015-07-01 17:30:00,40.0,ROX_7,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+21979,2015-06-09 18:35:00,2015-06-10 10:00:00,2015-06-10 15:00:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+21988,2015-06-15 16:17:00,2015-06-23 12:30:00,2015-06-23 18:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+22006,2015-06-24 16:49:00,2015-07-08 07:00:00,2015-07-09 16:30:00,40.0,ROX_2,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+22007,2015-06-25 16:47:00,2015-06-26 10:30:00,2015-06-26 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22009,2015-07-06 09:46:00,2015-10-26 02:00:00,2015-10-30 18:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
+22010,2015-07-01 16:33:00,2015-08-21 21:00:00,2015-08-22 20:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22022,2015-07-08 11:42:00,2015-07-17 09:30:00,2015-07-17 16:30:00,50.0,PPI_1,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+22023,2015-08-04 13:47:00,2015-08-06 12:00:00,2015-08-07 13:00:00,50.0,PPI_1,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+22027,2015-07-08 17:01:00,2015-07-08 11:30:00,2015-07-08 17:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22028,2015-07-10 13:59:00,2015-07-10 21:00:00,2015-07-12 16:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22029,2015-07-13 11:56:00,2015-07-12 07:20:00,2015-07-14 16:00:00,56.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+22030,2015-07-14 11:00:00,2015-07-13 01:36:00,2015-07-15 16:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+22038,2015-08-11 18:56:00,2015-08-13 07:30:00,2015-08-13 15:30:00,20.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+22058,2015-08-13 14:45:00,2015-08-16 08:00:00,2015-08-16 10:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22068,2015-08-17 13:37:00,2015-08-18 02:00:00,2015-08-18 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22069,2015-08-17 13:37:00,2015-08-20 02:00:00,2015-08-20 16:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+22071,2015-08-12 14:54:00,2015-08-14 09:00:00,2015-08-14 10:00:00,90.0,OTC_Stn,OTC,Contact Energy,0.0,daily,0.0,Confirmed,Thermal,NI
+22075,2015-08-25 16:00:00,2015-08-25 15:30:00,2015-08-25 17:30:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+23083,2015-10-06 17:23:00,2015-10-12 07:00:00,2015-10-14 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+23085,2015-08-25 16:21:00,2015-10-01 00:01:00,2016-06-30 23:59:00,365.0,OTC_Stn,OTC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+23087,2015-09-04 14:09:00,2015-09-17 08:00:00,2015-09-17 18:00:00,20.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+23088,2015-09-10 19:00:00,2015-09-12 02:00:00,2015-09-12 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+23089,2015-10-01 14:43:00,2015-10-02 02:00:00,2015-10-02 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+23090,2015-09-28 11:00:00,2015-09-19 01:00:00,2015-10-02 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+23092,2015-09-01 15:25:00,2015-09-07 09:00:00,2015-09-11 16:00:00,5.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+23099,2015-10-06 17:23:00,2015-09-21 08:00:00,2015-10-23 20:00:00,80.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+23100,2015-10-09 16:45:00,2015-11-05 08:00:00,2015-12-03 16:00:00,80.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
+23101,2015-09-01 15:25:00,2015-09-04 10:00:00,2015-09-04 12:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+23104,2015-09-05 16:05:00,2015-09-03 22:30:00,2015-09-05 12:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+23117,2015-09-22 17:34:00,2015-10-02 08:00:00,2015-10-02 16:00:00,9.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+24117,2015-10-06 17:23:00,2015-10-15 07:00:00,2015-10-15 17:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+24118,2015-10-06 17:23:00,2015-10-16 07:00:00,2015-10-16 17:30:00,108.0,CYD_4,CYD,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+24121,2015-09-22 17:34:00,2015-09-22 10:30:00,2015-09-22 12:00:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+24123,2015-09-23 11:15:00,2015-09-24 13:30:00,2015-09-24 14:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+24125,2015-09-28 11:00:00,2015-09-28 13:00:00,2015-09-28 14:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+24140,2015-10-09 16:45:00,2015-10-12 09:30:00,2015-10-12 13:30:00,6.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+2446,2015-06-29 11:23:00,2015-07-13 07:00:00,2015-08-28 17:30:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+2991,2015-05-19 07:55:00,2015-05-22 10:30:00,2015-06-26 18:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+3025,2015-05-14 04:39:00,2015-03-18 07:00:00,2015-06-05 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+3030,2015-06-12 18:08:00,2015-06-16 07:00:00,2015-06-16 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3031,2015-05-20 14:19:00,2015-05-20 07:00:00,2015-05-20 07:01:00,108.0,CYD_2,CYD,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+3032,2015-05-20 14:22:00,2015-05-20 07:00:00,2015-05-20 07:01:00,108.0,CYD_3,CYD,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+3033,2015-05-26 14:44:00,2015-05-27 10:30:00,2015-05-27 14:30:00,108.0,CYD_4,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3044,2015-06-11 15:36:00,2015-07-20 07:00:00,2015-07-24 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
+3046,2015-03-30 17:11:00,2015-04-14 07:00:00,2015-04-14 17:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3047,2015-08-05 12:59:00,2015-09-14 07:00:00,2015-10-16 17:30:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+3049,2015-06-29 11:23:00,2015-07-02 07:00:00,2015-07-02 17:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 3052,2015-08-25 16:00:00,2015-10-19 07:00:00,2015-12-04 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-3072,2015-10-20 17:14:00,2015-11-03 07:00:00,2015-11-03 17:30:00,40.0,ROX_4,ROX,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+3056,2015-10-06 17:23:00,2015-10-19 07:00:00,2015-10-22 17:30:00,40.0,ROX_7,ROX,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+3058,2015-09-22 17:29:00,2015-09-22 07:00:00,2015-09-22 07:01:00,108.0,CYD_1,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3064,2015-07-07 15:37:00,2015-11-03 07:00:00,2015-11-03 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3068,2015-09-22 17:33:00,2015-09-22 07:00:00,2015-09-22 07:01:00,40.0,ROX_3,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3069,2015-09-22 17:32:00,2015-09-22 07:00:00,2015-09-22 07:01:00,108.0,CYD_4,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
+3121,2015-03-20 15:08:00,2015-02-08 08:00:00,2015-04-15 16:00:00,50.0,PPI_Stn,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3122,2015-03-27 15:36:00,2015-04-21 08:00:00,2015-04-21 18:00:00,8.0,WRK_4,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3126,2015-04-11 12:59:00,2015-04-15 16:00:00,2015-04-18 16:00:00,25.0,PPI_Stn,PPI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
 3127,2015-10-09 16:45:00,2015-11-03 07:00:00,2015-11-04 18:00:00,38.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-3160,2015-10-09 16:45:00,2015-11-17 08:00:00,2015-11-17 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-39516,2015-10-20 11:41:00,2015-10-20 08:30:00,2015-11-09 17:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-41834,2015-03-20 09:34:00,2015-11-10 07:00:00,2015-11-10 16:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-42262,2015-09-11 02:00:00,2015-11-23 06:00:00,2015-11-27 20:00:00,121.5,MAN_4,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+3129,2015-06-29 11:23:00,2015-06-30 09:00:00,2015-07-26 16:00:00,3.0,WRK_10,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3130,2015-06-29 11:23:00,2015-07-02 04:30:00,2015-07-03 18:00:00,6.0,WRK_15,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3131,2015-06-29 11:23:00,2015-06-30 04:30:00,2015-07-01 18:00:00,6.0,WRK_16,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3132,2015-05-05 12:44:00,2015-05-28 07:30:00,2015-05-28 23:00:00,20.0,WRK_11,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
+3133,2014-05-21 08:06:00,2015-04-21 08:00:00,2015-04-21 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3134,2014-05-21 08:06:00,2015-04-22 08:00:00,2015-04-22 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3138,2015-05-20 14:23:00,2015-05-20 07:00:00,2015-05-20 07:01:00,5.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3141,2015-08-06 12:14:00,2015-08-10 08:00:00,2015-08-21 16:00:00,10.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3143,2015-06-09 15:41:00,2015-08-04 08:00:00,2015-08-07 08:00:00,10.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3144,2015-07-21 16:10:00,2015-08-11 08:00:00,2015-08-11 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3145,2015-07-10 14:00:00,2015-08-12 08:00:00,2015-08-14 08:00:00,10.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3147,2015-07-10 14:00:00,2015-08-20 08:00:00,2015-08-21 08:00:00,10.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3148,2015-06-09 15:41:00,2015-07-27 04:00:00,2015-07-27 21:00:00,20.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+3149,2015-09-22 17:34:00,2015-09-22 08:00:00,2015-09-22 08:01:00,3.0,OKI_6,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3152,2015-06-19 13:34:00,2015-06-19 08:00:00,2015-06-25 18:00:00,11.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3153,2015-09-07 09:18:00,2015-09-08 08:00:00,2015-09-09 16:00:00,24.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+3154,2015-09-22 17:30:00,2015-09-22 08:00:00,2015-09-22 08:01:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
+3155,2015-09-22 17:26:00,2015-09-22 08:00:00,2015-09-22 08:01:00,5.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
+39516,2015-10-02 18:42:00,2015-10-19 07:00:00,2015-11-05 19:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+39627,2015-08-07 07:42:00,2015-05-11 07:00:00,2015-08-07 11:30:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+39634,2015-10-09 11:41:00,2015-09-02 08:00:00,2015-10-12 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+39659,2015-08-31 11:41:00,2014-09-25 07:00:00,2015-10-21 19:00:00,32.0,KPO_2,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+41243,2015-05-14 21:42:00,2015-05-13 07:30:00,2015-05-15 12:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+41259,2015-05-06 11:41:00,2015-05-12 07:30:00,2015-05-12 17:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+41630,2015-08-06 02:00:00,2015-08-17 06:00:00,2015-08-28 18:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41710,2015-05-26 02:00:00,2015-06-10 07:00:00,2015-06-10 16:00:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41711,2015-03-20 09:34:00,2015-09-03 07:00:00,2015-09-03 16:00:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41750,2015-05-20 02:00:00,2015-08-17 07:00:00,2015-08-17 16:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41793,2015-06-11 02:00:00,2015-07-09 07:00:00,2015-07-17 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41832,2015-03-20 09:34:00,2015-05-12 07:00:00,2015-05-12 16:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41897,2015-05-09 02:00:00,2015-05-25 06:00:00,2015-06-05 16:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41900,2015-04-09 02:00:00,2015-04-22 07:00:00,2015-04-22 16:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41901,2015-05-20 02:00:00,2015-08-14 07:00:00,2015-08-14 16:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41957,2015-05-15 02:00:00,2015-05-18 06:30:00,2015-05-19 18:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41964,2015-05-07 02:00:00,2015-06-29 06:00:00,2015-07-03 18:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41969,2015-05-05 02:00:00,2015-07-16 06:30:00,2015-07-16 17:30:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41974,2015-05-20 02:00:00,2015-07-06 06:00:00,2015-07-06 18:00:00,53.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41979,2015-06-23 05:27:00,2015-07-09 06:00:00,2015-07-09 18:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42014,2015-06-23 05:27:00,2015-07-20 06:00:00,2015-07-24 19:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42040,2015-04-29 02:00:00,2015-04-13 06:00:00,2015-05-08 19:00:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42227,2015-04-22 02:00:00,2015-08-12 06:00:00,2015-08-13 20:00:00,121.5,MAN_2,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42295,2015-04-22 02:00:00,2015-04-28 06:00:00,2015-04-29 20:00:00,121.5,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42346,2015-03-20 09:34:00,2015-04-21 06:00:00,2015-04-22 20:00:00,121.5,MAN_4,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 42354,2015-09-11 02:00:00,2015-10-19 06:00:00,2015-11-06 20:00:00,121.5,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42379,2015-07-30 02:00:00,2015-08-17 06:00:00,2015-09-06 20:00:00,121.5,MAN_7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42398,2015-06-03 02:00:00,2015-07-20 06:30:00,2015-07-24 17:30:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42410,2015-06-27 02:00:00,2015-07-01 06:30:00,2015-07-01 17:30:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42423,2015-07-02 02:00:00,2015-07-14 06:30:00,2015-07-14 17:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+42433,2015-05-27 02:00:00,2015-09-07 06:30:00,2015-09-11 17:30:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+43100,2014-11-25 11:40:00,2015-04-29 13:00:00,2015-04-29 14:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44184,2015-04-22 11:41:00,2015-01-19 07:00:00,2015-04-22 16:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44192,2015-10-09 11:41:00,2015-10-16 23:30:00,2015-10-18 17:30:00,106.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44221,2015-06-22 21:43:00,2015-06-30 10:00:00,2015-06-30 16:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44266,2015-06-24 21:42:00,2015-07-02 10:00:00,2015-07-02 16:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44267,2015-10-05 11:42:00,2015-10-08 09:00:00,2015-10-08 15:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44277,2015-05-04 11:41:00,2015-05-04 11:30:00,2015-05-08 19:30:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44278,2014-10-03 11:42:00,2015-08-03 10:00:00,2015-08-03 16:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44279,2015-10-07 11:41:00,2015-11-05 09:00:00,2015-11-05 15:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-44585,2015-10-23 11:41:00,2015-11-04 08:00:00,2015-11-04 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44288,2014-08-26 12:19:00,2015-05-21 10:00:00,2015-05-21 16:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44296,2015-05-15 21:42:00,2015-05-21 08:00:00,2015-05-21 16:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44311,2015-07-20 14:17:00,2015-07-31 08:00:00,2015-07-31 16:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44322,2015-05-14 07:42:00,2015-05-11 08:00:00,2015-05-14 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44331,2015-04-28 12:28:00,2015-05-04 07:00:00,2015-05-08 19:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44332,2014-12-23 11:41:00,2015-08-05 08:00:00,2015-08-05 16:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44342,2015-05-26 11:43:00,2015-06-10 09:00:00,2015-06-10 17:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44360,2015-05-29 13:37:00,2015-05-25 07:00:00,2015-05-29 16:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44531,2015-06-04 11:42:00,2015-06-11 08:00:00,2015-06-11 16:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44568,2015-05-20 11:42:00,2015-05-26 07:00:00,2015-06-02 17:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44569,2015-08-31 18:41:00,2015-09-04 09:00:00,2015-09-04 17:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44585,2015-06-22 21:44:00,2015-11-05 08:00:00,2015-11-05 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44621,2015-04-21 07:45:00,2015-08-24 09:00:00,2015-08-24 17:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44649,2015-04-30 07:42:00,2014-12-15 07:00:00,2015-05-06 19:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44677,2015-05-29 07:49:00,2015-10-16 08:00:00,2015-10-16 16:00:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44689,2015-06-16 12:15:00,2015-08-31 07:00:00,2015-11-24 18:30:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-44776,2015-10-22 11:41:00,2015-10-27 09:00:00,2015-10-27 17:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44696,2014-12-17 21:40:00,2015-07-17 08:00:00,2015-07-17 16:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44757,2015-10-09 11:41:00,2015-10-22 09:00:00,2015-10-22 17:00:00,25.0,WKM_1,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44760,2014-09-15 10:24:00,2015-07-14 13:00:00,2015-07-14 14:00:00,25.0,WKM_1,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44774,2015-08-01 11:41:00,2015-08-19 09:00:00,2015-08-19 17:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44776,2015-08-31 18:41:00,2015-10-27 08:00:00,2015-10-27 16:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44790,2015-08-20 07:46:00,2015-08-20 09:00:00,2015-08-20 17:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44811,2015-06-16 12:15:00,2015-07-10 09:00:00,2015-07-10 17:00:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44812,2015-10-08 11:41:00,2015-09-30 08:00:00,2015-10-12 17:00:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44854,2015-06-30 11:42:00,2015-07-02 07:30:00,2015-07-02 17:00:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44855,2015-09-24 11:41:00,2015-09-28 09:00:00,2015-09-28 17:00:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44870,2015-08-08 02:00:00,2015-08-09 08:00:00,2015-08-14 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+44882,2015-09-03 18:42:00,2015-09-03 08:00:00,2015-09-03 15:30:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44887,2015-06-03 02:00:00,2015-10-28 07:30:00,2015-10-28 16:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+44893,2015-05-01 21:42:00,2015-06-08 07:00:00,2015-06-23 17:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44896,2015-09-15 21:41:00,2015-09-15 08:00:00,2015-09-16 16:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44974,2015-07-01 21:40:00,2015-07-15 09:00:00,2015-07-15 17:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44975,2015-07-31 11:42:00,2015-10-28 08:00:00,2015-10-28 17:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-45114,2015-10-19 18:41:00,2015-11-16 06:00:00,2015-11-30 18:00:00,4.5,MOK_11,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+44988,2015-03-24 11:41:00,2015-05-18 08:00:00,2015-05-28 16:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44989,2015-08-31 18:41:00,2015-08-17 07:30:00,2015-08-31 16:30:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+45000,2015-07-17 18:42:00,2015-07-17 09:00:00,2015-07-17 15:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+45092,2015-09-17 18:41:00,2015-09-07 09:00:00,2015-09-21 16:00:00,4.5,MOK_2,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+45102,2015-05-13 11:43:00,2015-08-31 06:00:00,2015-09-14 18:00:00,4.5,MOK_1,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+45126,2015-05-13 11:43:00,2015-11-02 06:00:00,2015-11-13 18:00:00,4.5,MOK_21,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+45138,2015-07-16 18:41:00,2015-08-17 06:00:00,2015-08-21 18:00:00,7.8,MOK_3,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+45189,2015-04-23 02:00:00,2015-05-11 07:00:00,2015-05-11 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+45190,2015-03-20 09:34:00,2015-08-06 07:00:00,2015-08-06 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45191,2015-03-20 09:34:00,2015-11-04 07:00:00,2015-11-04 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-46056,2015-10-21 11:41:00,2015-11-16 07:00:00,2015-11-20 19:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+45213,2015-05-01 21:42:00,2015-05-11 00:00:00,2015-05-16 18:00:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+45623,2015-07-09 21:41:00,2015-07-19 06:00:00,2015-08-14 20:00:00,140.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+46025,2015-08-28 18:46:00,2015-08-24 08:00:00,2015-09-01 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46056,2015-08-10 11:43:00,2015-09-28 07:00:00,2015-10-02 19:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46171,2015-01-05 08:56:00,2015-11-05 08:00:00,2015-11-05 16:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-49896,2015-10-27 11:33:00,2015-11-02 08:00:00,2015-11-02 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46203,2015-08-20 11:46:00,2015-09-01 07:30:00,2015-09-07 17:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46234,2014-12-23 11:41:00,2015-07-03 08:00:00,2015-07-03 16:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46235,2015-09-30 11:42:00,2015-10-13 07:30:00,2015-10-15 17:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46268,2015-06-10 11:45:00,2015-08-18 09:00:00,2015-08-18 17:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46489,2014-11-27 09:45:00,2015-05-22 11:00:00,2015-05-22 12:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+46625,2015-10-05 11:42:00,2015-10-09 09:00:00,2015-10-09 15:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46750,2015-02-10 21:41:00,2015-06-22 08:00:00,2015-06-22 16:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+48102,2015-04-23 21:42:00,2015-08-25 12:30:00,2015-08-25 15:30:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+48843,2015-05-01 21:42:00,2015-05-04 00:00:00,2015-05-09 18:00:00,45.0,SWN_2,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+49896,2015-09-16 21:42:00,2015-11-03 08:00:00,2015-11-03 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+49926,2015-07-23 18:42:00,2015-02-23 07:00:00,2015-07-23 18:00:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+49970,2015-07-17 12:24:00,2015-08-14 10:00:00,2015-08-14 16:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+50283,2014-06-26 13:11:00,2013-02-10 00:00:00,2025-12-31 00:00:00,245.0,HLY3,HLY,Genesis,0.0,continuous,0.0,Cancelled,Thermal,NI
+50560,2015-02-10 21:41:00,2015-06-08 08:00:00,2015-06-08 16:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+50625,2015-04-13 21:41:00,2015-04-07 08:00:00,2015-04-15 17:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+50898,2014-10-23 13:58:00,2015-06-01 00:00:00,2018-12-31 00:00:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+50982,2015-04-11 16:35:00,2014-12-19 00:00:00,2015-04-20 22:00:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 51687,2015-09-15 02:00:00,2015-08-24 07:00:00,2015-11-02 06:30:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-51920,2015-10-23 11:41:00,2015-11-09 08:00:00,2015-11-12 17:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-51926,2015-09-16 21:42:00,2015-11-23 07:30:00,2015-12-13 19:30:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+51688,2015-04-25 02:00:00,2015-06-02 08:00:00,2015-08-10 06:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+51859,2015-06-11 21:44:00,2015-08-04 13:00:00,2015-08-04 16:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+51882,2015-01-21 07:41:00,2015-09-21 07:00:00,2015-10-06 19:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+51920,2015-02-17 21:42:00,2015-11-04 08:00:00,2015-11-04 16:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+51932,2015-08-20 07:46:00,2015-08-20 09:00:00,2015-08-20 17:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 51933,2015-09-08 11:41:00,2015-10-27 07:00:00,2015-11-17 19:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-52229,2015-10-23 14:05:00,2014-05-13 07:30:00,2016-05-01 17:00:00,35.2,MTI_7,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-52745,2015-09-04 11:41:00,2015-11-20 10:00:00,2015-11-20 14:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-53572,2015-10-15 18:41:00,2014-12-11 07:00:00,2016-07-22 19:00:00,35.2,MTI_2,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-53644,2015-10-16 11:41:00,2015-10-01 07:00:00,2015-10-28 16:00:00,7.5,MOK_32,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-53940,2015-10-21 18:41:00,2015-11-10 07:30:00,2015-11-12 19:30:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-53967,2015-10-06 11:41:00,2015-11-20 07:00:00,2015-11-20 18:30:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-53968,2015-10-06 11:41:00,2015-11-20 07:00:00,2015-11-20 18:30:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52032,2015-08-19 18:46:00,2015-08-17 07:00:00,2015-08-19 15:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52037,2015-05-27 21:43:00,2015-06-03 09:00:00,2015-06-03 17:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52038,2015-08-27 11:46:00,2015-08-26 08:00:00,2015-08-28 16:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52042,2015-08-14 18:44:00,2015-08-10 08:00:00,2015-08-14 14:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52091,2015-05-12 11:42:00,2015-06-02 09:00:00,2015-06-02 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52162,2015-07-28 11:41:00,2015-08-31 08:00:00,2015-09-08 12:00:00,20.5,NTM_1,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52174,2015-07-28 11:41:00,2015-08-31 08:30:00,2015-09-08 13:00:00,20.5,NTM_2,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52186,2015-07-28 11:41:00,2015-08-31 08:30:00,2015-09-08 13:30:00,20.5,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52198,2015-07-28 11:41:00,2015-08-31 08:00:00,2015-09-08 12:30:00,20.5,NTM_4,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52229,2015-09-24 11:41:00,2014-05-13 07:30:00,2016-02-23 17:00:00,35.2,MTI_7,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52334,2015-05-09 11:41:00,2015-05-19 08:00:00,2015-05-19 16:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52343,2015-05-28 11:42:00,2015-06-11 09:00:00,2015-06-11 17:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52344,2015-04-23 21:42:00,2015-08-28 08:00:00,2015-08-28 16:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52355,2015-10-08 11:41:00,2015-10-16 08:00:00,2015-10-16 16:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52443,2015-08-12 14:05:00,2015-10-05 07:30:00,2015-10-14 19:30:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52695,2015-07-31 11:42:00,2015-08-06 08:00:00,2015-08-06 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+52730,2014-08-26 12:19:00,2015-04-01 00:00:00,2015-05-01 00:00:00,9.4,NAP_STN,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52731,2015-05-12 11:42:00,2015-05-01 00:00:00,2015-06-01 00:00:00,9.4,NAP_STN,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+52732,2015-05-12 11:42:00,2015-06-01 00:00:00,2015-07-01 00:00:00,9.4,NAP_STN,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53133,2015-04-15 21:42:00,2015-03-09 07:00:00,2015-04-17 17:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53166,2014-09-22 22:37:00,2015-05-01 09:30:00,2015-05-01 10:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53167,2015-04-20 12:20:00,2015-05-18 08:00:00,2015-05-22 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53203,2014-12-12 11:41:00,2015-03-23 07:30:00,2015-04-17 19:30:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53572,2015-09-04 07:41:00,2014-12-11 07:00:00,2016-06-23 19:00:00,35.2,MTI_2,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53644,2015-01-23 07:42:00,2015-10-01 07:00:00,2015-10-22 16:00:00,7.5,MOK_32,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53672,2015-04-22 11:41:00,2015-05-18 09:00:00,2015-05-18 17:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53911,2015-04-10 11:41:00,2015-04-22 07:00:00,2015-04-28 19:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53913,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53914,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53915,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53916,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53917,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53918,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53940,2015-09-25 18:41:00,2015-10-28 07:30:00,2015-10-29 19:30:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53941,2015-09-25 18:41:00,2015-11-03 07:30:00,2015-11-04 19:30:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53947,2015-04-16 11:43:00,2015-04-22 06:00:00,2015-04-28 19:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53957,2015-05-01 21:42:00,2015-06-04 08:00:00,2015-06-04 16:00:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53958,2015-04-13 11:41:00,2015-04-14 13:00:00,2015-04-14 14:30:00,32.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53962,2015-05-29 21:43:00,2015-06-02 06:00:00,2015-06-27 18:00:00,45.6,MOK_10,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53965,2015-03-31 11:42:00,2015-04-29 10:00:00,2015-04-29 13:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53966,2015-03-31 11:42:00,2015-04-29 13:00:00,2015-04-29 16:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53969,2015-04-01 11:42:00,2015-04-15 07:30:00,2015-04-16 17:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53972,2015-04-08 21:43:00,2015-04-13 11:00:00,2015-04-13 12:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53973,2015-04-10 21:42:00,2015-04-14 13:00:00,2015-04-14 14:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53977,2015-04-20 12:20:00,2015-04-14 07:00:00,2015-04-21 19:00:00,7.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53978,2015-04-10 21:42:00,2015-04-13 11:00:00,2015-04-13 12:00:00,3.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53979,2015-04-10 21:42:00,2015-04-14 08:30:00,2015-04-14 11:00:00,20.5,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53989,2015-04-13 21:41:00,2015-04-15 10:00:00,2015-04-15 16:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53990,2015-04-13 21:41:00,2015-04-14 14:00:00,2015-04-14 15:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53991,2015-04-14 11:43:00,2015-04-15 13:00:00,2015-04-15 14:00:00,28.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+53992,2015-04-16 11:43:00,2015-04-15 14:27:00,2015-04-17 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+53993,2015-04-16 21:42:00,2015-04-24 10:00:00,2015-04-24 14:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54002,2015-04-22 21:41:00,2015-05-07 13:00:00,2015-05-07 14:30:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54006,2015-04-23 21:41:00,2015-04-30 13:00:00,2015-04-30 14:00:00,28.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54007,2015-04-23 21:41:00,2015-04-29 13:00:00,2015-04-29 14:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54009,2015-04-28 12:28:00,2015-05-07 10:00:00,2015-05-07 16:00:00,17.0,NTM_STN,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54013,2015-04-28 12:28:00,2015-04-27 17:20:00,2015-04-28 17:00:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54015,2015-04-28 12:28:00,2015-04-29 08:00:00,2015-04-29 16:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54017,2015-04-29 11:43:00,2015-05-06 11:00:00,2015-05-06 16:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54018,2015-04-29 11:43:00,2015-05-07 11:00:00,2015-05-07 16:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54019,2015-04-29 11:43:00,2015-05-08 11:00:00,2015-05-08 16:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54020,2015-04-29 11:43:00,2015-05-15 11:00:00,2015-05-15 14:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54023,2015-04-30 07:42:00,2015-04-29 13:38:00,2015-04-30 17:00:00,50.0,SWN_5,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 54024,2015-04-30 07:43:00,2015-11-06 09:00:00,2015-11-06 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-54518,2015-07-16 11:42:00,2015-11-12 10:30:00,2015-11-12 11:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-54629,2015-10-22 18:41:00,2015-11-12 11:00:00,2015-11-12 11:30:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-54685,2015-10-22 18:41:00,2015-11-12 11:30:00,2015-11-12 12:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-54797,2015-10-22 18:41:00,2015-11-12 12:00:00,2015-11-12 12:30:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-54913,2015-10-22 14:02:00,2015-10-23 18:00:00,2015-11-05 22:59:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54026,2015-04-30 11:41:00,2015-04-30 13:00:00,2015-04-30 14:00:00,28.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54043,2015-04-30 21:42:00,2015-05-13 12:30:00,2015-05-13 14:00:00,32.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54045,2015-04-30 21:42:00,2015-05-04 07:00:00,2015-05-13 16:00:00,4.5,MOK_1,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54046,2015-05-01 11:40:00,2015-05-12 10:00:00,2015-05-12 16:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54047,2015-05-01 21:42:00,2015-05-10 07:30:00,2015-05-10 18:00:00,50.0,SWN_5,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+54048,2015-05-01 21:42:00,2015-05-10 07:30:00,2015-05-10 18:00:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+54050,2015-05-04 11:41:00,2015-05-05 09:00:00,2015-05-05 13:00:00,22.0,MOK_30,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54051,2015-05-06 11:41:00,2015-05-06 11:18:00,2015-05-06 19:18:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54052,2015-05-07 13:48:00,2015-05-11 11:00:00,2015-05-11 12:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54053,2015-05-08 11:42:00,2015-05-08 08:35:00,2015-05-08 16:00:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54054,2015-05-12 11:42:00,2015-06-03 08:30:00,2015-06-03 12:00:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54055,2015-05-12 11:42:00,2015-06-03 12:00:00,2015-06-03 16:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54063,2015-05-12 11:42:00,2015-06-05 09:00:00,2015-06-05 13:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54068,2015-05-12 21:42:00,2015-05-14 13:00:00,2015-05-14 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54069,2015-05-12 21:42:00,2015-05-15 10:00:00,2015-05-15 16:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54078,2015-05-14 07:42:00,2015-05-14 07:00:00,2015-05-14 15:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54079,2015-05-20 07:42:00,2015-05-21 10:00:00,2015-05-21 16:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54080,2015-05-14 11:42:00,2015-05-22 11:00:00,2015-05-22 12:30:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54087,2015-05-26 21:42:00,2015-05-26 08:00:00,2015-05-27 17:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54090,2015-05-18 11:41:00,2015-05-22 04:00:00,2015-05-24 19:00:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+54091,2015-05-15 11:42:00,2015-05-15 11:27:00,2015-05-15 17:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54093,2015-05-18 11:41:00,2015-05-15 20:13:00,2015-05-18 17:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54094,2015-05-18 11:41:00,2015-05-17 21:12:00,2015-05-18 11:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54095,2015-05-18 11:41:00,2015-05-19 11:00:00,2015-05-19 13:00:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+54096,2015-05-18 11:41:00,2015-05-19 11:00:00,2015-05-19 13:00:00,45.0,SWN_2,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+54097,2015-06-11 21:44:00,2015-06-06 06:00:00,2015-06-12 17:00:00,4.5,MOK_1,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54098,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,4.5,MOK_2,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54099,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,7.8,MOK_3,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54100,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,4.5,MOK_11,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54101,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,4.5,MOK_12,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54102,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,4.5,MOK_21,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54103,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,4.5,MOK_22,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54104,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,19.4,MOK_30,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54105,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,7.5,MOK_31,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54106,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,7.5,MOK_32,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54107,2015-06-10 11:45:00,2015-06-06 06:00:00,2015-06-10 08:00:00,6.5,MOK_41,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54108,2015-08-31 18:41:00,2015-09-09 09:00:00,2015-09-09 17:00:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54109,2015-05-20 11:42:00,2015-05-25 12:30:00,2015-05-25 15:30:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54111,2015-05-22 08:17:00,2015-05-25 10:00:00,2015-05-25 12:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54112,2015-05-21 11:42:00,2015-05-21 05:24:00,2015-05-21 17:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54115,2015-05-21 11:42:00,2015-05-21 12:30:00,2015-05-21 15:00:00,4.5,RKA_12,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54117,2015-05-23 11:41:00,2015-05-23 07:00:00,2015-05-25 17:30:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54118,2015-05-26 11:42:00,2015-05-27 11:30:00,2015-05-27 14:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54119,2015-05-26 11:42:00,2015-05-27 14:00:00,2015-05-27 16:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54120,2015-05-26 11:42:00,2015-05-28 11:30:00,2015-05-28 14:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54121,2015-05-26 11:43:00,2015-06-05 11:00:00,2015-06-05 15:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54122,2015-05-26 11:42:00,2015-05-27 13:00:00,2015-05-27 15:30:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54123,2015-05-26 11:42:00,2015-05-27 13:00:00,2015-05-27 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54124,2015-06-23 11:42:00,2015-06-25 10:00:00,2015-06-25 16:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54125,2015-05-26 21:42:00,2015-05-27 08:30:00,2015-05-27 10:30:00,4.5,RKA_12,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54131,2015-05-29 13:37:00,2015-06-02 07:00:00,2015-06-02 16:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54132,2015-05-29 07:49:00,2015-06-03 07:00:00,2015-06-03 16:00:00,3.0,NTM_STN,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54135,2015-06-08 11:43:00,2015-06-09 09:00:00,2015-06-09 17:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54136,2015-09-29 18:42:00,2015-09-28 07:30:00,2015-09-30 09:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54141,2015-06-04 07:42:00,2015-06-03 23:18:00,2015-06-04 09:00:00,30.0,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54142,2015-06-05 21:43:00,2015-06-11 12:30:00,2015-06-11 14:00:00,32.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54143,2015-06-25 11:42:00,2015-06-25 10:00:00,2015-06-25 20:30:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54145,2015-06-08 21:43:00,2015-06-10 13:00:00,2015-06-10 14:30:00,20.5,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54146,2015-06-08 21:43:00,2015-06-09 12:00:00,2015-06-09 16:00:00,63.0,ARA_STN,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54147,2015-06-08 21:43:00,2015-06-11 09:00:00,2015-06-11 13:00:00,15.0,RKA_10,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54149,2015-06-09 21:43:00,2015-06-10 12:00:00,2015-06-10 16:00:00,63.0,ARA_STN,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54150,2015-06-10 11:45:00,2015-06-12 13:00:00,2015-06-12 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54157,2015-06-20 07:43:00,2015-06-23 13:00:00,2015-06-23 14:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54318,2015-06-11 21:44:00,2015-06-30 09:00:00,2015-06-30 16:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54319,2015-06-14 11:43:00,2015-06-14 10:27:00,2015-06-15 17:45:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54321,2015-06-16 14:25:00,2015-06-20 07:30:00,2015-06-20 18:30:00,18.0,WPA_STN,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54322,2015-06-16 14:25:00,2015-06-20 07:30:00,2015-06-20 18:30:00,168.0,MTI_STN,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54341,2015-06-18 11:46:00,2015-06-18 09:40:00,2015-06-18 17:00:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54343,2015-06-18 21:44:00,2015-08-24 13:00:00,2015-08-24 16:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54345,2015-06-18 21:44:00,2015-09-17 12:30:00,2015-09-17 15:30:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54354,2015-06-19 11:44:00,2015-06-20 08:00:00,2015-06-20 16:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54355,2015-06-19 11:44:00,2015-06-20 08:00:00,2015-06-20 16:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54356,2015-06-19 11:44:00,2015-06-20 08:00:00,2015-06-20 16:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54357,2015-06-19 11:44:00,2015-07-02 11:00:00,2015-07-02 11:30:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54358,2015-06-19 11:44:00,2015-07-02 11:30:00,2015-07-02 12:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54359,2015-06-19 11:44:00,2015-07-02 12:00:00,2015-07-02 12:30:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54360,2015-06-19 11:44:00,2015-07-02 12:30:00,2015-07-02 13:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54363,2015-06-20 07:43:00,2015-06-22 09:00:00,2015-06-22 15:00:00,4.5,RKA_11,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54369,2015-06-24 21:42:00,2015-07-03 12:30:00,2015-07-03 13:30:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54370,2015-06-24 21:42:00,2015-07-03 13:30:00,2015-07-03 14:30:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54371,2015-06-24 21:42:00,2015-07-03 14:30:00,2015-07-03 15:30:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54372,2015-06-24 11:43:00,2015-06-22 16:00:00,2015-06-24 20:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54376,2015-06-22 21:43:00,2015-06-26 10:00:00,2015-06-26 11:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54377,2015-06-23 11:42:00,2015-06-26 10:00:00,2015-06-26 16:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54379,2015-06-24 07:42:00,2015-06-27 08:00:00,2015-06-27 16:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54380,2015-06-24 07:42:00,2015-06-27 08:00:00,2015-06-27 16:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54381,2015-06-24 07:42:00,2015-06-27 08:00:00,2015-06-27 16:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54384,2015-06-26 21:44:00,2015-07-06 11:00:00,2015-07-06 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54420,2015-06-30 11:42:00,2015-06-30 09:38:00,2015-07-01 17:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54452,2015-07-05 07:40:00,2015-07-08 13:00:00,2015-07-08 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54458,2015-07-29 07:42:00,2015-07-30 14:00:00,2015-07-30 16:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54459,2015-07-09 11:40:00,2015-07-23 10:00:00,2015-07-23 15:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54460,2015-07-07 11:41:00,2015-07-07 12:00:00,2015-07-07 13:00:00,20.5,NTM_1,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54461,2015-07-07 11:41:00,2015-07-08 13:00:00,2015-07-08 14:00:00,20.5,NTM_2,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54462,2015-07-06 12:30:00,2015-07-08 12:00:00,2015-07-08 13:00:00,20.5,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54463,2015-07-07 11:41:00,2015-07-08 14:00:00,2015-07-08 15:00:00,20.5,NTM_4,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54464,2015-07-07 11:41:00,2015-07-07 13:00:00,2015-07-07 15:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54465,2015-07-08 11:40:00,2015-07-23 08:00:00,2015-07-23 17:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54471,2015-07-08 11:40:00,2015-07-08 13:00:00,2015-07-08 14:30:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54479,2015-07-08 21:42:00,2015-07-09 13:00:00,2015-07-09 16:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54496,2015-07-09 21:41:00,2015-07-14 11:30:00,2015-07-14 12:30:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54497,2015-07-09 21:41:00,2015-07-14 12:30:00,2015-07-14 13:30:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54498,2015-07-09 21:41:00,2015-07-14 13:30:00,2015-07-14 14:30:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54513,2015-07-10 11:41:00,2015-07-22 12:30:00,2015-07-22 14:00:00,32.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54514,2015-07-10 11:41:00,2015-07-15 10:30:00,2015-07-15 11:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54515,2015-08-12 12:58:00,2015-08-18 11:30:00,2015-08-18 12:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54516,2015-08-27 11:46:00,2015-09-16 10:30:00,2015-09-16 11:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54517,2015-08-11 07:43:00,2015-10-16 10:30:00,2015-10-16 11:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54570,2015-08-12 12:58:00,2015-08-18 12:00:00,2015-08-18 12:30:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54571,2015-08-27 11:46:00,2015-09-16 11:00:00,2015-09-16 11:30:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54572,2015-08-11 07:43:00,2015-10-16 11:00:00,2015-10-16 11:30:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54625,2015-07-10 11:41:00,2015-07-15 11:00:00,2015-07-15 11:30:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54626,2015-08-12 12:58:00,2015-08-18 12:30:00,2015-08-18 13:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54627,2015-08-27 11:46:00,2015-09-16 11:30:00,2015-09-16 12:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54628,2015-08-11 07:43:00,2015-10-16 11:30:00,2015-10-16 12:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54681,2015-07-11 11:41:00,2015-07-15 11:30:00,2015-07-15 12:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54682,2015-08-12 12:58:00,2015-08-18 13:00:00,2015-08-18 13:30:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54684,2015-08-11 07:43:00,2015-10-16 12:00:00,2015-10-16 12:30:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54737,2015-07-11 11:41:00,2015-07-15 12:00:00,2015-07-15 12:30:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54738,2015-07-11 11:42:00,2015-08-14 12:30:00,2015-08-14 13:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54739,2015-08-27 11:46:00,2015-09-16 12:00:00,2015-09-16 12:30:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54740,2015-08-11 07:43:00,2015-10-16 12:30:00,2015-10-16 13:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54793,2015-07-11 11:41:00,2015-07-15 12:30:00,2015-07-15 13:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54794,2015-08-12 12:58:00,2015-08-18 13:30:00,2015-08-18 14:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54795,2015-09-16 21:41:00,2015-09-18 12:00:00,2015-09-18 12:30:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54837,2015-06-19 02:00:00,2015-08-22 08:00:00,2015-08-22 16:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+54849,2015-07-11 11:41:00,2015-07-15 13:00:00,2015-07-15 13:30:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54850,2015-08-12 12:58:00,2015-08-18 14:00:00,2015-08-18 14:30:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54851,2015-09-16 21:41:00,2015-09-18 12:30:00,2015-09-18 13:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54852,2015-09-16 11:41:00,2015-10-16 13:00:00,2015-10-16 13:30:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54898,2015-09-11 14:06:00,2015-09-21 07:00:00,2015-10-03 18:00:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+54899,2015-09-10 10:53:00,2015-09-11 07:00:00,2015-09-23 18:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+54900,2014-10-23 13:58:00,2015-06-18 07:00:00,2015-06-18 16:00:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+54901,2014-10-23 13:58:00,2015-06-11 07:00:00,2015-06-11 16:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+54905,2015-07-11 11:41:00,2015-07-15 13:30:00,2015-07-15 14:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54906,2015-07-11 11:42:00,2015-08-14 14:00:00,2015-08-14 14:30:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54907,2015-09-16 21:41:00,2015-09-18 13:00:00,2015-09-18 13:30:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54908,2015-09-16 21:42:00,2015-10-16 13:30:00,2015-10-16 14:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54910,2014-08-25 19:17:00,2015-10-05 06:00:00,2015-10-06 18:00:00,120.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54911,2014-10-23 13:58:00,2015-10-07 06:00:00,2015-10-20 18:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54912,2014-08-25 19:17:00,2015-10-21 06:00:00,2015-10-23 18:00:00,120.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54913,2014-10-23 13:58:00,2015-10-24 06:00:00,2015-11-06 18:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54914,2015-03-27 14:03:00,2015-11-05 23:00:00,2015-11-11 23:00:00,120.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-54915,2014-08-25 19:17:00,2015-11-18 06:00:00,2015-11-20 18:00:00,120.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54922,2014-10-23 13:58:00,2015-05-19 09:00:00,2015-05-19 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54923,2014-10-23 13:58:00,2015-05-26 09:00:00,2015-05-26 16:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54924,2015-07-13 14:46:00,2015-07-14 08:00:00,2015-07-14 17:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54926,2014-10-23 13:58:00,2015-09-15 09:00:00,2015-09-15 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54927,2014-10-23 13:58:00,2015-09-22 09:00:00,2015-09-22 16:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54935,2015-04-29 14:44:00,2015-04-30 07:00:00,2015-04-30 16:00:00,18.0,TUI_6,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54936,2015-03-09 16:31:00,2015-04-29 07:00:00,2015-04-29 16:00:00,18.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54937,2015-06-11 14:11:00,2015-07-22 07:00:00,2015-07-22 16:00:00,0.0,TUI_6,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54938,2015-03-09 16:31:00,2015-07-29 07:00:00,2015-07-29 16:00:00,18.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54939,2015-03-09 16:31:00,2015-10-19 06:00:00,2015-10-22 23:00:00,18.0,TUI_6,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 54940,2015-10-03 13:25:00,2015-10-27 06:00:00,2015-10-30 23:00:00,18.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-54969,2015-10-26 13:49:00,2015-11-11 07:00:00,2015-11-11 18:00:00,21.0,TUI_4,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-54970,2015-10-26 13:49:00,2015-11-18 07:00:00,2015-11-18 16:00:00,21.0,TUI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-55002,2015-03-27 14:03:00,2015-11-23 07:00:00,2015-12-04 18:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-55003,2015-04-15 14:07:00,2015-11-18 09:00:00,2015-11-18 16:00:00,0.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-55032,2014-08-25 19:17:00,2015-11-21 11:00:00,2015-11-21 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-55034,2014-08-25 19:17:00,2015-11-14 11:00:00,2015-11-14 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-55035,2014-08-25 19:17:00,2015-11-07 11:00:00,2015-11-07 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-55036,2014-08-25 19:17:00,2015-10-31 11:00:00,2015-10-31 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+54955,2015-04-19 13:30:00,2015-04-17 22:00:00,2015-04-21 20:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+54964,2015-07-14 08:15:00,2015-07-14 09:00:00,2015-07-15 15:00:00,8.0,RKA_STN,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54965,2015-05-14 15:36:00,2015-05-11 06:00:00,2015-05-14 23:00:00,21.0,TUI_4,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54966,2015-07-16 07:44:00,2015-07-21 01:00:00,2015-07-21 03:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54967,2015-08-12 11:02:00,2015-08-12 07:00:00,2015-08-12 16:00:00,21.0,TUI_4,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54968,2015-08-19 13:26:00,2015-08-19 07:00:00,2015-08-19 16:00:00,21.0,TUI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54969,2015-07-20 14:17:00,2015-07-23 09:00:00,2015-07-23 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54970,2015-07-17 07:41:00,2015-07-17 02:18:00,2015-07-18 00:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54972,2015-07-17 12:24:00,2015-07-17 13:00:00,2015-07-20 17:00:00,3.0,RKA_STN,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+54974,2015-07-17 18:42:00,2015-07-24 09:00:00,2015-07-24 17:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54988,2015-03-21 14:47:00,2015-04-21 09:00:00,2015-04-21 17:00:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54989,2014-08-25 19:17:00,2015-04-28 09:00:00,2015-04-28 16:00:00,2.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54990,2014-10-23 13:58:00,2015-05-05 09:00:00,2015-05-05 16:00:00,60.0,TKU_3,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54991,2015-06-04 14:03:00,2015-06-05 08:00:00,2015-06-05 17:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54992,2014-10-23 13:58:00,2015-06-23 09:00:00,2015-06-23 16:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54993,2014-10-23 13:58:00,2015-07-07 09:00:00,2015-07-07 16:00:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54995,2014-08-25 19:17:00,2015-07-28 09:00:00,2015-07-28 16:00:00,2.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54996,2014-10-23 13:58:00,2015-08-04 09:00:00,2015-08-04 16:00:00,60.0,TKU_3,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54997,2015-03-27 14:03:00,2015-08-29 07:00:00,2015-09-11 18:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+54998,2015-03-27 14:03:00,2015-09-12 07:00:00,2015-09-25 18:00:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+55000,2015-09-23 14:30:00,2015-09-22 07:00:00,2015-10-04 18:00:00,60.0,TKU_3,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+55007,2015-07-22 18:41:00,2015-07-23 12:30:00,2015-07-25 08:30:00,45.6,MOK_10,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55009,2015-07-22 18:41:00,2015-07-27 10:00:00,2015-07-27 16:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55010,2015-07-22 18:41:00,2015-07-28 10:00:00,2015-07-28 16:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55011,2015-07-22 18:41:00,2015-07-29 10:00:00,2015-07-29 16:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55012,2015-07-22 18:41:00,2015-07-30 10:00:00,2015-07-30 16:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55013,2015-07-22 18:41:00,2015-07-31 10:00:00,2015-07-31 16:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55014,2015-07-23 18:42:00,2015-07-24 10:00:00,2015-07-26 16:30:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+55015,2015-07-28 11:41:00,2015-07-28 15:00:00,2015-07-28 16:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55016,2015-07-27 18:42:00,2015-07-28 11:00:00,2015-07-28 12:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55017,2015-07-27 18:42:00,2015-07-31 12:30:00,2015-07-31 14:30:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55019,2015-07-28 11:41:00,2015-08-03 08:00:00,2015-08-03 16:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55020,2015-07-29 07:42:00,2015-07-28 22:30:00,2015-07-29 00:30:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55021,2015-09-16 14:39:00,2015-09-16 07:00:00,2015-09-17 23:59:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+55022,2015-09-21 14:43:00,2015-09-21 06:00:00,2015-09-25 23:59:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+55030,2015-07-31 11:42:00,2015-11-02 08:00:00,2015-11-02 17:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55031,2015-07-31 11:42:00,2015-11-03 08:00:00,2015-11-03 17:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55035,2015-07-31 11:42:00,2015-11-02 08:00:00,2015-11-02 17:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55036,2015-07-31 11:42:00,2015-11-03 08:00:00,2015-11-03 17:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55037,2014-08-25 19:17:00,2015-10-24 11:00:00,2015-10-24 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55038,2014-08-25 19:17:00,2015-10-17 11:00:00,2015-10-17 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55039,2015-10-08 14:27:00,2015-10-11 11:00:00,2015-10-11 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55040,2015-07-31 11:42:00,2015-11-02 08:00:00,2015-11-02 17:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55041,2015-07-31 11:42:00,2015-11-03 08:00:00,2015-11-03 17:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55042,2015-09-16 14:39:00,2015-09-17 11:00:00,2015-09-17 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55043,2015-08-01 11:41:00,2015-08-01 07:30:00,2015-08-01 17:30:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55044,2015-09-05 14:15:00,2015-09-19 07:30:00,2015-09-22 16:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55045,2014-08-25 19:17:00,2015-09-05 11:00:00,2015-09-05 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55046,2014-08-25 19:17:00,2015-08-29 11:00:00,2015-08-29 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55047,2015-08-04 11:40:00,2015-08-04 10:30:00,2015-08-04 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55048,2015-08-13 13:55:00,2015-08-14 11:00:00,2015-08-14 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55049,2015-08-05 07:42:00,2015-08-21 10:00:00,2015-08-21 16:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55050,2015-08-05 11:44:00,2015-08-26 08:00:00,2015-08-26 17:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55051,2015-08-05 11:44:00,2015-08-27 08:00:00,2015-08-27 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55052,2015-07-17 14:38:00,2015-07-18 10:00:00,2015-07-18 12:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55053,2014-08-25 19:17:00,2015-07-11 11:00:00,2015-07-11 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55054,2014-08-25 19:17:00,2015-07-04 11:00:00,2015-07-04 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55055,2014-08-25 19:17:00,2015-06-27 11:00:00,2015-06-27 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55056,2015-05-26 13:39:00,2015-06-18 11:00:00,2015-06-18 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55057,2015-05-26 13:39:00,2015-06-11 11:00:00,2015-06-11 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55058,2015-02-24 14:59:00,2015-06-09 07:30:00,2015-06-09 16:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55059,2014-08-25 19:17:00,2015-06-06 11:00:00,2015-06-06 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55060,2015-05-28 13:19:00,2015-05-29 11:00:00,2015-05-29 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55061,2014-08-25 19:17:00,2015-05-23 11:00:00,2015-05-23 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55062,2014-08-25 19:17:00,2015-05-16 11:00:00,2015-05-16 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55063,2014-08-25 19:17:00,2015-05-09 11:00:00,2015-05-09 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55064,2015-04-29 14:44:00,2015-05-03 09:00:00,2015-05-03 11:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55065,2015-04-21 17:37:00,2015-04-23 11:00:00,2015-04-23 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55066,2014-08-25 19:17:00,2015-04-18 11:00:00,2015-04-18 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55067,2014-08-25 19:17:00,2015-04-11 11:00:00,2015-04-11 13:00:00,11.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55103,2015-08-11 15:00:00,2015-08-11 14:00:00,2015-08-11 15:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55104,2015-08-11 15:00:00,2015-08-11 13:00:00,2015-08-11 14:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55106,2015-08-14 18:44:00,2015-08-14 10:00:00,2015-08-14 12:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55107,2015-08-14 11:47:00,2015-08-19 13:00:00,2015-08-19 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55108,2015-08-28 11:46:00,2015-08-28 10:00:00,2015-08-28 17:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55113,2015-08-21 07:46:00,2015-08-24 10:30:00,2015-08-24 12:00:00,32.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55114,2015-08-21 14:10:00,2015-08-21 10:30:00,2015-08-21 14:30:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55116,2015-08-24 09:09:00,2015-08-25 12:00:00,2015-08-25 16:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55117,2015-08-24 18:45:00,2015-09-03 11:30:00,2015-09-03 12:30:00,25.0,WKM_1,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55118,2015-08-24 18:45:00,2015-09-03 12:30:00,2015-09-03 13:30:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55119,2015-08-24 18:45:00,2015-09-03 13:30:00,2015-09-03 14:30:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55120,2015-08-24 18:45:00,2015-09-03 14:30:00,2015-09-03 15:30:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55122,2015-08-26 07:46:00,2015-08-25 14:00:00,2015-08-26 08:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55123,2015-08-26 18:46:00,2015-08-26 06:36:00,2015-08-26 10:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55126,2015-08-27 11:46:00,2015-08-31 12:30:00,2015-08-31 16:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55128,2015-08-27 18:44:00,2015-08-28 11:30:00,2015-08-28 15:30:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55129,2015-09-18 18:41:00,2015-09-18 08:00:00,2015-09-18 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55130,2015-08-28 18:46:00,2015-08-31 11:00:00,2015-08-31 15:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55131,2015-09-03 13:00:00,2015-08-29 12:19:00,2015-09-03 10:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55132,2015-08-31 11:41:00,2015-09-02 13:00:00,2015-09-02 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55133,2015-09-01 18:41:00,2015-09-01 11:00:00,2015-09-01 14:30:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55134,2015-08-31 18:41:00,2015-09-17 13:00:00,2015-09-17 14:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 55141,2015-09-02 11:41:00,2015-10-28 10:00:00,2015-10-28 13:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55142,2015-09-02 11:41:00,2015-10-28 13:00:00,2015-10-28 16:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55143,2015-09-02 11:41:00,2015-10-29 10:00:00,2015-10-29 13:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55144,2015-09-02 11:41:00,2015-10-29 13:00:00,2015-10-29 16:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55179,2015-10-23 14:05:00,2015-10-19 07:30:00,2015-10-27 17:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55271,2015-10-23 14:05:00,2015-11-18 08:00:00,2015-11-18 17:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55272,2015-10-23 14:05:00,2015-11-19 08:00:00,2015-11-19 17:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55273,2015-10-23 14:05:00,2015-11-20 08:00:00,2015-11-20 17:00:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55276,2015-10-22 11:41:00,2015-10-13 07:30:00,2015-10-30 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55298,2015-10-23 14:20:00,2015-10-18 17:30:00,2015-10-27 16:00:00,8.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-55327,2015-10-22 18:41:00,2015-10-20 12:18:00,2015-12-18 17:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-55331,2015-10-22 18:41:00,2015-10-29 12:30:00,2015-10-29 14:00:00,25.0,WKM_1,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-55343,2015-10-22 18:41:00,2015-10-29 14:00:00,2015-10-29 15:30:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-55355,2015-10-22 18:41:00,2015-10-30 12:30:00,2015-10-30 14:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-55367,2015-10-22 18:41:00,2015-10-30 14:00:00,2015-10-30 15:30:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55147,2015-09-03 13:00:00,2015-09-07 10:00:00,2015-09-14 11:00:00,45.6,MOK_10,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55149,2015-09-03 13:00:00,2015-09-04 10:30:00,2015-09-04 13:30:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55152,2015-09-03 18:42:00,2015-10-05 09:00:00,2015-10-05 17:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55153,2015-09-03 18:42:00,2015-10-06 09:00:00,2015-10-06 17:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55154,2015-09-03 18:42:00,2015-10-07 09:00:00,2015-10-07 17:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55155,2015-09-03 18:42:00,2015-10-08 09:00:00,2015-10-08 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55156,2015-09-03 18:42:00,2015-10-09 09:00:00,2015-10-09 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55158,2015-09-08 11:41:00,2015-09-08 07:44:00,2015-09-11 18:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55159,2015-09-09 11:41:00,2015-09-10 11:00:00,2015-09-10 15:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55169,2015-09-09 18:41:00,2015-09-17 11:30:00,2015-09-17 13:00:00,32.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55170,2015-09-09 18:41:00,2015-09-11 12:30:00,2015-09-11 15:30:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55171,2015-09-25 18:41:00,2015-10-19 07:30:00,2015-10-23 17:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55174,2015-09-14 11:41:00,2015-09-18 09:00:00,2015-09-18 13:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55175,2015-09-14 11:41:00,2015-09-18 13:00:00,2015-09-18 17:00:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55176,2015-09-14 11:41:00,2015-09-16 13:00:00,2015-09-16 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55177,2015-09-15 21:41:00,2015-09-16 11:00:00,2015-09-16 12:00:00,20.5,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55178,2015-09-15 21:41:00,2015-09-16 12:00:00,2015-09-16 13:00:00,20.5,NTM_4,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55179,2015-10-07 18:41:00,2015-10-19 07:30:00,2015-10-23 17:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55180,2015-10-02 18:42:00,2015-10-01 09:00:00,2015-10-13 16:00:00,6.0,RKA_21,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55182,2015-09-16 21:41:00,2015-09-18 10:00:00,2015-09-18 10:30:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55183,2015-09-16 21:41:00,2015-09-18 10:30:00,2015-09-18 11:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55184,2015-09-16 21:41:00,2015-09-18 11:00:00,2015-09-18 11:30:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55185,2015-09-16 21:41:00,2015-09-18 11:30:00,2015-09-18 12:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55215,2015-09-17 18:41:00,2015-09-18 11:00:00,2015-09-18 12:00:00,20.5,NTM_4,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55224,2015-09-21 18:41:00,2015-09-24 08:00:00,2015-09-24 17:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55225,2015-09-18 18:41:00,2015-09-25 07:30:00,2015-10-02 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55226,2015-09-21 18:41:00,2015-10-02 08:00:00,2015-10-02 16:00:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+55227,2015-09-21 18:41:00,2015-10-02 08:00:00,2015-10-02 16:00:00,45.0,SWN_2,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+55230,2015-09-22 18:41:00,2015-09-29 13:00:00,2015-09-29 14:00:00,34.0,NAP_1,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55231,2015-09-23 18:41:00,2015-09-24 11:00:00,2015-09-24 13:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55232,2015-09-23 18:41:00,2015-09-23 15:03:00,2015-09-23 16:40:00,35.2,MTI_1,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55237,2015-09-24 11:41:00,2015-09-25 10:00:00,2015-09-25 14:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55238,2015-09-25 11:41:00,2015-09-26 11:00:00,2015-09-26 15:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55240,2015-09-25 18:41:00,2015-09-28 11:00:00,2015-09-28 14:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55241,2015-09-28 11:41:00,2015-10-08 08:00:00,2015-10-08 17:00:00,45.0,SWN_1,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+55242,2015-09-28 11:41:00,2015-10-09 08:00:00,2015-10-09 17:00:00,45.0,SWN_2,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+55243,2015-09-29 18:42:00,2015-10-16 08:00:00,2015-10-16 17:00:00,50.0,SWN_5,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
+55244,2015-09-28 18:41:00,2015-10-01 09:00:00,2015-10-01 17:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55245,2015-09-28 18:41:00,2015-10-01 09:00:00,2015-10-01 17:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55246,2015-09-28 18:41:00,2015-10-01 09:00:00,2015-10-01 17:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55251,2015-10-02 18:42:00,2015-09-29 09:30:00,2015-10-02 16:00:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55253,2015-09-29 11:42:00,2015-10-02 17:00:00,2015-10-05 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55258,2015-05-06 15:16:00,2015-05-02 23:59:00,2015-05-08 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+55269,2015-10-02 11:41:00,2015-10-02 09:00:00,2015-10-02 14:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55276,2015-10-06 11:41:00,2015-10-13 07:30:00,2015-10-15 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55277,2015-10-06 11:41:00,2015-10-06 13:00:00,2015-10-06 14:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55278,2015-10-06 11:41:00,2015-10-06 14:00:00,2015-10-06 15:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55297,2015-10-09 11:41:00,2015-10-15 07:00:00,2015-10-16 23:30:00,8.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55298,2015-10-09 11:41:00,2015-10-18 17:30:00,2015-10-22 16:00:00,8.0,KAG_1,KAG,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+55299,2015-10-09 18:41:00,2015-10-12 08:00:00,2015-10-15 17:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55435,2015-05-07 02:00:00,2015-06-29 06:00:00,2015-07-03 18:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+55474,2014-08-25 19:17:00,2015-04-11 11:00:00,2015-04-11 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55475,2014-08-25 19:17:00,2015-04-18 11:00:00,2015-04-18 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55476,2015-04-21 17:37:00,2015-04-23 11:00:00,2015-04-23 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55477,2015-04-29 14:44:00,2015-05-03 09:00:00,2015-05-03 11:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55478,2014-08-25 19:17:00,2015-05-09 11:00:00,2015-05-09 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55479,2014-08-25 19:17:00,2015-05-16 11:00:00,2015-05-16 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55480,2014-08-25 19:17:00,2015-05-23 11:00:00,2015-05-23 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55481,2015-05-28 13:19:00,2015-05-29 11:00:00,2015-05-29 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55482,2014-08-25 19:17:00,2015-06-06 11:00:00,2015-06-06 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55483,2015-05-26 13:39:00,2015-06-11 11:00:00,2015-06-11 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55484,2015-05-26 13:39:00,2015-06-18 11:00:00,2015-06-18 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55485,2014-08-25 19:17:00,2015-06-27 11:00:00,2015-06-27 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55486,2014-08-25 19:17:00,2015-07-04 11:00:00,2015-07-04 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55487,2014-08-25 19:17:00,2015-07-11 11:00:00,2015-07-11 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55488,2015-07-17 14:38:00,2015-07-18 10:00:00,2015-07-18 12:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55489,2014-08-25 19:17:00,2015-07-25 11:00:00,2015-07-25 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55490,2014-08-25 19:17:00,2015-08-01 11:00:00,2015-08-01 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55491,2014-08-25 19:17:00,2015-08-08 11:00:00,2015-08-08 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55492,2015-08-13 13:55:00,2015-08-14 11:00:00,2015-08-14 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55493,2014-08-25 19:17:00,2015-08-22 11:00:00,2015-08-22 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55494,2014-08-25 19:17:00,2015-08-29 11:00:00,2015-08-29 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55495,2014-08-25 19:17:00,2015-09-05 11:00:00,2015-09-05 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55496,2014-08-25 19:17:00,2015-09-12 11:00:00,2015-09-12 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55497,2015-09-16 14:39:00,2015-09-17 11:00:00,2015-09-17 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55498,2014-08-25 19:17:00,2015-09-26 11:00:00,2015-09-26 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55499,2015-09-09 02:00:00,2015-09-28 06:00:00,2015-10-02 18:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+55500,2015-10-08 14:27:00,2015-10-11 11:00:00,2015-10-11 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55501,2014-08-25 19:17:00,2015-10-17 11:00:00,2015-10-17 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+55502,2014-08-25 19:17:00,2015-10-24 11:00:00,2015-10-24 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 55503,2014-08-25 19:17:00,2015-10-31 11:00:00,2015-10-31 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-55504,2014-08-25 19:17:00,2015-11-07 11:00:00,2015-11-07 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-55505,2014-08-25 19:17:00,2015-11-14 11:00:00,2015-11-14 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-55506,2014-08-25 19:17:00,2015-11-21 11:00:00,2015-11-21 13:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-57298,2015-10-13 12:47:00,2015-11-13 22:00:00,2015-11-25 09:00:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
-58007,2015-04-15 14:07:00,2015-11-18 06:00:00,2015-11-18 18:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-58362,2015-06-11 14:11:00,2015-11-15 06:00:00,2015-11-15 19:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-58363,2015-06-11 14:11:00,2015-11-15 06:00:00,2015-11-15 19:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-58364,2015-06-11 14:11:00,2015-11-15 06:00:00,2015-11-15 19:00:00,18.0,TUI_6,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+56229,2015-07-09 02:00:00,2015-06-05 16:01:00,2015-07-09 16:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+56231,2015-05-07 02:00:00,2015-04-21 06:30:00,2015-05-30 18:30:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+56398,2015-02-07 14:04:00,2015-04-17 00:00:00,2015-04-20 04:00:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+56487,2015-03-20 09:34:00,2015-04-08 07:00:00,2015-04-20 18:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+56882,2015-03-20 09:34:00,2015-04-28 06:30:00,2015-05-08 17:30:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+56883,2015-05-07 02:00:00,2015-04-28 06:30:00,2015-05-13 18:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+56902,2015-05-12 02:00:00,2015-06-02 08:30:00,2015-06-02 16:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+57289,2015-10-10 14:38:00,2015-10-12 00:00:00,2015-10-14 22:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+57498,2015-05-01 14:47:00,2015-05-01 07:30:00,2015-05-01 18:30:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+57500,2015-05-01 14:47:00,2015-05-12 07:30:00,2015-05-12 18:30:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+57683,2015-03-11 14:13:00,2015-05-26 07:30:00,2015-05-26 17:30:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+57698,2015-03-20 09:34:00,2015-05-14 07:30:00,2015-05-14 16:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+57700,2015-03-13 12:48:00,2015-04-15 10:00:00,2015-04-15 15:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+57765,2015-08-19 02:00:00,2015-09-17 07:30:00,2015-09-17 16:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+57810,2015-03-20 09:34:00,2015-09-21 06:00:00,2015-09-25 20:00:00,121.5,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+57818,2015-03-27 14:03:00,2015-05-26 07:00:00,2015-05-26 18:00:00,18.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+57879,2015-04-12 12:49:00,2015-04-13 08:00:00,2015-04-13 16:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+57952,2015-07-21 02:00:00,2015-09-16 06:00:00,2015-09-16 18:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+57958,2015-04-21 17:37:00,2015-04-20 20:00:00,2015-04-26 23:59:00,240.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+57978,2015-04-13 16:17:00,2015-04-13 10:00:00,2015-04-24 23:59:00,2.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+57982,2015-04-15 14:06:00,2015-04-17 10:00:00,2015-04-18 18:00:00,16.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58009,2015-08-05 02:00:00,2015-08-10 06:00:00,2015-08-14 18:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+58078,2015-04-29 14:44:00,2015-04-27 00:00:00,2015-05-03 00:00:00,240.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58118,2015-04-29 14:44:00,2015-04-30 07:00:00,2015-05-21 15:00:00,0.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58138,2015-04-30 08:59:00,2015-05-01 11:00:00,2015-05-02 16:00:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58139,2015-06-04 14:03:00,2015-06-05 10:30:00,2015-06-05 14:30:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58165,2015-05-01 14:47:00,2015-05-03 00:01:00,2015-05-04 18:00:00,100.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58178,2015-05-18 14:11:00,2015-06-13 09:00:00,2015-06-13 17:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58179,2015-05-18 14:11:00,2015-06-14 09:00:00,2015-06-14 17:00:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58190,2015-05-27 02:00:00,2015-09-14 08:00:00,2015-09-18 17:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+58191,2015-06-04 02:00:00,2015-06-18 07:00:00,2015-06-18 17:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+58198,2015-06-29 16:14:00,2015-05-06 13:00:00,2015-06-30 23:59:00,240.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58284,2015-05-26 13:39:00,2015-05-26 07:00:00,2015-05-26 17:00:00,70.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58299,2015-09-05 14:15:00,2015-09-11 07:30:00,2015-09-19 07:29:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58300,2015-06-04 14:03:00,2015-06-03 13:00:00,2015-06-05 08:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58301,2015-06-03 14:04:00,2015-06-16 07:00:00,2015-06-16 18:00:00,18.0,TUI_6,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58320,2015-06-08 22:11:00,2015-06-09 10:00:00,2015-06-09 14:00:00,60.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58321,2015-06-05 15:43:00,2015-06-09 16:00:00,2015-06-09 20:30:00,0.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58322,2015-06-05 15:43:00,2015-06-10 06:00:00,2015-06-10 10:00:00,0.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58324,2015-09-11 14:06:00,2015-09-23 18:00:00,2015-10-03 18:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58398,2015-06-19 14:17:00,2015-06-22 07:30:00,2015-06-22 17:00:00,0.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58400,2015-06-19 14:17:00,2015-07-21 09:00:00,2015-07-21 16:00:00,70.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58478,2015-06-29 17:13:00,2015-07-01 00:00:00,2018-12-31 00:00:00,250.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58559,2015-07-07 13:29:00,2015-07-07 07:30:00,2015-07-07 16:00:00,46.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 58598,2015-09-01 14:06:00,2015-09-07 00:00:00,2015-10-31 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58618,2015-07-10 12:08:00,2015-07-22 08:00:00,2015-07-22 18:00:00,50.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+58638,2015-07-14 12:04:00,2015-07-14 23:59:00,2015-07-24 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58678,2015-07-17 14:38:00,2015-07-19 19:00:00,2015-07-31 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58743,2015-07-22 14:45:00,2015-07-22 09:30:00,2015-07-22 16:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58778,2015-07-31 12:54:00,2015-08-26 10:00:00,2015-08-26 14:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58798,2015-08-25 14:58:00,2015-10-26 06:00:00,2015-10-30 18:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58799,2015-10-03 13:25:00,2015-11-02 06:00:00,2015-11-03 18:00:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58800,2015-10-03 13:25:00,2015-11-04 06:00:00,2015-11-05 18:00:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58801,2015-10-03 13:25:00,2015-11-06 06:00:00,2015-11-06 18:00:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-59178,2015-09-02 02:00:00,2015-09-07 06:30:00,2015-10-30 18:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+58839,2015-08-07 15:40:00,2015-08-06 00:00:00,2015-08-07 16:00:00,403.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58840,2015-07-31 12:54:00,2015-08-01 00:00:00,2015-08-04 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58878,2015-08-09 17:12:00,2015-08-08 16:00:00,2015-08-09 23:59:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+58998,2015-08-31 14:28:00,2015-08-28 00:00:00,2015-09-13 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+59098,2015-09-18 12:54:00,2015-09-20 09:00:00,2015-09-20 15:00:00,46.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+59118,2015-09-16 14:39:00,2015-09-16 00:00:00,2015-09-17 23:59:00,240.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+59120,2015-05-15 02:00:00,2015-06-09 06:00:00,2015-07-13 20:00:00,121.5,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59122,2015-07-20 02:00:00,2015-07-20 08:00:00,2015-08-07 20:00:00,121.5,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59153,2015-07-30 02:00:00,2015-08-03 06:00:00,2015-08-07 18:00:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59154,2015-07-30 02:00:00,2015-08-10 06:00:00,2015-08-14 18:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59155,2015-09-01 02:00:00,2015-09-07 06:00:00,2015-09-11 18:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59178,2015-09-24 13:56:00,2015-09-24 06:00:00,2015-09-24 20:00:00,18.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+59180,2015-09-24 13:56:00,2015-09-23 18:01:00,2015-09-24 14:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 59198,2015-10-05 13:22:00,2015-11-02 00:00:00,2015-11-12 23:59:00,30.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
-59238,2015-10-15 02:00:00,2015-11-23 06:00:00,2015-12-11 19:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-59398,2015-10-14 11:33:00,2015-11-01 00:00:00,2015-11-10 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
-59662,2015-06-23 05:27:00,2015-11-10 07:00:00,2015-11-15 18:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59219,2015-10-06 09:09:00,2015-10-06 10:00:00,2015-10-06 16:00:00,46.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+59237,2015-03-20 09:34:00,2015-07-20 07:00:00,2015-08-28 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59238,2015-06-19 02:00:00,2015-11-02 06:00:00,2015-12-14 19:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59256,2015-04-12 02:00:00,2015-04-11 07:00:00,2015-04-12 19:00:00,34.4,TUK,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+59278,2015-09-30 13:45:00,2015-09-30 11:30:00,2015-09-30 15:30:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+59301,2015-10-03 13:25:00,2015-10-07 06:30:00,2015-10-07 07:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+59302,2015-10-05 13:22:00,2015-10-20 17:00:00,2015-10-20 17:30:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+59303,2015-05-15 02:00:00,2015-03-26 05:30:00,2015-05-16 18:00:00,121.5,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59318,2015-10-02 09:56:00,2015-10-02 10:30:00,2015-10-02 13:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+59343,2015-03-20 09:34:00,2015-04-14 10:00:00,2015-04-14 16:00:00,121.5,MAN_7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59348,2015-04-22 02:00:00,2015-05-11 08:00:00,2015-05-11 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59349,2015-04-29 02:00:00,2015-05-19 08:00:00,2015-05-19 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59350,2015-04-29 02:00:00,2015-05-14 08:00:00,2015-05-14 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59351,2015-04-29 02:00:00,2015-05-23 08:00:00,2015-05-23 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59380,2015-05-20 02:00:00,2015-05-25 06:30:00,2015-05-31 18:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59431,2015-05-08 02:00:00,2015-05-23 08:00:00,2015-05-23 17:00:00,159.0,OHB,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59432,2015-05-08 02:00:00,2015-05-23 08:00:00,2015-05-23 17:00:00,159.0,OHC,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59433,2015-03-11 02:00:00,2015-04-12 09:00:00,2015-04-12 15:00:00,159.0,OHB,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59434,2015-03-11 02:00:00,2015-04-12 09:00:00,2015-04-12 15:00:00,159.0,OHC,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59435,2015-03-11 02:00:00,2015-04-11 14:00:00,2015-04-11 15:00:00,198.0,OHA,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59455,2015-03-20 09:34:00,2015-04-17 10:00:00,2015-04-17 12:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59457,2015-03-20 09:34:00,2015-04-17 14:00:00,2015-04-17 16:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59458,2015-03-20 09:34:00,2015-04-16 10:00:00,2015-04-16 12:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59459,2015-03-20 09:34:00,2015-04-16 14:00:00,2015-04-16 16:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59476,2015-03-20 09:34:00,2015-04-21 08:00:00,2015-04-21 17:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59497,2015-04-29 02:00:00,2015-04-28 14:00:00,2015-05-01 18:00:00,159.0,OHA,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59505,2015-03-27 02:00:00,2015-04-14 06:30:00,2015-04-14 19:30:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59512,2015-03-27 02:00:00,2015-04-17 06:00:00,2015-04-20 19:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59514,2015-03-27 02:00:00,2015-04-17 06:00:00,2015-04-20 19:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59520,2015-04-23 02:00:00,2015-04-23 07:00:00,2015-04-23 17:00:00,18.2,TAP,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+59539,2015-04-21 02:00:00,2015-04-29 06:30:00,2015-04-29 17:00:00,52.6,WWD,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+59540,2015-04-11 02:00:00,2015-04-14 10:00:00,2015-04-14 16:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59552,2015-04-17 02:00:00,2015-04-24 06:30:00,2015-05-06 18:30:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59553,2015-04-17 02:00:00,2015-04-24 06:30:00,2015-05-06 18:30:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59556,2015-04-19 02:00:00,2015-04-18 07:30:00,2015-04-19 18:00:00,24.8,MCK,MCK,Meridian,0.0,continuous,0.0,Confirmed,Thermal,NI
+59581,2015-05-09 02:00:00,2015-05-25 06:00:00,2015-05-27 19:30:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59589,2015-05-06 02:00:00,2015-05-06 12:00:00,2015-05-07 20:00:00,121.5,MAN_2,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59592,2015-05-07 02:00:00,2015-05-09 13:00:00,2015-05-09 16:00:00,164.0,OHA,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59613,2015-05-08 02:00:00,2015-05-05 08:00:00,2015-05-08 15:33:00,53.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59614,2015-05-01 02:00:00,2015-05-01 10:00:00,2015-05-01 14:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59615,2015-05-02 02:00:00,2015-05-21 09:00:00,2015-05-21 11:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59616,2015-05-30 02:00:00,2015-05-30 08:00:00,2015-05-30 11:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59618,2015-05-02 02:00:00,2015-05-03 10:00:00,2015-05-03 14:00:00,98.0,WWDA,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+59633,2015-05-15 02:00:00,2015-06-08 07:30:00,2015-06-08 17:30:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59634,2015-05-15 02:00:00,2015-06-08 07:30:00,2015-06-08 17:30:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59637,2015-05-10 02:00:00,2015-05-11 00:00:00,2015-05-15 23:59:00,58.0,WHL,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+59639,2015-05-28 02:00:00,2015-05-29 10:00:00,2015-05-29 16:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59640,2015-05-14 02:00:00,2015-05-27 10:00:00,2015-05-27 16:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59641,2015-05-28 02:00:00,2015-06-30 07:00:00,2015-06-30 20:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59647,2015-05-15 02:00:00,2015-05-18 09:00:00,2015-05-18 16:00:00,121.5,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59651,2015-05-18 02:00:00,2015-05-18 06:00:00,2015-05-22 21:29:00,58.0,WHL,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+59652,2015-05-19 02:00:00,2015-05-21 20:00:00,2015-05-21 22:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59653,2015-05-19 02:00:00,2015-05-21 20:00:00,2015-05-21 22:00:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59658,2015-05-20 02:00:00,2015-07-07 06:00:00,2015-07-10 18:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59659,2015-07-30 02:00:00,2015-08-11 07:00:00,2015-08-13 16:00:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59668,2015-06-23 05:27:00,2015-07-07 07:00:00,2015-07-10 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59670,2015-06-23 05:27:00,2015-09-21 07:00:00,2015-09-24 18:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59675,2015-05-20 02:00:00,2015-05-22 09:00:00,2015-05-22 16:00:00,121.5,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59679,2015-05-21 02:00:00,2015-05-30 11:00:00,2015-06-02 07:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59682,2015-09-02 02:00:00,2015-10-30 08:00:00,2015-10-30 12:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 59683,2015-09-02 02:00:00,2015-10-28 08:00:00,2015-10-28 12:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-59852,2015-07-18 02:00:00,2015-11-07 08:00:00,2015-11-07 17:00:00,159.0,OHB,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-59853,2015-07-18 02:00:00,2015-11-07 08:00:00,2015-11-07 17:00:00,159.0,OHC,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59715,2015-05-26 02:00:00,2015-05-26 06:00:00,2015-05-29 18:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59721,2015-05-28 02:00:00,2015-05-28 10:00:00,2015-05-28 15:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59722,2015-05-30 02:00:00,2015-06-02 10:00:00,2015-06-02 16:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59723,2015-05-28 02:00:00,2015-05-29 10:00:00,2015-05-29 12:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59727,2015-06-03 02:00:00,2015-06-03 06:00:00,2015-06-03 17:30:00,98.0,WWDA,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+59729,2015-06-03 02:00:00,2015-07-10 10:00:00,2015-07-10 16:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59751,2015-06-06 02:00:00,2015-06-11 12:00:00,2015-06-11 16:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59758,2015-06-10 02:00:00,2015-06-09 20:16:00,2015-06-11 20:16:00,14.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+59768,2015-06-12 02:00:00,2015-06-16 10:00:00,2015-06-16 13:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59772,2015-06-18 02:00:00,2015-07-15 10:00:00,2015-07-15 14:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59778,2015-08-04 02:00:00,2015-07-27 07:00:00,2015-08-06 18:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59782,2015-07-09 02:00:00,2015-07-09 11:00:00,2015-07-09 17:00:00,90.8,TAP,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+59783,2015-07-03 02:00:00,2015-07-14 06:00:00,2015-07-17 20:00:00,121.5,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59798,2015-07-18 02:00:00,2015-07-18 11:00:00,2015-07-18 16:00:00,159.0,OHB,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59799,2015-07-18 02:00:00,2015-07-19 08:00:00,2015-07-19 16:00:00,159.0,OHB,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59803,2015-07-09 02:00:00,2015-09-29 06:00:00,2015-09-29 19:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59804,2015-07-09 02:00:00,2015-09-29 06:00:00,2015-09-29 19:00:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59812,2015-07-15 02:00:00,2015-07-16 09:00:00,2015-07-16 16:00:00,39.0,WHL,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+59813,2015-07-15 02:00:00,2015-07-17 09:00:00,2015-07-17 16:00:00,39.0,WHL,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+59820,2015-07-16 02:00:00,2015-07-16 13:00:00,2015-07-16 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59855,2015-09-25 02:00:00,2015-10-21 06:00:00,2015-10-21 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59856,2015-09-25 02:00:00,2015-10-21 06:00:00,2015-10-21 18:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59858,2015-07-21 02:00:00,2015-10-23 06:00:00,2015-10-23 18:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59859,2015-07-21 02:00:00,2015-10-23 06:00:00,2015-10-23 18:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59873,2015-07-23 02:00:00,2015-07-24 10:00:00,2015-07-24 16:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59874,2015-07-23 02:00:00,2015-07-24 10:00:00,2015-07-24 16:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59875,2015-07-23 02:00:00,2015-09-01 08:00:00,2015-09-02 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59876,2015-07-23 02:00:00,2015-09-03 08:00:00,2015-09-03 18:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59888,2015-07-30 02:00:00,2015-08-02 08:00:00,2015-08-02 16:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59889,2015-07-30 02:00:00,2015-08-02 08:00:00,2015-08-02 16:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59890,2015-07-29 02:00:00,2015-07-31 10:00:00,2015-07-31 16:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59897,2015-08-04 02:00:00,2015-08-07 07:00:00,2015-08-07 18:30:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59898,2015-09-01 02:00:00,2015-09-03 08:00:00,2015-09-03 18:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59899,2015-08-05 02:00:00,2015-08-09 08:00:00,2015-08-09 17:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59900,2015-08-05 02:00:00,2015-08-09 08:00:00,2015-08-09 17:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59901,2015-08-05 02:00:00,2015-08-08 12:00:00,2015-08-08 17:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59902,2015-08-05 02:00:00,2015-08-08 12:00:00,2015-08-08 17:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59903,2015-08-05 02:00:00,2015-08-08 08:00:00,2015-08-08 12:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59904,2015-08-05 02:00:00,2015-08-08 08:00:00,2015-08-08 12:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59912,2015-09-01 02:00:00,2015-09-01 07:30:00,2015-09-01 18:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59920,2015-08-18 02:00:00,2015-09-02 07:00:00,2015-09-02 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59935,2015-08-13 02:00:00,2015-08-24 12:00:00,2015-08-24 16:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59936,2015-08-13 02:00:00,2015-10-22 12:00:00,2015-10-22 20:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59937,2015-08-13 02:00:00,2015-10-22 12:00:00,2015-10-22 20:00:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59938,2015-08-13 02:00:00,2015-08-15 08:00:00,2015-08-15 17:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59939,2015-08-13 02:00:00,2015-08-15 08:00:00,2015-08-15 17:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59940,2015-08-14 02:00:00,2015-08-15 08:00:00,2015-08-15 17:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59941,2015-08-14 02:00:00,2015-08-15 08:00:00,2015-08-15 17:00:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59952,2015-08-18 02:00:00,2015-08-22 13:00:00,2015-08-22 16:00:00,159.0,OHA,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59953,2015-08-18 02:00:00,2015-10-15 10:00:00,2015-10-15 12:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59954,2015-08-18 02:00:00,2015-10-15 12:00:00,2015-10-15 14:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59955,2015-08-18 02:00:00,2015-10-15 14:00:00,2015-10-15 16:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59956,2015-08-19 02:00:00,2015-09-07 08:30:00,2015-09-07 20:00:00,121.5,MAN_2,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59957,2015-08-20 02:00:00,2015-08-20 10:00:00,2015-08-20 16:30:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+59995,2015-08-27 02:00:00,2015-08-31 09:00:00,2015-08-31 15:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60013,2015-09-01 02:00:00,2015-10-04 08:00:00,2015-10-04 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60014,2015-09-08 02:00:00,2015-10-04 08:00:00,2015-10-04 18:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60015,2015-09-08 02:00:00,2015-10-04 08:00:00,2015-10-04 18:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60022,2015-09-01 02:00:00,2015-09-02 11:00:00,2015-09-02 13:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60023,2015-09-01 02:00:00,2015-09-02 11:00:00,2015-09-02 13:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60024,2015-09-01 02:00:00,2015-09-15 07:00:00,2015-09-15 18:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60025,2015-09-01 02:00:00,2015-09-14 07:00:00,2015-09-14 18:00:00,53.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60026,2015-09-08 02:00:00,2015-11-01 08:00:00,2015-11-01 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60027,2015-09-24 02:00:00,2015-10-03 08:00:00,2015-10-03 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60033,2015-09-04 02:00:00,2015-09-06 08:00:00,2015-09-06 13:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60034,2015-09-04 02:00:00,2015-09-06 08:00:00,2015-09-06 13:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60035,2015-09-04 02:00:00,2015-09-06 08:00:00,2015-09-06 13:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60037,2015-09-10 02:00:00,2015-09-10 07:00:00,2015-09-10 17:00:00,11.6,TAP_5,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60038,2015-09-14 02:00:00,2015-09-14 07:00:00,2015-09-14 17:00:00,14.9,TAP_2,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60039,2015-09-18 02:00:00,2015-09-18 07:00:00,2015-09-18 17:00:00,6.6,TAP_6,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60040,2015-09-17 02:00:00,2015-09-17 12:00:00,2015-09-17 17:00:00,8.3,TAP_8,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60041,2015-09-17 02:00:00,2015-09-17 07:00:00,2015-09-17 12:00:00,8.3,TAP_4,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60042,2015-09-16 02:00:00,2015-09-16 07:00:00,2015-09-16 17:00:00,18.2,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60043,2015-09-15 02:00:00,2015-09-15 07:00:00,2015-09-15 17:00:00,11.6,TAP_3,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60044,2015-09-11 02:00:00,2015-09-11 07:00:00,2015-09-11 17:00:00,11.6,TAP_7,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60045,2015-09-05 02:00:00,2015-10-14 08:00:00,2015-10-14 16:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60046,2015-09-11 02:00:00,2015-09-16 08:00:00,2015-09-16 16:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60052,2015-09-08 02:00:00,2015-09-06 23:00:00,2015-09-08 23:59:00,142.6,WWD,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60058,2015-09-18 02:00:00,2015-09-23 07:00:00,2015-09-24 18:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60060,2015-09-09 02:00:00,2015-09-08 11:00:00,2015-09-09 23:30:00,98.0,WWDB,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60063,2015-09-10 02:00:00,2015-09-10 11:00:00,2015-09-10 13:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60064,2015-09-10 02:00:00,2015-09-10 11:00:00,2015-09-10 13:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60066,2015-09-11 02:00:00,2015-10-28 07:00:00,2015-10-30 18:00:00,58.0,WHL,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+60083,2015-09-15 02:00:00,2015-09-21 09:00:00,2015-09-21 15:30:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60092,2015-09-18 02:00:00,2015-09-17 12:15:00,2015-09-21 16:00:00,23.0,WWD_6,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 60093,2015-10-03 02:00:00,2015-10-29 07:30:00,2015-10-29 17:30:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60097,2015-09-19 02:00:00,2015-10-02 06:30:00,2015-10-02 19:30:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60098,2015-09-19 02:00:00,2015-10-02 06:30:00,2015-10-02 19:30:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60099,2015-09-21 02:00:00,2015-09-21 10:30:00,2015-09-21 18:30:00,20.7,TUK_2,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+60100,2015-09-22 02:00:00,2015-10-08 10:00:00,2015-10-08 16:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60101,2015-10-01 02:00:00,2015-10-07 11:00:00,2015-10-07 17:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60115,2015-09-24 02:00:00,2015-10-03 08:00:00,2015-10-03 18:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60116,2015-09-25 02:00:00,2015-10-22 06:00:00,2015-10-22 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60117,2015-09-25 02:00:00,2015-10-22 06:00:00,2015-10-22 18:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60133,2015-09-30 02:00:00,2015-10-27 10:00:00,2015-10-27 16:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-60157,2015-10-13 02:00:00,2015-11-18 10:00:00,2015-11-18 16:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-60162,2015-10-13 02:00:00,2015-11-19 10:00:00,2015-11-19 16:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-60222,2015-10-23 02:00:00,2015-11-05 08:00:00,2015-11-05 15:00:00,20.0,TAP,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-NOVA_MKE_151107,2015-08-12 14:50:00,2015-11-07 03:00:00,2015-11-07 18:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-NOVA_MKE_151108,2015-08-12 14:29:00,2015-11-08 03:00:00,2015-11-11 20:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-NOVA_MKE_151109,2015-08-12 14:34:00,2015-11-09 07:00:00,2015-11-10 18:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+60172,2015-10-05 02:00:00,2015-10-05 09:30:00,2015-10-05 11:30:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60173,2015-10-05 02:00:00,2015-10-05 09:30:00,2015-10-05 11:30:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60174,2015-10-05 02:00:00,2015-10-05 09:30:00,2015-10-05 11:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+NOVA_HWA_150817,2015-08-12 15:02:00,2015-08-17 00:00:00,2015-08-21 23:30:00,10.0,HWA_2,HWA,Nova Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+NOVA_HWA_150831,2015-08-12 15:04:00,2015-08-31 00:00:00,2015-09-04 23:30:00,10.0,HWA_1,HWA,Nova Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+NOVA_KPA_150915,2015-08-12 15:08:00,2015-09-15 04:00:00,2015-09-15 20:00:00,10.0,KPA_2,KPA,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+TRUS10073ROT,2014-06-26 00:03:00,2015-04-11 23:30:00,2015-04-12 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10074ROT,2014-06-26 00:03:00,2015-04-18 23:30:00,2015-04-19 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10075ROT,2014-06-26 00:03:00,2015-04-25 23:30:00,2015-04-26 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10076ROT,2014-06-26 00:03:00,2015-05-02 23:30:00,2015-05-03 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10077ROT,2014-06-26 00:03:00,2015-05-09 23:30:00,2015-05-10 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10078ROT,2014-06-26 00:03:00,2015-05-16 23:30:00,2015-05-17 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10079ROT,2014-06-26 00:03:00,2015-05-23 23:30:00,2015-05-24 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10080ROT,2014-06-26 00:03:00,2015-05-30 23:30:00,2015-05-31 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10081ROT,2014-06-26 00:03:00,2015-06-06 23:30:00,2015-06-07 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10082ROT,2014-06-26 00:03:00,2015-06-13 23:30:00,2015-06-14 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10083ROT,2014-06-26 00:03:00,2015-06-20 23:30:00,2015-06-21 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10084ROT,2014-06-26 00:03:00,2015-06-27 23:30:00,2015-06-28 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10085ROT,2014-06-26 00:03:00,2015-07-04 23:30:00,2015-07-05 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10086ROT,2014-06-26 00:03:00,2015-07-11 23:30:00,2015-07-12 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10087ROT,2014-06-26 00:03:00,2015-07-18 23:30:00,2015-07-19 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10088ROT,2014-06-26 00:03:00,2015-07-25 23:30:00,2015-07-26 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10089ROT,2014-06-26 00:03:00,2015-08-01 23:30:00,2015-08-02 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10090ROT,2014-06-26 00:03:00,2015-08-08 23:30:00,2015-08-09 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10091ROT,2014-06-26 00:03:00,2015-08-15 23:30:00,2015-08-16 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10092ROT,2014-06-26 00:03:00,2015-08-22 23:30:00,2015-08-23 01:30:00,11.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10277DOB,2015-04-01 00:05:00,2015-04-10 09:00:00,2015-05-14 16:00:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10488COB,2015-02-05 00:05:00,2015-02-04 10:00:00,2015-04-24 16:00:00,3.0,COB_STN,COB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10488STK,2015-04-03 00:05:00,2015-02-04 10:00:00,2015-05-01 16:00:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10542ASB,2015-04-09 00:02:00,2015-02-02 08:00:00,2015-04-24 16:30:00,28.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10593ARG,2015-04-11 00:05:00,2015-03-16 08:00:00,2015-04-17 16:00:00,11.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10688HWB,2015-03-04 00:05:00,2015-03-03 08:00:00,2015-05-01 16:30:00,12.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS10690HWB,2015-08-25 00:05:00,2015-03-03 08:00:00,2015-10-14 16:00:00,12.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS10718BWK,2015-03-17 00:05:00,2015-04-12 17:00:00,2015-04-18 16:00:00,7.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10727WRK,2015-03-21 00:05:00,2015-04-13 10:00:00,2015-04-17 17:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10748BRB,2015-03-31 00:05:00,2015-03-30 08:00:00,2015-04-30 16:00:00,1.0,BRB_STN,BRB,Trustpower,0.0,continuous,0.0,Tentative,Thermal,NI
+TRUS10756ASB,2015-04-09 00:02:00,2015-04-16 09:00:00,2015-04-16 16:00:00,28.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10765ASB,2015-04-09 00:02:00,2015-04-14 08:30:00,2015-04-14 17:00:00,28.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10770ASB,2015-04-11 00:05:00,2015-04-13 08:00:00,2015-04-13 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10771ASB,2015-04-11 00:05:00,2015-04-15 08:00:00,2015-04-15 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10772ASB,2015-04-11 00:05:00,2015-04-17 08:00:00,2015-04-17 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10773ASB,2015-04-29 00:05:00,2015-04-29 08:00:00,2015-04-29 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10774ASB,2015-04-11 00:05:00,2015-04-30 08:00:00,2015-04-30 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10775ASB,2015-04-11 00:05:00,2015-05-04 08:00:00,2015-05-04 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10776ASB,2015-04-11 00:05:00,2015-05-07 08:00:00,2015-05-07 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10778LTN,2015-04-11 00:05:00,2015-04-16 09:30:00,2015-04-16 13:00:00,37.0,LTN_STN,LTN,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS10779ABY,2015-04-11 00:05:00,2015-04-12 06:00:00,2015-04-12 19:00:00,7.0,ABY_STN,ABY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10780TGA,2015-04-11 00:05:00,2015-04-13 13:00:00,2015-04-13 15:00:00,7.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10782ASB,2015-04-11 00:05:00,2015-04-20 08:00:00,2015-04-20 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10787ARG,2015-04-14 00:05:00,2015-04-14 08:30:00,2015-04-14 14:30:00,5.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10792DOB,2015-04-21 00:05:00,2015-04-23 08:30:00,2015-04-23 12:00:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10793KUM,2015-04-19 00:05:00,2015-04-20 10:00:00,2015-04-20 13:00:00,6.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10794DOB,2015-04-21 00:05:00,2015-04-23 12:00:00,2015-04-23 16:30:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10795KUM,2015-04-19 00:05:00,2015-04-20 10:00:00,2015-04-20 13:00:00,3.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10796STK,2015-04-21 00:05:00,2015-04-21 08:00:00,2015-04-23 12:00:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10797ARG,2015-04-18 00:05:00,2015-04-17 17:30:00,2015-04-24 17:30:00,11.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10799HUI,2015-04-21 00:05:00,2015-04-20 12:30:00,2015-04-21 12:30:00,1.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10800NSY,2015-04-21 00:05:00,2015-04-22 08:00:00,2015-04-23 17:00:00,5.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10801MAT,2015-04-23 00:05:00,2015-04-30 07:30:00,2015-04-30 16:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10802STK,2015-04-22 00:05:00,2015-04-22 10:00:00,2015-04-22 13:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10803BRB,2015-04-28 00:05:00,2015-04-28 08:00:00,2015-05-01 17:00:00,1.0,BRB_STN,BRB,Trustpower,0.0,continuous,0.0,Tentative,Thermal,NI
+TRUS10806BWK,2015-04-29 00:05:00,2015-05-05 13:00:00,2015-05-05 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10807BWK,2015-04-29 00:05:00,2015-05-06 13:00:00,2015-05-06 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10809WRK,2015-05-01 00:05:00,2015-05-02 08:00:00,2015-05-02 13:00:00,2.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10810BWK,2015-04-30 00:05:00,2015-05-01 09:00:00,2015-05-01 12:00:00,40.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10811BWK,2015-04-30 00:05:00,2015-04-30 10:00:00,2015-04-30 16:30:00,20.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10816COL,2015-05-05 00:05:00,2015-05-06 08:00:00,2015-05-06 12:00:00,9.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10817COL,2015-05-05 00:05:00,2015-05-12 08:00:00,2015-05-12 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10818COL,2015-05-05 00:05:00,2015-05-13 08:00:00,2015-05-13 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10819COL,2015-05-05 00:05:00,2015-05-19 08:00:00,2015-05-19 12:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10821BWK,2015-05-05 00:05:00,2015-05-12 08:00:00,2015-05-12 13:00:00,15.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10824TGA,2015-05-05 00:05:00,2015-05-19 19:00:00,2015-05-20 17:00:00,14.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10826TGA,2015-05-06 00:05:00,2015-05-06 11:00:00,2015-05-06 12:00:00,7.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10827NSY,2015-05-06 00:05:00,2015-05-06 12:00:00,2015-05-06 14:00:00,12.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10838COL,2015-05-08 00:05:00,2015-05-12 12:30:00,2015-05-12 16:30:00,10.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10839NSY,2015-05-08 00:05:00,2015-05-11 08:00:00,2015-05-11 17:00:00,5.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10840ASB,2015-05-08 00:05:00,2015-05-19 07:30:00,2015-05-19 17:30:00,1.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10841TGA,2015-05-12 00:05:00,2015-05-13 14:00:00,2015-05-13 15:00:00,8.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10843HKK,2015-05-12 00:05:00,2015-05-13 09:00:00,2015-05-13 15:00:00,3.0,HKK_STN,HKK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10847BWK,2015-05-12 00:05:00,2015-05-12 12:00:00,2015-05-12 16:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10850BWK,2015-05-20 00:05:00,2015-05-20 08:30:00,2015-05-23 16:00:00,15.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10851WRK,2015-05-13 00:05:00,2015-05-18 10:00:00,2015-05-22 17:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10852WRK,2015-05-13 00:05:00,2015-05-21 10:00:00,2015-05-21 14:00:00,6.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10853ABY,2015-06-27 00:06:00,2015-05-25 09:00:00,2015-07-01 14:00:00,7.0,ABY_STN,ABY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10856ASB,2015-05-14 00:05:00,2015-06-03 11:00:00,2015-06-03 15:00:00,27.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10861TGA,2015-06-09 00:05:00,2015-06-09 10:00:00,2015-06-09 17:00:00,5.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10866BWK,2015-06-05 00:05:00,2015-06-05 09:00:00,2015-06-05 16:00:00,30.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10867BWK,2015-06-09 00:05:00,2015-06-08 09:00:00,2015-06-09 16:00:00,21.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10868BWK,2015-05-19 00:05:00,2015-06-15 09:00:00,2015-06-15 16:00:00,21.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10869STK,2015-05-19 00:05:00,2015-05-20 09:00:00,2015-05-20 12:00:00,12.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10870WRK,2015-05-19 00:05:00,2015-05-21 08:00:00,2015-05-21 16:00:00,6.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10871STK,2015-05-19 00:05:00,2015-05-20 12:00:00,2015-05-20 15:00:00,20.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10873HKK,2015-06-05 00:05:00,2015-06-05 09:00:00,2015-06-05 16:00:00,3.0,HKK_STN,HKK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10875ABY,2015-05-22 00:05:00,2015-05-26 08:00:00,2015-05-26 17:00:00,7.0,ABY_STN,ABY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10876HUI,2015-05-22 00:05:00,2015-05-25 06:30:00,2015-05-25 07:00:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10877HUI,2015-05-22 00:05:00,2015-06-06 18:30:00,2015-06-06 19:00:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10878STK,2015-05-22 00:05:00,2015-05-22 10:30:00,2015-05-22 12:30:00,20.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10879HKK,2015-05-23 00:05:00,2015-05-25 09:00:00,2015-05-25 16:00:00,3.0,HKK_STN,HKK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10881COL,2015-05-30 00:05:00,2015-06-10 09:30:00,2015-06-10 13:00:00,8.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10882COL,2015-05-30 00:05:00,2015-06-10 10:00:00,2015-06-10 13:30:00,10.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10883COL,2015-05-30 00:05:00,2015-06-10 10:30:00,2015-06-10 14:00:00,10.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10884ASB,2015-05-30 00:05:00,2015-06-10 08:00:00,2015-06-10 11:30:00,24.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10885COL,2015-05-26 00:05:00,2015-06-04 08:00:00,2015-06-04 12:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10886ASB,2015-05-26 00:05:00,2015-05-28 08:00:00,2015-05-28 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10887ASB,2015-05-26 00:05:00,2015-06-02 08:00:00,2015-06-02 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10888ASB,2015-05-26 00:05:00,2015-06-05 08:00:00,2015-06-05 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10889ASB,2015-05-26 00:05:00,2015-06-09 08:00:00,2015-06-09 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10890ASB,2015-05-26 00:05:00,2015-06-15 08:00:00,2015-06-15 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10891ASB,2015-05-26 00:05:00,2015-06-17 08:00:00,2015-06-17 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10892ASB,2015-05-26 00:05:00,2015-06-19 08:00:00,2015-06-19 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10893ASB,2015-05-26 00:05:00,2015-06-30 08:00:00,2015-06-30 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10894ASB,2015-05-26 00:05:00,2015-07-02 08:00:00,2015-07-02 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10895ASB,2015-05-26 00:05:00,2015-07-07 08:00:00,2015-07-07 16:30:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10896HUI,2015-05-29 00:05:00,2015-06-15 06:30:00,2015-06-15 07:00:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10897HUI,2015-05-29 00:05:00,2015-06-27 17:30:00,2015-06-27 18:00:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10904MAT,2015-05-28 00:02:00,2015-05-28 09:00:00,2015-05-28 15:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10905KUM,2015-05-29 00:05:00,2015-09-28 08:00:00,2015-10-13 17:00:00,3.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10906ARG,2015-05-29 00:05:00,2015-08-24 08:00:00,2015-08-28 17:00:00,7.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10909STK,2015-05-30 00:05:00,2015-06-21 08:30:00,2015-06-21 16:00:00,12.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10913HWA,2015-06-03 00:05:00,2015-06-03 09:00:00,2015-06-03 16:30:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10914BWK,2015-06-11 00:05:00,2015-06-10 08:30:00,2015-06-11 11:30:00,21.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10915BWK,2015-06-04 00:05:00,2015-06-04 13:00:00,2015-06-04 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10916HWA,2015-06-04 00:05:00,2015-06-04 09:00:00,2015-06-04 16:30:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10919COL,2015-06-10 00:05:00,2015-06-12 08:00:00,2015-06-12 12:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10924HWA,2015-06-09 00:05:00,2015-06-09 09:00:00,2015-06-09 16:30:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10925HWA,2015-06-09 00:05:00,2015-06-10 09:00:00,2015-06-10 16:30:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10927ARG,2015-06-11 00:05:00,2015-06-09 13:00:00,2015-06-12 15:00:00,11.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10928BWK,2015-06-10 00:05:00,2015-06-11 12:30:00,2015-06-11 16:30:00,20.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10929BWK,2015-06-10 00:05:00,2015-06-23 09:00:00,2015-06-24 16:00:00,30.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10930HWA,2015-06-11 00:05:00,2015-06-14 05:00:00,2015-06-14 12:00:00,30.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10934BWK,2015-06-15 00:05:00,2015-06-14 12:00:00,2015-06-15 17:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10936CST,2015-06-16 00:05:00,2015-06-16 10:00:00,2015-06-16 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10937CST,2015-06-16 00:05:00,2015-06-17 10:00:00,2015-06-17 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10940CST,2015-06-16 00:05:00,2015-06-18 10:00:00,2015-06-18 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10941STK,2015-06-16 00:05:00,2015-06-16 10:00:00,2015-06-16 16:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10942STK,2015-06-16 00:05:00,2015-06-18 10:00:00,2015-06-18 15:00:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10943TGA,2015-06-17 00:05:00,2015-06-25 13:00:00,2015-06-25 16:00:00,8.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10944ARG,2015-06-16 00:05:00,2015-06-16 11:00:00,2015-06-16 16:30:00,11.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10946ASB,2015-07-09 00:05:00,2015-07-17 10:00:00,2015-07-17 16:30:00,27.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10951TGA,2015-06-17 00:05:00,2015-06-17 09:30:00,2015-06-17 16:00:00,5.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10952STK,2015-06-17 00:05:00,2015-06-17 10:00:00,2015-06-17 15:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10953ROT,2015-06-18 00:05:00,2015-07-05 08:30:00,2015-07-05 17:00:00,24.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10954ROT,2015-06-18 00:05:00,2015-07-12 08:30:00,2015-07-12 17:00:00,24.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10955MAT,2015-06-18 00:05:00,2015-06-19 10:00:00,2015-06-19 15:30:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10958COL,2015-06-19 00:05:00,2015-06-17 16:30:00,2015-06-19 16:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10965TGA,2015-06-20 00:05:00,2015-06-23 09:00:00,2015-06-23 13:00:00,15.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10966TGA,2015-06-20 00:05:00,2015-06-23 13:00:00,2015-06-23 17:00:00,5.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10967BPE,2015-06-23 00:05:00,2015-06-24 09:30:00,2015-06-24 13:00:00,30.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS10968MAT,2015-06-23 00:05:00,2015-06-23 08:00:00,2015-06-23 18:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10970STK,2015-06-24 00:05:00,2015-06-25 08:00:00,2015-06-25 16:00:00,6.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10971ASB,2015-06-26 00:05:00,2015-09-06 18:00:00,2015-09-12 12:00:00,28.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10972TGA,2015-06-26 00:05:00,2015-09-14 07:30:00,2015-09-25 16:00:00,5.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS10973TGA,2015-06-26 00:05:00,2015-10-12 07:30:00,2015-10-30 16:00:00,7.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS10974TGA,2015-06-26 00:05:00,2015-11-09 07:30:00,2015-11-20 16:00:00,7.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS10976BRB,2015-06-26 00:05:00,2015-06-30 11:00:00,2015-06-30 13:00:00,9.0,BRB_STN,BRB,Trustpower,0.0,continuous,0.0,Tentative,Thermal,NI
+TRUS10985HWB,2015-07-08 00:05:00,2015-07-20 09:00:00,2015-07-20 16:00:00,18.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS10988ARG,2015-07-01 00:05:00,2015-07-01 11:00:00,2015-07-01 12:00:00,3.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10989COL,2015-07-03 00:05:00,2015-07-15 08:00:00,2015-07-15 12:00:00,9.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10990COL,2015-07-03 00:05:00,2015-07-22 08:00:00,2015-07-22 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10992ARG,2015-07-04 00:05:00,2015-07-09 11:00:00,2015-07-09 15:00:00,3.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10994KUM,2015-07-08 00:05:00,2015-07-15 13:30:00,2015-07-15 15:30:00,6.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10995STK,2015-09-26 00:05:00,2015-09-14 08:00:00,2015-09-29 16:30:00,6.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10996STK,2015-07-09 00:05:00,2015-09-24 08:00:00,2015-09-25 16:30:00,12.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS10997STK,2015-07-09 00:05:00,2015-09-24 08:00:00,2015-12-11 16:30:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS10998HWA,2015-07-09 00:05:00,2015-07-14 11:00:00,2015-07-14 16:30:00,30.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11001STK,2015-07-14 00:05:00,2015-07-16 14:00:00,2015-07-16 16:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11002STK,2015-07-14 00:05:00,2015-07-21 10:00:00,2015-07-21 16:00:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11004COL,2015-07-15 00:05:00,2015-07-16 10:00:00,2015-07-16 16:00:00,40.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11005BLN,2015-09-29 00:05:00,2015-08-10 07:30:00,2015-10-30 17:00:00,2.0,BLN_STN,BLN,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11006DOB,2015-07-17 00:05:00,2015-09-07 08:30:00,2015-11-12 17:00:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11007COL,2015-07-17 00:05:00,2015-07-23 08:00:00,2015-07-23 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11008COL,2015-07-17 00:05:00,2015-07-28 08:00:00,2015-07-28 12:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11010STK,2015-07-17 00:05:00,2015-07-17 10:00:00,2015-07-17 11:30:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11015HUI,2015-07-21 00:05:00,2015-07-21 09:00:00,2015-07-24 16:30:00,1.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11016HUI,2015-07-17 00:05:00,2015-07-28 06:00:00,2015-07-28 17:00:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11018STK,2015-07-17 00:05:00,2015-08-05 06:00:00,2015-08-05 18:00:00,6.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11020WRK,2015-07-21 00:05:00,2015-07-21 13:00:00,2015-07-21 14:00:00,2.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11021BWK,2015-07-22 00:05:00,2015-07-22 13:00:00,2015-07-22 16:30:00,21.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11022BWK,2015-07-25 00:05:00,2015-07-29 13:00:00,2015-07-29 16:30:00,7.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11023TGA,2015-07-21 00:05:00,2015-07-23 10:30:00,2015-07-23 12:30:00,15.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11025MAT,2015-07-21 00:05:00,2015-07-21 02:00:00,2015-07-21 16:00:00,58.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11027TWC,2015-07-22 00:05:00,2015-07-27 08:00:00,2015-07-27 14:00:00,30.0,TWC_STN,TWC,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11031MAT,2015-07-22 00:05:00,2015-07-23 02:00:00,2015-07-23 13:00:00,58.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11032DOB,2015-07-23 00:05:00,2015-07-30 08:00:00,2015-07-30 16:30:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11033DOB,2015-07-23 00:05:00,2015-07-31 08:00:00,2015-07-31 16:30:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11034STK,2015-07-23 00:05:00,2015-07-23 11:00:00,2015-07-23 14:00:00,32.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11036MAT,2015-07-24 00:05:00,2015-07-24 09:00:00,2015-07-24 15:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11039ARG,2015-07-28 00:05:00,2015-07-30 10:00:00,2015-07-30 14:00:00,11.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11040ARG,2015-07-28 00:05:00,2015-07-29 10:30:00,2015-07-29 12:30:00,4.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11041HWB,2015-07-29 00:05:00,2015-08-04 09:00:00,2015-08-04 16:00:00,18.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11043MAT,2015-07-29 00:05:00,2015-08-04 08:00:00,2015-08-04 17:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11044HWB,2015-08-01 00:05:00,2015-07-28 08:00:00,2015-08-03 17:00:00,36.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11046HWB,2015-07-31 00:05:00,2015-08-03 08:00:00,2015-08-03 16:00:00,36.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11055BWK,2015-08-04 00:05:00,2015-08-05 10:00:00,2015-08-05 16:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11056BWK,2015-08-04 00:05:00,2015-08-06 13:00:00,2015-08-06 16:30:00,21.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11059BWK,2015-08-06 00:05:00,2015-08-06 10:00:00,2015-08-06 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11060MAT,2015-08-05 00:05:00,2015-08-11 04:00:00,2015-08-11 14:00:00,58.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11061BPE,2015-08-06 00:05:00,2015-08-05 15:30:00,2015-08-07 16:00:00,34.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11062KUM,2015-08-07 00:05:00,2015-08-07 12:00:00,2015-08-07 14:00:00,6.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11064STK,2015-08-08 00:05:00,2015-08-11 08:00:00,2015-08-11 16:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11065STK,2015-08-13 00:05:00,2015-08-14 10:00:00,2015-08-14 16:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11069BWK,2015-08-11 00:05:00,2015-08-12 09:30:00,2015-08-12 16:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11070HUI,2015-08-12 00:05:00,2015-08-12 11:30:00,2015-08-12 16:00:00,4.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11071KUM,2015-09-17 00:05:00,2015-09-28 08:00:00,2015-09-30 17:00:00,7.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11073BPE,2015-08-13 00:05:00,2015-08-13 08:45:00,2015-08-13 15:00:00,40.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11075STK,2015-08-29 00:05:00,2015-07-21 16:00:00,2015-09-30 12:00:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11078HWB,2015-08-18 00:05:00,2015-08-19 13:00:00,2015-08-19 16:30:00,21.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11080ASB,2015-09-15 00:05:00,2015-09-06 18:00:00,2015-09-15 12:00:00,28.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11082HWA,2015-08-19 00:05:00,2015-08-19 03:00:00,2015-08-19 07:00:00,31.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11083BPE,2015-08-20 00:05:00,2015-08-26 09:30:00,2015-08-26 13:00:00,34.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11084STK,2015-08-20 00:05:00,2015-08-20 10:00:00,2015-08-20 15:00:00,16.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11086COL,2015-08-25 00:05:00,2015-09-15 08:00:00,2015-09-15 12:00:00,9.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11087COL,2015-08-25 00:05:00,2015-09-22 08:00:00,2015-09-22 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11088COL,2015-08-25 00:05:00,2015-08-24 12:00:00,2015-08-26 16:30:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11091CST,2015-08-22 00:05:00,2015-08-25 08:15:00,2015-08-25 14:30:00,5.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11092STK,2015-08-25 00:05:00,2015-08-25 09:00:00,2015-08-25 16:00:00,29.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11093MAT,2015-08-22 00:05:00,2015-09-01 10:00:00,2015-09-01 14:00:00,32.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11095NSY,2015-08-22 00:05:00,2015-10-21 06:00:00,2015-10-21 22:00:00,6.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11097NSY,2015-08-22 00:05:00,2015-11-02 06:00:00,2015-11-05 06:00:00,6.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11098HWA,2015-08-24 00:05:00,2015-08-24 03:00:00,2015-08-24 07:00:00,1.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11099BWK,2015-08-27 00:05:00,2015-08-27 08:00:00,2015-08-27 17:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11101CST,2015-08-29 00:05:00,2015-09-01 10:30:00,2015-09-01 13:00:00,4.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11102HUI,2015-08-29 00:05:00,2015-09-15 09:00:00,2015-09-16 17:00:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11104ROT,2015-08-29 00:05:00,2015-09-05 23:30:00,2015-09-06 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11105ROT,2015-08-29 00:05:00,2015-09-12 23:30:00,2015-09-13 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11106ROT,2015-08-29 00:05:00,2015-09-19 23:30:00,2015-09-20 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11107ROT,2015-08-29 00:05:00,2015-09-26 23:30:00,2015-09-27 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11108ROT,2015-08-29 00:05:00,2015-10-03 23:30:00,2015-10-04 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11109ROT,2015-08-29 00:05:00,2015-10-10 23:30:00,2015-10-11 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11110ROT,2015-08-29 00:05:00,2015-10-17 23:30:00,2015-10-18 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11111ROT,2015-08-29 00:05:00,2015-10-24 23:30:00,2015-10-25 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS11112ROT,2015-08-29 00:05:00,2015-10-31 23:30:00,2015-11-01 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11113ROT,2015-08-29 00:05:00,2015-11-07 23:30:00,2015-11-08 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11114ROT,2015-08-29 00:05:00,2015-11-14 23:30:00,2015-11-15 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11115ROT,2015-08-29 00:05:00,2015-11-21 23:30:00,2015-11-22 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11175BWK,2015-09-02 05:05:00,2015-09-02 09:00:00,2015-09-02 17:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11177BWK,2015-09-19 00:05:00,2015-09-07 08:30:00,2015-09-25 16:30:00,20.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11178STK,2015-09-04 00:05:00,2015-09-08 10:00:00,2015-09-08 15:00:00,29.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11179LTN,2015-09-15 00:05:00,2015-09-16 08:45:00,2015-09-16 12:00:00,35.0,LTN_STN,LTN,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11180HWA,2015-09-05 00:05:00,2015-10-19 08:30:00,2015-10-23 17:00:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS11182HWA,2015-09-05 00:05:00,2015-11-02 08:30:00,2015-11-06 17:00:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11188HWA,2015-09-08 00:05:00,2015-11-09 09:00:00,2015-11-13 17:00:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11242WRK,2015-09-24 00:05:00,2015-11-09 08:00:00,2015-11-14 16:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11243WRK,2015-09-24 00:05:00,2015-11-23 08:00:00,2015-11-28 16:00:00,2.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11336BWK,2015-10-21 00:05:00,2015-10-27 08:30:00,2015-10-30 16:00:00,17.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
-TRUS11342BPE,2015-10-21 00:05:00,2015-11-02 08:00:00,2015-11-06 17:00:00,6.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
-TRUS11343KUM,2015-10-23 00:05:00,2015-10-27 08:00:00,2015-10-29 17:00:00,10.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11183MAT,2015-09-05 00:05:00,2015-09-08 10:00:00,2015-09-08 12:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11184BRB,2015-09-29 00:05:00,2015-09-28 09:00:00,2015-09-29 15:00:00,9.0,BRB_STN,BRB,Trustpower,0.0,continuous,0.0,Tentative,Thermal,NI
+TRUS11185TGA,2015-09-09 00:05:00,2015-09-15 10:00:00,2015-09-15 15:00:00,10.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11186NSY,2015-09-06 00:05:00,2015-09-08 00:00:00,2015-09-09 23:59:00,6.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11187ABY,2015-09-08 00:05:00,2015-09-08 08:30:00,2015-09-08 11:00:00,7.0,ABY_STN,ABY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11189COL,2015-09-08 00:05:00,2015-09-28 07:30:00,2015-09-28 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11196HWB,2015-09-09 00:05:00,2015-09-09 15:00:00,2015-09-09 17:00:00,2.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11197ASB,2015-09-11 00:05:00,2015-09-17 08:00:00,2015-09-17 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11198ASB,2015-09-09 00:05:00,2015-09-22 08:00:00,2015-09-22 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11199ASB,2015-09-25 00:05:00,2015-09-25 08:00:00,2015-09-25 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11201ASB,2015-09-09 00:05:00,2015-09-29 08:00:00,2015-09-29 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11202ASB,2015-09-09 00:05:00,2015-10-01 08:00:00,2015-10-01 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11203ASB,2015-09-09 00:05:00,2015-10-06 08:00:00,2015-10-06 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11204ASB,2015-10-10 00:05:00,2015-10-13 08:00:00,2015-10-13 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11205ASB,2015-09-09 00:05:00,2015-10-13 08:00:00,2015-10-13 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11206ASB,2015-09-09 00:05:00,2015-10-15 08:00:00,2015-10-15 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11207ASB,2015-09-09 00:05:00,2015-10-20 08:00:00,2015-10-20 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11208LTN,2015-09-09 00:05:00,2015-09-10 12:00:00,2015-09-10 14:00:00,34.0,LTN_STN,LTN,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11209BPE,2015-09-23 00:05:00,2015-09-29 06:00:00,2015-09-29 19:00:00,40.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11213BPE,2015-09-16 00:05:00,2015-09-30 06:45:00,2015-09-30 18:30:00,30.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
+TRUS11214COL,2015-09-17 00:05:00,2015-09-23 08:00:00,2015-09-23 12:00:00,9.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11217NSY,2015-09-18 00:05:00,2015-09-30 10:00:00,2015-09-30 16:00:00,12.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11220CST,2015-09-22 00:05:00,2015-09-24 09:00:00,2015-09-24 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11221CST,2015-09-22 00:05:00,2015-09-25 09:00:00,2015-09-25 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11222CST,2015-09-22 00:05:00,2015-09-29 09:00:00,2015-09-29 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11224CST,2015-09-22 00:05:00,2015-10-05 10:00:00,2015-10-06 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11225COL,2015-09-22 00:05:00,2015-09-29 07:30:00,2015-09-29 12:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11226WRK,2015-09-22 00:05:00,2015-10-05 08:00:00,2015-10-10 16:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11227WRK,2015-09-22 00:05:00,2015-10-07 06:00:00,2015-10-07 18:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11228ROT,2015-09-22 00:05:00,2015-09-21 07:35:00,2015-09-22 17:00:00,26.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11229ABY,2015-09-22 00:05:00,2015-09-23 08:30:00,2015-09-23 15:00:00,6.0,ABY_STN,ABY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11232RDF,2015-09-23 00:05:00,2015-10-19 08:00:00,2015-10-21 17:00:00,2.0,RDF_STN,RDF,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11233RDF,2015-09-23 00:05:00,2015-10-21 08:00:00,2015-10-23 16:00:00,1.0,RDF_STN,RDF,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11234MAT,2015-09-23 00:05:00,2015-09-25 10:00:00,2015-09-25 14:00:00,80.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11239BWK,2015-09-23 00:05:00,2015-09-29 10:00:00,2015-09-29 16:00:00,25.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11240BWK,2015-09-23 00:05:00,2015-09-24 10:30:00,2015-09-24 13:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11244BWK,2015-09-24 00:05:00,2015-09-29 12:30:00,2015-09-29 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11246HUI,2015-09-24 00:05:00,2015-09-25 10:00:00,2015-09-25 12:00:00,1.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11250ASB,2015-09-26 00:05:00,2015-10-20 08:00:00,2015-10-20 11:30:00,23.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11251MAT,2015-09-26 00:05:00,2015-09-28 10:00:00,2015-09-28 14:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11256BWK,2015-09-29 00:05:00,2015-10-02 13:00:00,2015-10-02 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11257BWK,2015-09-29 00:05:00,2015-10-05 13:00:00,2015-10-05 16:30:00,20.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11258ASB,2015-09-29 00:05:00,2015-09-29 14:00:00,2015-09-29 16:00:00,27.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11290ASB,2015-10-01 00:05:00,2015-10-01 09:00:00,2015-10-01 11:00:00,27.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11291HWB,2015-10-01 00:05:00,2015-09-21 00:00:00,2015-10-09 23:59:00,2.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11292ASB,2015-10-02 00:05:00,2015-10-02 08:00:00,2015-10-02 17:00:00,2.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11299HWB,2015-10-06 00:05:00,2015-10-06 08:00:00,2015-10-06 16:30:00,2.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS11300MAT,2015-10-07 00:05:00,2015-10-13 07:30:00,2015-10-13 11:30:00,42.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11303HWA,2015-10-08 00:05:00,2015-10-16 11:59:00,2015-10-17 12:00:00,28.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11306RDF,2015-10-09 00:05:00,2015-10-08 10:00:00,2015-10-09 18:30:00,1.0,RDF_STN,RDF,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11313WRK,2015-10-10 00:05:00,2015-10-13 11:00:00,2015-10-13 16:30:00,2.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11315BWK,2015-10-10 00:05:00,2015-10-17 08:00:00,2015-10-19 16:00:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11316BWK,2015-10-10 00:05:00,2015-10-21 08:00:00,2015-10-22 13:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS9999TGA,2015-01-22 00:05:00,2015-04-12 07:00:00,2015-04-24 16:00:00,5.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
