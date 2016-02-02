@@ -122,7 +122,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 3160,2015-10-09 16:45:00,2015-11-17 08:00:00,2015-11-17 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 3161,2015-10-09 16:45:00,2015-11-24 08:00:00,2015-11-24 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 3164,2015-12-16 15:09:00,2016-01-14 09:00:00,2016-01-14 15:00:00,11.0,WRK_4,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
-3165,2016-01-28 10:57:00,2016-02-09 08:00:00,2016-02-12 08:00:00,8.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
+3165,2016-02-03 00:25:00,2016-02-09 08:00:00,2016-02-11 18:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
 3166,2016-01-27 22:27:00,2016-02-16 08:00:00,2016-02-19 08:00:00,4.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 3167,2015-12-09 16:37:00,2015-12-10 08:00:00,2015-12-10 22:00:00,50.0,PPI_1,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 3172,2015-11-27 13:20:00,2015-11-30 08:00:00,2015-12-04 18:00:00,8.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -137,6 +137,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 41750,2015-05-20 02:00:00,2015-08-17 07:00:00,2015-08-17 16:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 41752,2015-03-20 09:34:00,2016-02-11 07:00:00,2016-02-11 16:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 41794,2015-03-20 09:34:00,2015-12-01 07:00:00,2015-12-01 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+41795,2015-03-20 09:34:00,2016-03-01 07:00:00,2016-03-01 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 41834,2015-11-05 02:00:00,2015-11-17 07:00:00,2015-11-17 16:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 41835,2015-12-08 02:00:00,2016-02-22 07:00:00,2016-03-04 18:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 41901,2015-05-20 02:00:00,2015-08-14 07:00:00,2015-08-14 16:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -711,6 +712,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58299,2015-09-05 14:15:00,2015-09-11 07:30:00,2015-09-19 07:29:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58303,2015-12-16 14:22:00,2015-12-17 09:00:00,2015-12-17 15:00:00,0.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58306,2015-12-20 09:52:00,2015-12-20 09:00:00,2015-12-20 15:00:00,0.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+58307,2015-06-03 14:04:00,2016-03-01 14:30:00,2016-03-01 16:30:00,5.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58324,2015-09-11 14:06:00,2015-09-23 18:00:00,2015-10-03 18:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 58359,2015-06-11 14:11:00,2015-11-14 06:00:00,2015-11-14 19:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 58360,2015-06-11 14:11:00,2015-11-14 06:00:00,2015-11-14 19:00:00,18.0,TUI_6,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1253,5 +1255,8 @@ TRUS11525HWB,2016-01-29 00:05:00,2016-02-24 07:00:00,2016-02-24 16:00:00,36.0,HW
 TRUS11526HWB,2016-01-29 00:05:00,2016-02-25 07:00:00,2016-02-25 16:00:00,36.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
 TRUS11527HWB,2016-01-29 00:05:00,2016-02-26 07:00:00,2016-02-26 16:00:00,36.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
 TRUS11534WRK,2016-01-29 00:05:00,2016-02-22 07:30:00,2016-02-26 18:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS11544STK,2016-01-30 00:05:00,2016-02-02 08:00:00,2016-02-02 16:30:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11544STK,2016-02-03 00:05:00,2016-02-02 08:00:00,2016-02-04 16:30:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11545ASB,2016-02-02 00:05:00,2016-02-02 12:00:00,2016-02-02 15:00:00,1.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11547COL,2016-02-03 00:05:00,2016-02-04 08:30:00,2016-02-04 12:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11549ARG,2016-02-03 00:05:00,2016-02-05 07:00:00,2016-02-05 07:30:00,11.0,ARG_STN,ARG,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11550COL,2016-02-03 00:05:00,2016-02-04 12:30:00,2016-02-04 16:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
