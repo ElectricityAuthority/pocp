@@ -198,7 +198,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 45120,2015-06-29 11:43:00,2016-02-02 06:00:00,2016-02-29 18:00:00,4.5,MOK_12,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 45126,2015-05-13 11:43:00,2015-11-02 06:00:00,2015-11-13 18:00:00,4.5,MOK_21,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 45138,2015-07-16 18:41:00,2015-08-17 06:00:00,2015-08-21 18:00:00,7.8,MOK_3,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
-45190,2015-03-20 09:34:00,2015-08-06 07:00:00,2015-08-06 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45191,2015-03-20 09:34:00,2015-11-04 07:00:00,2015-11-04 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45192,2015-03-20 09:34:00,2016-02-03 07:00:00,2016-02-03 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45238,2016-01-23 02:00:00,2016-01-27 06:00:00,2016-01-27 18:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -263,7 +262,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 52406,2015-11-16 18:35:00,2015-11-23 08:00:00,2015-11-24 17:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52443,2015-10-29 11:34:00,2016-01-25 07:30:00,2016-02-11 19:30:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52521,2016-01-22 18:35:00,2016-02-22 08:00:00,2016-02-22 16:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-52695,2015-07-31 11:42:00,2015-08-06 08:00:00,2015-08-06 17:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 52745,2015-09-04 11:41:00,2015-11-20 10:00:00,2015-11-20 14:00:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 52746,2016-02-04 11:35:00,2016-02-10 07:30:00,2016-02-11 19:30:00,25.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 52802,2015-09-18 07:41:00,2015-11-25 13:00:00,2015-11-25 15:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -675,6 +673,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 55752,2016-02-03 18:35:00,2016-02-02 22:09:00,2016-02-04 17:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55769,2016-02-04 11:35:00,2016-02-10 10:00:00,2016-02-10 13:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55770,2016-02-04 11:35:00,2016-02-09 07:30:00,2016-02-12 17:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+55775,2016-02-05 11:35:00,2016-02-16 07:30:00,2016-02-19 19:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56361,2014-11-20 14:14:00,2015-11-28 09:00:00,2015-11-28 15:00:00,0.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 56363,2015-11-19 07:26:00,2015-11-29 09:00:00,2015-11-29 15:00:00,0.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57106,2015-12-20 09:52:00,2016-01-02 13:00:00,2016-01-02 15:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1036,8 +1035,6 @@ TRUS10996STK,2015-07-09 00:05:00,2015-09-24 08:00:00,2015-09-25 16:30:00,12.0,ST
 TRUS10997STK,2016-02-05 00:05:00,2015-09-24 08:00:00,2016-02-19 16:30:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11005BLN,2016-01-22 00:05:00,2015-08-10 07:30:00,2016-02-29 17:00:00,2.0,BLN_STN,BLN,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11006DOB,2015-12-25 05:05:00,2015-09-07 08:30:00,2015-12-30 17:00:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
-TRUS11056BWK,2015-08-04 00:05:00,2015-08-06 13:00:00,2015-08-06 16:30:00,21.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
-TRUS11059BWK,2015-08-06 00:05:00,2015-08-06 10:00:00,2015-08-06 16:30:00,8.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11060MAT,2015-08-05 00:05:00,2015-08-11 04:00:00,2015-08-11 14:00:00,58.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS11061BPE,2015-08-06 00:05:00,2015-08-05 15:30:00,2015-08-07 16:00:00,34.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
 TRUS11062KUM,2015-08-07 00:05:00,2015-08-07 12:00:00,2015-08-07 14:00:00,6.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
