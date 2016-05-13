@@ -711,7 +711,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57188,2016-05-04 14:16:00,2016-05-04 07:00:00,2016-05-04 16:00:00,21.0,TUI_4,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57189,2016-05-08 14:00:00,2016-05-11 07:00:00,2016-05-11 16:00:00,21.0,TUI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57197,2015-03-03 16:50:00,2016-02-25 07:30:00,2016-02-26 16:00:00,25.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
-57198,2015-03-03 16:50:00,2016-05-19 07:30:00,2016-05-19 16:00:00,25.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+57198,2016-05-13 14:10:00,2016-05-18 07:30:00,2016-05-18 16:00:00,25.0,TKA_STN,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 57201,2015-03-03 16:50:00,2016-01-19 09:00:00,2016-01-19 16:00:00,60.0,TKU_3,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57202,2016-04-27 14:43:00,2016-01-28 05:00:00,2016-05-13 11:59:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57204,2015-03-03 16:50:00,2016-02-02 09:00:00,2016-02-02 16:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -721,7 +721,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57210,2015-03-03 16:50:00,2016-05-24 09:00:00,2016-05-24 16:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57227,2015-03-03 16:50:00,2016-02-15 07:00:00,2016-02-19 16:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57229,2016-03-03 09:29:00,2016-03-08 07:00:00,2016-03-08 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-57230,2015-03-03 16:50:00,2016-05-31 07:00:00,2016-05-31 16:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+57230,2016-05-13 14:10:00,2016-05-31 07:00:00,2016-05-31 18:30:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57232,2016-05-04 14:16:00,2016-06-01 07:00:00,2016-06-01 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57298,2015-10-13 12:47:00,2015-11-13 22:00:00,2015-11-25 09:00:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 57399,2016-03-01 02:00:00,2016-03-21 06:00:00,2016-06-20 18:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1133,6 +1133,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 61523,2016-05-09 02:00:00,2016-05-09 08:00:00,2016-05-09 16:00:00,25.3,WWD_4,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 61527,2016-05-04 02:00:00,2016-05-27 10:00:00,2016-05-27 16:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61528,2016-05-04 02:00:00,2016-05-27 10:00:00,2016-05-27 16:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+61538,2016-05-13 14:10:00,2016-05-31 07:00:00,2016-05-31 18:30:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 61540,2016-05-06 02:00:00,2016-05-09 10:30:00,2016-05-09 15:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61553,2016-05-10 02:00:00,2016-05-10 08:00:00,2016-05-10 16:00:00,212.0,OHC,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61567,2016-05-11 02:00:00,2016-05-31 13:00:00,2016-05-31 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1142,6 +1143,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 61578,2016-05-09 15:21:00,2016-05-10 14:00:00,2016-05-10 15:00:00,90.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 61598,2016-05-11 14:07:00,2016-05-26 22:00:00,2016-05-30 03:00:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 61618,2016-05-11 14:07:00,2016-05-12 00:00:00,2016-05-13 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+61658,2016-05-13 14:10:00,2016-05-14 00:00:00,2016-05-14 23:59:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 NOVA_ANI_FEB16,2016-04-07 12:34:00,2016-02-29 08:00:00,2016-04-29 18:00:00,12.5,ANI_02,ANI,Nova Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 NOVA_KPA_151214,2015-08-12 15:13:00,2015-12-14 00:00:00,2015-12-18 23:30:00,10.0,KPA_1,KPA,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 NOVA_MKE_151108,2015-11-06 09:53:00,2015-11-11 05:00:00,2015-11-15 22:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI

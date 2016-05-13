@@ -990,7 +990,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1030013,2015-05-01 12:22:00,2016-01-18 07:30:00,2016-03-02 18:30:00,PEN_T6,nan,Transpower,RS,continuous,0.0,Confirmed
 1030014,2015-05-01 11:22:00,2016-03-17 07:30:00,2016-03-17 18:00:00,TRK_T3,nan,Transpower,RS,daily,0.0,Confirmed
 1030016,2015-05-01 11:22:00,2016-03-17 07:30:00,2016-03-17 18:00:00,TRK_T1,nan,Transpower,RS,daily,0.0,Confirmed
-1030708,2016-02-15 12:23:00,2016-05-30 07:30:00,2016-06-03 18:30:00,STU_67_76_T5,nan,Transpower,RS,continuous,0.0,Confirmed
+1030708,2016-05-13 14:23:00,2016-05-30 07:30:00,2016-06-03 18:00:00,STU_67_76_T5,nan,Transpower,RS,continuous,0.0,Confirmed
 1030865,2015-05-06 12:24:00,2016-03-17 07:30:00,2016-03-17 18:00:00,TRK_567_607_627,nan,Transpower,RS,daily,0.0,Confirmed
 1030893,2015-12-17 13:23:00,2016-03-03 07:30:00,2016-03-05 18:30:00,KMO_MTM_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1030991,2015-05-07 16:24:00,2015-11-19 07:00:00,2015-11-22 18:30:00,LIV_WTK_1,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -4734,6 +4734,8 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1042331,2016-05-09 13:23:00,2016-05-10 07:30:00,2016-05-10 17:00:00,CST_FDR_1092,nan,Transpower,OTH,daily,0.0,Confirmed
 1042332,2016-05-09 13:23:00,2016-05-14 08:00:00,2016-05-14 18:00:00,GYM_KUM_1,nan,Transpower,OPE,daily,0.0,Confirmed
 1042341,2016-05-09 16:23:00,2016-05-26 12:00:00,2016-05-26 16:30:00,RDF_WTU_GXP_TIE,nan,Transpower,OTH,daily,0.0,Confirmed
+1042342,2016-05-13 14:23:00,2016-06-01 10:00:00,2016-06-01 14:00:00,EDG_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
+1042343,2016-05-13 14:23:00,2016-06-08 10:00:00,2016-06-08 14:00:00,KMO_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
 1042354,2016-05-10 09:23:00,2016-05-19 18:00:00,2016-05-20 08:30:00,OAM_BPT_WTK_1,nan,Transpower,OPE,continuous,0.0,Confirmed
 1042355,2016-05-10 09:23:00,2016-05-19 18:00:00,2016-05-20 08:30:00,OAM_T1,nan,Transpower,OPE,continuous,0.0,Confirmed
 1042356,2016-05-10 09:23:00,2016-05-29 06:30:00,2016-05-29 18:30:00,HOB_T12,nan,Transpower,OPE,daily,0.0,Confirmed
@@ -4769,6 +4771,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1042440,2016-05-12 06:23:00,2016-05-12 09:00:00,2016-05-12 09:30:00,TKR_FDR_2232,nan,Transpower,OPE,daily,0.0,Confirmed
 1042441,2016-05-12 06:23:00,2016-05-11 20:00:00,2016-05-12 18:30:00,GYM_KUM_1,nan,Transpower,OPE,daily,0.0,Confirmed
 1042444,2016-05-12 06:23:00,2016-05-12 02:30:00,2016-05-12 18:00:00,BPE_T15,nan,Transpower,RS,daily,0.0,Confirmed
+1042448,2016-05-13 15:23:00,2016-05-25 08:00:00,2016-05-25 16:00:00,KIN_FDR_10,nan,Transpower,RS,daily,0.0,Confirmed
 1042450,2016-05-12 14:23:00,2016-05-15 07:00:00,2016-05-15 17:00:00,HAY_R34,nan,Transpower,OPE,daily,0.0,Confirmed
 1042456,2016-05-12 16:23:00,2016-05-31 07:00:00,2016-05-31 07:30:00,HWA_T2,nan,Transpower,PSO,daily,0.0,Confirmed
 1042457,2016-05-12 16:23:00,2016-05-31 18:00:00,2016-05-31 18:30:00,HWA_T2,nan,Transpower,PSO,daily,0.0,Confirmed
@@ -4778,6 +4781,8 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1042489,2016-05-13 10:23:00,2016-05-27 09:00:00,2016-05-27 15:30:00,KPU_FDR_1092,nan,Transpower,RS,daily,0.0,Confirmed
 1042490,2016-05-13 10:23:00,2016-05-21 06:00:00,2016-05-22 20:00:00,PEN_T5,nan,Transpower,RS,continuous,0.0,Confirmed
 1042493,2016-05-13 11:23:00,2016-05-13 10:00:00,2016-05-13 16:00:00,BPE_CB_648,nan,Transpower,RS,daily,0.0,Confirmed
+1042505,2016-05-13 14:23:00,2016-06-03 17:30:00,2016-06-03 18:30:00,STU_DIS_76,nan,Transpower,CLO,daily,0.0,Confirmed
+1042506,2016-05-13 17:23:00,2016-05-13 15:30:00,2016-05-13 19:00:00,BDE_RTU_MULTI,nan,Transpower,SCA,daily,0.0,Confirmed
 2771355,2013-01-21 12:22:00,2013-03-19 06:00:00,2018-03-23 18:00:00,THI_WKM_1,WKM,Transpower,RS,continuous,0.0,Tentative
 2784921,2015-12-31 08:22:00,2014-04-04 07:00:00,2016-12-30 17:00:00,PEN_FDR_1452,nan,Transpower,RS,daily,0.0,Confirmed
 2787657,2016-03-16 09:23:00,2013-06-08 22:00:00,2017-03-16 18:00:00,OWH_11BS_A,nan,Transpower,RS,continuous,0.0,Confirmed
