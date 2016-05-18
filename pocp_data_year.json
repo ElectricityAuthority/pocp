@@ -16,7 +16,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 22001,2016-03-02 16:39:00,2016-02-23 07:00:00,2016-03-02 16:00:00,40.0,ROX_7,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 22003,2016-04-04 15:37:00,2016-05-02 07:00:00,2016-05-28 17:00:00,108.0,CYD_4,CYD,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
 22009,2015-11-16 09:43:00,2015-11-18 02:00:00,2015-11-25 18:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-22012,2016-02-26 13:32:00,2016-05-23 07:30:00,2016-06-14 18:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
+22012,2016-05-18 19:32:00,2016-05-23 07:30:00,2016-06-14 18:00:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 22015,2016-02-17 16:03:00,2016-04-19 17:00:00,2016-04-27 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 23084,2015-11-02 12:25:00,2015-11-30 07:00:00,2015-12-02 17:30:00,108.0,CYD_4,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 23085,2015-08-25 16:21:00,2015-10-01 00:01:00,2016-06-30 23:59:00,365.0,OTC_Stn,OTC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -56,6 +56,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 26310,2016-02-11 15:54:00,2016-02-19 02:00:00,2016-02-19 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,daily,0.0,Confirmed,Thermal,NI
 26314,2016-01-11 08:17:00,2016-01-13 10:00:00,2016-01-13 15:00:00,22.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 26322,2016-01-14 14:56:00,2016-01-18 07:00:00,2016-01-19 18:00:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+26325,2016-05-18 19:32:00,2016-05-23 08:00:00,2016-05-24 22:00:00,5.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 26326,2016-01-19 11:08:00,2016-01-20 07:00:00,2016-01-22 18:00:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 26327,2016-01-19 16:08:00,2016-01-27 07:00:00,2016-01-28 18:00:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
 26328,2016-01-28 10:57:00,2016-02-02 07:00:00,2016-02-02 17:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
@@ -89,6 +90,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 26496,2016-05-17 09:17:00,2016-06-07 09:30:00,2016-06-07 16:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 26506,2016-05-17 09:17:00,2016-05-08 18:05:00,2016-05-19 18:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 26507,2016-05-10 10:21:00,2016-06-01 08:00:00,2016-06-01 11:00:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+26510,2016-05-18 19:32:00,2016-05-20 23:00:00,2016-05-23 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 2997,2015-12-16 15:09:00,2016-02-11 07:00:00,2016-02-15 18:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 2998,2015-12-16 15:09:00,2016-02-12 07:00:00,2016-02-16 18:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 2999,2015-12-16 15:09:00,2016-02-13 07:00:00,2016-02-17 18:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -180,6 +182,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 44938,2016-01-13 02:00:00,2016-02-01 07:30:00,2016-02-02 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 44972,2016-01-12 07:35:00,2016-01-19 08:00:00,2016-01-19 16:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44976,2016-05-12 18:36:00,2016-05-03 00:30:00,2016-05-12 14:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44983,2016-05-09 18:35:00,2016-06-15 08:00:00,2016-06-16 17:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44991,2015-11-30 11:35:00,2015-12-01 08:00:00,2015-12-01 16:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44994,2016-01-23 02:00:00,2016-01-28 06:00:00,2016-01-28 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 44999,2016-01-13 11:35:00,2016-01-11 00:00:00,2016-01-14 17:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -663,6 +666,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 56145,2016-05-18 18:36:00,2016-05-26 10:30:00,2016-05-26 11:00:00,26.5,OHK_1,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56148,2016-05-18 18:36:00,2016-06-14 07:00:00,2016-06-14 11:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56149,2016-05-18 18:36:00,2016-06-14 11:00:00,2016-06-14 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+56150,2016-05-18 18:36:00,2016-06-15 07:00:00,2016-06-15 11:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+56151,2016-05-18 18:36:00,2016-06-15 11:00:00,2016-06-15 16:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56361,2014-11-20 14:14:00,2015-11-28 09:00:00,2015-11-28 15:00:00,0.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 56363,2015-11-19 07:26:00,2015-11-29 09:00:00,2015-11-29 15:00:00,0.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57106,2015-12-20 09:52:00,2016-01-02 13:00:00,2016-01-02 15:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -722,6 +727,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57227,2015-03-03 16:50:00,2016-02-15 07:00:00,2016-02-19 16:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57229,2016-03-03 09:29:00,2016-03-08 07:00:00,2016-03-08 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57230,2016-05-13 14:10:00,2016-05-31 07:00:00,2016-05-31 18:30:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+57231,2016-05-04 14:16:00,2016-06-15 07:00:00,2016-06-15 16:00:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57232,2016-05-04 14:16:00,2016-06-01 07:00:00,2016-06-01 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57298,2015-10-13 12:47:00,2015-11-13 22:00:00,2015-11-25 09:00:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 57399,2016-03-01 02:00:00,2016-03-21 06:00:00,2016-06-20 18:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1390,6 +1396,7 @@ TRUS11776BWK,2016-05-10 00:05:00,2016-05-02 09:00:00,2016-05-13 16:30:00,17.0,BW
 TRUS11777TGA,2016-05-03 00:05:00,2016-05-04 10:30:00,2016-05-04 11:00:00,14.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS11778CST,2016-05-06 00:05:00,2016-05-12 10:00:00,2016-05-12 16:00:00,4.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS11779HWA,2016-05-05 00:05:00,2016-05-07 06:00:00,2016-05-07 16:00:00,31.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS11780COL,2016-05-06 00:05:00,2016-06-15 08:00:00,2016-06-16 16:30:00,10.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11790BPE,2016-05-10 00:05:00,2016-06-10 09:30:00,2016-06-10 15:00:00,68.0,BPE_STN,BPE,Trustpower,0.0,continuous,0.0,Tentative,Wind,NI
 TRUS11792STK,2016-05-10 00:05:00,2016-05-10 08:00:00,2016-05-10 16:30:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11793ASB,2016-05-12 00:05:00,2016-05-12 13:00:00,2016-05-12 16:00:00,26.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
@@ -1401,3 +1408,4 @@ TRUS11808MAT,2016-05-17 00:05:00,2016-05-18 09:00:00,2016-05-18 15:00:00,40.0,MA
 TRUS11809BLN,2016-05-17 00:05:00,2016-04-07 09:30:00,2016-05-31 23:59:00,1.0,BLN_STN,BLN,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS11812HWB,2016-05-18 00:05:00,2016-05-23 13:00:00,2016-05-23 16:30:00,36.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
 TRUS11813NSY,2016-05-18 00:05:00,2016-05-16 08:00:00,2016-06-06 17:00:00,12.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS11815MAT,2016-05-19 00:05:00,2016-05-19 08:00:00,2016-05-19 14:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
