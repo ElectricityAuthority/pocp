@@ -898,7 +898,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 60479,2016-03-08 14:22:00,2016-03-22 21:00:00,2016-03-23 13:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 60500,2016-02-20 15:11:00,2016-02-20 14:00:00,2016-02-20 17:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 60538,2016-02-20 15:11:00,2016-02-23 08:00:00,2016-02-23 18:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-60539,2016-03-08 14:22:00,2016-07-26 08:00:00,2016-07-26 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+60539,2016-07-10 15:07:00,2016-07-26 08:00:00,2016-07-26 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 60558,2016-02-20 15:11:00,2016-02-22 00:00:00,2016-02-24 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 60598,2016-03-03 09:29:00,2016-03-08 06:00:00,2016-03-08 18:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 60618,2016-02-26 15:37:00,2016-03-02 09:00:00,2016-03-02 17:00:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1098,7 +1098,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 61501,2016-05-03 14:19:00,2016-06-25 13:00:00,2016-06-25 15:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 61503,2016-05-03 14:19:00,2016-07-09 13:00:00,2016-07-09 15:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 61504,2016-05-24 02:00:00,2016-05-26 09:00:00,2016-05-26 16:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-61505,2016-05-03 14:19:00,2016-07-23 13:00:00,2016-07-23 15:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+61505,2016-07-10 15:07:00,2016-07-23 13:00:00,2016-07-23 15:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 61513,2016-05-03 02:00:00,2016-05-05 09:00:00,2016-05-05 12:00:00,58.0,WHL,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 61515,2016-05-03 02:00:00,2016-05-03 16:00:00,2016-05-03 16:30:00,25.3,WWD_4,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 61516,2016-05-03 02:00:00,2016-05-03 16:00:00,2016-05-03 16:30:00,25.3,WWD_5,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
@@ -1196,13 +1196,15 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 62418,2016-06-15 16:41:00,2016-06-15 08:00:00,2016-06-15 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62438,2016-06-15 16:41:00,2016-06-16 08:00:00,2016-06-16 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62439,2016-06-15 16:41:00,2016-06-17 08:00:00,2016-06-17 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+62481,2016-07-10 15:07:00,2016-07-22 00:00:00,2016-07-25 03:00:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 62518,2016-06-17 15:34:00,2016-06-17 05:00:00,2016-06-17 18:00:00,250.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 62519,2016-06-17 15:34:00,2016-06-18 08:00:00,2016-06-18 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62560,2016-06-24 15:27:00,2016-06-29 08:00:00,2016-06-29 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62561,2016-06-24 15:27:00,2016-06-30 08:00:00,2016-06-30 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62562,2016-06-24 15:27:00,2016-07-01 08:00:00,2016-07-01 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-62578,2016-06-24 15:27:00,2016-07-12 09:00:00,2016-07-12 16:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-62678,2016-07-05 15:37:00,2016-08-03 07:30:00,2016-08-03 16:00:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+62578,2016-07-10 15:07:00,2016-07-12 09:00:00,2016-07-12 16:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+62582,2016-07-10 15:07:00,2016-07-25 03:00:00,2016-07-27 23:59:00,100.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+62678,2016-07-10 15:07:00,2016-08-03 07:30:00,2016-08-03 16:00:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 62679,2016-07-01 14:28:00,2016-07-04 10:00:00,2016-07-05 17:00:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62698,2016-07-01 14:28:00,2016-07-04 08:00:00,2016-07-04 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62699,2016-07-01 14:28:00,2016-07-05 08:00:00,2016-07-05 17:00:00,60.0,TKU_STN,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
