@@ -706,6 +706,9 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 56497,2016-08-12 11:37:00,2016-08-15 12:30:00,2016-08-15 15:00:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56498,2016-08-15 12:22:00,2016-08-24 07:30:00,2016-08-24 12:00:00,27.0,ARI_7,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56499,2016-08-15 12:22:00,2016-08-24 12:00:00,2016-08-24 17:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+56500,2016-08-15 18:37:00,2016-08-17 22:30:00,2016-08-18 01:30:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+56501,2016-08-15 18:37:00,2016-08-17 22:30:00,2016-08-18 01:30:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+56502,2016-08-15 18:37:00,2016-08-17 22:30:00,2016-08-18 01:30:00,18.0,WPA_3,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 57113,2015-11-05 14:04:00,2016-02-20 13:00:00,2016-02-20 15:00:00,93.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 57114,2016-02-26 15:37:00,2016-02-27 13:00:00,2016-02-27 15:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 57115,2015-03-03 16:50:00,2016-03-03 07:30:00,2016-03-04 16:00:00,93.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -756,7 +759,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57211,2016-06-10 15:17:00,2016-06-14 08:00:00,2016-06-14 17:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57213,2015-03-03 16:50:00,2016-07-19 09:00:00,2016-07-19 16:00:00,60.0,TKU_3,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57214,2015-03-03 16:50:00,2016-08-02 09:00:00,2016-08-02 16:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-57215,2015-03-03 16:50:00,2016-08-16 09:00:00,2016-08-16 16:00:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+57215,2016-08-15 16:23:00,2016-08-23 09:00:00,2016-08-23 16:00:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57227,2015-03-03 16:50:00,2016-02-15 07:00:00,2016-02-19 16:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57229,2016-03-03 09:29:00,2016-03-08 07:00:00,2016-03-08 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 57230,2016-05-13 14:10:00,2016-05-31 07:00:00,2016-05-31 18:30:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1215,6 +1218,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 63099,2016-08-09 15:09:00,2016-08-19 14:00:00,2016-08-19 16:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 63100,2016-08-09 15:09:00,2016-08-19 14:00:00,2016-08-19 16:00:00,74.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 63101,2016-08-09 15:09:00,2016-08-19 14:00:00,2016-08-19 16:00:00,80.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+63239,2016-08-15 16:23:00,2016-08-16 09:00:00,2016-08-16 16:00:00,60.0,TKU_4,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 NOVA_ANI_FEB16,2016-04-07 12:34:00,2016-02-29 08:00:00,2016-04-29 18:00:00,12.5,ANI_02,ANI,Nova Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 NOVA_MKE_APR16,2016-04-15 14:59:00,2016-04-27 05:00:00,2016-04-27 20:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 NOVA_MKE_AUG16,2016-08-10 10:01:00,2016-08-16 06:00:00,2016-08-17 18:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
