@@ -3932,7 +3932,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1044073,2016-06-22 14:09:00,2016-07-20 07:00:00,2016-07-20 19:00:00,HTI_TMU_1,nan,Transpower,OPE,daily,0.0,Confirmed
 1044078,2016-07-23 06:09:00,2016-09-06 08:00:00,2016-09-06 17:00:00,HWA_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1044079,2016-07-23 06:09:00,2016-09-06 08:00:00,2016-09-06 17:00:00,HWA_RTU_2,nan,Transpower,RS,daily,0.0,Confirmed
-1044080,2016-08-05 13:09:00,2016-09-22 07:30:00,2016-09-29 18:30:00,HWA_T2,nan,Transpower,RS,continuous,0.0,Confirmed
+1044080,2016-09-02 14:09:00,2016-09-22 07:30:00,2016-09-29 19:30:00,HWA_T2,nan,Transpower,RS,continuous,0.0,Confirmed
 1044083,2016-07-01 06:09:00,2016-09-22 07:30:00,2016-09-29 18:30:00,HWA_SFD_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1044084,2016-06-23 06:11:00,2016-06-23 06:00:00,2016-06-25 18:30:00,MPE_CB_252,nan,Transpower,OPE,continuous,0.0,Confirmed
 1044085,2016-06-23 06:11:00,2016-06-23 06:00:00,2016-06-25 18:30:00,MPE_CB_292,nan,Transpower,OPE,continuous,0.0,Confirmed
@@ -4825,6 +4825,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1046124,2016-09-01 12:09:00,2016-09-27 17:30:00,2016-09-27 18:00:00,ISL_66BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1046131,2016-09-02 10:09:00,2016-09-06 07:30:00,2016-09-06 17:30:00,BRK_SFD_2,nan,Transpower,RS,daily,0.0,Confirmed
 1046132,2016-09-01 16:09:00,2016-09-01 14:00:00,2016-09-01 18:00:00,BPE_FDR_2232,nan,Transpower,RS,daily,0.0,Confirmed
+1046133,2016-09-02 13:10:00,2016-09-26 07:30:00,2016-09-30 16:00:00,HWB_FDR_2672,nan,Transpower,RS,continuous,0.0,Confirmed
 1046134,2016-09-01 16:10:00,2016-09-13 07:00:00,2016-09-13 07:30:00,HWA_T1,nan,Transpower,PSO,daily,0.0,Confirmed
 1046135,2016-09-01 16:10:00,2016-09-13 07:00:00,2016-09-13 07:30:00,HWA_T2,nan,Transpower,PSO,daily,0.0,Confirmed
 1046136,2016-09-01 16:10:00,2016-09-13 18:00:00,2016-09-13 18:30:00,HWA_T1,nan,Transpower,PSO,daily,0.0,Confirmed
@@ -4833,6 +4834,9 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1046142,2016-09-02 06:12:00,2016-09-02 07:00:00,2016-09-02 18:00:00,HTI_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
 1046150,2016-09-02 11:09:00,2016-09-26 07:30:00,2016-09-26 17:30:00,KPU_FDR_1092,nan,Transpower,RS,daily,0.0,Confirmed
 1046153,2016-09-02 12:10:00,2016-09-26 08:00:00,2016-09-30 16:30:00,GYM_KUM_1,nan,Transpower,OPE,continuous,0.0,Confirmed
+1046156,2016-09-02 13:10:00,2016-09-19 07:00:00,2016-09-19 16:59:00,GYM_KUM_1,nan,Transpower,RS,daily,0.0,Confirmed
+1046159,2016-09-02 14:09:00,2016-09-29 12:00:00,2016-09-29 16:00:00,HWA_110BZ,nan,Transpower,RS,daily,0.0,Confirmed
+1046165,2016-09-02 16:09:00,2016-09-16 15:00:00,2016-09-16 16:00:00,BRK_WGN_GXP_TIE,nan,Transpower,OTH,daily,0.0,Confirmed
 2771355,2013-01-21 12:22:00,2013-03-19 06:00:00,2018-03-23 18:00:00,THI_WKM_1,WKM,Transpower,RS,continuous,0.0,Tentative
 2784921,2016-06-01 12:44:00,2014-04-04 07:00:00,2016-12-30 17:00:00,PEN_FDR_1452,nan,Transpower,RS,daily,0.0,Confirmed
 2787657,2016-06-01 12:44:00,2013-06-08 22:00:00,2017-03-16 18:00:00,OWH_11BS_A,nan,Transpower,RS,continuous,0.0,Confirmed
