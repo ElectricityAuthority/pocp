@@ -840,7 +840,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1038346,2016-06-07 14:23:00,2016-06-24 07:30:00,2016-06-24 18:30:00,KIK_MCH_1,nan,Transpower,RS,daily,0.0,Confirmed
 1038347,2016-06-07 14:23:00,2016-06-24 07:30:00,2016-06-24 18:30:00,KIK_110BZ,nan,Transpower,RS,daily,0.0,Confirmed
 1038381,2016-01-11 12:23:00,2016-10-03 07:30:00,2016-10-07 18:30:00,COL_OTI_2,nan,Transpower,RS,continuous,0.0,Confirmed
-1038383,2016-10-18 13:09:00,2016-12-17 09:30:00,2016-12-17 15:30:00,MAN_220BS_B,nan,Transpower,RS,daily,0.0,Confirmed
+1038383,2016-12-17 06:10:00,2016-12-17 07:30:00,2016-12-17 18:00:00,MAN_220BS_B,nan,Transpower,RS,daily,0.0,Confirmed
 1038432,2016-09-06 14:09:00,2016-10-10 07:30:00,2016-10-13 18:30:00,CYD_ROX_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1038438,2016-10-19 14:14:00,2016-11-14 06:30:00,2016-11-18 18:00:00,INV_NMA_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1038441,2016-07-11 09:09:00,2016-11-21 07:00:00,2016-11-25 17:30:00,INV_MAN_2,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -3360,7 +3360,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1046926,2016-12-10 09:09:00,2016-12-10 06:30:00,2016-12-11 18:00:00,HAY_11BS_B,nan,Transpower,RS,continuous,0.0,Confirmed
 1046927,2016-12-10 09:09:00,2016-12-10 07:00:00,2016-12-11 18:00:00,HAY_R34,nan,Transpower,RS,continuous,0.0,Confirmed
 1046928,2016-12-10 09:09:00,2016-12-10 06:00:00,2016-12-11 18:00:00,HAY_CB_2808,nan,Transpower,RS,continuous,0.0,Confirmed
-1046929,2016-12-14 06:09:00,2016-12-10 06:00:00,2016-12-16 18:00:00,HAY_FDR_2842,nan,Transpower,RS,continuous,0.0,Confirmed
+1046929,2016-12-17 06:09:00,2016-12-10 06:00:00,2016-12-19 18:00:00,HAY_FDR_2842,nan,Transpower,RS,continuous,0.0,Confirmed
 1046930,2016-12-10 09:09:00,2016-12-10 06:00:00,2016-12-11 18:00:00,HAY_FDR_2882,nan,Transpower,RS,continuous,0.0,Confirmed
 1046931,2016-11-23 10:12:00,2016-11-23 08:30:00,2016-11-23 16:30:00,ALB_277_297_317,nan,Transpower,RS,daily,0.0,Confirmed
 1046932,2016-09-23 09:13:00,2016-11-23 07:30:00,2016-11-23 16:30:00,ALB_CB_298,nan,Transpower,RS,daily,0.0,Confirmed
@@ -4432,7 +4432,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1050821,2016-12-16 06:10:00,2016-12-10 07:00:00,2016-12-20 18:00:00,HTI_TMU_1,nan,Transpower,OPE,continuous,0.0,Confirmed
 1050822,2016-12-16 06:10:00,2016-12-10 07:00:00,2016-12-20 18:00:00,ARI_HAM_2,nan,Transpower,OPE,continuous,0.0,Confirmed
 1050823,2016-11-29 14:10:00,2016-12-10 07:00:00,2016-12-16 07:29:00,BOB_HAM_2,nan,Transpower,OPE,continuous,0.0,Confirmed
-1050824,2016-12-16 06:09:00,2016-12-17 17:00:00,2016-12-20 18:00:00,BOB_HAM_2,nan,Transpower,OPE,continuous,0.0,Confirmed
+1050824,2016-12-17 06:10:00,2016-12-16 17:00:00,2016-12-20 18:00:00,BOB_HAM_2,nan,Transpower,OPE,continuous,0.0,Confirmed
 1050828,2016-11-29 15:10:00,2016-12-14 08:00:00,2016-12-17 05:29:00,HAY_FDR_2782,nan,Transpower,RS,continuous,0.0,Confirmed
 1050829,2016-11-29 15:10:00,2016-12-18 18:01:00,2016-12-20 16:30:00,HAY_FDR_2782,nan,Transpower,RS,continuous,0.0,Confirmed
 1050831,2016-11-29 16:09:00,2016-12-12 07:30:00,2016-12-12 14:30:00,HAM_T7,nan,Transpower,RS,daily,0.0,Confirmed
@@ -4580,6 +4580,9 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1051470,2016-12-16 12:10:00,2016-12-19 07:00:00,2016-12-19 16:00:00,LTN_DIS_1184,nan,Transpower,RS,daily,0.0,Confirmed
 1051471,2016-12-16 12:10:00,2016-12-19 07:00:00,2016-12-19 16:00:00,LTN_DIS_1224,nan,Transpower,RS,daily,0.0,Confirmed
 1051479,2016-12-16 12:10:00,2016-12-22 08:30:00,2016-12-22 16:00:00,CBG_FDR_2832,nan,Transpower,RS,daily,0.0,Confirmed
+1051484,2016-12-17 06:10:00,2016-12-16 21:00:00,2016-12-17 08:00:00,PAK_WKM_1,nan,Transpower,OPE,daily,0.0,Confirmed
+1051485,2016-12-17 06:10:00,2016-12-16 20:00:00,2016-12-17 08:00:00,ISL_KIK_1,nan,Transpower,OPE,daily,0.0,Confirmed
+1051486,2016-12-17 06:10:00,2016-12-18 07:30:00,2016-12-18 18:00:00,MAN_CB_248,nan,Transpower,RS,daily,0.0,Confirmed
 2771355,2013-01-21 12:22:00,2013-03-19 06:00:00,2018-03-23 18:00:00,THI_WKM_1,WKM,Transpower,RS,continuous,0.0,Tentative
 2784921,2016-06-01 12:44:00,2014-04-04 07:00:00,2016-12-30 17:00:00,PEN_FDR_1452,nan,Transpower,RS,daily,0.0,Confirmed
 2787657,2016-06-01 12:44:00,2013-06-08 22:00:00,2017-03-16 18:00:00,OWH_11BS_A,nan,Transpower,RS,continuous,0.0,Confirmed
