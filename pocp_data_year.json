@@ -173,6 +173,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 44536,2017-05-29 18:39:00,2017-05-31 08:00:00,2017-05-31 16:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44685,2017-01-31 11:39:00,2017-02-08 08:00:00,2017-02-08 16:00:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 44700,2016-09-09 11:36:00,2017-02-10 13:00:00,2017-02-10 15:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+44871,2016-09-08 15:05:00,2017-07-03 07:30:00,2017-07-16 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 44940,2016-09-08 15:05:00,2017-03-16 07:30:00,2017-03-16 16:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 44941,2017-03-04 02:00:00,2017-04-06 07:30:00,2017-04-06 16:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45006,2017-01-10 02:00:00,2017-01-11 07:00:00,2017-01-13 17:30:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -348,7 +349,17 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 55987,2017-05-02 11:39:00,2017-06-15 11:00:00,2017-06-15 15:00:00,32.0,KPO_2,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55988,2017-02-09 18:39:00,2017-02-08 07:30:00,2017-02-09 19:00:00,32.0,KPO_2,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 55989,2017-03-02 11:39:00,2017-03-07 11:00:00,2017-03-07 15:00:00,32.0,KPO_2,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+56018,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-08-04 16:00:00,45.6,MOK_10,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 56019,2017-02-22 11:39:00,2017-06-26 07:00:00,2017-07-23 16:00:00,4.5,MOK_1,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56020,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-16 16:00:00,4.5,MOK_2,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56021,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-16 16:00:00,4.5,MOK_11,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56022,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-16 16:00:00,4.5,MOK_12,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56023,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-16 16:00:00,4.5,MOK_21,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56024,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-16 16:00:00,4.5,MOK_22,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56025,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-13 16:00:00,19.4,MOK_30,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56026,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-13 16:00:00,7.8,MOK_3,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56027,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-13 16:00:00,7.5,MOK_31,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+56028,2017-02-22 11:39:00,2017-07-03 07:00:00,2017-07-13 16:00:00,7.5,MOK_32,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 56042,2016-11-23 18:38:00,2016-12-20 08:00:00,2016-12-20 17:00:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56046,2016-04-21 18:35:00,2017-01-20 06:00:00,2017-01-20 18:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 56049,2016-12-20 14:29:00,2016-07-01 00:00:00,2017-01-14 17:00:00,35.2,MTI_2,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -760,6 +771,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 60283,2017-05-17 06:34:00,2017-06-19 08:00:00,2017-06-20 16:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60318,2016-06-24 15:27:00,2017-01-09 06:00:00,2017-04-17 06:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 60360,2017-01-13 14:15:00,2017-01-13 22:00:00,2017-01-31 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+61130,2017-05-18 02:00:00,2017-07-03 07:30:00,2017-07-21 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61440,2016-09-08 15:05:00,2017-02-20 12:00:00,2017-02-20 17:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61441,2016-09-08 15:05:00,2017-02-21 08:00:00,2017-02-21 13:00:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61442,2017-02-15 02:00:00,2017-02-22 08:00:00,2017-02-22 18:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
