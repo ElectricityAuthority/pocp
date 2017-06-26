@@ -198,6 +198,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 46142,2017-02-07 18:40:00,2017-02-09 13:00:00,2017-02-14 18:00:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46157,2017-02-07 18:40:00,2017-02-09 13:00:00,2017-02-14 18:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46218,2017-04-27 18:40:00,2017-04-18 07:00:00,2017-05-10 17:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46239,2017-03-15 07:39:00,2017-07-24 08:00:00,2017-07-24 16:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46240,2017-04-12 18:40:00,2017-04-13 09:00:00,2017-04-13 12:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46255,2016-12-13 18:41:00,2017-01-23 08:00:00,2017-01-23 16:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46270,2017-05-19 11:39:00,2017-05-29 07:00:00,2017-05-30 17:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -282,6 +283,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 54702,2017-04-07 11:39:00,2017-04-10 12:00:00,2017-04-10 12:30:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 54703,2017-03-23 11:40:00,2017-05-05 11:30:00,2017-05-05 12:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 54705,2017-04-13 12:14:00,2017-07-14 12:00:00,2017-07-14 12:30:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+54721,2016-09-08 15:05:00,2017-07-24 08:00:00,2017-07-24 16:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 54755,2016-12-20 14:29:00,2017-01-13 07:00:00,2017-01-14 18:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 54756,2017-02-24 11:39:00,2017-05-26 07:30:00,2017-05-26 18:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 54757,2017-02-13 11:40:00,2017-03-17 12:30:00,2017-03-17 13:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -729,7 +731,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58478,2017-02-14 10:36:00,2015-07-01 00:00:00,2018-09-05 00:00:00,250.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 58740,2017-03-20 13:55:00,2017-04-08 01:00:00,2017-05-09 17:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 60278,2017-01-25 02:00:00,2017-03-27 08:00:00,2017-03-28 16:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-60283,2017-05-17 06:34:00,2017-06-19 08:00:00,2017-06-20 16:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+60283,2017-06-13 02:00:00,2017-07-24 08:00:00,2017-07-25 16:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 60318,2016-06-24 15:27:00,2017-01-09 06:00:00,2017-04-17 06:00:00,60.0,TKU_1,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 60360,2017-01-13 14:15:00,2017-01-13 22:00:00,2017-01-31 23:59:00,250.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 61130,2017-05-18 02:00:00,2017-07-03 07:30:00,2017-07-21 16:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1310,3 +1312,6 @@ TRUS12915TGA,2017-06-23 00:05:00,2017-07-11 10:30:00,2017-07-11 16:00:00,6.0,TGA
 TRUS12918STK,2017-06-20 00:05:00,2017-06-21 10:00:00,2017-06-21 13:00:00,3.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS12922DOB,2017-06-22 00:05:00,2017-06-20 12:00:00,2017-06-22 17:00:00,1.0,DOB_STN,DOB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS12924STK,2017-06-24 00:05:00,2017-06-28 12:00:00,2017-06-28 14:00:00,10.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS12925HWA,2017-06-27 00:05:00,2017-07-05 09:30:00,2017-07-05 15:00:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS12926HWA,2017-06-27 00:05:00,2017-07-03 09:30:00,2017-07-03 17:00:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS12927HWA,2017-06-27 00:05:00,2017-07-04 09:30:00,2017-07-04 17:00:00,10.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
