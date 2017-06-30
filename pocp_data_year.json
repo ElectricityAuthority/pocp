@@ -36,7 +36,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 18838,2017-06-19 08:10:00,2017-06-11 20:00:00,2017-06-19 08:00:00,12.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 19867,2017-02-11 09:49:00,2016-12-31 12:00:00,2017-02-15 18:00:00,25.0,WRK_11,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 19881,2017-02-20 11:53:00,2017-02-22 04:00:00,2017-02-24 18:00:00,0.0,WRK_15,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
-22004,2017-06-27 15:02:00,2017-03-07 07:00:00,2017-07-07 17:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+22004,2017-06-30 08:22:00,2017-03-07 07:00:00,2017-06-30 17:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 26472,2017-03-03 09:15:00,2017-04-06 12:00:00,2017-04-12 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 26473,2017-03-03 09:15:00,2017-03-28 02:00:00,2017-04-01 02:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 26474,2017-04-06 16:59:00,2017-04-01 02:00:00,2017-04-06 17:00:00,200.0,SFD_Stn,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -59,7 +59,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 27896,2016-12-13 05:51:00,2016-12-12 15:00:00,2017-04-01 18:00:00,25.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 27911,2017-01-12 14:29:00,2017-01-17 06:30:00,2017-01-18 19:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 27912,2017-01-24 15:49:00,2017-01-30 07:00:00,2017-02-03 17:30:00,40.0,ROX_7,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-27913,2016-12-28 16:48:00,2016-12-29 02:00:00,2016-12-29 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 27917,2017-01-12 14:29:00,2017-01-06 07:00:00,2017-01-30 16:00:00,8.0,WRK_16,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 27918,2017-01-16 16:06:00,2017-01-22 02:00:00,2017-01-22 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 27919,2017-01-17 16:37:00,2017-01-18 02:00:00,2017-01-18 13:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -138,6 +137,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28229,2017-05-08 12:31:00,2017-05-10 00:01:00,2017-05-15 23:59:00,11.0,WRK_9,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 28232,2017-05-05 12:41:00,2017-05-07 06:00:00,2017-05-07 08:00:00,200.0,SFD_Stn,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28244,2017-05-18 17:25:00,2017-05-21 02:00:00,2017-05-21 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+28250,2017-06-30 12:47:00,2017-07-01 02:00:00,2017-07-01 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+28251,2017-06-30 12:47:00,2017-07-02 02:00:00,2017-07-02 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28270,2017-05-18 17:25:00,2017-06-06 07:30:00,2017-06-06 17:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 28271,2017-05-18 17:25:00,2017-06-15 07:30:00,2017-06-16 17:00:00,40.0,ROX_Stn,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 28279,2017-05-16 19:13:00,2017-05-30 07:00:00,2017-06-01 17:00:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -152,7 +153,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28326,2017-06-19 08:28:00,2017-06-20 08:00:00,2017-06-23 16:00:00,7.0,THI_Stn,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 28327,2017-06-14 10:49:00,2017-06-11 03:01:00,2017-06-14 14:00:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28328,2017-06-16 17:11:00,2017-06-26 07:00:00,2017-06-27 17:00:00,40.0,ROX_Stn,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
-28337,2017-06-26 09:24:00,2017-06-23 09:00:00,2017-06-30 23:59:00,11.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+28337,2017-06-30 08:22:00,2017-06-23 09:00:00,2017-07-01 10:00:00,11.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
 28338,2017-06-15 15:38:00,2017-06-15 09:50:00,2017-06-15 19:00:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28339,2017-06-16 17:11:00,2017-06-18 06:00:00,2017-06-18 13:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28341,2017-06-19 08:28:00,2017-06-21 11:00:00,2017-06-21 16:00:00,12.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -162,7 +163,9 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28352,2017-06-21 17:26:00,2017-06-26 13:00:00,2017-06-26 14:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28353,2017-06-21 17:26:00,2017-06-26 14:01:00,2017-06-26 15:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28354,2017-06-21 17:26:00,2017-06-26 15:01:00,2017-06-26 16:01:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-28356,2017-06-26 11:21:00,2017-06-26 12:30:00,2017-06-30 23:59:00,10.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+28356,2017-06-30 08:22:00,2017-06-26 12:30:00,2017-07-01 10:00:00,10.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
+28361,2017-06-30 08:31:00,2017-07-12 07:00:00,2017-07-12 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
+28363,2017-06-30 12:49:00,2017-07-25 07:00:00,2017-07-26 19:00:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 39605,2016-05-19 18:35:00,2017-01-12 08:00:00,2017-01-12 16:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39609,2017-04-05 18:39:00,2017-02-21 06:30:00,2017-04-05 17:30:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39655,2017-06-27 07:38:00,2017-02-13 07:00:00,2017-07-02 17:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -722,6 +725,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57916,2016-09-08 15:05:00,2017-01-30 06:00:00,2017-02-03 18:00:00,53.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57934,2017-01-14 02:00:00,2017-05-08 06:00:00,2017-05-19 18:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57935,2017-06-29 18:41:00,2017-07-13 13:00:00,2017-07-13 14:00:00,30.0,NAP_STN,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+57936,2017-06-30 11:39:00,2017-07-05 11:00:00,2017-07-05 15:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 57968,2017-03-22 02:00:00,2017-03-13 06:00:00,2017-03-24 13:00:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57974,2016-09-08 15:07:00,2017-03-06 06:00:00,2017-03-10 18:00:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57976,2017-03-14 02:00:00,2017-07-18 06:30:00,2017-07-18 17:30:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
