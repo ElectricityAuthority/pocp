@@ -171,8 +171,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28129,2017-03-22 08:24:00,2017-03-22 09:00:00,2017-03-22 13:00:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 28148,2017-04-06 16:59:00,2017-04-28 21:01:00,2017-04-29 18:00:00,42.0,TRC_1,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28150,2017-03-30 17:40:00,2017-03-30 15:30:00,2017-03-30 17:30:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-28151,2017-09-14 12:07:00,2017-09-25 00:01:00,2017-09-26 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
-28152,2017-09-14 12:07:00,2017-09-27 00:01:00,2017-09-30 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
+28151,2017-09-18 17:01:00,2017-09-25 00:01:00,2017-09-26 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+28152,2017-09-18 17:01:00,2017-09-27 00:01:00,2017-09-30 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28156,2017-04-04 15:39:00,2017-04-11 11:30:00,2017-04-11 12:00:00,29.0,WRK_13,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 28157,2017-04-06 16:59:00,2017-04-07 08:00:00,2017-04-07 16:00:00,40.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 28171,2017-04-06 16:59:00,2017-04-07 09:00:00,2017-04-07 14:00:00,6.0,WRK_16,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -258,6 +258,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28448,2017-09-08 14:34:00,2017-09-13 08:00:00,2017-09-13 16:00:00,5.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 28449,2017-09-08 14:34:00,2017-09-25 08:00:00,2017-09-29 17:00:00,0.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
 28465,2017-09-13 09:32:00,2017-09-25 07:00:00,2017-09-26 18:00:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+28467,2017-09-18 16:32:00,2017-09-30 00:01:00,2017-11-02 23:59:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+28471,2017-09-18 16:32:00,2017-09-19 09:00:00,2017-09-19 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 39556,2017-08-28 18:40:00,2017-09-18 07:00:00,2018-04-23 17:30:00,25.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 39609,2017-04-05 18:39:00,2017-02-21 06:30:00,2017-04-05 17:30:00,18.0,WPA_1,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39635,2017-08-02 11:39:00,2017-08-30 07:30:00,2017-08-31 17:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1098,6 +1100,13 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 67038,2017-09-12 14:15:00,2017-10-02 07:00:00,2017-10-03 08:59:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 67041,2017-09-12 14:15:00,2017-10-03 09:00:00,2017-10-03 14:59:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 67058,2017-09-13 14:14:00,2017-09-14 00:00:00,2017-09-14 23:59:00,100.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+67078,2017-09-18 14:16:00,2017-09-18 13:00:00,2017-09-18 15:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+67079,2017-09-18 14:16:00,2017-09-18 03:00:00,2017-09-18 15:00:00,100.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+67080,2017-09-18 14:16:00,2017-09-20 08:00:00,2017-09-20 16:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+67081,2017-09-18 14:26:00,2017-09-22 13:00:00,2017-09-22 15:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+67082,2017-09-18 14:16:00,2017-09-25 13:00:00,2017-09-25 15:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+67083,2017-09-18 14:26:00,2017-09-27 13:00:00,2017-09-27 15:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+67084,2017-09-18 14:26:00,2017-09-29 13:00:00,2017-09-29 15:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 NGA_ streamfeild,2017-09-06 16:39:00,2017-10-05 06:00:00,2017-10-07 18:00:00,25.0,NGA,NGA,Top Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 NGA_OEC 3,2017-09-06 15:45:00,2017-10-01 06:00:00,2017-10-05 18:00:00,10.0,NGA,NGA,Top Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 NGA_OEC1,2017-09-06 16:21:00,2017-10-09 18:00:00,2017-10-11 18:00:00,5.0,NGA,NGA,Top Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
