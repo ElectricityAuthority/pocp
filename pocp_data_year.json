@@ -250,7 +250,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28181,2017-05-03 16:56:00,2017-05-16 08:00:00,2017-05-18 16:00:00,108.0,CYD_1,CYD,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 28215,2017-10-12 00:44:00,2017-10-20 10:00:00,2017-10-20 10:30:00,11.0,WRK_4,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 28228,2017-05-04 17:21:00,2017-05-12 00:01:00,2017-05-19 23:59:00,29.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
-28229,2017-05-08 12:31:00,2017-05-10 00:01:00,2017-05-15 23:59:00,11.0,WRK_9,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 28244,2017-05-18 17:25:00,2017-05-21 02:00:00,2017-05-21 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28250,2017-06-30 12:47:00,2017-07-01 02:00:00,2017-07-01 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28251,2017-06-30 12:47:00,2017-07-02 02:00:00,2017-07-02 16:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -397,7 +396,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 45199,2016-11-02 02:00:00,2017-11-01 07:00:00,2017-11-01 16:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45200,2017-11-03 02:22:00,2017-11-06 07:00:00,2017-11-22 17:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45201,2017-11-03 02:00:00,2017-11-24 07:00:00,2017-11-24 16:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-45203,2017-05-13 02:00:00,2017-05-15 07:00:00,2017-05-15 16:30:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45204,2017-03-14 02:00:00,2017-09-18 07:00:00,2017-09-29 13:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45205,2016-12-06 02:00:00,2017-12-05 07:00:00,2017-12-05 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 45207,2017-05-16 02:00:00,2017-05-16 07:00:00,2017-05-16 16:30:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -453,7 +451,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 47430,2017-10-11 11:43:00,2017-10-16 08:00:00,2017-10-16 16:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47461,2017-08-24 11:40:00,2017-08-23 07:00:00,2017-08-24 17:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47463,2017-07-13 18:41:00,2017-07-17 09:00:00,2017-07-17 17:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-47491,2017-05-11 07:40:00,2017-05-15 08:00:00,2017-05-15 17:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47492,2017-06-27 07:38:00,2017-08-08 08:00:00,2017-08-08 16:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47493,2017-10-27 11:43:00,2017-11-30 08:00:00,2017-11-30 16:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47561,2017-11-07 18:43:00,2017-12-07 08:00:00,2017-12-07 16:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -856,7 +853,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 62192,2017-01-07 14:13:00,2017-05-30 09:00:00,2017-05-30 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62193,2016-06-24 15:27:00,2017-05-17 06:00:00,2017-05-17 17:00:00,18.0,TUI_7,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62194,2016-07-10 15:07:00,2017-05-17 06:00:00,2017-05-17 17:00:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-62196,2017-05-12 15:23:00,2017-05-15 06:00:00,2017-05-15 17:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+62196,2016-07-10 15:07:00,2017-05-18 06:00:00,2017-05-18 17:00:00,20.0,TUI_1,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62199,2017-06-08 15:45:00,2017-06-13 08:00:00,2017-06-13 16:00:00,60.0,TKU_2,TKU,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 62200,2016-07-10 15:07:00,2017-05-27 13:00:00,2017-05-27 15:00:00,13.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 62201,2016-06-24 15:27:00,2017-05-27 13:00:00,2017-05-27 15:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -942,7 +939,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 62787,2017-05-31 02:00:00,2017-05-31 06:30:00,2017-05-31 19:00:00,44.6,WWD_STN,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 62799,2017-08-22 02:00:00,2017-08-31 06:30:00,2017-09-01 19:30:00,53.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 62812,2017-05-19 15:15:00,2017-05-11 17:00:00,2017-05-31 17:00:00,33.0,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-62832,2017-05-09 02:00:00,2017-05-15 07:30:00,2017-05-15 09:30:00,18.2,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 62833,2017-05-19 15:35:00,2017-05-19 13:00:00,2017-05-19 15:00:00,18.15,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 62892,2017-05-17 06:34:00,2017-08-28 06:00:00,2017-09-15 18:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 62901,2017-05-02 02:00:00,2017-05-19 07:00:00,2017-05-19 16:00:00,23.0,WWD_6,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
@@ -1126,7 +1122,6 @@ TRUS12753COL,2017-09-08 00:05:00,2017-08-26 07:30:00,2017-09-08 16:30:00,33.0,CO
 TRUS12761WRK,2017-06-20 00:05:00,2017-06-27 07:00:00,2017-06-29 17:00:00,1.0,WRK_STN,WRK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS12797HKK,2017-05-23 00:05:00,2017-05-23 09:30:00,2017-05-23 15:00:00,3.0,HKK_STN,HKK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS12798HWA,2017-05-06 00:05:00,2017-05-05 03:30:00,2017-06-01 05:00:00,33.0,HWA_STN,HWA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
-TRUS12801CST,2017-05-12 00:05:00,2017-05-15 10:00:00,2017-05-15 17:00:00,1.0,CST_STN,CST,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS12821STK,2017-05-19 00:05:00,2017-05-19 10:30:00,2017-05-19 12:30:00,12.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS12822ASB,2017-05-17 00:05:00,2017-05-03 06:00:00,2017-05-24 18:00:00,27.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS12824BWK,2017-05-24 00:05:00,2017-05-25 13:00:00,2017-05-25 17:00:00,22.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
