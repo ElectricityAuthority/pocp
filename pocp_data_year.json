@@ -2,6 +2,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100078,2017-12-01 02:00:00,2017-05-29 12:00:00,2017-12-15 20:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100117,2017-08-04 02:00:00,2017-06-06 17:30:00,2017-09-20 10:00:00,33.0,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100118,2017-08-22 02:00:00,2017-08-31 06:30:00,2017-09-01 19:30:00,53.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100136,2017-11-16 02:00:00,2018-02-07 07:00:00,2018-02-09 17:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100137,2017-11-16 02:00:00,2018-02-07 07:00:00,2018-02-09 17:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100143,2017-09-22 02:00:00,2017-09-14 17:30:00,2018-03-30 18:00:00,42.9,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100144,2017-06-28 02:00:00,2017-09-20 10:00:00,2017-09-22 17:00:00,90.0,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100145,2017-06-28 02:00:00,2017-08-01 06:00:00,2017-08-03 18:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -440,6 +442,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 46239,2017-03-15 07:39:00,2017-07-24 08:00:00,2017-07-24 16:00:00,26.5,OHK_3,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46272,2017-08-10 08:28:00,2017-08-14 09:00:00,2017-08-14 17:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46274,2017-12-14 18:42:00,2017-12-04 08:00:00,2017-12-14 12:00:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46330,2017-04-11 18:39:00,2018-02-07 07:00:00,2018-02-07 17:30:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46357,2017-08-03 11:40:00,2017-08-17 10:00:00,2017-08-17 14:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46360,2017-11-15 18:44:00,2017-11-13 09:00:00,2017-11-15 14:00:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46399,2017-12-20 18:42:00,2017-12-18 07:30:00,2017-12-20 12:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -577,6 +580,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57667,2017-11-03 07:42:00,2017-10-29 06:30:00,2017-11-06 17:00:00,4.5,RKA_12,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 57668,2017-12-13 11:42:00,2017-10-29 06:30:00,2017-12-13 08:00:00,6.0,RKA_21,RKA,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 57669,2017-04-11 18:39:00,2017-12-19 07:00:00,2017-12-19 17:30:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+57670,2017-04-11 18:39:00,2018-02-07 07:00:00,2018-02-07 17:30:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 57730,2017-06-28 11:40:00,2017-07-19 10:30:00,2017-07-19 14:30:00,32.0,KPO_2,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 57744,2017-08-02 11:39:00,2017-08-10 08:00:00,2017-08-10 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 57757,2017-05-16 11:40:00,2017-08-15 10:00:00,2017-08-15 16:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -740,7 +744,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58160,2017-10-17 18:43:00,2017-10-19 07:00:00,2017-10-20 15:00:00,7.5,MOK_31,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58161,2017-10-17 18:43:00,2017-10-19 07:00:00,2017-10-20 15:00:00,28.0,MOK_STN,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58162,2017-11-08 11:43:00,2017-10-18 07:23:00,2017-11-08 14:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-58163,2017-11-07 18:43:00,2017-12-12 11:30:00,2017-12-12 13:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+58163,2017-11-16 02:00:00,2018-02-07 07:00:00,2018-02-07 17:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 58164,2017-11-07 18:43:00,2017-12-12 11:30:00,2017-12-12 13:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 58165,2017-10-18 11:43:00,2017-12-11 07:00:00,2017-12-11 17:00:00,31.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58166,2017-10-18 11:43:00,2017-12-11 07:00:00,2017-12-11 17:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -771,6 +775,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58241,2017-11-06 18:43:00,2017-11-06 07:33:00,2017-11-06 14:00:00,18.0,WPA_2,WPA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 58243,2017-11-06 18:43:00,2017-11-14 22:00:00,2017-11-15 00:00:00,31.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58249,2017-11-07 18:43:00,2017-12-12 13:00:00,2017-12-12 15:30:00,57.0,KPO_STN,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+58250,2017-11-29 13:59:00,2018-02-07 08:00:00,2018-02-07 16:00:00,31.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58251,2017-11-10 18:46:00,2017-11-10 10:30:00,2017-11-10 14:30:00,26.5,OHK_4,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 58269,2017-11-15 09:23:00,2017-11-14 19:02:00,2017-11-17 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 58270,2017-11-15 11:43:00,2017-11-15 10:30:00,2017-11-15 11:00:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -946,6 +951,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 64981,2017-01-27 16:34:00,2018-01-11 09:00:00,2018-01-11 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 64982,2017-01-27 16:34:00,2018-01-12 09:00:00,2018-01-12 16:00:00,60.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 64983,2017-01-27 16:34:00,2018-01-12 22:00:00,2018-01-22 23:59:00,243.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+64985,2017-05-23 14:02:00,2018-02-07 07:00:00,2018-02-07 19:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 64989,2017-09-06 14:44:00,2018-01-05 10:00:00,2018-01-05 16:00:00,5.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 64991,2017-09-06 14:44:00,2018-01-06 10:00:00,2018-01-06 16:00:00,5.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 64993,2017-09-06 14:44:00,2018-01-07 10:00:00,2018-01-07 16:00:00,5.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1222,7 +1228,7 @@ TRUS13226KUM,2017-09-28 00:05:00,2017-09-26 13:30:00,2017-10-02 16:30:00,6.0,KUM
 TRUS13228NSY,2017-09-30 00:05:00,2017-10-04 10:00:00,2017-10-05 17:00:00,5.0,NSY_STN,NSY,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS13259ROT,2017-09-29 00:06:00,2017-10-03 11:00:00,2017-10-03 14:00:00,12.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS13260KUM,2017-09-30 00:05:00,2017-10-06 09:30:00,2017-10-06 12:30:00,9.0,KUM_STN,KUM,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
-TRUS13261HWB,2017-09-30 00:05:00,2018-01-15 08:00:00,2018-02-12 16:00:00,15.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS13261HWB,2018-01-11 00:05:00,2018-01-24 08:00:00,2018-02-26 16:00:00,15.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
 TRUS13262TGA,2017-09-30 00:05:00,2017-10-05 10:00:00,2017-10-05 15:00:00,5.0,TGA_STN,TGA,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS13266ROT,2017-10-01 00:05:00,2017-10-07 23:30:00,2017-10-08 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS13267ROT,2017-10-01 00:05:00,2017-10-14 23:30:00,2017-10-15 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
