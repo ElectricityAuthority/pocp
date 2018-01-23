@@ -143,7 +143,7 @@ class POCP(object):
             csv = self.br.click_link(text_regex=re.compile("Download"))
         self.br.open(csv)
         bufferIO = StringIO()
-        bufferIO.write(str(self.br.response().read()))
+        bufferIO.write(str(self.br.response().read()).decode('utf-8')
         bufferIO.seek(0)
         if legacy:
             self.currDL = pd.read_csv(bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
