@@ -5,11 +5,11 @@
 #
 # The processed data is then pushed to github as walter-ea. This requires the github
 # remote to be set up as ssh rather than https
-PYTHONPATH=/home/dave/python:/home/dave/python/EAtools
+PYTHONPATH=/home/humed/monitoring:/home/humed/monitoring/EAtools
 
 # Go to the pocp directory and ensure that the master branch is checked out and has
 # latest version.
-cd /home/dave/python/pocp
+cd /home/humed/monitoring/pocp
 git checkout master
 git pull
 
