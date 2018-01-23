@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import pandas as pd
 import mechanize
 from datetime import datetime, timedelta
@@ -98,7 +98,7 @@ class POCP(object):
         return df
 
     def dt_convert(self, x):
-        if isinstance(x, basestring):
+        if isinstance(x, str):
             date = x.split(' ')[0].split('-')
             time = x.split(' ')[1].split(':')
             return datetime(int(date[0]), int(date[1]), int(date[2]),
@@ -143,7 +143,7 @@ class POCP(object):
             csv = self.br.click_link(text_regex=re.compile("Download"))
         self.br.open(csv)
         bufferIO = StringIO()
-        bufferIO.write(unicode(self.br.response().read()))
+        bufferIO.write(str(self.br.response().read()))
         bufferIO.seek(0)
         if legacy:
             self.currDL = pd.read_csv(bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
