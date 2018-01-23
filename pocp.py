@@ -232,7 +232,7 @@ class POCP(object):
             df = df.append(tentative).sort()
             df['GIP/GXPs'] = df['GIP/GXPs'].map(lambda x: str(x)[0: 3])
             #df['GIP/GXPs'][df['GIP/GXPs'] == '#N/'] = 'NAP'
-            df.replace(to_replace='#N/', value='NAP', inplace=True)
+            #df.replace(to_replace='#N/', value='NAP', inplace=True)
             df = df.rename(columns={'GIP/GXPs': 'GIP'})
 
             if 'MW Loss' in df.columns:
