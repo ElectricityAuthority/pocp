@@ -21,7 +21,7 @@ parser.add_argument('--pocp_user', action="store", dest='pocp_user',
                     default='david.hume@ea.govt.nz')
 parser.add_argument('--pocp_pass', action="store", dest='pocp_pass')
 parser.add_argument('--pocp_path', action="store", dest='pocp_path',
-                    default='/home/dave/python/pocp/')
+                    default='/home/humed/monitoring/pocp/')
 
 IPy_notebook = False
 
@@ -38,7 +38,7 @@ if IPy_notebook:
 else:
     cmd_line = parser.parse_args()
 
-pocp_path = '/home/dave/python/pocp/'
+pocp_path = '/home/humed/monitoring/pocp/'
 os.chdir(pocp_path)
 
 #Setup logging
