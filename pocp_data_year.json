@@ -18,6 +18,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100345,2017-10-13 02:00:00,2017-10-16 06:00:00,2017-10-17 18:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100368,2017-11-08 02:00:00,2017-11-08 06:00:00,2017-11-08 16:00:00,98.0,WWD_52,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100398,2017-09-28 02:00:00,2017-10-02 06:00:00,2017-10-06 18:30:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100403,2017-11-30 02:00:00,2018-04-30 07:30:00,2018-05-11 18:00:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100413,2017-12-19 10:15:00,2017-12-18 08:30:00,2017-12-20 20:00:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100414,2017-09-20 02:00:00,2017-10-04 06:00:00,2017-10-05 19:00:00,55.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100415,2017-09-20 02:00:00,2017-10-06 06:00:00,2017-10-07 19:00:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -300,7 +301,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100983,2018-02-20 02:00:00,2018-02-21 12:00:00,2018-02-21 13:00:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100984,2018-02-20 02:00:00,2018-02-21 13:00:00,2018-02-21 14:30:00,55.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100989,2018-02-23 02:00:00,2018-02-16 17:30:00,2018-04-30 11:00:00,6.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
-100992,2018-03-13 02:00:00,2018-03-26 10:00:00,2018-03-29 16:00:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100992,2018-03-29 02:00:00,2018-04-30 08:30:00,2018-05-04 16:00:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100993,2018-02-21 02:00:00,2018-02-26 18:00:00,2018-02-26 20:00:00,125.0,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100997,2018-02-21 02:00:00,2018-02-22 09:00:00,2018-02-22 13:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100998,2018-02-27 02:00:00,2018-03-01 18:00:00,2018-03-01 20:00:00,125.0,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -648,6 +649,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 46686,2018-02-19 18:42:00,2018-02-19 08:00:00,2018-02-19 17:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46688,2018-02-28 18:42:00,2018-03-21 07:30:00,2018-03-21 17:00:00,32.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46722,2017-12-18 18:42:00,2017-11-27 07:00:00,2017-12-20 19:00:00,32.0,KPO_2,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+46759,2018-01-31 11:45:00,2018-04-30 07:00:00,2018-05-02 17:30:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46762,2018-01-25 18:42:00,2018-01-25 07:30:00,2018-01-25 14:00:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46769,2018-01-18 18:42:00,2018-02-26 07:00:00,2018-02-26 17:30:00,32.0,KPO_3,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 46885,2018-02-20 18:42:00,2018-02-28 07:30:00,2018-02-28 16:00:00,35.2,MTI_3,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1123,6 +1125,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 65002,2017-01-27 16:34:00,2018-02-11 08:00:00,2018-02-11 16:00:00,60.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 65004,2017-12-15 15:42:00,2018-03-26 06:00:00,2018-04-21 17:00:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 65006,2017-02-01 14:20:00,2018-02-17 13:00:00,2018-02-17 15:00:00,80.0,TKB_STN,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+65007,2017-12-15 15:42:00,2018-04-30 06:00:00,2018-05-04 17:00:00,21.0,TUI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 65009,2017-12-15 15:42:00,2018-04-21 10:00:00,2018-04-21 16:00:00,42.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 65010,2017-12-15 15:42:00,2018-04-21 10:00:00,2018-04-21 16:00:00,52.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 65012,2017-12-15 15:42:00,2018-04-22 09:00:00,2018-04-22 15:00:00,16.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
