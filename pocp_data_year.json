@@ -19,8 +19,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100368,2017-11-08 02:00:00,2017-11-08 06:00:00,2017-11-08 16:00:00,98.0,WWD_52,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100403,2017-11-30 02:00:00,2018-04-30 07:30:00,2018-05-11 18:00:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100413,2017-12-19 10:15:00,2017-12-18 08:30:00,2017-12-20 20:00:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-100415,2017-09-20 02:00:00,2017-10-06 06:00:00,2017-10-07 19:00:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-100427,2017-10-07 02:00:00,2017-10-07 12:00:00,2017-10-07 16:00:00,55.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100434,2017-09-25 02:00:00,2017-09-22 11:00:00,2018-03-30 11:00:00,44.55,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100435,2017-09-26 02:00:00,2017-10-10 09:00:00,2017-10-10 16:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100436,2017-10-13 02:00:00,2017-10-18 06:00:00,2017-10-19 19:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1060,6 +1058,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58638,2018-04-05 11:42:00,2018-04-11 08:00:00,2018-04-12 16:00:00,20.8,NTM_3,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58639,2018-04-05 11:42:00,2018-04-12 08:00:00,2018-04-13 16:00:00,20.8,NTM_4,NTM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 58640,2018-04-05 18:42:00,2018-04-18 13:00:00,2018-04-18 14:00:00,30.0,NAP_STN,NAP,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+58641,2018-04-08 11:42:00,2018-04-08 08:47:00,2018-04-09 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 60178,2017-08-03 14:16:00,2017-11-10 12:00:00,2017-11-20 23:59:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 60362,2017-10-16 17:05:00,2017-10-28 00:00:00,2017-11-02 03:00:00,240.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 60923,2016-07-10 15:07:00,2017-11-07 08:00:00,2017-11-08 16:00:00,30.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -1200,7 +1199,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 67159,2017-10-04 12:53:00,2017-10-09 13:00:00,2017-10-09 15:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 67160,2017-10-04 12:53:00,2017-10-11 08:00:00,2017-10-11 16:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 67161,2017-10-04 12:53:00,2017-10-13 08:00:00,2017-10-13 16:00:00,29.0,TUI_STN,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-67178,2017-10-05 13:30:00,2017-10-07 10:00:00,2017-10-07 15:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 67218,2017-10-09 14:14:00,2017-10-09 07:30:00,2017-10-09 17:00:00,8.0,TKB_3,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 67258,2017-10-13 19:28:00,2017-11-22 07:00:00,2017-11-22 18:00:00,25.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 67278,2017-10-13 19:28:00,2017-11-29 07:30:00,2017-12-01 18:30:00,20.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1255,7 +1253,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 68538,2018-03-29 14:07:00,2018-03-29 12:00:00,2018-04-06 23:59:00,100.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 68578,2018-04-06 14:25:00,2018-04-07 00:00:00,2018-04-14 18:00:00,70.0,RPO_6,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 68579,2018-04-06 14:25:00,2018-04-10 07:00:00,2018-04-14 18:00:00,70.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
-NGA_ streamfeild,2017-09-06 16:39:00,2017-10-05 06:00:00,2017-10-07 18:00:00,25.0,NGA,NGA,Top Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 NGA_OEC1,2017-09-06 16:21:00,2017-10-09 18:00:00,2017-10-11 18:00:00,5.0,NGA,NGA,Top Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 NGA_OEC1_2,2017-09-06 16:16:00,2017-10-07 18:00:00,2017-10-09 18:00:00,10.0,NGA,NGA,Top Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 NOVA_MKE_APR18,2018-03-29 08:12:00,2018-04-12 00:00:00,2018-04-24 20:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
