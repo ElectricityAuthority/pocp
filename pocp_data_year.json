@@ -373,7 +373,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 101134,2018-03-22 02:00:00,2018-03-20 08:30:00,2018-04-30 16:00:00,8.0,WHL_3,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 101138,2018-03-23 02:00:00,2018-04-14 07:00:00,2018-04-15 18:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101139,2018-03-23 02:00:00,2018-04-14 07:00:00,2018-04-15 18:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-101140,2018-03-22 02:00:00,2018-04-16 07:00:00,2018-04-16 17:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101140,2018-04-10 02:00:00,2018-04-16 07:00:00,2018-04-16 18:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101141,2018-03-22 02:00:00,2018-04-16 07:00:00,2018-04-16 18:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101148,2018-03-28 02:00:00,2018-03-28 08:00:00,2018-03-28 16:00:00,11.55,TAP_7,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101150,2018-03-23 02:00:00,2018-03-26 10:30:00,2018-03-26 11:30:00,55.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -421,8 +421,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 101197,2018-03-29 02:00:00,2018-05-07 06:00:00,2018-05-09 19:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101198,2018-03-29 02:00:00,2018-05-07 06:00:00,2018-05-09 19:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101199,2018-03-29 02:00:00,2018-05-04 10:00:00,2018-05-04 15:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-101200,2018-03-29 02:00:00,2018-03-28 15:00:00,2018-04-10 16:00:00,12.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
-101203,2018-04-09 02:00:00,2018-03-29 11:00:00,2018-04-13 11:00:00,39.6,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+101200,2018-04-10 02:00:00,2018-03-28 15:00:00,2018-04-13 08:30:00,8.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+101203,2018-04-10 02:00:00,2018-03-29 11:00:00,2018-04-13 11:00:00,46.2,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101207,2018-03-30 02:00:00,2018-04-29 07:00:00,2018-04-29 17:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101208,2018-03-30 02:00:00,2018-04-29 07:30:00,2018-04-29 17:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101211,2018-04-04 16:15:00,2018-04-13 08:30:00,2018-04-13 18:00:00,38.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
@@ -442,7 +442,13 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 101225,2018-04-06 09:45:00,2018-04-06 11:00:00,2018-04-06 12:00:00,55.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101226,2018-04-06 09:45:00,2018-04-06 12:00:00,2018-04-06 13:00:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101227,2018-04-06 09:45:00,2018-04-06 13:00:00,2018-04-06 14:00:00,55.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-101228,2018-04-09 02:00:00,2018-04-07 09:30:00,2018-04-13 12:00:00,6.9,TUK_3,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+101228,2018-04-10 02:00:00,2018-04-07 09:30:00,2018-04-30 12:00:00,9.2,TUK_3,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+101229,2018-04-10 02:00:00,2018-04-13 18:00:00,2018-04-30 13:00:00,8.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+101230,2018-04-10 02:00:00,2018-04-19 10:00:00,2018-04-19 11:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101231,2018-04-10 02:00:00,2018-04-19 11:00:00,2018-04-19 12:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101232,2018-04-10 02:00:00,2018-04-19 12:00:00,2018-04-19 13:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101233,2018-04-10 02:00:00,2018-04-19 13:30:00,2018-04-19 15:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101234,2018-04-10 02:00:00,2018-04-19 13:30:00,2018-04-19 15:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 18843,2018-02-20 14:10:00,2018-02-26 07:01:00,2018-03-03 17:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 18844,2018-02-20 14:10:00,2018-02-28 07:01:00,2018-03-03 17:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 18845,2018-02-20 14:10:00,2018-02-28 07:01:00,2018-03-03 17:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
