@@ -199,7 +199,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100935,2018-02-15 02:00:00,2018-02-16 10:30:00,2018-02-16 12:00:00,55.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100936,2018-02-15 02:00:00,2018-02-16 12:00:00,2018-02-16 13:30:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100937,2018-02-15 02:00:00,2018-02-16 13:30:00,2018-02-16 14:30:00,55.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-100940,2018-03-21 02:00:00,2018-06-18 08:00:00,2018-06-27 18:00:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100940,2018-06-09 02:00:00,2018-06-18 08:00:00,2018-07-04 16:00:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100942,2018-02-13 02:00:00,2018-02-28 11:00:00,2018-02-28 14:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100944,2018-02-15 02:00:00,2018-02-13 12:00:00,2018-02-15 16:00:00,37.62,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 100946,2018-02-21 02:00:00,2018-02-26 08:00:00,2018-02-26 10:00:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -489,9 +489,13 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 101578,2018-06-07 02:00:00,2018-06-07 09:00:00,2018-06-07 17:00:00,18.4,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101580,2018-06-08 02:00:00,2018-06-07 10:00:00,2018-06-15 10:00:00,39.6,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101582,2018-06-08 02:00:00,2018-06-20 10:00:00,2018-06-20 16:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-101583,2018-06-08 02:00:00,2018-06-07 17:00:00,2018-06-15 11:00:00,6.9,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-101585,2018-06-08 02:00:00,2018-06-08 17:00:00,2018-07-08 17:00:00,4.2,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+101583,2018-06-09 02:00:00,2018-06-07 17:00:00,2018-06-11 17:00:00,6.9,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+101585,2018-06-09 02:00:00,2018-06-11 17:00:00,2018-07-08 17:00:00,4.6,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101586,2018-06-08 02:00:00,2018-06-07 17:00:00,2018-06-15 17:00:00,14.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+101587,2018-06-09 02:00:00,2018-06-16 09:00:00,2018-06-16 10:30:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101588,2018-06-09 02:00:00,2018-06-16 10:30:00,2018-06-16 12:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101589,2018-06-09 02:00:00,2018-06-16 12:00:00,2018-06-16 13:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101593,2018-06-09 02:00:00,2018-06-08 17:00:00,2018-06-15 17:00:00,37.95,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 18843,2018-02-20 14:10:00,2018-02-26 07:01:00,2018-03-03 17:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 18844,2018-02-20 14:10:00,2018-02-28 07:01:00,2018-03-03 17:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 18845,2018-02-20 14:10:00,2018-02-28 07:01:00,2018-03-03 17:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -1124,8 +1128,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 61220,2017-11-16 02:00:00,2018-05-02 07:00:00,2018-05-02 16:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61259,2018-04-27 02:00:00,2018-04-30 05:30:00,2018-11-02 18:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61877,2018-03-13 02:00:00,2018-01-15 08:30:00,2018-03-16 16:00:00,121.5,MAN_7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-61879,2018-03-21 02:00:00,2018-07-02 08:30:00,2018-08-09 16:00:00,121.5,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-61880,2018-06-02 02:00:00,2018-05-07 08:30:00,2018-06-11 20:00:00,121.5,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+61879,2018-06-09 02:00:00,2018-07-05 08:30:00,2018-08-09 16:00:00,121.5,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+61880,2018-06-09 02:00:00,2018-05-07 08:30:00,2018-06-09 12:00:00,121.5,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61882,2017-12-19 14:15:00,2017-11-03 06:00:00,2017-12-21 16:00:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61933,2018-01-25 02:00:00,2018-03-17 07:00:00,2018-03-18 18:00:00,220.0,AVI_STN,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 62315,2017-01-07 14:13:00,2017-12-09 10:00:00,2017-12-09 17:00:00,5.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
