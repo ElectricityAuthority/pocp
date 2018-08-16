@@ -3012,7 +3012,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1064878,2018-03-16 17:09:00,2018-03-16 16:00:00,2018-03-16 18:00:00,KPO_TMU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1064879,2018-03-16 16:09:00,2018-03-16 18:30:00,2018-03-16 20:30:00,CPK_T3,nan,Transpower,OPE,daily,0.0,Confirmed
 1064883,2018-06-14 14:09:00,2018-06-05 07:30:00,2018-06-14 23:59:00,KIK_T1,nan,Transpower,RS,continuous,0.0,Confirmed
-1064889,2018-08-06 09:09:00,2018-07-26 08:00:00,2018-08-16 15:00:00,OWH_LST_1,nan,Transpower,RS,continuous,0.0,Confirmed
+1064889,2018-08-16 17:09:00,2018-07-26 08:00:00,2018-08-17 16:00:00,OWH_LST_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1064891,2018-05-26 06:09:00,2018-08-20 07:00:00,2018-08-22 17:00:00,OWH_84_97_107,nan,Transpower,RS,continuous,0.0,Confirmed
 1064893,2018-05-26 06:09:00,2018-08-21 16:30:00,2018-08-21 19:30:00,OWH_110BZ,nan,Transpower,RS,daily,0.0,Confirmed
 1064894,2018-05-26 06:09:00,2018-08-21 16:30:00,2018-08-21 19:30:00,OWH_110CBF,nan,Transpower,RS,daily,0.0,Confirmed
@@ -4104,7 +4104,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1066327,2018-05-30 13:09:00,2018-08-20 07:00:00,2018-09-21 17:00:00,OWH_T1,nan,Transpower,RS,continuous,0.0,Confirmed
 1066328,2018-06-16 17:09:00,2018-06-16 13:30:00,2018-06-18 08:30:00,OWH_T1,nan,Transpower,OPE,continuous,0.0,Confirmed
 1066329,2018-05-26 06:09:00,2018-08-08 10:30:00,2018-08-08 14:30:00,OWH_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
-1066330,2018-07-09 12:09:00,2018-08-16 15:00:00,2018-08-17 10:00:00,OWH_T2,nan,Transpower,OPE,continuous,0.0,Confirmed
+1066330,2018-08-16 15:10:00,2018-08-16 16:00:00,2018-08-17 10:00:00,OWH_T2,nan,Transpower,OPE,continuous,0.0,Confirmed
 1066331,2018-05-26 06:09:00,2018-08-14 07:00:00,2018-08-16 15:00:00,OWH_TMI_TRK_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1066332,2018-05-26 06:09:00,2018-07-30 07:00:00,2018-08-16 14:59:00,OWH_T2,nan,Transpower,RS,continuous,0.0,Confirmed
 1066333,2018-05-26 06:09:00,2018-07-25 10:30:00,2018-07-25 14:30:00,OWH_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
@@ -5506,7 +5506,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1068960,2018-08-14 06:09:00,2018-08-17 17:00:00,2018-08-17 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
 1068961,2018-08-14 06:09:00,2018-08-18 17:00:00,2018-08-18 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
 1068962,2018-08-14 06:09:00,2018-08-19 17:00:00,2018-08-19 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
-1068963,2018-08-14 06:09:00,2018-08-20 17:00:00,2018-08-20 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
+1068963,2018-08-16 13:09:00,2018-08-20 16:30:00,2018-08-20 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
 1068964,2018-08-14 06:09:00,2018-08-21 17:00:00,2018-08-21 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
 1068965,2018-08-14 06:09:00,2018-08-22 17:00:00,2018-08-22 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
 1068966,2018-08-14 06:09:00,2018-08-23 17:00:00,2018-08-23 21:00:00,TGA_CB_212,nan,Transpower,OPE,daily,0.0,Confirmed
@@ -5567,5 +5567,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1069046,2018-08-16 10:09:00,2018-09-04 10:30:00,2018-09-04 14:30:00,ALB_FDR_2342,nan,Transpower,RS,daily,0.0,Confirmed
 1069047,2018-08-16 10:09:00,2018-09-11 07:00:00,2018-09-11 07:30:00,ARG_BLN_1,nan,Transpower,PSO,daily,0.0,Confirmed
 1069048,2018-08-16 10:09:00,2018-09-11 18:00:00,2018-09-11 18:30:00,ARG_BLN_1,nan,Transpower,PSO,daily,0.0,Confirmed
+1069054,2018-08-16 15:10:00,2018-08-16 13:22:00,2018-08-16 18:00:00,ALB_FDR_2242,nan,Transpower,RS,daily,0.0,Confirmed
+1069055,2018-08-16 15:10:00,2018-08-16 13:24:00,2018-08-16 18:00:00,TAK_FDR_2192,nan,Transpower,OPE,daily,0.0,Confirmed
 2771355,2013-01-21 12:22:00,2013-03-19 06:00:00,2018-03-23 18:00:00,THI_WKM_1,WKM,Transpower,RS,continuous,0.0,Tentative
 2787657,2018-03-15 15:09:00,2013-06-08 22:00:00,2018-12-16 18:00:00,OWH_11BS_A,nan,Transpower,RS,continuous,0.0,Confirmed
