@@ -155,7 +155,7 @@ class POCP(object):
     def append_pocp(self, pocp):
         logger.info('Reading latest POCP data, and appending to pocp_all.csv')
         P_all = pd.read_csv(self.cmd_line.pocp_path + 'pocp_all.csv',
-                            index_col=0)
+                            index_col=0, low_memory=False)
         self.P = pd.concat([P_all, self.currDL])  # add latest download
         self.P['End'] = self.P.End.map(lambda x: p.dt_convert(x))  # datetimes
         self.P['Start'] = self.P.Start.map(lambda x: p.dt_convert(x))
@@ -229,7 +229,7 @@ class POCP(object):
             # cancelled after the outage window ended.
             df = confirmed.append(caned)
             # Also append all tentative outages, then sort.
-            df = df.append(tentative).sort()
+            df = df.append(tentative).sort_index()
             df['GIP/GXPs'] = df['GIP/GXPs'].map(lambda x: str(x)[0: 3])
             #df['GIP/GXPs'][df['GIP/GXPs'] == '#N/'] = 'NAP'
             #df.replace(to_replace='#N/', value='NAP', inplace=True)
