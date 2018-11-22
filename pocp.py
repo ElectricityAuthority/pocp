@@ -150,7 +150,7 @@ class POCP(object):
                           sep='\t', index_col=0)
         else:
             self.currDL = pd.read_csv(bufferIO, index_col=0, parse_dates=['Start', 'End', 'Last Modified'])
-
+        self.currDL.to_csv('POCP_temp_test.csv')
 
     def append_pocp(self, pocp):
         logger.info('Reading latest POCP data, and appending to pocp_all.csv')
