@@ -289,7 +289,7 @@ class POCP(object):
         outage_history = False
         self.set_date_range()  # set the start and end times
         self.pocp_login()
-        self.download_pocp(legacy=False)  # download POCP over the data range
+        self.download_pocp()  # download POCP over the data range
         # Append current download to the historic POCP data and save.
         self.append_pocp(self.currDL)
         self.POCP_logic(outage_history=outage_history)
