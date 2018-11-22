@@ -23,20 +23,20 @@ parser.add_argument('--pocp_pass', action="store", dest='pocp_pass')
 parser.add_argument('--pocp_path', action="store", dest='pocp_path',
                     default='/home/humed/monitoring/pocp/')
 
-IPy_notebook = False
+# IPy_notebook = False
 
-if IPy_notebook:
-    ea.set_options()
+# if IPy_notebook:
+#     ea.set_options()
 
-    class cmd_line():
-        def __init__(self, pocp_host, pocp_user, pocp_pass,
-                     pocp_path):
-            self.pocp_host = pocp_host
-            self.pocp_user = pocp_user
-            self.pocp_pass = pocp_pass
-            self.pocp_path = pocp_path
-else:
-    cmd_line = parser.parse_args()
+#     class cmd_line():
+#         def __init__(self, pocp_host, pocp_user, pocp_pass,
+#                      pocp_path):
+#             self.pocp_host = pocp_host
+#             self.pocp_user = pocp_user
+#             self.pocp_pass = pocp_pass
+#             self.pocp_path = pocp_path
+# else:
+cmd_line = parser.parse_args()
 
 pocp_path = '/home/humed/monitoring/pocp/'
 os.chdir(pocp_path)
@@ -208,13 +208,13 @@ class POCP(object):
                 # This is what you should see in the current pocp
                 # database that is now version controlled.
                 if not T.empty:
-                    T = T.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
+                    T = T.set_index('Last Modified', append=True, drop=False).sort_index(level=[0, 1])\
                          .groupby(level=0).last().set_index('Last Modified', append=True)
                 if not G.empty:
-                    G = G.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
+                    G = G.set_index('Last Modified', append=True, drop=False).sort_index(level=[0, 1])\
                          .groupby(level=0).last().set_index('Last Modified', append=True)
                 if not D.empty:
-                    D = D.set_index('Last Modified', append=True, drop=False).sortlevel(level=[0, 1])\
+                    D = D.set_index('Last Modified', append=True, drop=False).sort_index(level=[0, 1])\
                          .groupby(level=0).last().set_index('Last Modified', append=True)
             return T, G, D
 
