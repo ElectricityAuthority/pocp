@@ -85,9 +85,10 @@ class POCP(object):
         logger.info('Applying generation type and island mappings')
         self.island_map()
         self.generation_type_map()
+
         def GIPer(row):
             """Get GIP from outage block when not in GIP/GXP column"""
-            if row['GIP']== 'nan':
+            if row['GIP'] == 'nan':
                 row['GIP'] = row['Outage Block'][:3]
                 return row
             else:
@@ -109,10 +110,10 @@ class POCP(object):
     def set_date_range(self):
         self.update_time = datetime.now()
         if self.start_time is None:
-            self.strt = (self.update_time - timedelta(3 * 365))  # 6 mon<-
+            self.strt = (self.update_time - timedelta(0.5 * 365))  # 6 mon<-
             self.start_time = self.strt.strftime('%d/%m/%Y')
         if self.end_time is None:
-            self.endt = (self.update_time + timedelta(1 * 365))  # ~6 mon->
+            self.endt = (self.update_time + timedelta(0.5 * 365))  # ~6 mon->
             self.end_time = self.endt.strftime('%d/%m/%Y')
 
     def pocp_login(self):
@@ -146,10 +147,13 @@ class POCP(object):
         bufferIO.write(str(self.br.response().read()).decode('utf-8'))
         bufferIO.seek(0)
         if legacy:
-            self.currDL = pd.read_csv(bufferIO, parse_dates=['Start', 'End', 'Last Modified'],
-                          sep='\t', index_col=0)
+            self.currDL = pd.read_csv(bufferIO, parse_dates=['Start', 'End',
+                                                             'Last Modified'],
+                                      sep='\t', index_col=0)
         else:
-            self.currDL = pd.read_csv(bufferIO, index_col=0, parse_dates=['Start', 'End', 'Last Modified'])
+            self.currDL = pd.read_csv(bufferIO, index_col=0,
+                                      parse_dates=['Start', 'End',
+                                                   'Last Modified'])
         self.currDL.to_csv('POCP_temp_test.csv')
 
     def append_pocp(self, pocp):
