@@ -109,10 +109,10 @@ class POCP(object):
     def set_date_range(self):
         self.update_time = datetime.now()
         if self.start_time is None:
-            self.strt = (self.update_time - timedelta(.5 * 365))  # 6 mon<-
+            self.strt = (self.update_time - timedelta(1 * 365))  # 6 mon<-
             self.start_time = self.strt.strftime('%d/%m/%Y')
         if self.end_time is None:
-            self.endt = (self.update_time + timedelta(0.5 * 365))  # ~6 mon->
+            self.endt = (self.update_time + timedelta(1 * 365))  # ~6 mon->
             self.end_time = self.endt.strftime('%d/%m/%Y')
 
     def pocp_login(self):
