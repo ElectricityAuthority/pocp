@@ -257,7 +257,7 @@ class POCP(object):
                         (df['End'] >= datetime.today()))
         df = df[current_bool]
         df = df[df['Planning Status'] == 'Confirmed']
-        df = df.drop_duplicates()
+        #df = df.drop_duplicates()
         df = df.groupby(level=0).tail(1)  # return the last modified entry...
         return df
 
@@ -266,7 +266,7 @@ class POCP(object):
                         (df['End'] >= datetime.now()))
         df = df[current_bool]
         df = df[df['Planning Status'] == 'Confirmed']
-        df = df.drop_duplicates()
+        #df = df.drop_duplicates()
         df = df.groupby(level=0).tail(1)  # return the last modified entry...
         return df
 
