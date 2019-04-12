@@ -304,7 +304,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 102589,2019-04-11 09:00:00,2019-04-11 11:00:00,2019-04-18 11:00:00,33.0,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 102590,2019-04-11 09:00:00,2019-04-11 11:00:00,2019-04-18 11:00:00,12.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 102595,2019-04-12 01:00:00,2019-04-11 23:00:00,2019-04-12 00:00:00,125.0,MAN_7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-102599,2019-04-12 13:00:00,2019-04-12 14:30:00,2019-04-12 20:30:00,55.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+102599,2019-04-12 19:00:00,2019-04-12 14:30:00,2019-04-12 19:00:00,55.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 28052,2018-10-25 12:43:00,2018-10-08 07:00:00,2018-10-27 17:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 28058,2018-12-05 12:45:00,2018-12-08 07:00:00,2018-12-08 17:30:00,40.0,ROX_7,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 28059,2019-02-05 16:20:00,2019-04-30 07:00:00,2019-05-02 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
@@ -1160,6 +1160,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 FTJV_FEB19,2019-02-26 16:48:00,2019-03-18 08:00:00,2019-03-22 18:00:00,10.0,WAA,WAA,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 FTJV_MAR19,2019-02-26 16:27:00,2019-03-04 08:00:00,2019-03-08 18:00:00,10.0,WAA,WAA,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 KEJV_MAR19,2019-03-18 16:11:00,2019-03-26 00:00:00,2019-03-27 00:00:00,10.0,KPI,KPI,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+MKE_APR19,2019-04-12 13:11:00,2019-04-12 22:00:00,2019-04-13 06:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MKE_FEB19,2019-02-01 11:33:00,2019-02-09 07:00:00,2019-02-09 12:00:00,100.0,MKE,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MKE_FEB19_2,2019-02-15 12:07:00,2019-02-16 21:00:00,2019-02-17 09:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 MKE_FEB19_2A,2019-02-18 09:22:00,2019-02-18 00:00:00,2019-02-18 23:59:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
