@@ -4,6 +4,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100628,2019-05-04 02:00:00,2017-11-23 17:00:00,2019-06-09 18:00:00,15.0,WTK_3,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100664,2018-04-27 02:00:00,2018-04-16 06:00:00,2019-04-26 14:00:00,125.0,MAN_4,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100881,2019-02-06 02:00:00,2019-02-21 10:00:00,2019-02-21 14:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100884,2018-06-05 19:00:00,2019-06-05 08:00:00,2019-06-05 12:00:00,55.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+100885,2018-06-05 19:00:00,2019-06-05 12:30:00,2019-06-05 16:30:00,55.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100977,2019-02-15 02:00:00,2019-02-18 06:00:00,2019-02-21 20:00:00,55.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101004,2019-01-15 19:00:00,2019-01-15 07:00:00,2019-01-15 19:30:00,98.0,WWD_52,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101005,2019-04-15 17:00:00,2019-04-04 13:00:00,2019-04-17 13:00:00,98.0,WWD_53,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
@@ -66,6 +68,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 102111,2018-11-15 02:00:00,2019-06-04 08:00:00,2019-06-04 11:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 102112,2018-11-15 02:00:00,2019-06-04 11:00:00,2019-06-04 14:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 102113,2018-11-15 02:00:00,2019-06-04 14:00:00,2019-06-04 17:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+102114,2018-11-15 02:00:00,2019-06-05 08:00:00,2019-06-05 11:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 102115,2018-11-15 02:00:00,2019-05-27 08:00:00,2019-05-27 11:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 102116,2018-11-15 02:00:00,2019-05-27 11:00:00,2019-05-27 14:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 102117,2018-11-15 02:00:00,2019-05-27 14:00:00,2019-05-27 17:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -535,6 +538,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 47436,2019-04-08 20:31:00,2019-05-07 08:00:00,2019-05-07 16:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47465,2018-05-02 15:53:00,2018-12-07 08:00:00,2018-12-07 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47466,2018-05-30 11:30:00,2019-03-04 08:00:00,2019-03-04 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+47468,2018-08-05 11:30:00,2019-06-05 08:00:00,2019-06-05 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47498,2019-01-25 11:30:00,2019-01-29 07:30:00,2019-02-18 19:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47499,2018-07-20 11:30:00,2019-05-20 08:00:00,2019-05-20 16:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47569,2018-05-30 11:30:00,2019-02-05 08:00:00,2019-02-05 16:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -968,6 +972,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 61190,2018-10-17 02:00:00,2019-01-21 07:00:00,2019-01-21 16:00:00,15.0,WTK_5,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61201,2017-12-07 02:00:00,2018-12-06 07:00:00,2018-12-06 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61202,2019-03-08 13:00:00,2019-03-08 07:00:00,2019-03-08 13:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+61203,2018-06-05 19:00:00,2019-06-05 07:00:00,2019-06-05 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61223,2019-01-25 02:00:00,2019-02-05 07:00:00,2019-02-05 16:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61258,2019-04-17 02:00:00,2019-05-06 08:00:00,2019-11-29 16:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61259,2019-01-17 02:00:00,2018-04-30 05:30:00,2019-01-27 18:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
