@@ -357,7 +357,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103216,2019-10-03 02:00:00,2019-10-29 21:00:00,2019-10-30 02:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103221,2019-10-03 02:00:00,2019-10-29 21:00:00,2019-10-30 02:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103228,2019-10-03 13:00:00,2019-10-04 08:00:00,2019-10-04 15:00:00,9.2,TUK_2,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-103229,2019-10-03 13:00:00,2019-10-03 14:00:00,2019-10-11 18:00:00,8.25,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+103229,2019-10-03 17:00:00,2019-10-03 14:00:00,2019-10-03 18:30:00,8.25,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+103230,2019-10-03 17:00:00,2019-10-03 18:30:00,2019-10-11 18:30:00,6.6,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 28059,2019-04-18 17:55:00,2019-04-30 07:00:00,2019-05-02 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 28068,2019-04-15 08:31:00,2019-04-17 07:00:00,2019-04-18 17:30:00,40.0,ROX_6,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 28069,2019-07-02 16:36:00,2019-08-26 07:00:00,2019-10-18 18:00:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -426,7 +427,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 29755,2019-06-23 11:31:00,2019-06-23 07:00:00,2019-06-23 11:30:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29756,2019-06-19 16:23:00,2019-06-24 10:00:00,2019-06-24 12:00:00,27.0,OKI_1,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 29761,2019-06-14 14:54:00,2019-06-17 10:30:00,2019-06-17 16:00:00,40.0,ROX_4,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-29762,2019-08-30 14:46:00,2019-10-28 02:00:00,2019-12-16 18:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
+29762,2019-10-03 14:51:00,2019-10-28 02:00:00,2019-12-16 18:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29764,2019-06-19 16:23:00,2019-06-26 08:00:00,2019-06-26 16:00:00,7.0,WRK_16,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 29766,2019-07-26 15:59:00,2019-07-26 14:00:00,2019-07-31 07:00:00,12.0,TAA_1,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 29767,2019-08-21 09:08:00,2019-08-04 16:00:00,2019-08-27 16:00:00,12.0,TAA_1,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -463,7 +464,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 29870,2019-08-30 02:19:00,2019-09-03 09:00:00,2019-09-03 12:00:00,11.0,WRK_10,WRK,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,NI
 29874,2019-09-04 09:36:00,2019-09-04 10:30:00,2019-09-04 12:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29876,2019-09-06 09:50:00,2019-09-18 17:00:00,2019-09-19 09:00:00,24.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-29880,2019-09-24 15:19:00,2019-09-29 21:00:00,2019-10-04 06:00:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+29880,2019-10-03 16:31:00,2019-09-29 21:00:00,2019-10-04 21:30:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29884,2019-09-17 13:19:00,2019-10-22 07:00:00,2019-10-22 19:00:00,156.0,WHI_Stn,WHI,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 29886,2019-09-17 13:19:00,2019-09-19 09:00:00,2019-09-19 13:00:00,12.0,TAA_1,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 29894,2019-09-20 21:20:00,2019-09-25 07:30:00,2019-09-26 16:00:00,15.0,THI_Stn,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -471,6 +472,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 29896,2019-09-21 12:50:00,2019-09-21 11:30:00,2019-09-21 13:30:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29897,2019-09-23 16:34:00,2019-10-13 00:01:00,2019-10-24 19:00:00,350.0,TCC_Stn,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29901,2019-09-25 13:39:00,2019-09-27 02:00:00,2019-09-27 14:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+29910,2019-10-03 14:54:00,2019-10-19 07:00:00,2019-10-19 11:00:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+29911,2019-10-03 15:02:00,2019-10-19 07:00:00,2019-10-19 11:00:00,108.0,CYD_4,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 39490,2018-09-13 11:30:00,2018-09-17 08:00:00,2019-04-22 17:00:00,25.0,WKM_1,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 39563,2018-06-11 11:30:00,2019-04-11 08:00:00,2019-04-11 16:00:00,25.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 39589,2019-09-09 07:30:00,2019-09-08 23:00:00,2019-09-11 16:00:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
