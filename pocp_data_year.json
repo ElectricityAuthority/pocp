@@ -302,7 +302,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103108,2019-09-05 02:00:00,2019-11-03 09:00:00,2019-11-03 17:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103123,2019-09-05 02:00:00,2019-10-23 10:00:00,2019-10-23 14:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103125,2019-09-05 02:00:00,2019-11-18 10:00:00,2019-11-18 14:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-103132,2019-09-12 02:00:00,2019-10-25 06:00:00,2019-10-25 19:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103132,2019-10-25 13:58:00,2019-10-25 06:00:00,2019-10-25 14:30:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103133,2019-09-10 09:47:00,2019-09-06 13:30:00,2019-09-10 10:30:00,8.25,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103137,2019-09-09 15:00:00,2019-09-17 09:00:00,2019-09-17 11:00:00,98.0,WWD_52,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103138,2019-09-11 09:00:00,2019-09-10 10:30:00,2019-09-11 10:30:00,9.9,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
@@ -379,6 +379,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103306,2019-10-23 13:58:00,2019-10-24 21:00:00,2019-10-25 03:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103308,2019-10-25 02:00:00,2019-11-03 07:00:00,2019-11-03 17:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103309,2019-10-25 02:00:00,2019-11-03 07:00:00,2019-11-03 17:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103317,2019-10-25 18:53:00,2019-10-25 16:00:00,2019-10-25 19:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 28059,2019-04-18 17:55:00,2019-04-30 07:00:00,2019-05-02 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 28069,2019-10-18 16:29:00,2019-08-26 07:00:00,2019-10-21 18:00:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 28625,2019-07-23 08:24:00,2019-08-01 08:00:00,2019-08-02 22:00:00,0.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -884,7 +885,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 61204,2019-08-28 02:00:00,2019-09-09 07:00:00,2019-09-20 16:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61205,2019-09-19 17:00:00,2019-09-19 06:00:00,2019-09-19 17:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61225,2019-08-01 15:00:00,2019-08-01 07:00:00,2019-08-01 14:30:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-61226,2019-09-12 02:00:00,2019-10-25 06:00:00,2019-10-25 19:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+61226,2019-10-25 13:58:00,2019-10-25 06:00:00,2019-10-25 14:30:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61258,2019-05-09 13:00:00,2019-05-06 08:00:00,2019-05-14 15:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 61277,2019-08-01 20:30:00,2019-08-27 09:00:00,2019-08-27 17:00:00,1.0,SWN_11,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 61279,2019-08-02 07:30:00,2019-08-01 23:30:00,2019-08-02 00:00:00,1.0,SWN_11,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -1179,6 +1180,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 72760,2019-10-04 14:40:00,2019-10-05 14:00:00,2019-10-05 16:00:00,100.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 72778,2019-10-09 14:46:00,2019-10-11 11:00:00,2019-10-11 15:00:00,100.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 72821,2019-10-15 14:03:00,2019-10-18 10:00:00,2019-10-18 14:00:00,70.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+72878,2019-10-25 14:40:00,2019-11-11 09:00:00,2019-11-14 17:00:00,70.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 72900,2019-10-21 13:14:00,2019-10-21 11:00:00,2019-10-24 16:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 72918,2019-10-24 15:57:00,2019-10-30 10:00:00,2019-10-30 15:00:00,70.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 72919,2019-10-24 15:57:00,2019-10-31 10:00:00,2019-10-31 15:00:00,70.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
