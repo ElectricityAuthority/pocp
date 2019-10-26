@@ -3,7 +3,6 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100195,2018-07-18 02:00:00,2019-07-17 07:00:00,2019-07-17 16:00:00,15.0,WTK_3,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100237,2019-10-18 14:43:00,2019-10-07 06:00:00,2019-10-18 15:00:00,55.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100628,2019-05-04 02:00:00,2017-11-23 17:00:00,2019-06-09 18:00:00,15.0,WTK_3,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-100664,2018-04-27 02:00:00,2018-04-16 06:00:00,2019-04-26 14:00:00,125.0,MAN_4,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100874,2018-06-12 02:00:00,2019-06-11 12:30:00,2019-06-11 16:30:00,55.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100875,2019-06-07 15:00:00,2019-06-12 08:00:00,2019-06-12 12:30:00,55.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100876,2018-06-13 02:00:00,2019-06-12 12:30:00,2019-06-12 16:30:00,55.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -12,7 +11,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 100882,2019-04-04 02:00:00,2019-06-06 12:30:00,2019-06-06 16:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100884,2018-06-05 19:00:00,2019-06-05 08:00:00,2019-06-05 12:00:00,55.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 100885,2018-06-05 19:00:00,2019-06-05 12:30:00,2019-06-05 16:30:00,55.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-101005,2019-04-03 19:00:00,2019-04-04 13:00:00,2019-04-26 19:00:00,98.0,WWD_53,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+101005,2018-10-18 02:00:00,2019-04-05 07:00:00,2019-04-30 18:00:00,98.0,WWD_53,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 101377,2019-08-27 15:00:00,2019-09-12 07:00:00,2019-09-12 18:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101399,2019-09-17 17:00:00,2019-09-25 07:00:00,2019-09-25 16:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101445,2019-08-08 15:00:00,2019-08-05 06:00:00,2019-08-08 13:30:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -504,6 +503,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 29915,2019-10-15 15:57:00,2019-10-23 17:00:00,2019-10-23 18:30:00,156.0,WHI_Stn,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29918,2019-10-18 16:29:00,2019-10-25 02:00:00,2019-10-25 16:30:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29931,2019-10-22 20:48:00,2019-10-22 20:00:00,2019-10-23 12:00:00,26.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+29956,2019-10-26 10:11:00,2019-10-26 12:30:00,2019-10-29 08:00:00,43.0,TRC_1,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 39517,2019-10-10 20:30:00,2019-11-11 07:00:00,2020-05-11 19:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39589,2019-09-09 07:30:00,2019-09-08 23:00:00,2019-09-11 16:00:00,35.2,MTI_6,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39628,2019-08-28 11:30:00,2019-08-05 09:00:00,2019-09-06 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1202,7 +1202,6 @@ MKE_AUG19,2019-08-22 20:45:00,2019-08-23 10:00:00,2019-08-24 17:00:00,50.0,MKE_0
 MKE_JUL19,2019-07-08 11:58:00,2019-07-08 20:30:00,2019-07-09 06:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MKE_MAY19,2019-05-29 11:49:00,2019-05-27 04:00:00,2019-05-30 14:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MKE_OCT19,2019-10-24 09:54:00,2019-10-21 10:00:00,2019-10-25 16:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-TRUS14223BLN,2019-04-17 00:05:00,2018-09-03 14:00:00,2019-04-26 16:00:00,2.0,BLN_STN,BLN,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS14285ROT,2018-09-18 00:05:00,2019-04-27 23:30:00,2019-04-28 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS14286ROT,2018-09-18 00:05:00,2019-05-04 23:30:00,2019-05-05 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS14287ROT,2018-09-18 00:05:00,2019-05-11 23:30:00,2019-05-12 01:30:00,19.0,ROT_STN,ROT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
