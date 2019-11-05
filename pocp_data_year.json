@@ -16,7 +16,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 101445,2019-08-08 15:00:00,2019-08-05 06:00:00,2019-08-08 13:30:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101484,2019-01-30 02:00:00,2019-09-26 07:00:00,2019-09-26 17:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101584,2019-06-08 02:00:00,2019-06-11 08:00:00,2019-06-11 12:30:00,55.0,OHB_10,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-101600,2019-11-05 02:00:00,2019-11-24 08:30:00,2019-12-08 16:00:00,125.0,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+101600,2019-11-06 02:00:00,2019-11-24 08:30:00,2019-12-13 16:00:00,125.0,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101660,2019-08-21 02:00:00,2019-09-07 07:00:00,2019-09-08 19:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101661,2019-08-21 02:00:00,2019-09-07 07:00:00,2019-09-08 19:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 101663,2019-03-22 02:00:00,2019-05-22 07:30:00,2019-05-23 18:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -395,6 +395,12 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103323,2019-11-02 02:00:00,2019-11-12 06:30:00,2019-11-12 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103326,2019-11-05 16:08:00,2019-11-01 18:00:00,2019-11-05 18:00:00,9.2,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103340,2019-11-05 10:33:00,2019-11-05 12:00:00,2019-11-08 18:00:00,10.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
+103346,2019-11-06 02:00:00,2019-11-23 13:00:00,2019-11-23 15:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103347,2019-11-06 02:00:00,2019-11-23 07:00:00,2019-11-23 09:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103348,2019-11-06 02:00:00,2019-11-23 09:00:00,2019-11-23 11:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103349,2019-11-06 02:00:00,2019-11-23 11:00:00,2019-11-23 13:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103350,2019-11-06 02:00:00,2019-11-23 15:00:00,2019-11-23 17:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103351,2019-11-06 02:00:00,2019-11-23 17:00:00,2019-11-23 19:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103354,2019-11-05 16:08:00,2019-11-05 18:00:00,2019-11-08 18:00:00,6.9,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 28069,2019-10-18 16:29:00,2019-08-26 07:00:00,2019-10-21 18:00:00,108.0,CYD_2,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 28625,2019-07-23 08:24:00,2019-08-01 08:00:00,2019-08-02 22:00:00,0.0,TAA_Stn,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
