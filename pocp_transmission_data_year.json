@@ -847,6 +847,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1074246,2019-11-18 16:09:00,2019-11-23 07:00:00,2019-11-23 18:29:00,BOB_HAM_2,nan,Transpower,RS,daily,0.0,Confirmed
 1074248,2019-11-18 16:09:00,2019-11-23 07:00:00,2019-11-23 18:29:00,BOB_HAM_1,nan,Transpower,RS,daily,0.0,Confirmed
 1074255,2019-09-04 10:09:00,2019-10-22 07:00:00,2019-10-22 18:30:00,HAM_T1,nan,Transpower,RS,daily,0.0,Confirmed
+1074340,2019-11-29 15:09:00,2020-01-06 08:00:00,2020-01-10 17:00:00,HEP_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1074380,2019-10-05 06:09:00,2019-09-30 07:30:00,2019-10-05 17:00:00,BRB_HPI_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1074381,2019-10-05 06:09:00,2019-09-30 07:30:00,2019-10-05 17:00:00,MPE_CB_252,nan,Transpower,OPE,continuous,0.0,Confirmed
 1074398,2019-04-11 15:10:00,2019-10-07 07:30:00,2019-10-11 18:30:00,HPI_MDN_1,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -3880,6 +3881,10 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1083879,2019-09-27 10:10:00,2019-12-18 07:30:00,2019-12-19 18:30:00,TNG_220BS_B,nan,Transpower,RS,daily,0.0,Confirmed
 1083880,2019-09-27 10:10:00,2019-12-16 07:30:00,2019-12-19 18:30:00,TNG_CB_288,nan,Transpower,RS,daily,0.0,Confirmed
 1083882,2019-10-16 17:09:00,2019-12-20 17:00:00,2020-01-06 07:30:00,NPL_CB_102,nan,Transpower,OPE,continuous,0.0,Confirmed
+1083883,2019-10-16 17:09:00,2020-01-06 07:30:00,2020-01-10 16:00:00,NPL_T8,nan,Transpower,RS,continuous,0.0,Confirmed
+1083885,2019-10-16 17:09:00,2020-01-06 07:30:00,2020-03-20 16:00:00,NPL_SFD_2,nan,Transpower,RS,continuous,0.0,Confirmed
+1083890,2019-10-16 17:09:00,2020-01-06 07:30:00,2020-01-10 16:00:00,NPL_204_224_247,nan,Transpower,RS,continuous,0.0,Confirmed
+1083891,2019-10-16 17:09:00,2020-01-06 07:30:00,2020-01-10 16:00:00,NPL_237_264,nan,Transpower,RS,continuous,0.0,Confirmed
 1083896,2019-09-19 06:09:00,2019-09-17 18:24:00,2019-09-23 18:00:00,HWB_FDR_2632,nan,Transpower,RS,daily,0.0,Confirmed
 1083899,2019-09-19 10:09:00,2019-12-11 08:00:00,2019-12-11 12:00:00,BLN_FDR_2152,nan,Transpower,RS,daily,0.0,Confirmed
 1083900,2019-09-19 10:09:00,2019-12-11 12:30:00,2019-12-11 16:30:00,BLN_FDR_2162,nan,Transpower,RS,daily,0.0,Confirmed
@@ -3963,6 +3968,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1084033,2019-09-24 14:25:00,2019-10-10 07:30:00,2019-10-11 17:00:00,KIN_CB_2578,nan,Transpower,CLO,continuous,0.0,Confirmed
 1084034,2019-09-24 14:25:00,2019-10-08 07:30:00,2019-10-09 17:00:00,KIN_CB_2778,nan,Transpower,CLO,continuous,0.0,Confirmed
 1084035,2019-09-24 14:25:00,2019-10-08 08:30:00,2019-10-08 16:30:00,HWB_FDR_2512,nan,Transpower,RS,daily,0.0,Confirmed
+1084036,2019-10-16 17:09:00,2020-01-06 07:30:00,2020-04-09 18:30:00,SFD_CB_592,nan,Transpower,RS,continuous,0.0,Confirmed
 1084048,2019-09-29 12:09:00,2019-09-29 10:00:00,2019-09-29 12:30:00,FHL_WTU_GXP_TIE,nan,Transpower,OTH,daily,0.0,Confirmed
 1084049,2019-09-25 14:09:00,2019-09-30 06:30:00,2019-10-06 18:30:00,FHL_WTU_GXP_TIE,nan,Transpower,OTH,continuous,0.0,Confirmed
 1084050,2019-09-25 10:10:00,2019-10-08 08:30:00,2019-10-08 15:00:00,GLN_FDR_2652,nan,Transpower,RS,daily,0.0,Confirmed
@@ -4281,6 +4287,7 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1084630,2019-10-21 12:09:00,2019-11-06 08:00:00,2019-11-06 08:30:00,KAI_T2,nan,Transpower,PSO,daily,0.0,Confirmed
 1084631,2019-10-21 12:09:00,2019-11-06 08:30:00,2019-11-06 13:30:00,KAI_11BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1084632,2019-10-21 12:09:00,2019-11-06 13:00:00,2019-11-06 13:30:00,KAI_CB_38,nan,Transpower,PSO,daily,0.0,Confirmed
+1084633,2019-10-21 12:09:00,2020-01-06 06:30:00,2020-01-09 18:30:00,CST_JRD_SFD_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1084634,2019-10-22 10:09:00,2019-10-22 09:00:00,2019-10-23 17:00:00,BPE_FDR_2142,nan,Transpower,RS,daily,0.0,Confirmed
 1084635,2019-10-22 10:09:00,2019-10-22 09:00:00,2019-10-23 17:00:00,BPE_FDR_2152,nan,Transpower,RS,daily,0.0,Confirmed
 1084636,2019-10-23 10:09:00,2019-10-30 07:30:00,2019-10-31 18:30:00,TMN_T8,nan,Transpower,RS,continuous,0.0,Confirmed
