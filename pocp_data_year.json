@@ -403,7 +403,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103436,2019-12-06 15:38:00,2019-12-09 07:30:00,2019-12-09 16:00:00,53.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 103438,2019-12-08 10:28:00,2019-12-08 10:30:00,2019-12-08 11:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103439,2019-12-10 14:08:00,2019-12-11 11:00:00,2019-12-11 16:00:00,55.0,AVI_2,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-103441,2019-12-10 13:58:00,2019-12-10 15:30:00,2019-12-13 17:00:00,9.9,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+103441,2019-12-11 15:33:00,2019-12-10 15:30:00,2019-12-20 17:00:00,9.9,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103442,2019-12-11 10:13:00,2019-12-11 12:00:00,2019-12-13 18:00:00,6.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 103444,2019-12-11 10:13:00,2019-12-11 12:00:00,2019-12-11 18:00:00,11.5,WWD_STN,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103445,2019-12-11 11:23:00,2019-12-12 21:00:00,2019-12-13 00:30:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -449,7 +449,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 29733,2019-10-03 14:51:00,2019-11-19 07:00:00,2019-11-21 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29734,2019-12-04 09:21:00,2019-12-05 07:00:00,2019-12-05 12:00:00,40.0,ROX_3,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29735,2019-11-27 01:18:00,2019-12-09 07:00:00,2019-12-13 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-29739,2019-12-11 07:39:00,2019-12-16 09:00:00,2019-12-16 12:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
+29739,2019-12-11 15:33:00,2019-12-16 11:00:00,2019-12-16 12:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29740,2019-10-15 15:57:00,2019-12-17 07:00:00,2019-12-17 17:30:00,40.0,ROX_8,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29755,2019-06-23 11:31:00,2019-06-23 07:00:00,2019-06-23 11:30:00,42.0,TRC_Stn,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 29756,2019-06-19 16:23:00,2019-06-24 10:00:00,2019-06-24 12:00:00,27.0,OKI_1,OKI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -1220,6 +1220,10 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 73238,2019-12-05 15:13:00,2019-12-09 00:00:00,2019-12-09 22:00:00,240.0,HLY_1,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 73258,2019-12-09 14:26:00,2019-12-10 02:00:00,2019-12-10 03:00:00,200.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 73265,2019-12-10 14:34:00,2019-12-10 07:30:00,2019-12-10 15:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+73278,2019-12-11 14:29:00,2019-12-18 23:30:00,2019-12-19 01:00:00,145.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+73279,2019-12-11 14:29:00,2019-12-19 03:00:00,2019-12-19 03:30:00,145.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+73298,2019-12-11 14:29:00,2019-12-12 02:00:00,2019-12-12 03:00:00,200.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+73299,2019-12-11 14:29:00,2019-12-13 02:00:00,2019-12-13 03:00:00,200.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 FTJV_AUG19,2019-07-26 15:37:00,2019-08-19 08:00:00,2019-08-23 20:00:00,10.0,WAA_2,WAA,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 FTJV_JUL19,2019-08-19 07:55:00,2019-07-30 08:00:00,2019-09-13 20:00:00,10.0,WAA_4,WAA,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 FTJV_JUN19,2019-06-10 12:16:00,2019-06-10 04:00:00,2019-06-19 20:00:00,10.0,WAA_1,WAA,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
