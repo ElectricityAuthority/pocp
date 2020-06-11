@@ -123,7 +123,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103575,2020-02-07 13:03:00,2020-02-04 18:30:00,2020-02-07 15:00:00,14.85,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103576,2020-02-07 13:08:00,2020-02-04 18:30:00,2020-02-07 15:00:00,10.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 103577,2020-04-28 18:43:00,2020-04-29 11:00:00,2020-04-29 16:00:00,55.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-103578,2020-05-13 02:00:00,2020-02-23 11:00:00,2020-08-03 06:00:00,21.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103578,2020-06-12 02:00:00,2020-02-23 11:00:00,2020-08-10 06:00:00,21.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103581,2020-02-10 16:33:00,2020-02-07 15:00:00,2020-02-10 18:00:00,11.25,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103582,2020-02-10 16:23:00,2020-02-07 15:00:00,2020-02-11 10:00:00,6.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 103585,2020-02-17 13:23:00,2020-02-19 07:30:00,2020-02-19 16:00:00,18.15,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
@@ -292,6 +292,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 104453,2020-06-10 11:53:00,2020-06-15 12:00:00,2020-06-15 16:00:00,30.0,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 104456,2020-06-11 08:18:00,2020-06-11 12:00:00,2020-06-11 14:00:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104457,2020-06-11 08:23:00,2020-06-11 10:00:00,2020-06-12 18:00:00,4.95,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+104460,2020-06-12 02:00:00,2020-07-03 10:00:00,2020-07-03 14:00:00,55.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 28974,2020-06-01 10:06:00,2020-06-02 07:00:00,2020-07-06 16:00:00,50.0,PPI_Stn,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 28998,2020-04-14 11:16:00,2020-04-17 10:00:00,2020-04-30 14:00:00,2.0,WRK_14,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 29153,2020-05-13 09:23:00,2020-03-02 09:00:00,2020-05-18 17:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -400,7 +401,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 30300,2020-05-22 05:01:00,2020-05-22 10:30:00,2020-05-22 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30316,2020-06-10 17:21:00,2020-06-10 07:00:00,2020-06-10 17:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 30322,2020-06-03 17:03:00,2020-06-02 08:00:00,2020-06-12 18:00:00,0.0,THI_Stn,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-30325,2020-06-01 10:06:00,2020-06-02 09:00:00,2020-06-30 23:59:00,52.0,TCC_1,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+30325,2020-06-11 14:30:00,2020-06-02 09:00:00,2020-06-30 23:59:00,32.0,TCC_1,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30331,2020-06-05 15:30:00,2020-06-09 10:30:00,2020-06-09 16:00:00,116.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 30332,2020-06-09 15:38:00,2020-06-10 08:00:00,2020-06-10 16:00:00,12.0,TAA_1,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 30333,2020-06-10 19:37:00,2020-06-10 09:00:00,2020-06-12 07:00:00,0.0,TRC_1,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -1312,3 +1313,5 @@ TRUS16115MHO,2020-06-09 00:05:00,2020-06-09 13:00:00,2020-06-09 15:00:00,31.0,MH
 TRUS16117BWK,2020-06-11 00:05:00,2020-06-10 12:00:00,2020-06-17 16:30:00,7.0,BWK_STN,BWK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS16118MHO,2020-06-10 00:05:00,2020-06-11 13:00:00,2020-06-11 15:30:00,31.0,MHO_STN,MHO,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS16122ASB,2020-06-11 00:05:00,2020-06-18 08:30:00,2020-06-18 16:30:00,3.0,ASB_STN,ASB,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS16125HKK,2020-06-12 00:05:00,2020-06-16 10:30:00,2020-06-16 14:30:00,3.0,HKK_STN,HKK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
+TRUS16129MAT,2020-06-12 00:05:00,2020-06-24 09:00:00,2020-06-24 15:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
