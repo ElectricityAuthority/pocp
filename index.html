@@ -37,6 +37,10 @@ svg {
     background: rgb(241,128,147);
 }
 
+.highlight_checkbox_label label[for="nova"] {
+    background: rgb(250,170,0);
+}
+
 .highlight_checkbox_label label[for="trustpower"] {
     background: rgb(146,177,207);
 }
@@ -84,6 +88,10 @@ svg {
 
 .time_series .Contact_Energy {
     fill: rgb(226,0,39);
+}
+
+.time_series .Nova_Energy {
+    fill: rgb(250,170,0);
 }
 
 .time_series .Trustpower {
@@ -168,6 +176,10 @@ line {
 
 #pocp-list .Contact_Energy {
     background: rgb(241,128,147);
+}
+
+#pocp-list .Nova_Energy {
+    background: rgb(250,170,0);
 }
 
 #pocp-list .Trustpower {
@@ -402,6 +414,12 @@ aside {
         <td>
         <input name="updateButton"
                type="button"
+               value="Nova (NI)"
+               onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('nova');updateSelection()"/>
+        </td>
+        <td>
+        <input name="updateButton"
+               type="button"
                value="Trustpower (NI)"
                onclick="checkColourScheme('gen_type');checkIsland('NI');checkAllGenTypes();checkOwner('trustpower');updateSelection()"/>
         </td>
@@ -463,6 +481,8 @@ aside {
       <label for="mrp">Mighty River Power</label><br>
       <input type="checkbox" checked id="contact">
       <label for="contact">Contact Energy</label><br>
+      <input type="checkbox" checked id="nova">
+      <label for="nova">Nova Energy</label><br>
       <input type="checkbox" checked id="trustpower">
       <label for="trustpower">Trustpower</label>
     </form>
@@ -532,7 +552,7 @@ var colourScheme = "none";
 
 var islandStackOrder = ["SI", "NI"];
 var genTypeStackOrder = ["Wind", "Geothermal", "Thermal", "Hydro"];
-var ownerStackOrder = ["Trustpower", "Contact Energy", "Mighty River", "Meridian", "Genesis"];
+var ownerStackOrder = ["Trustpower", "Contact Energy", "Nova Energy", "Mighty River", "Meridian", "Genesis"];
 
 
 
@@ -1050,6 +1070,7 @@ function updateSelection() {
     checkedOwners["Meridian"] = owners.filter("#meridian").is(":checked");
     checkedOwners["Mighty River"] = owners.filter("#mrp").is(":checked");
     checkedOwners["Contact Energy"] = owners.filter("#contact").is(":checked");
+    checkedOwners["Nova Energy"] = owners.filter("#nova").is(":checked");
     checkedOwners["Trustpower"] = owners.filter("#trustpower").is(":checked");
     outagesByOwner.filterFunction(function (o) {
         return checkedOwners[o];
