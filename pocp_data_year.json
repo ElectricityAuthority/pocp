@@ -287,13 +287,13 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 104484,2020-06-22 13:58:00,2020-06-23 08:00:00,2020-06-23 16:00:00,23.0,WWD_1103,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 104487,2020-06-23 02:00:00,2020-07-13 08:00:00,2020-07-15 16:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104490,2020-06-22 19:23:00,2020-06-24 07:30:00,2020-06-24 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-104491,2020-06-23 08:58:00,2020-06-23 10:30:00,2020-07-03 17:00:00,15.0,WTK_3,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+104491,2020-07-03 13:13:00,2020-06-23 10:30:00,2020-07-03 14:30:00,15.0,WTK_3,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104492,2020-06-23 08:53:00,2020-06-23 11:30:00,2020-06-23 13:30:00,15.0,WTK_2,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104497,2020-06-23 20:13:00,2020-06-24 11:30:00,2020-06-24 12:00:00,69.0,WWD_1102,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 104517,2020-06-24 21:58:00,2020-06-25 10:00:00,2020-06-26 18:00:00,3.3,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 104521,2020-06-25 15:48:00,2020-06-26 10:00:00,2020-06-26 16:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104525,2020-06-25 16:13:00,2020-06-29 08:00:00,2020-06-29 15:00:00,6.9,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-104527,2020-07-01 12:43:00,2020-07-03 08:00:00,2020-07-03 16:00:00,25.3,WWD_1103,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+104527,2020-07-03 15:03:00,2020-07-03 08:00:00,2020-07-03 15:30:00,25.3,WWD_1103,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 104528,2020-06-27 02:00:00,2020-07-29 08:30:00,2020-07-31 17:00:00,94.0,OHA_STN,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104530,2020-06-27 15:23:00,2020-06-26 16:30:00,2020-06-28 09:00:00,21.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104533,2020-06-27 15:18:00,2020-06-28 09:00:00,2020-06-28 15:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -308,7 +308,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 28998,2020-04-14 11:16:00,2020-04-17 10:00:00,2020-04-30 14:00:00,2.0,WRK_14,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 29153,2020-05-13 09:23:00,2020-03-02 09:00:00,2020-05-18 17:30:00,108.0,CYD_1,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29352,2020-05-13 09:23:00,2020-05-19 07:00:00,2020-06-19 17:30:00,40.0,ROX_1,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
-29353,2019-10-15 15:57:00,2020-07-06 07:00:00,2020-08-07 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,daily,0.0,Tentative,Hydro,SI
+29353,2020-07-03 13:24:00,2020-07-06 07:00:00,2020-08-07 17:30:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29355,2020-02-19 17:57:00,2020-01-20 07:00:00,2020-02-20 19:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 29558,2020-04-29 17:04:00,2020-07-27 00:30:00,2020-08-30 07:30:00,39.0,OKI_Stn,OKI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
 29573,2020-01-24 13:35:00,2020-04-15 00:30:00,2020-05-20 16:00:00,29.0,WRK_13,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
@@ -1020,7 +1020,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 73778,2020-03-03 14:21:00,2020-03-05 10:00:00,2020-03-05 14:00:00,60.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 73800,2020-06-05 13:05:00,2020-05-09 17:01:00,2020-06-15 12:00:00,80.0,TKB_2,TKB,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 73858,2020-03-11 11:13:00,2020-03-11 10:00:00,2020-03-11 14:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
-73899,2020-03-17 16:06:00,2020-07-08 10:00:00,2020-07-08 14:00:00,30.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
+73899,2020-07-03 14:40:00,2020-07-08 09:30:00,2020-07-08 15:30:00,30.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 73940,2020-03-18 13:13:00,2020-03-18 23:30:00,2020-03-19 04:30:00,385.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 73958,2020-03-20 09:17:00,2020-03-20 10:00:00,2020-03-20 17:00:00,45.0,HLY_6,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 73959,2020-06-20 14:26:00,2020-06-01 00:00:00,2020-06-20 15:00:00,30.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1042,7 +1042,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 74419,2020-06-20 14:26:00,2020-07-12 08:00:00,2020-07-12 16:00:00,60.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 74458,2020-06-20 14:26:00,2020-06-21 06:00:00,2020-06-22 10:00:00,30.0,TKA_1,TKA,Genesis,0.0,continuous,0.0,Confirmed,Hydro,SI
 74480,2020-06-26 09:12:00,2020-06-27 02:30:00,2020-06-27 03:30:00,145.0,HLY_5,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
-74483,2020-06-26 16:46:00,2020-06-28 00:00:00,2020-07-04 00:00:00,240.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
+74483,2020-07-03 14:40:00,2020-06-28 00:00:00,2020-07-03 16:00:00,240.0,HLY_4,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
 FTJV,2020-06-22 14:39:00,2020-06-19 08:00:00,2020-06-24 16:00:00,10.0,WAA_3,WAA,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 JRD,2020-06-26 13:20:00,2020-06-29 10:00:00,2020-06-29 16:00:00,50.0,JRD_072,JRD,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 JRD_Commissioning,2020-03-23 07:31:00,2020-01-10 00:00:00,2020-03-23 15:00:00,100.0,JRD,JRD,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
