@@ -391,7 +391,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 30275,2020-05-15 10:44:00,2020-05-15 11:00:00,2020-05-19 12:00:00,3.0,TAA_1,TAA,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 30300,2020-05-22 05:01:00,2020-05-22 10:30:00,2020-05-22 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30308,2020-06-23 15:09:00,2020-07-27 08:00:00,2020-07-31 16:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
-30309,2020-07-09 09:31:00,2020-08-10 08:00:00,2020-08-14 16:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Tentative,Thermal,NI
+30309,2020-07-23 15:39:00,2020-08-10 08:00:00,2020-08-14 16:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30313,2020-06-29 11:43:00,2020-06-26 05:00:00,2020-07-01 23:59:00,42.0,TRC_1,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30316,2020-06-10 17:21:00,2020-06-10 07:00:00,2020-06-10 17:00:00,40.0,ROX_2,ROX,Contact Energy,0.0,daily,0.0,Confirmed,Hydro,SI
 30322,2020-06-03 17:03:00,2020-06-02 08:00:00,2020-06-12 18:00:00,0.0,THI_Stn,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -436,6 +436,8 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 30400,2020-07-18 15:08:00,2020-07-17 12:00:00,2020-07-18 14:00:00,29.0,WRK_11,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 30401,2020-07-16 16:36:00,2020-07-22 01:00:00,2020-07-22 18:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30405,2020-07-22 07:46:00,2020-07-23 07:30:00,2020-07-23 18:00:00,80.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+30411,2020-07-23 15:39:00,2020-07-29 05:00:00,2020-07-29 20:00:00,43.0,PPI_1,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+30412,2020-07-23 15:39:00,2020-07-28 11:00:00,2020-07-28 15:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 39517,2020-06-29 20:30:00,2019-11-11 07:00:00,2020-07-03 12:00:00,26.0,ARA_3,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39523,2020-01-28 11:30:00,2020-01-28 08:00:00,2020-01-30 17:00:00,26.5,OHK_2,OHK,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39549,2020-07-10 20:30:00,2020-07-14 10:30:00,2020-07-14 12:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1082,7 +1084,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 FTJV,2020-06-22 14:39:00,2020-06-19 08:00:00,2020-06-24 16:00:00,10.0,WAA_3,WAA,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 JRD,2020-07-21 11:49:00,2020-07-22 22:00:00,2020-07-25 06:00:00,50.0,JRD_072,JRD,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 JRD_Commissioning,2020-03-23 07:31:00,2020-01-10 00:00:00,2020-03-23 15:00:00,100.0,JRD,JRD,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
-JRD_MAY20,2020-07-20 09:45:00,2020-05-21 15:00:00,2020-07-29 16:00:00,50.0,JRD_071,JRD,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+JRD_MAY20,2020-07-23 13:10:00,2020-05-21 15:00:00,2020-08-05 16:00:00,50.0,JRD_071,JRD,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 KEJV,2020-01-16 13:42:00,2020-03-31 08:00:00,2020-03-31 16:00:00,10.0,GTB,GTB,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 KGTP,2020-06-19 09:03:00,2020-06-15 08:00:00,2020-06-21 16:00:00,10.0,GTA,GTA,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MKE,2020-06-24 14:32:00,2020-06-26 10:00:00,2020-06-26 16:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
