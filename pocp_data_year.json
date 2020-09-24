@@ -34,7 +34,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 103641,2020-02-27 02:00:00,2020-05-02 11:00:00,2020-05-02 16:00:00,150.0,OHB_STN,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103643,2020-02-27 02:00:00,2020-05-02 16:00:00,2020-05-02 17:00:00,159.0,OHA_STN,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103644,2020-02-27 02:00:00,2020-05-02 11:00:00,2020-05-02 16:00:00,150.0,OHC_STN,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-103651,2020-09-07 17:13:00,2020-09-14 06:00:00,2020-10-05 06:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+103651,2020-09-25 02:00:00,2020-09-14 06:00:00,2020-10-09 18:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103657,2020-05-26 15:28:00,2020-05-26 07:30:00,2020-05-26 17:00:00,90.75,TAP_STN,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 103668,2020-08-28 13:13:00,2020-08-28 08:00:00,2020-08-28 14:30:00,55.0,OHB_11,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 103689,2020-03-06 13:33:00,2020-04-04 09:00:00,2020-04-04 13:00:00,175.0,OHA_STN,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -174,7 +174,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 104478,2020-06-22 10:53:00,2020-06-24 18:00:00,2020-08-10 07:00:00,21.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104479,2020-06-22 10:58:00,2020-06-24 07:30:00,2020-06-24 18:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104480,2020-06-22 11:33:00,2020-06-29 11:00:00,2020-06-29 16:00:00,58.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
-104481,2020-09-08 02:00:00,2020-10-03 07:00:00,2020-10-28 18:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+104481,2020-09-25 02:00:00,2020-10-12 06:00:00,2020-11-20 17:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104484,2020-06-22 13:58:00,2020-06-23 08:00:00,2020-06-23 16:00:00,23.0,WWD_1103,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 104487,2020-06-23 02:00:00,2020-07-13 08:00:00,2020-07-15 16:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104490,2020-06-22 19:23:00,2020-06-24 07:30:00,2020-06-24 18:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -304,7 +304,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105245,2020-09-07 16:33:00,2020-09-04 17:30:00,2020-09-07 18:00:00,18.15,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105252,2020-09-07 16:33:00,2020-09-07 18:00:00,2020-10-30 18:00:00,8.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105253,2020-09-07 16:33:00,2020-09-07 18:00:00,2020-09-11 18:00:00,16.5,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-105254,2020-09-09 02:00:00,2020-10-05 06:00:00,2021-01-11 06:00:00,21.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+105254,2020-09-25 02:00:00,2020-10-09 18:00:00,2021-01-11 06:00:00,21.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105259,2020-09-11 09:38:00,2020-09-09 21:30:00,2020-09-11 11:00:00,14.85,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105260,2020-09-11 09:43:00,2020-09-09 21:30:00,2020-09-11 11:00:00,14.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105299,2020-09-10 14:13:00,2020-09-11 11:00:00,2020-09-11 16:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -337,6 +337,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105370,2020-09-24 02:00:00,2020-10-08 13:00:00,2020-10-08 15:00:00,125.0,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105371,2020-09-24 02:00:00,2020-10-08 15:00:00,2020-10-08 16:30:00,125.0,MAN_7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105372,2020-09-24 14:03:00,2020-09-23 18:00:00,2020-09-24 18:00:00,37.62,TUK_STN,TUK,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+105373,2020-09-25 02:00:00,2020-10-03 06:00:00,2020-10-05 06:00:00,66.0,OHA_7,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105374,2020-09-24 14:13:00,2020-09-24 15:30:00,2020-10-01 18:00:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105376,2020-09-24 15:43:00,2020-09-24 17:00:00,2020-09-25 07:00:00,8.0,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 28783,2019-10-15 15:57:00,2020-08-17 07:00:00,2020-10-30 17:30:00,108.0,CYD_3,CYD,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
