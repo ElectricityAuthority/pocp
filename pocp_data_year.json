@@ -330,7 +330,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105570,2020-11-25 02:00:00,2020-12-11 14:00:00,2020-12-11 17:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105572,2020-11-25 13:13:00,2020-11-25 15:00:00,2020-11-27 18:00:00,10.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105573,2020-11-25 13:23:00,2020-11-25 15:00:00,2020-11-27 18:00:00,8.25,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
-105581,2020-12-04 08:48:00,2020-11-27 21:00:00,2020-12-11 18:00:00,8.25,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+105581,2020-12-08 15:43:00,2020-11-27 21:00:00,2020-12-08 17:30:00,8.25,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105582,2020-12-01 14:48:00,2020-11-27 21:00:00,2020-12-01 16:30:00,10.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105586,2020-11-30 10:38:00,2020-11-30 12:00:00,2020-12-04 18:00:00,38.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105596,2020-12-02 02:00:00,2020-12-15 08:00:00,2020-12-15 16:00:00,66.0,OHA_4,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -341,6 +341,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105602,2020-12-02 02:00:00,2020-12-18 11:00:00,2020-12-18 18:00:00,55.0,AVI_4,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105611,2020-12-08 08:48:00,2020-12-04 18:30:00,2020-12-08 10:30:00,38.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105644,2020-12-07 11:13:00,2020-12-10 10:00:00,2020-12-10 16:00:00,15.0,WTK_3,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+105650,2020-12-08 15:43:00,2020-12-08 21:00:00,2020-12-11 17:30:00,11.5,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 28123,2020-11-13 17:53:00,2020-11-02 06:01:00,2020-11-14 11:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28124,2020-11-27 17:41:00,2020-11-16 06:01:00,2020-11-30 12:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28125,2020-12-04 15:35:00,2020-11-30 12:01:00,2020-12-18 18:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -1266,7 +1267,7 @@ KGTP,2020-06-19 09:03:00,2020-06-15 08:00:00,2020-06-21 16:00:00,10.0,GTA,GTA,No
 KPI,2020-08-24 12:07:00,2020-12-14 08:00:00,2020-12-18 16:30:00,10.0,KPI_1,KPI,Nova Energy,0.0,continuous,0.0,Tentative,Thermal,NI
 MKE,2020-10-22 15:49:00,2020-10-25 03:00:00,2020-10-25 16:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MKE_MAY20,2020-06-19 14:34:00,2020-06-14 04:30:00,2020-06-20 13:00:00,50.0,MKE_062,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
-MKE_OCT20,2020-11-16 13:49:00,2020-11-12 12:00:00,2021-01-15 20:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
+MKE_OCT20,2020-12-08 13:43:00,2020-11-12 12:00:00,2021-07-09 20:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 MPP,2020-09-12 15:38:00,2020-09-12 03:00:00,2020-09-12 16:00:00,50.0,MKE_061,MKE,Nova Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 NGA OEC 1,2020-05-19 16:53:00,2020-09-05 06:00:00,2020-09-08 18:00:00,5.0,KOE,KOE,Top Energy,0.0,daily,0.0,Confirmed,Geothermal,NI
 NGA OEC 2,2020-05-19 17:02:00,2020-09-01 06:00:00,2020-09-04 18:00:00,5.0,KOE,KOE,Top Energy,0.0,daily,0.0,Confirmed,Geothermal,NI
