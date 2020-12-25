@@ -49,7 +49,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1072136,2020-06-19 15:09:00,2020-07-17 07:30:00,2020-07-31 18:30:00,BLN_T1,nan,Transpower,RS,continuous,0.0,Confirmed
 1072139,2020-06-17 12:09:00,2020-06-29 07:30:00,2020-07-10 18:30:00,BLN_T2,nan,Transpower,RS,continuous,0.0,Confirmed
 1072237,2020-05-18 14:09:00,2020-06-29 07:00:00,2020-07-02 18:00:00,PEN_CB_8612,nan,Transpower,OPE,continuous,0.0,Confirmed
-1073482,2020-05-19 16:09:00,2020-06-16 07:30:00,2020-06-25 18:30:00,HTI_T2,nan,Transpower,RS,continuous,0.0,Confirmed
 1073828,2020-02-19 15:00:00,2020-09-23 08:00:00,2020-09-23 16:00:00,OHW_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1073829,2020-02-19 15:00:00,2020-10-01 07:00:00,2020-10-01 18:00:00,OHW_220BZ_A,nan,Transpower,RS,daily,0.0,Confirmed
 1073830,2020-02-19 15:00:00,2020-10-01 07:00:00,2020-10-01 18:00:00,OHW_220BZ_B,nan,Transpower,RS,daily,0.0,Confirmed
@@ -137,8 +136,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1078690,2020-09-04 12:09:00,2020-12-09 13:00:00,2020-12-09 20:00:00,HAM_220BZ_B,nan,Transpower,RS,daily,0.0,Confirmed
 1078691,2020-09-04 12:09:00,2020-12-09 13:00:00,2020-12-09 20:00:00,HAM_220CBF,nan,Transpower,RS,daily,0.0,Confirmed
 1079561,2020-05-08 17:09:00,2020-11-02 07:30:00,2020-11-20 18:30:00,TWZ_T18,nan,Transpower,RS,continuous,0.0,Confirmed
-1079829,2019-05-17 13:10:00,2020-06-22 08:00:00,2020-06-25 16:00:00,INV_220BZ,nan,Transpower,RS,daily,0.0,Confirmed
-1079830,2019-05-17 13:10:00,2020-06-22 08:00:00,2020-06-25 16:00:00,INV_220CBF,nan,Transpower,RS,daily,0.0,Confirmed
 1079833,2019-05-17 13:10:00,2020-07-01 08:00:00,2020-07-01 16:00:00,INV_RTU_MULTI,nan,Transpower,RS,daily,0.0,Confirmed
 1079834,2019-05-17 13:10:00,2020-07-08 08:00:00,2020-07-08 16:00:00,INV_RTU_MULTI,nan,Transpower,RS,daily,0.0,Confirmed
 1079929,2019-07-29 12:10:00,2020-11-20 06:30:00,2020-11-20 18:30:00,HAM_11KV_BS_B,nan,Transpower,RS,daily,0.0,Confirmed
@@ -169,9 +166,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1081138,2020-02-19 11:00:00,2020-09-22 07:30:00,2020-09-24 17:30:00,HEP_CB_218,nan,Transpower,RS,continuous,0.0,Confirmed
 1081139,2020-02-19 11:00:00,2020-09-22 07:30:00,2020-09-24 17:30:00,HEP_CB_248,nan,Transpower,RS,continuous,0.0,Confirmed
 1081446,2020-11-25 06:09:00,2020-11-02 08:00:00,2020-11-25 12:00:00,GLN_FDR_2462,nan,Transpower,RS,continuous,0.0,Confirmed
-1081470,2020-06-23 10:09:00,2020-06-23 08:00:00,2020-06-25 17:30:00,TMU_T1,nan,Transpower,RS,continuous,0.0,Confirmed
-1081516,2020-04-21 17:09:00,2020-06-23 07:30:00,2020-06-25 18:30:00,HOB_PEN_1,nan,Transpower,RS,continuous,0.0,Confirmed
-1081517,2020-04-21 17:09:00,2020-06-23 07:30:00,2020-06-25 18:30:00,PEN_CB_8612,nan,Transpower,RS,continuous,0.0,Confirmed
 1081857,2020-07-13 14:09:00,2020-07-28 07:30:00,2020-07-31 18:00:00,KPO_110CBF,nan,Transpower,RS,daily,0.0,Confirmed
 1081858,2020-06-15 10:09:00,2020-08-05 07:30:00,2020-08-05 18:00:00,KPO_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1081875,2020-03-06 15:00:00,2020-11-17 08:00:00,2020-11-26 17:00:00,ONG_T1,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -267,7 +261,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1084460,2020-06-11 14:09:00,2020-06-28 09:00:00,2020-06-28 17:00:00,HIN_KPO_1,nan,Transpower,RS,daily,0.0,Confirmed
 1084665,2020-04-22 14:09:00,2020-07-27 07:00:00,2020-07-31 18:00:00,DRY_GLN_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1084716,2020-03-31 14:00:00,2020-06-26 08:00:00,2020-06-26 16:00:00,MPE_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
-1084717,2020-03-31 14:00:00,2020-06-25 08:00:00,2020-06-25 16:00:00,KOE_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
 1084781,2019-11-06 13:09:00,2021-01-18 07:30:00,2021-01-23 18:30:00,BRB_HPI_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1084786,2019-11-06 13:09:00,2021-01-18 07:30:00,2021-01-23 18:30:00,MPE_CB_252,nan,Transpower,OPE,continuous,0.0,Confirmed
 1084790,2019-11-06 13:09:00,2021-01-18 07:30:00,2021-01-23 18:30:00,MPE_CB_292,nan,Transpower,OPE,continuous,0.0,Confirmed
@@ -1017,7 +1010,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1087561,2020-07-03 10:09:00,2020-08-07 08:00:00,2020-08-07 16:00:00,HAM_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
 1087563,2020-07-23 09:09:00,2020-11-23 07:30:00,2020-11-27 18:30:00,ASY_CB_2742,nan,Transpower,CLO,continuous,0.0,Confirmed
 1087564,2020-05-08 17:09:00,2020-09-22 07:30:00,2020-09-22 18:30:00,ROX_220BS_C,nan,Transpower,RS,daily,0.0,Confirmed
-1087632,2020-06-15 12:09:00,2020-06-25 07:00:00,2020-06-25 18:30:00,OTA_117_177_197,nan,Transpower,RS,daily,0.0,Confirmed
 1087633,2020-06-15 12:09:00,2020-06-26 07:00:00,2020-06-26 18:30:00,OTA_127_187_207,nan,Transpower,RS,daily,0.0,Confirmed
 1087796,2020-05-08 16:09:00,2020-09-08 07:30:00,2020-09-09 18:30:00,BEN_OHB_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1087797,2020-05-08 16:09:00,2020-09-10 07:30:00,2020-09-10 18:30:00,OHB_TWZ_3,nan,Transpower,RS,daily,0.0,Confirmed
@@ -1263,9 +1255,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1089535,2020-02-10 11:00:00,2020-05-25 07:30:00,2020-06-26 17:00:00,OTA_PEN_2,nan,Transpower,RS,continuous,0.0,Confirmed
 1089649,2020-04-17 10:09:00,2020-08-28 07:30:00,2020-08-28 18:30:00,HKK_C7C8C9,nan,Transpower,RS,daily,0.0,Confirmed
 1089731,2020-05-21 12:09:00,2020-07-06 07:30:00,2020-07-10 18:30:00,INV_TWI_2,nan,Transpower,RS,continuous,0.0,Confirmed
-1089736,2020-04-09 15:09:00,2020-06-23 07:00:00,2020-06-25 17:00:00,HAY_RTU_MULTI,nan,Transpower,RS,daily,0.0,Confirmed
-1089737,2020-04-09 15:09:00,2020-06-23 07:00:00,2020-06-25 17:00:00,HAY_RTU_X,nan,Transpower,RS,daily,0.0,Confirmed
-1089743,2020-04-09 15:09:00,2020-06-23 07:00:00,2020-06-25 17:00:00,HAY_11BZ_AB,nan,Transpower,RS,daily,0.0,Confirmed
 1089787,2020-12-21 10:09:00,2021-01-11 07:30:00,2021-01-20 18:30:00,HWA_T3,nan,Transpower,RS,continuous,0.0,Confirmed
 1089789,2020-07-03 14:09:00,2020-12-08 09:00:00,2020-12-08 16:00:00,OHW_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1089811,2020-08-25 10:09:00,2020-08-17 07:30:00,2020-08-30 08:30:00,WEL_T1,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -1424,7 +1413,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1091059,2020-05-05 11:09:00,2020-07-31 09:00:00,2020-07-31 09:30:00,HOR_KBY_ISL_1_PROT2,nan,Transpower,RS,daily,0.0,Confirmed
 1091060,2020-05-05 11:09:00,2020-07-31 09:30:00,2020-07-31 10:00:00,HOR_KBY_ISL_2_PROT1,nan,Transpower,RS,daily,0.0,Confirmed
 1091061,2020-05-05 11:09:00,2020-07-31 10:00:00,2020-07-31 10:30:00,HOR_KBY_ISL_2_PROT2,nan,Transpower,RS,daily,0.0,Confirmed
-1091091,2020-04-09 15:09:00,2020-06-23 07:00:00,2020-06-25 17:00:00,HAY_11CBF_AB,nan,Transpower,RS,daily,0.0,Confirmed
 1091130,2020-11-30 15:09:00,2020-12-01 07:30:00,2020-12-01 18:30:00,WHU_87_147,nan,Transpower,RS,daily,0.0,Confirmed
 1091131,2020-11-30 15:09:00,2020-12-01 07:30:00,2020-12-01 18:30:00,WHU_WKO_2,nan,Transpower,RS,daily,0.0,Confirmed
 1091132,2020-08-07 11:09:00,2020-12-02 08:30:00,2020-12-02 12:30:00,WHU_RTU_1,nan,Transpower,SCA,daily,0.0,Confirmed
@@ -1468,7 +1456,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1091171,2020-09-03 16:09:00,2020-07-25 12:00:00,2020-09-11 15:00:00,WHU_FDR_2202,nan,Transpower,RS,continuous,0.0,Confirmed
 1091172,2020-03-27 12:00:00,2020-07-25 12:00:00,2020-08-13 17:00:00,WHU_FDR_2222,nan,Transpower,RS,continuous,0.0,Confirmed
 1091173,2020-03-27 12:00:00,2020-07-25 12:00:00,2020-08-06 17:00:00,WHU_FDR_2232,nan,Transpower,RS,continuous,0.0,Confirmed
-1091176,2020-03-27 14:00:00,2020-06-25 07:30:00,2020-06-25 16:30:00,WHU_FDR_332,nan,Transpower,RS,daily,0.0,Confirmed
 1091191,2020-04-02 15:00:00,2020-07-07 07:00:00,2020-07-09 17:00:00,HAY_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
 1091192,2020-04-02 15:00:00,2020-07-07 07:00:00,2020-07-09 17:00:00,HAY_RTU_2,nan,Transpower,RS,daily,0.0,Confirmed
 1091193,2020-04-02 15:00:00,2020-07-14 07:00:00,2020-07-16 17:00:00,HAY_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
@@ -1511,7 +1498,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1091241,2020-05-08 16:09:00,2020-10-19 07:30:00,2020-10-21 18:00:00,WEL_T1,nan,Transpower,RS,continuous,0.0,Confirmed
 1091242,2020-05-08 16:09:00,2020-10-19 07:30:00,2020-10-21 18:00:00,MTO_T2,nan,Transpower,RS,continuous,0.0,Confirmed
 1091244,2020-05-08 16:09:00,2020-10-21 18:00:00,2020-10-23 18:00:00,MPE_CB_252,nan,Transpower,OPE,continuous,0.0,Confirmed
-1091247,2020-06-19 12:09:00,2020-04-05 14:00:00,2020-06-25 07:00:00,OTA_CB_48,nan,Transpower,CLO,continuous,0.0,Confirmed
 1091279,2020-11-09 09:09:00,2020-11-09 07:30:00,2020-11-13 18:00:00,KOE_MPE_2,nan,Transpower,RS,continuous,0.0,Confirmed
 1091287,2020-03-31 16:00:00,2020-12-15 07:30:00,2020-12-15 18:30:00,SVL_FDR_2742,nan,Transpower,RS,daily,0.0,Confirmed
 1091288,2020-03-31 16:00:00,2020-12-16 07:30:00,2020-12-16 18:30:00,SVL_FDR_2842,nan,Transpower,RS,daily,0.0,Confirmed
@@ -1620,7 +1606,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1091976,2020-05-08 16:09:00,2020-10-16 07:30:00,2020-10-19 18:00:00,HAM_FDR_2172,nan,Transpower,RS,continuous,0.0,Confirmed
 1091977,2020-05-08 16:09:00,2020-10-16 07:30:00,2020-10-19 18:00:00,HAM_FDR_2182,nan,Transpower,RS,continuous,0.0,Confirmed
 1091978,2020-05-08 16:09:00,2020-10-16 07:30:00,2020-10-19 18:00:00,HAM_T5,nan,Transpower,RS,continuous,0.0,Confirmed
-1091985,2020-05-25 11:09:00,2020-06-24 07:00:00,2020-06-25 18:30:00,BRB_HPI_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1091989,2020-10-09 14:09:00,2020-10-12 07:00:00,2020-10-19 18:00:00,CYD_CML_TWZ_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1091990,2020-10-09 14:09:00,2020-10-12 07:00:00,2020-10-19 18:00:00,CML_FKN_1,nan,Transpower,RS,continuous,0.0,Confirmed
 1091991,2020-10-09 14:09:00,2020-10-12 07:00:00,2020-10-19 18:00:00,CML_T5,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -1716,8 +1701,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1092299,2020-05-11 12:09:00,2020-09-09 07:30:00,2020-09-09 16:00:00,TRK_CB_618,nan,Transpower,RS,daily,0.0,Confirmed
 1092300,2020-05-11 12:09:00,2020-09-09 07:30:00,2020-09-09 16:00:00,TRK_T3,nan,Transpower,RS,daily,0.0,Confirmed
 1092310,2020-05-11 13:09:00,2020-05-14 07:30:00,2021-01-29 12:00:00,HKK_C3C5C6,nan,Transpower,RS,continuous,0.0,Confirmed
-1092337,2020-05-25 11:09:00,2020-06-24 07:00:00,2020-06-25 18:30:00,MPE_CB_252,nan,Transpower,OPE,continuous,0.0,Confirmed
-1092342,2020-05-25 11:09:00,2020-06-24 07:00:00,2020-06-25 18:30:00,MPE_CB_292,nan,Transpower,OPE,continuous,0.0,Confirmed
 1092346,2020-08-14 11:09:00,2020-08-17 08:30:00,2020-08-20 18:30:00,EDG_OWH_2,nan,Transpower,RS,continuous,0.0,Confirmed
 1092347,2020-08-17 11:09:00,2020-08-17 09:30:00,2020-08-20 18:30:00,OWH_82_92_107,nan,Transpower,RS,continuous,0.0,Confirmed
 1092348,2020-08-14 11:09:00,2020-08-17 08:30:00,2020-08-20 18:30:00,OWH_T1,nan,Transpower,RS,continuous,0.0,Confirmed
@@ -2166,7 +2149,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1093396,2020-06-15 16:09:00,2020-07-17 08:30:00,2020-07-17 14:30:00,KIN_CB_372,nan,Transpower,RS,daily,0.0,Confirmed
 1093397,2020-06-15 16:09:00,2020-07-17 08:30:00,2020-07-17 14:30:00,KIN_CB_368,nan,Transpower,RS,daily,0.0,Confirmed
 1093398,2020-06-10 11:09:00,2020-08-27 07:30:00,2020-08-27 18:30:00,EDG_DIS_214,nan,Transpower,CLO,daily,0.0,Confirmed
-1093401,2020-06-12 15:09:00,2020-06-25 08:00:00,2020-06-25 16:30:00,KIN_T5,nan,Transpower,RS,daily,0.0,Confirmed
 1093402,2020-06-10 11:09:00,2020-07-06 06:30:00,2020-07-06 07:30:00,BPE_110BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1093403,2020-06-10 11:09:00,2020-07-06 16:00:00,2020-07-06 17:00:00,BPE_110BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1093404,2020-06-11 10:09:00,2020-07-07 08:00:00,2020-07-07 17:00:00,PAO_RTU_1,nan,Transpower,RS,daily,0.0,Confirmed
@@ -2214,7 +2196,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1093462,2020-09-16 10:09:00,2020-10-08 07:00:00,2020-10-09 18:00:00,MLG_FDR_12,nan,Transpower,RS,continuous,0.0,Confirmed
 1093463,2020-09-16 10:09:00,2020-10-08 07:00:00,2020-10-09 18:00:00,MLG_FDR_8,nan,Transpower,RS,continuous,0.0,Confirmed
 1093464,2020-09-16 10:09:00,2020-10-08 07:00:00,2020-10-09 18:00:00,MLG_FDR_9,nan,Transpower,RS,continuous,0.0,Confirmed
-1093466,2020-06-11 10:09:00,2020-06-25 06:30:00,2020-06-25 07:00:00,OTA_110BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1093467,2020-06-15 12:09:00,2020-06-26 18:30:00,2020-06-26 19:00:00,OTA_110BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1093468,2020-06-11 17:09:00,2020-11-12 07:30:00,2020-11-12 18:30:00,MTM_47_84_94,nan,Transpower,RS,daily,0.0,Confirmed
 1093469,2020-06-11 17:09:00,2020-11-12 07:30:00,2020-11-12 18:30:00,KMO_MTM_1,nan,Transpower,RS,daily,0.0,Confirmed
@@ -2280,7 +2261,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1093584,2020-06-15 12:09:00,2020-06-26 06:30:00,2020-06-26 07:00:00,OTA_110BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1093585,2020-06-22 15:09:00,2020-10-06 07:00:00,2020-10-06 17:00:00,BPE_LTN_WIL_1,nan,Transpower,RS,daily,0.0,Confirmed
 1093586,2020-06-22 15:09:00,2020-10-06 07:00:00,2020-10-06 17:00:00,LTN_T2,nan,Transpower,RS,daily,0.0,Confirmed
-1093587,2020-06-15 13:09:00,2020-06-25 18:30:00,2020-06-25 19:00:00,OTA_110BS_CHANGE,nan,Transpower,PSO,daily,0.0,Confirmed
 1093597,2020-07-01 17:09:00,2020-07-16 08:00:00,2020-07-16 16:00:00,MPE_110BZ,nan,Transpower,RS,daily,0.0,Confirmed
 1093598,2020-07-01 17:09:00,2020-07-27 09:00:00,2020-07-27 12:00:00,MPE_110BZ,nan,Transpower,RS,daily,0.0,Confirmed
 1093599,2020-08-06 10:09:00,2020-08-06 08:30:00,2020-08-06 16:00:00,MPE_110BZ,nan,Transpower,RS,daily,0.0,Confirmed
@@ -2403,9 +2383,6 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1093915,2020-06-22 09:09:00,2020-12-10 07:00:00,2020-12-10 17:00:00,MNG_ROS_2,nan,Transpower,RS,daily,0.0,Confirmed
 1093916,2020-06-22 09:09:00,2020-12-10 07:00:00,2020-12-10 17:00:00,ROS_T4,nan,Transpower,RS,daily,0.0,Confirmed
 1093917,2020-06-19 16:09:00,2020-08-27 07:30:00,2020-08-27 18:30:00,HWA_CB_2648,nan,Transpower,CLO,daily,0.0,Confirmed
-1093918,2020-06-19 16:09:00,2020-06-23 07:30:00,2020-06-25 18:30:00,KIN_307_VT287,nan,Transpower,RS,continuous,0.0,Tentative
-1093919,2020-06-19 16:09:00,2020-06-23 07:30:00,2020-06-25 18:30:00,ARI_KIN_1,nan,Transpower,RS,continuous,0.0,Tentative
-1093920,2020-06-19 16:09:00,2020-06-23 07:30:00,2020-06-25 18:30:00,KIN_T8,nan,Transpower,RS,continuous,0.0,Tentative
 1093925,2020-06-22 12:09:00,2020-09-18 07:30:00,2020-09-18 18:30:00,HEN_T1,nan,Transpower,RS,daily,0.0,Confirmed
 1093935,2020-06-26 11:43:00,2020-11-02 08:00:00,2020-11-02 16:00:00,STK_66BZ,nan,Transpower,RS,daily,0.0,Confirmed
 1093936,2020-06-26 11:43:00,2020-11-02 08:00:00,2020-11-02 16:00:00,STK_66CBF,nan,Transpower,RS,daily,0.0,Confirmed
@@ -5631,5 +5608,5 @@ id,Last Modified,Start,End,Outage Block,GIP,Owner,Nature,Type,Duration,Planning 
 1099525,2020-12-25 06:09:00,2020-12-24 18:30:00,2021-01-04 07:00:00,ISL_LIV_1,nan,Transpower,OPE,daily,0.0,Confirmed
 1099526,2020-12-25 06:09:00,2020-12-24 18:30:00,2020-12-25 08:00:00,HAY_LTN_1,nan,Transpower,OPE,daily,0.0,Confirmed
 1099527,2020-12-25 06:09:00,2020-12-24 21:00:00,2020-12-25 08:30:00,ISL_KIK_1,nan,Transpower,OPE,daily,0.0,Confirmed
-1099528,2020-12-25 06:09:00,2020-12-25 00:30:00,2020-12-25 08:00:00,PAK_PEN_3,nan,Transpower,OPE,daily,0.0,Confirmed
+1099528,2020-12-25 09:09:00,2020-12-25 00:30:00,2020-12-26 08:00:00,PAK_PEN_3,nan,Transpower,OPE,daily,0.0,Confirmed
 1099531,2020-12-25 06:09:00,2020-12-25 03:40:00,2020-12-25 06:30:00,ASB_ISL_1,nan,Transpower,OPE,daily,0.0,Confirmed
