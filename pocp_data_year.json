@@ -352,6 +352,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105738,2021-01-14 20:18:00,2021-01-15 11:00:00,2021-01-15 13:00:00,125.0,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105739,2021-01-15 08:58:00,2021-01-15 10:30:00,2021-01-22 18:00:00,8.25,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105740,2021-01-15 09:48:00,2021-01-19 07:00:00,2021-01-19 16:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+105745,2021-01-15 15:43:00,2021-01-22 09:30:00,2021-01-22 15:30:00,125.0,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 28123,2020-11-13 17:53:00,2020-11-02 06:01:00,2020-11-14 11:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28124,2020-11-27 17:41:00,2020-11-16 06:01:00,2020-11-30 12:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28125,2020-12-04 15:35:00,2020-11-30 12:01:00,2020-12-18 18:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -648,7 +649,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 58006,2020-08-21 13:38:00,2020-08-10 06:00:00,2020-08-21 15:00:00,53.0,OHC_12,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 58029,2020-11-20 02:00:00,2021-01-27 06:00:00,2021-01-27 18:00:00,53.0,OHC_13,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 58040,2020-05-21 02:00:00,2020-10-13 06:00:00,2020-10-13 18:00:00,53.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-58066,2019-10-15 02:00:00,2021-01-11 06:00:00,2021-01-15 18:00:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+58066,2021-01-15 16:13:00,2021-01-11 06:00:00,2021-01-15 17:30:00,53.0,OHC_15,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 58169,2020-03-12 02:00:00,2020-08-13 07:00:00,2020-08-13 17:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 58172,2019-08-19 11:00:00,2020-08-18 07:00:00,2020-08-18 17:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 58176,2020-12-17 11:48:00,2020-12-14 07:00:00,2020-12-17 13:00:00,90.0,BEN_4,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1661,9 +1662,10 @@ WPP_0015,2021-01-05 14:29:00,2021-01-05 13:00:00,2021-01-05 16:00:00,64.0,WPP_ST
 WPP_0016,2021-01-07 20:08:00,2021-01-05 16:00:00,2021-01-08 17:00:00,51.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
 WPP_0017,2021-01-08 08:41:00,2021-01-08 17:00:00,2021-01-09 17:00:00,38.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
 WPP_0018,2021-01-14 14:50:00,2021-01-09 17:00:00,2021-01-15 17:00:00,34.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
-WPP_0020,2021-01-14 14:50:00,2021-01-15 17:00:00,2021-01-27 17:00:00,25.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
-WPP_0021,2021-01-14 14:51:00,2021-01-27 17:00:00,2021-02-02 17:00:00,21.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
-WPP_0022,2021-01-14 14:51:00,2021-02-02 17:00:00,2021-02-08 17:00:00,17.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
-WPP_0023,2021-01-14 14:51:00,2021-02-08 17:00:00,2021-02-14 17:00:00,13.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
-WPP_0024,2021-01-07 10:49:00,2021-01-22 12:00:00,2021-01-28 12:00:00,8.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Tentative,Wind,NI
-WPP_0025,2021-01-07 10:49:00,2021-01-28 12:00:00,2021-02-03 17:00:00,4.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Tentative,Wind,NI
+WPP_0020,2021-01-15 14:02:00,2021-01-15 17:00:00,2021-01-16 17:00:00,30.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
+WPP_0021,2021-01-15 14:02:00,2021-01-16 17:00:00,2021-01-19 19:00:00,25.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
+WPP_0022,2021-01-15 14:02:00,2021-01-19 19:00:00,2021-01-19 20:00:00,99.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
+WPP_0023,2021-01-15 14:02:00,2021-01-19 20:00:00,2021-01-27 17:00:00,25.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
+WPP_0024,2021-01-15 14:02:00,2021-01-27 17:00:00,2021-02-02 17:00:00,21.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
+WPP_0025,2021-01-15 14:02:00,2021-02-02 17:00:00,2021-02-08 17:00:00,17.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
+WPP_0026,2021-01-15 14:02:00,2021-02-08 17:00:00,2021-02-14 17:00:00,13.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
