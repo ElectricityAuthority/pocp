@@ -171,6 +171,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105410,2020-10-07 02:00:00,2020-10-20 07:00:00,2020-10-20 10:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105414,2020-10-09 16:03:00,2020-10-08 16:30:00,2020-10-09 18:00:00,13.2,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105417,2020-10-12 15:48:00,2020-10-09 18:00:00,2020-10-12 17:30:00,6.6,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+105422,2021-02-04 02:00:00,2021-04-09 11:00:00,2021-04-09 12:00:00,15.0,WTK_4,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105423,2020-10-16 13:48:00,2020-10-12 17:30:00,2020-10-16 15:30:00,9.9,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105424,2020-10-14 16:38:00,2020-10-12 18:30:00,2020-10-14 18:00:00,10.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105429,2020-11-13 12:33:00,2020-11-09 08:00:00,2020-11-13 14:00:00,58.0,WHL_STN,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
@@ -622,7 +623,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 47354,2021-01-29 11:30:00,2021-02-03 08:00:00,2021-02-03 17:00:00,35.2,MTI_8,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47378,2020-11-19 11:30:00,2020-11-19 11:00:00,2020-11-19 15:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47379,2021-02-19 11:30:00,2021-02-25 08:00:00,2021-02-25 16:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-47380,2020-06-10 11:30:00,2021-03-29 07:30:00,2021-04-30 17:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+47380,2021-03-12 20:30:00,2021-03-29 07:30:00,2021-04-16 17:00:00,35.2,MTI_9,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47410,2020-05-20 11:30:00,2020-11-26 08:00:00,2020-11-26 16:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47411,2021-02-24 11:30:00,2021-02-23 08:00:00,2021-02-24 17:00:00,35.2,MTI_10,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47443,2020-10-23 20:30:00,2021-02-05 08:00:00,2021-02-05 16:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1069,13 +1070,14 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 64236,2021-02-10 20:30:00,2021-04-06 08:00:00,2021-04-06 15:00:00,31.0,WKM_1,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 64237,2021-02-10 20:30:00,2021-04-07 08:00:00,2021-04-07 15:00:00,31.0,WKM_2,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 64238,2021-02-10 20:30:00,2021-04-08 08:00:00,2021-04-08 15:00:00,31.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
+64239,2021-02-10 20:30:00,2021-04-09 08:00:00,2021-04-09 15:00:00,31.0,WKM_4,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 64240,2021-02-11 11:30:00,2021-02-11 07:44:00,2021-02-11 16:00:00,21.0,ARI_1,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64241,2021-02-12 20:30:00,2021-02-11 07:48:00,2021-02-15 16:00:00,18.5,ATI_4,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64255,2021-02-15 20:30:00,2021-02-16 06:00:00,2021-02-16 18:00:00,7.5,MOK_31,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 64256,2021-02-15 20:30:00,2021-02-15 17:30:00,2021-02-16 12:00:00,35.2,MTI_5,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64257,2021-02-16 11:30:00,2021-02-16 07:45:00,2021-02-18 15:00:00,45.6,MOK_10,MOK,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
 64260,2021-02-17 07:30:00,2021-02-17 00:03:00,2021-02-17 17:00:00,28.0,KPO_1,KPO,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-64261,2021-02-23 20:30:00,2021-02-17 09:33:00,2021-03-15 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+64261,2021-03-12 20:30:00,2021-02-17 09:33:00,2021-03-19 17:00:00,35.2,MTI_4,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64266,2021-02-18 20:30:00,2021-03-01 10:00:00,2021-03-01 10:30:00,18.5,ATI_1,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64267,2021-02-18 20:30:00,2021-03-01 10:30:00,2021-03-01 11:00:00,18.5,ATI_2,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64268,2021-02-18 20:30:00,2021-03-01 11:00:00,2021-03-01 11:30:00,18.5,ATI_3,ATI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -1733,6 +1735,7 @@ TRUS17092MHO,2021-03-10 00:05:00,2021-03-10 10:00:00,2021-03-10 14:30:00,31.0,MH
 TRUS17094STK,2021-03-10 00:05:00,2021-03-10 09:00:00,2021-03-10 16:00:00,6.0,STK_STN,STK,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS17110HUI,2021-03-11 00:05:00,2021-03-16 05:00:00,2021-03-16 19:30:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 TRUS17111HUI,2021-03-11 00:05:00,2021-03-17 05:00:00,2021-03-17 19:30:00,5.0,HUI_STN,HUI,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
+TRUS17121MAT,2021-03-13 00:05:00,2021-03-22 08:00:00,2021-03-25 16:00:00,40.0,MAT_STN,MAT,Trustpower,0.0,continuous,0.0,Tentative,Hydro,NI
 WPP_0001,2020-11-12 14:33:00,2020-09-28 12:00:00,2020-11-16 10:00:00,133.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
 WPP_0002,2020-11-12 16:15:00,2020-11-16 10:00:00,2020-11-16 14:00:00,129.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
 WPP_0003,2020-11-18 11:44:00,2020-11-16 14:00:00,2020-11-20 16:00:00,111.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
