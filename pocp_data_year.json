@@ -399,11 +399,11 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 29586,2020-11-05 08:44:00,2020-10-24 11:00:00,2020-11-08 16:00:00,12.0,PPI_Stn,PPI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 29871,2020-09-23 15:47:00,2020-09-23 07:30:00,2020-09-24 16:00:00,2.0,WRK_10,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
 29872,2020-10-12 10:58:00,2020-10-13 07:30:00,2020-10-15 18:00:00,9.0,WRK_9,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
-30038,2021-02-03 03:53:00,2021-04-01 07:30:00,2021-04-01 16:00:00,29.0,WRK_11,WRK,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,NI
+30038,2021-03-12 16:09:00,2021-04-01 07:30:00,2021-04-01 16:00:00,29.0,WRK_11,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 30109,2020-07-30 01:53:00,2020-08-31 02:00:00,2020-09-13 17:00:00,100.0,SFD_22,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30110,2020-10-01 13:26:00,2020-09-12 02:00:00,2020-10-04 17:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30236,2020-12-07 13:12:00,2020-12-09 07:30:00,2020-12-09 16:00:00,0.0,WRK_4,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
-30242,2021-03-10 11:49:00,2021-02-09 07:30:00,2021-03-11 17:30:00,29.0,WRK_13,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+30242,2021-03-12 16:26:00,2021-02-09 07:30:00,2021-03-13 17:30:00,29.0,WRK_13,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 30243,2020-09-03 15:32:00,2021-04-06 00:30:00,2021-04-10 00:30:00,12.0,TAA_2,TAA,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
 30277,2021-01-14 14:58:00,2021-01-28 00:01:00,2021-02-19 23:59:00,350.0,TCC_1,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30325,2021-03-08 23:58:00,2020-06-02 09:00:00,2021-12-31 23:59:00,22.0,TCC_1,TCC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -488,6 +488,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 30676,2020-11-27 16:24:00,2020-11-28 09:30:00,2020-11-28 11:30:00,200.0,SFD_Stn,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30677,2020-12-02 13:34:00,2020-12-02 15:00:00,2020-12-02 17:30:00,116.0,CYD_4,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 30678,2020-12-07 13:12:00,2020-12-04 17:00:00,2020-12-07 17:30:00,9.0,WRK_4,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+30684,2021-03-12 16:09:00,2021-03-16 07:00:00,2021-03-17 17:00:00,40.0,ROX_6,ROX,Contact Energy,0.0,continuous,0.0,Tentative,Hydro,SI
 30685,2021-01-27 14:47:00,2021-01-25 07:00:00,2021-01-28 10:00:00,40.0,ROX_5,ROX,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 30686,2020-12-18 10:57:00,2020-12-18 11:00:00,2021-01-11 12:00:00,26.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30687,2021-01-12 15:38:00,2021-01-11 12:00:00,2021-01-12 16:30:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -513,7 +514,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 30732,2021-01-05 11:37:00,2021-01-13 12:00:00,2021-01-14 16:00:00,116.0,CYD_Stn,CYD,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,SI
 30733,2021-02-25 23:32:00,2020-12-01 00:01:00,2021-04-30 12:00:00,11.0,WRK_7,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 30734,2021-01-01 09:56:00,2021-01-11 10:00:00,2021-01-11 12:00:00,61.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
-30735,2021-03-08 23:58:00,2021-03-23 12:00:00,2021-03-25 12:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
+30735,2021-03-12 16:09:00,2021-03-23 12:00:00,2021-03-25 16:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Tentative,Geothermal,NI
 30736,2021-03-08 23:58:00,2021-03-30 12:00:00,2021-04-01 12:00:00,83.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 30737,2021-01-26 10:10:00,2021-02-04 10:00:00,2021-02-04 11:00:00,83.0,THI_2,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
 30738,2021-01-26 10:10:00,2021-02-04 13:00:00,2021-02-04 14:00:00,83.0,THI_1,THI,Contact Energy,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -557,6 +558,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 30810,2021-02-19 14:43:00,2021-02-25 10:00:00,2021-02-25 11:00:00,29.0,WRK_12,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 30811,2021-02-26 13:49:00,2021-02-27 02:00:00,2021-02-27 16:00:00,100.0,SFD_21,SFD,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 30832,2021-03-08 23:58:00,2021-03-09 07:30:00,2021-03-10 18:00:00,6.0,WRK_Stn,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
+30847,2021-03-12 16:09:00,2021-03-16 03:00:00,2021-03-16 13:00:00,7.0,WRK_16,WRK,Contact Energy,0.0,continuous,0.0,Confirmed,Hydro,NI
 30848,2021-03-10 15:28:00,2021-03-12 12:00:00,2021-03-12 16:00:00,7.0,TRC_1,TRC,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 39592,2020-10-01 20:30:00,2020-08-20 07:30:00,2020-10-02 13:00:00,35.2,MTI_7,MTI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 39640,2021-01-21 20:30:00,2020-10-27 07:30:00,2021-01-26 17:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
