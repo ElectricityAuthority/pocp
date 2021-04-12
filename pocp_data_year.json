@@ -29,7 +29,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 104519,2021-03-30 09:03:00,2021-03-19 07:00:00,2021-04-30 17:00:00,15.0,WTK_6,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104520,2020-10-14 02:00:00,2021-04-19 07:00:00,2021-04-23 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104522,2021-04-09 15:13:00,2021-04-07 07:00:00,2021-04-09 16:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
-104542,2020-09-10 02:00:00,2020-11-09 06:00:00,2020-11-13 18:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+104542,2021-04-01 02:00:00,2021-05-10 06:00:00,2021-05-28 18:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104590,2020-11-04 16:28:00,2020-11-03 07:00:00,2020-11-04 17:30:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104712,2020-07-18 02:00:00,2020-10-05 07:00:00,2020-10-16 17:00:00,55.0,AVI_1,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105050,2020-08-06 12:13:00,2020-11-05 11:00:00,2020-11-05 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -313,6 +313,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105950,2021-03-08 11:28:00,2021-03-08 13:30:00,2021-03-08 14:30:00,19.8,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105951,2021-03-08 16:08:00,2021-03-08 14:30:00,2021-03-08 18:00:00,16.5,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105955,2021-03-08 16:08:00,2021-03-08 18:00:00,2021-03-10 08:00:00,9.95,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+105957,2021-03-26 02:00:00,2021-05-10 07:00:00,2021-05-14 17:00:00,90.0,BEN_6,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105958,2021-03-10 02:00:00,2021-03-17 10:00:00,2021-03-17 13:00:00,15.0,WTK_1,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105961,2021-03-11 02:00:00,2021-03-22 06:30:00,2021-03-24 19:30:00,29.8,MCK_STN,MCK,Meridian,0.0,continuous,0.0,Confirmed,Thermal,NI
 105966,2021-03-18 16:00:00,2021-03-18 08:00:00,2021-03-18 22:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -605,7 +606,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 47473,2020-02-01 11:30:00,2020-12-01 08:00:00,2020-12-01 16:00:00,21.0,ARI_2,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47505,2020-05-06 20:30:00,2020-11-05 08:00:00,2020-11-05 16:00:00,21.0,ARI_3,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47574,2020-01-23 11:30:00,2020-11-23 08:00:00,2020-11-23 16:00:00,21.0,ARI_4,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-47613,2021-04-01 11:30:00,2021-04-15 08:00:00,2021-04-15 16:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+47613,2021-04-12 20:30:00,2021-04-28 08:00:00,2021-04-28 16:00:00,27.0,ARI_5,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47663,2020-12-14 11:30:00,2020-12-17 07:30:00,2020-12-17 16:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47666,2020-05-25 11:30:00,2021-03-25 08:00:00,2021-03-25 16:00:00,27.0,ARI_6,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 47751,2021-03-29 20:30:00,2021-04-08 08:00:00,2021-04-08 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
@@ -633,6 +634,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 57807,2021-01-12 15:33:00,2021-01-19 07:30:00,2021-01-21 16:00:00,125.0,MAN_2,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57821,2021-03-22 13:03:00,2021-03-29 07:30:00,2021-04-01 16:30:00,125.0,MAN_3,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57831,2020-09-30 12:03:00,2020-10-12 08:00:00,2020-10-13 16:00:00,125.0,MAN_4,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+57832,2021-03-17 02:00:00,2021-05-10 08:00:00,2021-05-13 16:00:00,125.0,MAN_4,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57894,2021-01-30 14:53:00,2021-01-30 06:00:00,2021-01-30 16:00:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57920,2020-07-03 02:00:00,2021-01-14 06:00:00,2021-01-14 18:00:00,53.0,OHB_8,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 57936,2020-12-18 15:48:00,2020-12-07 06:00:00,2020-12-18 17:00:00,53.0,OHB_9,OHB,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -1016,7 +1018,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 64289,2021-03-31 20:30:00,2021-04-22 12:30:00,2021-04-22 16:00:00,27.0,ARI_8,ARI,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64291,2021-02-23 07:30:00,2021-02-23 00:00:00,2021-02-23 00:30:00,0.2,SWN_11,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 64296,2021-02-23 20:30:00,2021-05-03 08:00:00,2021-05-17 17:30:00,26.0,ARA_2,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
-64297,2021-02-23 20:30:00,2021-04-19 07:30:00,2021-05-03 08:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
+64297,2021-04-12 20:30:00,2021-04-19 07:30:00,2021-05-03 16:00:00,26.0,ARA_1,ARA,Mighty River,0.0,continuous,0.0,Confirmed,Hydro,NI
 64298,2021-02-24 07:30:00,2021-02-24 01:30:00,2021-02-24 02:00:00,1.0,SWN_11,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 64299,2021-02-24 11:30:00,2021-02-24 10:30:00,2021-02-24 12:30:00,1.0,SWN_11,SWN,Mighty River,0.0,continuous,0.0,Confirmed,Thermal,NI
 64300,2021-02-24 11:30:00,2021-04-12 08:00:00,2021-04-20 16:00:00,31.0,WKM_3,WKM,Mighty River,0.0,continuous,0.0,Confirmed,Geothermal,NI
@@ -1163,6 +1165,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 70978,2021-02-23 17:23:00,2021-05-05 06:30:00,2021-05-05 17:00:00,20.0,TUI_2,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 70979,2020-03-14 13:56:00,2021-05-06 06:30:00,2021-05-06 17:00:00,21.0,TUI_5,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 70980,2021-02-23 17:23:00,2021-05-06 06:30:00,2021-05-06 17:00:00,20.0,TUI_3,TUI,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
+70987,2021-03-01 09:59:00,2021-05-10 09:00:00,2021-05-10 16:00:00,60.0,RPO_5,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 71550,2020-12-09 08:05:00,2021-02-21 08:00:00,2021-02-21 16:00:00,60.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 71554,2021-02-23 17:23:00,2021-04-11 08:00:00,2021-04-11 16:00:00,60.0,RPO_STN,RPO,Genesis,0.0,continuous,0.0,Confirmed,Hydro,NI
 72084,2019-06-20 15:18:00,2019-06-25 23:59:00,2022-12-31 23:59:00,240.0,HLY_2,HLY,Genesis,0.0,continuous,0.0,Confirmed,Thermal,NI
@@ -1736,6 +1739,7 @@ TRUS17198MHO,2021-04-09 00:05:00,2021-04-18 08:00:00,2021-04-18 16:00:00,5.0,MHO
 TRUS17199COL,2021-04-09 00:05:00,2021-04-13 12:00:00,2021-04-14 17:00:00,12.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS17200COL,2021-04-09 00:05:00,2021-04-15 08:00:00,2021-04-15 17:00:00,3.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 TRUS17201HWB,2021-04-10 00:05:00,2021-04-12 08:00:00,2021-04-13 13:00:00,10.0,HWB_STN,HWB,Trustpower,0.0,continuous,0.0,Tentative,Wind,SI
+TRUS17203COL,2021-04-13 00:05:00,2021-04-19 07:00:00,2021-04-20 18:00:00,8.0,COL_STN,COL,Trustpower,0.0,continuous,0.0,Tentative,Hydro,SI
 WPP_0001,2020-11-12 14:33:00,2020-09-28 12:00:00,2020-11-16 10:00:00,133.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
 WPP_0002,2020-11-12 16:15:00,2020-11-16 10:00:00,2020-11-16 14:00:00,129.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
 WPP_0003,2020-11-18 11:44:00,2020-11-16 14:00:00,2020-11-20 16:00:00,111.0,WPP_STN,WPP,Tilt Renewables,0.0,continuous,0.0,Confirmed,Wind,NI
