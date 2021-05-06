@@ -28,6 +28,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 104520,2020-10-14 02:00:00,2021-04-19 07:00:00,2021-04-23 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104522,2021-04-09 15:13:00,2021-04-07 07:00:00,2021-04-09 16:30:00,66.0,OHA_6,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 104542,2021-05-05 02:00:00,2021-05-17 06:00:00,2021-06-04 18:00:00,55.0,AVI_3,AVI,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+104921,2021-05-07 02:00:00,2021-05-18 07:00:00,2021-05-18 17:00:00,90.0,BEN_5,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105050,2020-08-06 12:13:00,2020-11-05 11:00:00,2020-11-05 17:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105051,2020-12-11 08:53:00,2020-12-11 08:00:00,2020-12-11 10:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105052,2021-01-15 08:48:00,2021-01-15 08:00:00,2021-01-15 10:00:00,15.0,WTK_7,WTK,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -296,7 +297,7 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 105977,2021-03-19 11:43:00,2021-03-14 16:00:00,2021-03-19 18:00:00,12.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105979,2021-03-14 15:28:00,2021-03-14 17:00:00,2021-03-14 19:00:00,46.5,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
 105980,2021-03-14 15:28:00,2021-03-14 19:00:00,2021-03-19 18:00:00,12.0,WHL_1,WHL,Meridian,0.0,continuous,0.0,Confirmed,Wind,SI
-105982,2021-03-16 02:00:00,2021-05-25 07:00:00,2021-05-26 16:00:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+105982,2021-05-07 02:00:00,2021-05-25 07:00:00,2021-05-26 16:30:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105986,2021-03-15 13:13:00,2021-03-15 19:30:00,2021-03-16 19:30:00,55.0,OHC_14,OHC,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 105988,2021-03-16 15:43:00,2021-03-15 18:30:00,2021-03-16 17:30:00,14.8,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 105990,2021-03-16 10:48:00,2021-03-17 20:00:00,2021-03-17 23:00:00,66.0,OHA_5,OHA,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
@@ -366,6 +367,14 @@ id,Last Modified,Start,End,MW Loss,Outage Block,GIP,Owner,Nature,Type,Duration,P
 106147,2021-04-29 16:03:00,2021-04-29 18:30:00,2021-05-06 18:00:00,6.6,TAP_1,TAP,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
 106152,2021-05-04 08:58:00,2021-05-04 11:00:00,2021-05-04 16:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 106160,2021-05-05 11:43:00,2021-05-07 15:30:00,2021-05-07 16:00:00,69.0,WWD_1102,WWD,Meridian,0.0,continuous,0.0,Confirmed,Wind,NI
+106163,2021-05-07 02:00:00,2021-05-28 20:00:00,2021-05-30 20:00:00,90.0,BEN_1,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106164,2021-05-07 02:00:00,2021-05-28 20:00:00,2021-05-30 20:00:00,90.0,BEN_2,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106165,2021-05-07 02:00:00,2021-05-28 20:00:00,2021-05-30 20:00:00,90.0,BEN_3,BEN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106166,2021-05-07 02:00:00,2021-05-25 07:00:00,2021-05-26 16:00:00,125.0,MAN_1,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106167,2021-05-07 02:00:00,2021-05-27 07:00:00,2021-05-27 12:00:00,125.0,MAN_2,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106168,2021-05-07 02:00:00,2021-05-27 12:00:00,2021-05-27 16:30:00,125.0,MAN_5,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106169,2021-05-07 02:00:00,2021-05-28 07:00:00,2021-05-28 12:00:00,125.0,MAN_6,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
+106170,2021-05-07 02:00:00,2021-05-28 12:00:00,2021-05-28 16:30:00,125.0,MAN_7,MAN,Meridian,0.0,continuous,0.0,Confirmed,Hydro,SI
 28123,2020-11-13 17:53:00,2020-11-02 06:01:00,2020-11-14 11:00:00,52.0,WHI_1,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28124,2020-11-27 17:41:00,2020-11-16 06:01:00,2020-11-30 12:00:00,52.0,WHI_2,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
 28125,2020-12-04 15:35:00,2020-11-30 12:01:00,2020-12-18 18:00:00,52.0,WHI_3,WHI,Contact Energy,0.0,continuous,0.0,Confirmed,Thermal,NI
